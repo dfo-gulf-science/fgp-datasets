@@ -1,0 +1,103 @@
+﻿
+ABIOTIC VARIABLES / VARIABLES ABIOTIQUES:
+#########################################
+name__nom,description_en,description_fr
+year,sample year,année-échantillon
+site_name,name of site and river,nom du site et de la rivière
+site_latitude,site latitude (decimal degrees),latitude du site (degrés décimaux)
+site_longitude,site longitude (decimal degrees),longitude du site (degrés décimaux)
+avg_air_temp_arrival,average air temperature on arrival (degrees C),température moyenne de l'air à l'arrivée (degrés C)
+avg_max_air_temp,average max air temperature (degrees C),température maximale moyenne de l'air (degrés C)
+avg_water_temp_shore,average water temperature taken from shore (degrees C),température moyenne de l'eau prise du rivage (degrés C)
+
+
+
+BIOTIC VARIABLES / VARIABLES BIOTIQUES:
+#######################################
+X_abundance,total abundance of species X for a given site and year,Abondance totale de l'espèce X pour un site et une année donnés
+X_avg_fork_length,mean fork length (mm) of species X for a given site and year,longueur à la fourche moyenne (mm) de l'espèce X pour un site et une année donnés
+X_avg_weight,mean weight (g) of species X for a given site and year,poids moyen (g) de l'espèce X pour un site et une année donnés
+
+
+
+SPECIES / ESPÈCES:
+##################
+code,common_name_en__nom_commun_en,common_name_en__nom_commun_fr,life_stage_en__étape_de_vie_en,life_stage_fr__étape_de_vie_fr,scientific_name__nom_scientifique,ITIS_TSN
+2SS,2 spine stickleback,,,,,
+3SS,3 spine stickleback,,,,,
+4SS,4 spine stickleback,,,,,
+9SS,9 spine sticleback,,,,,
+ALE,Alewife,,,,,
+AMEL,American eel,,,,Anguilla rostrata,161127
+AMSH,American Shad,,,,,
+ARCH,Arctic char,,,,,
+ALHE,Atlantic herring,,,,,
+ALME,Atlantic menhaden,,,,,
+ATSA(pa),Atlantic salmon,,parr,tacon,Salmo  linnaeus,161994
+ATSA(sm),Atlantic salmon,,smolt,saumoneau,Salmo  linnaeus,161994
+ATSA(gr),Atlantic salmon,,grilse,madeleineau,Salmo  linnaeus,161994
+ATSA(sal),Atlantic salmon,,salmon,saumon,Salmo  linnaeus,161994
+ATSA(gk),Atlantic salmon,,grilse kelt,madeleineau charognard,Salmo  linnaeus,161994
+ATSA(sk),Atlantic salmon,,salmon kelt,saumon charognard,Salmo  linnaeus,161994
+ATSI,Atlantic silverside,,,,,
+ATST,Atlantic sturgeon,,,,,
+BAKI,Banded killifish,,,,,
+BLDA,Blacknose dace,,,,Rhinichthys atratulus,163382
+BLHE,Blueback herring,,,,,
+BRST,brook stickleback,,,,,
+BRKTR(pa),Brook trout,,parr,tacon,,
+BRKTR(res),Brook trout,,resident,résident,,
+BRKTR(sr),Brook trout,,sea run,anadrome,,
+BRBU,Brown bullhead,,,,,
+BRNTR(pa),Brown trout,,parr,tacon,,
+BRNTR(res),Brown trout,,resident,résident,,
+BRNTR(sr),Brown trout,,sea run,anadrome,,
+BURB,Burbot,,,,,
+COSH,Common shiner,,,,,
+CRAY,Crayfish,,,,,
+CRCH,Creek chub,,,,,
+FALL,Fallfish,,,,,
+FIDA,Finescale dace,,,,Chrosomus neogaeus,913995
+FRCA,Freshwater catfish (non specific),,,,,
+GASP,Gaspereau,,,,,
+GOSH,Golden shiner,,,,,
+HERR,Herring (non specific),,,,,
+LACH,Lake chub,,,,,
+LATR,Lake trout,,,,,
+LAWH,Lake whitefish,,,,,
+LAMP,Lamprey (non specific),,,,,
+LODA,Longnose dace,,,,,
+LOSU,Longnose sucker,,,,,
+MACK,Mackerel,,,,,
+MINN,Minnows (non specific),,,,,
+MISU,"Minnows, suckers (non specific)",,,,,
+MOSC,Mottled sculpin,,,,,
+MUMM,Mummichog,,,,,
+NOPI,Northern pike,,,,,
+NRDA,Northern redbelly dace,,,,,
+PEDA,Pearl dace,,,,,
+PIKE,Pike (non specific),,,,,
+RASM,Rainbow smelt,,,,Osmerus mordax,162041
+RATR(pa),Rainbow trout,,parr,tacon,Oncorhynchus mykiss,161989
+RATR(res),Rainbow trout,,resident,résident,Oncorhynchus mykiss,
+RATR(sr),Rainbow trout,,sea run,anadrome,Oncorhynchus mykiss,
+REFL,Right-eye flounders (non specific),,,,,
+ROWH,Round whitefish,,,,,
+SALA,Salamander,,,,,
+SCUL,Sculpin (non specific),,,,,
+SELA,Sea Lamprey,,adult,mature,Petromyzon marinus,159722
+SELA(am),Sea lamprey ammocoete,,juvenile,juvénile,Petromyzon marinus,159722
+SELA(si),Sea lamprey silver,,juvenile,juvénile,Petromyzon marinus,159722
+SLSC,Slimy sculpin,,,,,
+SMFL,Smooth flounder,,,,,
+STIC,Stickleback (non specific),,,,,
+STBA,Striped bass,,,,,
+STUR,Sturgeon (non specific),,,,STURG,
+SUCK,Suckers (non specific),,,,,
+TOMC,Tomcod,,,,,
+TROU,"Trout, char (non specific)",,,,,
+WHPE,White perch,,,,,
+WHSU,White sucker,,,,,
+WIDFL,Windowpane flounder,,,,,
+WITFL,Winter flounder,,,,,
+YEPE,Yellow perch,,,,,
