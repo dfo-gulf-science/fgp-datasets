@@ -1,57 +1,57 @@
-﻿Station code,Station name,Station province,Station latitude,Station longitude,List of other species observed,B. violaceus detected?,C. intestinalis detected?,S. clava detected?,B. schlosseri detected?,C. mutica detected?,M. membranacea detected?,C. fragile fragile detected?
-code de station,Nom de station,province de station,Latitude de station,Longitude de station,Liste des espèces observées,B. violaceus détecté?,C. intestinalis détecté?,S. clava détecté?,B. schlosseri détecté?,C. mutica détecté?,M. membranacea détecté?,C. fragile fragile détecté?
-91,Aboiteau,NB / N-B,46.22953,-64.29719,"Barnacle, Blue mussel, Common Atlantic slipper, Eastern Oyster, Eastern white slippersn, Little vase sponge, Sea grapes, Soft shell clam",False,False,False,False,False,False,False
-27,Alberton,PE / Î-P-É,46.79628,-64.05791,"Barnacle, Blue mussel, Bryozoans, Fan ectoproct, Jingle shell, Sea grapes",True,False,False,True,False,False,False
-50,Aulds Cove,NS / N-É,45.64824,-61.4353,"Barnacle, Bryozoans, Eastern Oyster, Fan ectoproct",True,False,False,True,False,False,False
-22,Ballantynes Cove,NS / N-É,45.85872,-61.91898,"Blue mussel, Bryozoans, Fan ectoproct",True,True,False,True,False,False,False
-44,Barachois Harbour,NB / N-B,45.73212,-63.26453,"Anemones, Barnacle, Eastern Oyster, Fan ectoproct, Sea grapes, Sponge",False,False,False,False,False,False,False
-3,Bas Caraquet,NB / N-B,,,"Anemones, Blue mussel, Mussel spat, Sea grapes, Soft shell clam, Sponge",False,False,False,True,False,False,False
-56,Basin Head,PE / Î-P-É,46.38478333,-62.10188333,"Barnacle, Blue mussel, Fan ectoproct, Sponge, Ulva",False,False,False,False,False,False,False
-45,Bathurst,NB / N-B,47.65783,-65.62671,"Blue mussel, Bryozoans, Mussel spat, Soft shell clam",False,False,False,False,False,False,False
-90,Bayfield,NS / N-É,45.64547,-61.75435,"Bryozoans, Fan ectoproct",True,True,False,True,False,False,False
-31,Bideford,PE / Î-P-É,46.61719,-63.91655,"Barnacle, Bryozoans",False,False,True,True,False,False,False
-33,Borden,PE / Î-P-É,46.24948,-63.70099,"Bryozoans, Common Atlantic slipper, Fan ectoproct",True,False,False,True,False,False,False
-11,Bouctouche,NB / N-B,46.47568,-64.71331,"Anemones, Barnacle, Common Atlantic slipper, Eastern Oyster, Hydroid-like animals, Sea grapes, Sponge",False,False,False,False,False,False,False
-16,Cape Tormentine,PE / Î-P-É,46.13477,-63.77724,"Anemones, Barnacle, Blue mussel, Sea grapes, Sponge",True,False,False,False,False,False,False
-2,Caraquet,NB / N-B,47.79688,-64.92723,"Anemones, Barnacle, Blue mussel, Bryozoans, Fan ectoproct, Little vase sponge, Mussel spat",False,False,False,True,False,False,False
-20,Caribou,NS / N-É,45.73861,-62.68648,"Barnacle, Bryozoans, Jingle shell, Sponge",True,True,False,True,False,False,False
-21,Chance Harbour,NS / N-É,45.67947,-62.58035,"Anemones, Barnacle, Blue mussel, Bryozoans, Eastern Oyster, Eastern white slippersn, Sponge",True,False,False,True,False,False,False
-38,Charlottetown,PE / Î-P-É,46.23124,-63.12219,"Anemones, Barnacle, Blue mussel, Bryozoans, Common Atlantic slipper, Fan ectoproct, Hydroid-like animals, Sea grapes, Sponge, Tubularian hydroid",True,False,False,True,True,False,False
-26,Chéticamp,NS / N-É,46.60305,-61.02261,"Barnacle, Bryozoans, Fan ectoproct, Sponge",True,False,False,True,False,False,False
-12,Cocagne,NB / N-B,,,"Barnacle, Sea grapes, Skeleton shrimp, Sponge",False,False,False,False,False,False,False
-30,Conway Narrows,PE / Î-P-É,46.65518,-63.91164,"Barnacle, Bryozoans, Eastern Oyster, Sea grapes, Sponge",True,False,False,True,False,False,False
-23,Cribbons Point,NS / N-É,45.75577,-61.8967,Bryozoans,True,False,False,True,False,False,False
-48,Egmont Bay,PE / Î-P-É,46.54981,-64.08887,"Barnacle, Bryozoans, Sea grapes",False,False,True,False,False,False,False
-46,Escuminac,NB / N-B,47.08062,-64.8877,"Anemones, Barnacle, Blue mussel, Eastern Oyster, Jingle shell, Nudibranchs, Soft shell clam",False,False,False,False,False,False,False
-28,Foxley,PE / Î-P-É,46.74467,-64.07397,"Barnacle, Eastern Oyster, Gastropod, whelk, Sea grapes",False,False,False,False,False,False,False
-40,Georgetown,PE / Î-P-É,46.17871,-62.5313,"Blue mussel, Bryozoans, Fan ectoproct, Sea star",True,True,True,True,False,False,False
-25,Grand-Etang,NS / N-É,46.54861,-61.04403,"Blue mussel, Bryozoans, Eastern Oyster, Fan ectoproct",True,False,False,True,False,False,False
-13,Grande Digue,NB / N-B,46.31356,-64.50982,"Barnacle, Eastern Oyster",False,False,False,False,False,False,False
-9,Kouchibouguac,NB / N-B,46.83158,-64.93414,"Barnacle, Jingle shell, Mussel spat, Nudibranchs",False,False,False,False,False,False,False
-24,Mabou,NS / N-É,46.086639,-61.46465,"Anemones, Barnacle, Blue mussel, Bryozoans, Common Atlantic slipper, Eastern Oyster, Sponge",False,False,False,False,False,False,False
-53,Merigomish,NS / N-É,45.63716111,-62.421725,"Blue mussel, Eastern Oyster",False,False,False,False,False,False,False
-8,Miramichi,NB / N-B,,,"Barnacle, Eastern Oyster, Hydroid-like animals",False,False,False,False,False,False,False
-4,Miscou,NB / N-B,47.89485,-64.57654,"Anemones, Barnacle, Blue mussel, Bryozoans, Common Atlantic slipper, Crabs, Eastern Oyster, Eastern white slippersn, Fan ectoproct, Sea grapes, Skeleton shrimp, Sponge",False,False,False,False,False,False,False
-42,Morell,PE / Î-P-É,46.43196,-62.71362,"Barnacle, Blue mussel, Bryozoans, Common Atlantic slipper, Fan ectoproct, Sea grapes",True,False,False,True,True,False,False
-15,Murray Corner,NB / N-B,46.16889,-63.9348,"Anemones, Barnacle, Eastern Oyster",False,False,False,False,False,False,False
-51,Murray Harbour,PE / Î-P-É,,,"Blue mussel, Sea grapes, Sponge, Tubularian hydroid",True,True,True,True,True,False,False
-7,Neguac,NB / N-B,47.24041,-65.07265,"Anemones, Barnacle, Eastern Oyster, Eastern white slippersn, Hydroid-like animals, Sea grapes, Sponge",False,False,False,False,False,False,False
-34,New London,PE / Î-P-É,46.46959,-63.51385,"Barnacle, Bryozoans, Sea grapes",False,False,False,True,False,False,False
-37,Nine Mile Creek,PE / Î-P-É,46.14841,-63.21837,"Anemones, Barnacle, Blue mussel, Bryozoans, Sea grapes, Sponge",True,False,False,True,False,False,False
-43,North Lake,PE / Î-P-É,46.46613,-62.07199,"Barnacle, Blue mussel, Common Atlantic slipper, Eastern Oyster, Eastern white slippersn, Fan ectoproct, Sponge",True,False,False,True,False,False,False
-36,North Rustico,PE / Î-P-É,46.45639,-63.30766,"Barnacle, Blue mussel, Sea grapes, Sponge",False,False,False,True,False,False,False
-19,Pictou,NS / N-É,,,"Anemones, Barnacle, Blue mussel, Eastern Oyster, Hydroid-like animals, Sea grapes, Soft shell clam, Sponge",False,False,False,False,False,False,False
-88,Pinette,PE / Î-P-É,46.05373,-62.91142,"Barnacle, Eastern Oyster, Hydroid-like animals, Sea grapes",False,False,False,False,False,False,False
-1,Pointe Verte,NB / N-B,47.86124,-65.76141,"Anemones, Bryozoans, Common Atlantic slipper, Eastern white slippersn, Mussel spat, Soft shell clam",False,False,False,False,False,False,False
-17,Pugwash,NS / N-É,45.84666,-63.66257,"Anemones, Barnacle, Blue mussel, Bryozoans, Common Atlantic slipper, Eastern white slippersn, Nudibranchs, Sea star, Tubularian hydroid",False,False,False,False,True,False,False
-10,Richibucto,NB / N-B,46.67841,-64.86118,"Anemones, Barnacle, Blue mussel, Bryozoans, Eastern Oyster, Eastern white slippersn, Nudibranchs, Sea grapes, Sponge, Tubularian hydroid",False,False,False,False,False,False,False
-47,Saint Louis de Kent,NB / N-B,46.75971,-64.91512,"Anemones, Barnacle, Jingle shell, Mussel spat, Nudibranchs, Scaleworm, Sea grapes, Sponge, Tubularian hydroid",False,False,False,False,False,False,False
-49,Savage Harbour,PE / Î-P-É,46.42633,-62.83968,"Barnacle, Blue mussel, Bryozoans, Hydroid-like animals, Sea grapes",True,False,False,True,True,False,False
-14,Shediac,NB / N-B,,,"Anemones, Barnacle, Blue mussel, Bryozoans, Common Atlantic slipper, Eastern Oyster, Sea grapes, Soft shell clam, Sponge",True,False,False,True,False,False,False
-5,Shippagan,NB / N-B,47.74792,-64.70816,"Barnacle, Blue mussel, Bryozoans, Common Atlantic slipper, Eastern Oyster, Eastern white slippersn, Nudibranchs, Sea grapes, Soft shell clam, Sponge",False,False,False,True,False,False,False
-41,Souris,PE / Î-P-É,46.34712,-62.24816,"Anemones, Barnacle, Blue mussel, Fan ectoproct",True,False,True,True,False,False,False
-35,Stanley Bridge,PE / Î-P-É,46.46327,-63.46,"Barnacle, Blue mussel, Bryozoans, Fan ectoproct, Sea grapes, Sea star, Skeleton shrimp, Sponge, Tubularian hydroid",True,False,True,True,False,False,False
-32,Summerside,PE / Î-P-É,46.38834,-63.78577,"Barnacle, Common Atlantic slipper, Eastern Oyster, Eastern white slippersn",True,False,False,True,False,False,False
-6,Tracadie,NB / N-B,47.52341,-64.90868,"Barnacle, Bryozoans, Fan ectoproct",False,False,False,False,False,False,False
-29,West Point,PE / Î-P-É,46.61995,-64.3719,"Barnacle, Eastern Oyster, Red algae, Sponge",False,False,False,False,False,False,False
-39,Wood Islands,PE / Î-P-É,45.95359,-62.74814,"Anemones, Barnacle, Bryozoans, Fan ectoproct, Jingle shell, Sea grapes, Spirorbis sp.",False,False,False,False,False,False,False
+﻿Season(s),Station code,Station name,Station province,Station description,Station latitude,Station longitude,List of other species observed,B. violaceus detected?,C. intestinalis detected?,S. clava detected?,B. schlosseri detected?,C. mutica detected?,M. membranacea detected?,C. fragile fragile detected?
+Saison(s),Code de station,Nom de station,province de station,Description de station,Latitude de station,Longitude de station,Liste des espèces observées,B. violaceus détecté?,C. intestinalis détecté?,S. clava détecté?,B. schlosseri détecté?,C. mutica détecté?,M. membranacea détecté?,C. fragile fragile détecté?
+2018,91,Aboiteau,NB / N-B,Marina and wharf. Wood structure.,46.22953,-64.29719,"Barnacle, Blue mussel, Common Atlantic slipper, Eastern Oyster, Eastern white slippersn, Little vase sponge, Sea grapes, Soft shell clam",False,False,False,False,False,False,False
+2018,27,Alberton,PE / Î-P-É,,46.79628,-64.05791,"Barnacle, Blue mussel, Bryozoans, Fan ectoproct, Jingle shell, Sea grapes",True,False,False,True,False,False,False
+2018,50,Aulds Cove,NS / N-É,,45.64824,-61.4353,"Barnacle, Bryozoans, Eastern Oyster, Fan ectoproct",True,False,False,True,False,False,False
+2018,22,Ballantynes Cove,NS / N-É,,45.85872,-61.91898,"Blue mussel, Bryozoans, Fan ectoproct",True,True,False,True,False,False,False
+2018,44,Barachois Harbour,NB / N-B,,45.73212,-63.26453,"Anemones, Barnacle, Eastern Oyster, Fan ectoproct, Sea grapes, Sponge",False,False,False,False,False,False,False
+2018,3,Bas Caraquet,NB / N-B,,47.8031,-64.87206,"Anemones, Blue mussel, Mussel spat, Sea grapes, Soft shell clam, Sponge",False,False,False,True,False,False,False
+2018,56,Basin Head,PE / Î-P-É,,46.38478333,-62.10188333,"Barnacle, Blue mussel, Fan ectoproct, Sponge, Ulva",False,False,False,False,False,False,False
+2018,45,Bathurst,NB / N-B,,47.65783,-65.62671,"Blue mussel, Bryozoans, Mussel spat, Soft shell clam",False,False,False,False,False,False,False
+2018,90,Bayfield,NS / N-É,Commercial wharf with floating docks,45.64547,-61.75435,"Bryozoans, Fan ectoproct",True,True,False,True,False,False,False
+2018,31,Bideford,PE / Î-P-É,,46.61719,-63.91655,"Barnacle, Bryozoans",False,False,True,True,False,False,False
+2018,33,Borden,PE / Î-P-É,,46.24948,-63.70099,"Bryozoans, Common Atlantic slipper, Fan ectoproct",True,False,False,True,False,False,False
+2018,11,Bouctouche,NB / N-B,Marina,46.47568,-64.71331,"Anemones, Barnacle, Common Atlantic slipper, Eastern Oyster, Hydroid-like animals, Sea grapes, Sponge",False,False,False,False,False,False,False
+2018,16,Cape Tormentine,PE / Î-P-É,Commercial,46.13477,-63.77724,"Anemones, Barnacle, Blue mussel, Sea grapes, Sponge",True,False,False,False,False,False,False
+2018,2,Caraquet,NB / N-B,Commercial Wharf.  Floating docks (PVC Floats) and wood and cement permanent wharf.,47.79688,-64.92723,"Anemones, Barnacle, Blue mussel, Bryozoans, Fan ectoproct, Little vase sponge, Mussel spat",False,False,False,True,False,False,False
+2018,20,Caribou,NS / N-É,,45.73861,-62.68648,"Barnacle, Bryozoans, Jingle shell, Sponge",True,True,False,True,False,False,False
+2018,21,Chance Harbour,NS / N-É,,45.67947,-62.58035,"Anemones, Barnacle, Blue mussel, Bryozoans, Eastern Oyster, Eastern white slippersn, Sponge",True,False,False,True,False,False,False
+2018,38,Charlottetown,PE / Î-P-É,,46.23124,-63.12219,"Anemones, Barnacle, Blue mussel, Bryozoans, Common Atlantic slipper, Fan ectoproct, Hydroid-like animals, Sea grapes, Sponge, Tubularian hydroid",True,False,False,True,True,False,False
+2018,26,Chéticamp,NS / N-É,,46.60305,-61.02261,"Barnacle, Bryozoans, Fan ectoproct, Sponge",True,False,False,True,False,False,False
+2018,12,Cocagne,NB / N-B,,46.35558,-64.57497,"Barnacle, Sea grapes, Skeleton shrimp, Sponge",False,False,False,False,False,False,False
+2018,30,Conway Narrows,PE / Î-P-É,,46.65518,-63.91164,"Barnacle, Bryozoans, Eastern Oyster, Sea grapes, Sponge",True,False,False,True,False,False,False
+2018,23,Cribbons Point,NS / N-É,"Commercial Wharf. 	Primarily cement, wood and pvc.",45.75577,-61.8967,Bryozoans,True,False,False,True,False,False,False
+2018,48,Egmont Bay,PE / Î-P-É,,46.54981,-64.08887,"Barnacle, Bryozoans, Sea grapes",False,False,True,False,False,False,False
+2018,46,Escuminac,NB / N-B,,47.08062,-64.8877,"Anemones, Barnacle, Blue mussel, Eastern Oyster, Jingle shell, Nudibranchs, Soft shell clam",False,False,False,False,False,False,False
+2018,28,Foxley,PE / Î-P-É,,46.74467,-64.07397,"Barnacle, Eastern Oyster, Gastropod, whelk, Sea grapes",False,False,False,False,False,False,False
+2018,40,Georgetown,PE / Î-P-É,,46.17871,-62.5313,"Blue mussel, Bryozoans, Fan ectoproct, Sea star",True,True,True,True,False,False,False
+2018,25,Grand-Etang,NS / N-É,,46.54861,-61.04403,"Blue mussel, Bryozoans, Eastern Oyster, Fan ectoproct",True,False,False,True,False,False,False
+2018,13,Grande Digue,NB / N-B,Commerical,46.31356,-64.50982,"Barnacle, Eastern Oyster",False,False,False,False,False,False,False
+2018,9,Kouchibouguac,NB / N-B,Commercial,46.83158,-64.93414,"Barnacle, Jingle shell, Mussel spat, Nudibranchs",False,False,False,False,False,False,False
+2018,24,Mabou,NS / N-É,,46.086639,-61.46465,"Anemones, Barnacle, Blue mussel, Bryozoans, Common Atlantic slipper, Eastern Oyster, Sponge",False,False,False,False,False,False,False
+2018,53,Merigomish,NS / N-É,"small wooded/rock wharf, very shallow in a small protected bay with a few small floating docks only deployed in mid summer for a month or so.",45.63716111,-62.421725,"Blue mussel, Eastern Oyster",False,False,False,False,False,False,False
+2018,8,Miramichi,NB / N-B,Miramichi has multiple monitoring locations (both Chatham and Douglastown Marinas in some years) so GPS coordinate was chosen from mid way between these two to represent this station.,47.027479,-65.48241,"Barnacle, Eastern Oyster, Hydroid-like animals",False,False,False,False,False,False,False
+2018,4,Miscou,NB / N-B,Commercial Wharf.  Floating docks (PVC Floats) and wood and cement permanent wharf.,47.89485,-64.57654,"Anemones, Barnacle, Blue mussel, Bryozoans, Common Atlantic slipper, Crabs, Eastern Oyster, Eastern white slippersn, Fan ectoproct, Sea grapes, Skeleton shrimp, Sponge",False,False,False,False,False,False,False
+2018,42,Morell,PE / Î-P-É,,46.43196,-62.71362,"Barnacle, Blue mussel, Bryozoans, Common Atlantic slipper, Fan ectoproct, Sea grapes",True,False,False,True,True,False,False
+2018,15,Murray Corner,NB / N-B,Commercial,46.16889,-63.9348,"Anemones, Barnacle, Eastern Oyster",False,False,False,False,False,False,False
+2018,51,Murray Harbour,PE / Î-P-É,,46.00545,-62.52232,"Blue mussel, Sea grapes, Sponge, Tubularian hydroid",True,True,True,True,True,False,False
+2018,7,Neguac,NB / N-B,"Mixed Commercial and Marina.  floating docks (PVC) and Permanent structure mix of wood, metal and cement with rock rubble to protect. ",47.24041,-65.07265,"Anemones, Barnacle, Eastern Oyster, Eastern white slippersn, Hydroid-like animals, Sea grapes, Sponge",False,False,False,False,False,False,False
+2018,34,New London,PE / Î-P-É,,46.46959,-63.51385,"Barnacle, Bryozoans, Sea grapes",False,False,False,True,False,False,False
+2018,37,Nine Mile Creek,PE / Î-P-É,,46.14841,-63.21837,"Anemones, Barnacle, Blue mussel, Bryozoans, Sea grapes, Sponge",True,False,False,True,False,False,False
+2018,43,North Lake,PE / Î-P-É,,46.46613,-62.07199,"Barnacle, Blue mussel, Common Atlantic slipper, Eastern Oyster, Eastern white slippersn, Fan ectoproct, Sponge",True,False,False,True,False,False,False
+2018,36,North Rustico,PE / Î-P-É,,46.45639,-63.30766,"Barnacle, Blue mussel, Sea grapes, Sponge",False,False,False,True,False,False,False
+2018,19,Pictou,NS / N-É,Pictou has multiple monitoring locations so the station GPS was chosen from the bay to give a general location.,45.674106,-62.69408,"Anemones, Barnacle, Blue mussel, Eastern Oyster, Hydroid-like animals, Sea grapes, Soft shell clam, Sponge",False,False,False,False,False,False,False
+2018,88,Pinette,PE / Î-P-É,floating Docks (wood and PVC) and cement and wood permanent structure,46.05373,-62.91142,"Barnacle, Eastern Oyster, Hydroid-like animals, Sea grapes",False,False,False,False,False,False,False
+2018,1,Pointe Verte,NB / N-B,Commercial Wharf.  Floating docks (PVC Floats) and wood and cement permanent wharf.,47.86124,-65.76141,"Anemones, Bryozoans, Common Atlantic slipper, Eastern white slippersn, Mussel spat, Soft shell clam",False,False,False,False,False,False,False
+2018,17,Pugwash,NS / N-É,Mix Marina and Commercial,45.84666,-63.66257,"Anemones, Barnacle, Blue mussel, Bryozoans, Common Atlantic slipper, Eastern white slippersn, Nudibranchs, Sea star, Tubularian hydroid",False,False,False,False,True,False,False
+2018,10,Richibucto,NB / N-B,Mix Commercial and Marina,46.67841,-64.86118,"Anemones, Barnacle, Blue mussel, Bryozoans, Eastern Oyster, Eastern white slippersn, Nudibranchs, Sea grapes, Sponge, Tubularian hydroid",False,False,False,False,False,False,False
+2018,47,Saint Louis de Kent,NB / N-B,,46.75971,-64.91512,"Anemones, Barnacle, Jingle shell, Mussel spat, Nudibranchs, Scaleworm, Sea grapes, Sponge, Tubularian hydroid",False,False,False,False,False,False,False
+2018,49,Savage Harbour,PE / Î-P-É,,46.42633,-62.83968,"Barnacle, Blue mussel, Bryozoans, Hydroid-like animals, Sea grapes",True,False,False,True,True,False,False
+2018,14,Shediac,NB / N-B,"Shediac Bay has multiple monitoring sites within it, so we chose a General GPS from the Bay to represent it.",46.242902,-64.548079,"Anemones, Barnacle, Blue mussel, Bryozoans, Common Atlantic slipper, Eastern Oyster, Sea grapes, Soft shell clam, Sponge",True,False,False,True,False,False,False
+2018,5,Shippagan,NB / N-B,Marina.  Floating docks (PVC and Styrofoam) and Surrounding structure of rock and wood. ,47.74792,-64.70816,"Barnacle, Blue mussel, Bryozoans, Common Atlantic slipper, Eastern Oyster, Eastern white slippersn, Nudibranchs, Sea grapes, Soft shell clam, Sponge",False,False,False,True,False,False,False
+2018,41,Souris,PE / Î-P-É,,46.34712,-62.24816,"Anemones, Barnacle, Blue mussel, Fan ectoproct",True,False,True,True,False,False,False
+2018,35,Stanley Bridge,PE / Î-P-É,,46.46327,-63.46,"Barnacle, Blue mussel, Bryozoans, Fan ectoproct, Sea grapes, Sea star, Skeleton shrimp, Sponge, Tubularian hydroid",True,False,True,True,False,False,False
+2018,32,Summerside,PE / Î-P-É,,46.38834,-63.78577,"Barnacle, Common Atlantic slipper, Eastern Oyster, Eastern white slippersn",True,False,False,True,False,False,False
+2018,6,Tracadie,NB / N-B,Marina and Commercial wharf.  Marina with floating docks and Wood Structure around slip.  Commercial wharf with permanent wood structure,47.52341,-64.90868,"Barnacle, Bryozoans, Fan ectoproct",False,False,False,False,False,False,False
+2018,29,West Point,PE / Î-P-É,,46.61995,-64.3719,"Barnacle, Eastern Oyster, Red algae, Sponge",False,False,False,False,False,False,False
+2018,39,Wood Islands,PE / Î-P-É,,45.95359,-62.74814,"Anemones, Barnacle, Bryozoans, Fan ectoproct, Jingle shell, Sea grapes, Spirorbis sp.",False,False,False,False,False,False,False
