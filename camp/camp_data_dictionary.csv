@@ -2,6 +2,7 @@
 sample_id,unique identifier of sample,identifiant unique de l'échantillon
 year,year of observation,l'année de l’observation
 month,month of observation,le mois de l’observation
+day,day of observation,le jour de l’observation
 prov,province,province
 site,name of site and province,site de PSCA
 station,camp station,station de PSCA
@@ -33,6 +34,8 @@ number_of_samples,number of samples collected at the station in that year,nombre
 avg_water_temp,average water temperature (degrees C) at station,température moyenne de l'eau (degrés C) à la station
 avg_sal,average salinity at station,salinité moyenne à la station
 avg_do,average dissolved oxygen (mg/L) at station,oxygène dissous (mg / L) à la station
-[SPECIES_CODE]_YOY,average count of the young-of-the-year for a given species,nombre moyen de jeunes de l'année pour une espèce donnée
-[SPECIES_CODE]_adults,average count of the adults for a given species,nombre moyen d'adultes pour une espèce donnée
-[SPECIES_CODE]_total,average count of all individuals for a given species,nombre moyen d'individus pour une espèce donnée
+spp_count,number of species observed,nombre d'espèces observées
+[SPECIES_CODE]_YOY,count of the young-of-the-year for a given species,nombre de jeunes de l'année pour une espèce donnée
+[SPECIES_CODE]_adults,count of the adults for a given species,nombre d'adultes pour une espèce donnée
+[SPECIES_CODE]_total,count of all individuals for a given species,nombre total pour une espèce donnée
+[SPECIES_CODE]_avg_total,average number of individuals (per sample) for a given species,nombre moyen d'individus (par échantillon) pour une espèce donnée
