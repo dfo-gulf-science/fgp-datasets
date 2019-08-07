@@ -2,10 +2,10 @@
 year,year of observation,l'année de l’observation
 month,month of observation,le mois de l’observation
 prov,province,province
-site,camp site,site de PSCA
+site,name of site and province,site de PSCA
 station,camp station,station de PSCA
-latitude,latitude (decimal degrees),latitude (degrés décimaux)
-longitude,longitude (decimal degrees),longitude (degrés décimaux)
+latitude,station latitude (decimal degrees),latitude de la station (degrés décimaux)
+longitude,station longitude (decimal degrees),longitude de la station (degrés décimaux)
 start_date,sample start date/time,date / heure de début
 end_date,sample end date/time,date / heure de fin
 ammonia,ammonia,ammoniac
@@ -20,9 +20,7 @@ gravel,gravel (%),gravier (%)
 mud,mud (%),boue (%)
 rock,rock (%),roche (%)
 sand,sand (%),sable (%)
-species_eng,species name in English,nom de l'espèce en anglais
-species_fra,species name in French,nom de l'espèce en français
-scientific,scientific name,nom scientifique
+species_code,species code,code de l'espèce
 tsn,ITIS taxonomic serial number (TSN),numéro de série taxonomique ITIS (TSN)
 sav,Is the species submerged aquatic vegetation (SAV)?,l'espèce est-elle une végétation aquatique submergée (VAS)?
 sav_level,SAV level observed,VAS niveau observé
@@ -30,3 +28,11 @@ adults,count of adults,nombre d’adultes
 yoy,count of young-of-the-year,nombre de jeunes de l'année
 total_ind,total number of individuals observed,nombre total d'individus observés
 total_all,total (SAV and non-SAV),total (VAS et non-VAS)
+--------------,--------------,--------------
+number_of_samples,number of samples collected at the station in that year,nombre d'échantillons recueillis à la station pour cette année
+avg_water_temp,average water temperature (degrees C) at station,température moyenne de l'eau (degrés C) à la station
+avg_sal,average salinity at station,salinité moyenne à la station
+avg_do,average dissolved oxygen (mg/L) at station,oxygène dissous (mg / L) à la station
+[SPECIES_CODE]_YOY,average count of the young-of-the-year for a given species,nombre moyen de jeunes de l'année pour une espèce donnée
+[SPECIES_CODE]_adults,average count of the adults for a given species,nombre moyen d'adultes pour une espèce donnée
+[SPECIES_CODE]_total,average count of all individuals for a given species,nombre moyen d'individus pour une espèce donnée
