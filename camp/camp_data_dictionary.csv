@@ -1,4 +1,5 @@
 ﻿name_nom,description_en,description_fr
+sample_id,unique identifier of sample,identifiant unique de l'échantillon
 year,year of observation,l'année de l’observation
 month,month of observation,le mois de l’observation
 prov,province,province
@@ -9,7 +10,7 @@ longitude,station longitude (decimal degrees),longitude de la station (degrés d
 start_date,sample start date/time,date / heure de début
 end_date,sample end date/time,date / heure de fin
 ammonia,ammonia,ammoniac
-d_o,dissolved oxygen,oxygène dissous
+do,dissolved oxygen,oxygène dissous
 nitrates,nitrates,nitrates
 nitrite,nitrite,nitrite
 phosphate,phosphate,phosphate
@@ -28,7 +29,6 @@ adults,count of adults,nombre d’adultes
 yoy,count of young-of-the-year,nombre de jeunes de l'année
 total_ind,total number of individuals observed,nombre total d'individus observés
 total_all,total (SAV and non-SAV),total (VAS et non-VAS)
---------------,--------------,--------------
 number_of_samples,number of samples collected at the station in that year,nombre d'échantillons recueillis à la station pour cette année
 avg_water_temp,average water temperature (degrees C) at station,température moyenne de l'eau (degrés C) à la station
 avg_sal,average salinity at station,salinité moyenne à la station
