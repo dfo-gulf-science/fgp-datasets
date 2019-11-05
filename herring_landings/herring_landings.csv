@@ -1,4 +1,4 @@
-year,stock,4t_catch_fixed_spring,4t_catch_mobile_spring,4t_catch_fixed_fall,4t_catch_mobile_fall,4t_annual_catch,4vn_annual_catch,4tvn_total_catch
+year_annee,stock,4t_catch_fixed_spring,4t_catch_mobile_spring,4t_catch_fixed_fall,4t_catch_mobile_fall,4t_annual_catch,4vn_annual_catch,4tvn_total_catch
 1978,Spring spawners,7498,6400,231,10187,24316,799,25115
 1978,Fall spawners,1048,1647,4910,21568,29173,2042,31215
 1978,Total,8546,8047,5141,31755,53489,2841,56330
