@@ -1,0 +1,12 @@
+﻿name__nom,description_en,description_fr
+year,sample year,année-échantillon
+site_name,name of site and river,nom du site et de la rivière
+site_latitude,site latitude (decimal degrees),latitude du site (degrés décimaux)
+site_longitude,site longitude (decimal degrees),longitude du site (degrés décimaux)
+avg_air_temp_arrival,average air temperature on arrival (degrees C),température moyenne de l'air à l'arrivée (degrés C)
+avg_max_air_temp,average max air temperature (degrees C),température maximale moyenne de l'air (degrés C)
+avg_water_temp_shore,average water temperature taken from shore (degrees C),température moyenne de l'eau prise du rivage (degrés C)
+[SP_CODE]_abundance,total abundance of a species for a given site and year,Abondance totale d'une espèce pour un site et une année donnés
+[SP_CODE]_avg_fork_length,mean fork length (mm) of a species for a given site and year,longueur à la fourche moyenne (mm) d'une espèce pour un site et une année donnés
+[SP_CODE]_avg_total_length,mean total length (mm) of a species for a given site and year; this is only provided for American eel,longueur totale moyenne (mm) d'une espèce pour un site et une année donnés; fourni que pour l'anguille d'Amérique
+[SP_CODE]_avg_weight,mean weight (g) of a species for a given site and year,poids moyen (g) d'une espèce pour un site et une année donnés
