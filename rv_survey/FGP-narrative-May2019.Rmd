@@ -1,5 +1,5 @@
 ---
-title: "Extract to cerat cSV used to feed FGP/OGSL/ETC"
+title: "Extract to create a csv file used to feed FGP/OGSL/ETC"
 author: "Pablo Vergara"
 date: "May 17 2019"
 output:
@@ -18,7 +18,7 @@ suppressPackageStartupMessages(library(gulf))
 ```
 
 ## SETS
-Using the function "read.card" from the DFO Gulf Region's R package "gulf", read in the set cards and exclude hydrographic stations and null sets, so as to keep only representative tows in strata 415 to 439. Strata 401, 402 and 403 are excluded because they were not sampled prior to 1985.
+Using the function "read.card" from the DFO Gulf Region's R package "gulf", read in the set cards and exclude hydrographic stations and null sets, so as to keep only representative tows in strata 401 to 403 and 415 to 439.
 
 ```{r sets}
 yrs <- 1970:2019
@@ -67,7 +67,6 @@ ox <- order(x$year, x$month, x$day, x$start.hour)
 x <- x[ox,] # reorder chronologically 
 
 ## remove missions N176 and H245 which were comparative missions conducted in August 1992
-
 x <- x[which(x$mission !="N176"),]
 x <- x[which(x$mission !="H245"),]
 
@@ -81,7 +80,7 @@ x$station.number <- unlist(sapply(yrs, function(y){x.t <- x[x$year==y,]; station
 
 Catch cards contain the total catch information for the species of interest. Here they are adjusted for distance towed, estimated diurnal effects and estimated vessel-gear effects.  
 ```{r catch2}
-### Catch card for all years requesteed (1971 - 2018)
+### Catch card for all years requesteed (1970 - 2018)
 y <- read.card(card.type="catch", year = yrs)
 ```
 
