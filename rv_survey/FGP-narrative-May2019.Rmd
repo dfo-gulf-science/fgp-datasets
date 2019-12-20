@@ -43,12 +43,12 @@ logical2 <- !((x$year==1982 & x$cruise.number==278) & x$experiment %in% c(8,9))
 ## true for all except true hydrography set cards after 1993
 logical3 <- !(x$year>1993 & x$experiment %in% c(8,9))
 
-## keep only the strata in NAFO 4T
-logical4 <- x$stratum %in% c(415:439)
+## keep only the strata in NAFO 4T, 
+logical4 <- x$stratum %in% c(401,402,403,415:439)
 
 
 #Subset set cards with conditions
-x <- x[logical1 & logical2 & logical3 & logical4,]
+x <- x[logical1  & logical2 & logical3 & logical4,]
 ```
 
 Add a few useful columns to the data frame containing the set card information (including depth and swept area as requested).
@@ -98,7 +98,7 @@ z <- merge(y,x, all.x = TRUE, by = "unique.id", names = c("longitude","latitude"
 ##  CSV
 ## write catch cards to file
 fn2 <- "sGSL-September-RV-FGP.csv"
-fp  <- "e:/work/GC code/gulf/"
+fp  <- "E:/work/GitHub projects/fgp-datasets/rv_survey/"
 csv.fn2 <- file.path(fp,fn2)
 
 ooz <- order(z$year, z$month, z$day, z$start.hour, z$start.minute, z$species)
