@@ -1,5 +1,5 @@
 ---
-title: "Creation of Witch Flounder ageing datasets for OpenData"
+title: "Creation of Yellowtail Flounder ageing datasets for OpenData"
 author: "Daniel Ricard"
 date: "January 8, 2020"
 output: pdf_document
@@ -11,26 +11,20 @@ library(gulf)
 library(ggplot2)
 ```
 
-## Witch Flounder
-Witch Flounder otoliths are collected on the annual September RV survey and during scientific sampling of commercial fisheries.
+## Yellowtail Flounder
+Yellowtail Flounder otoliths are collected on the annual September RV survey and during scientific sampling of commercial fisheries.
 
 The goal here is to summarise the ageing materials that we have, and provide a dataset of the otoliths that we have at the Gulf Fisheries Centre.
 
 
-```{r witch}
+```{r yellowtail}
 ## RV data
-y <- read.card(species=41, card.type="bio")
-
+y <- read.card(species=42, card.type="bio")
 
 ## commercial data
 ## what years are available for commercial ages?
-## com.files <- list.files(path="//DFNBE1CwpFSP002/Hd2/commercial/age", pattern="witage")
-y.c <- read.card(year=1982, sampling="commercial", species=41, card.type="age") ## this loads all pre-1982 commercial ages
-for(yy in 1998:2016){ ## loop over years
-t.c <- read.card(year=yy, sampling="commercial", species=41, card.type="age")
-y.c <- rbind(y.c,t.c)
-}
-
+## com.files <- list.files(path="//DFNBE1CwpFSP002/Hd2/commercial/age", pattern="wfage")
+y.c <- read.card(year=1982, sampling="commercial", species=42, card.type="age") ## this loads all pre-1982 commercial ages
 
 rv.df <- aggregate(fish.number~year+month, data=y[which(y$age.material==1),], length)
 rv.df$source <- "RV"
@@ -41,17 +35,17 @@ names(comm.df)[3] <- "number.otoliths_nombre.otolithes"
 comm.df$source <- "Commercial"
 
 
-witch.out.df <- rbind(rv.df, comm.df)
-witch.out.df$latin.name_nom.latin <- "Glyptocephalus cynoglossus"
-witch.out.df$english.name_nom.anglais <- "Witch Flounder"
-witch.out.df$french.name_nom.français <- "Plie Grise"
+yellowtail.out.df <- rbind(rv.df, comm.df)
+yellowtail.out.df$latin.name_nom.latin <- "Limanda ferruginea"
+yellowtail.out.df$english.name_nom.anglais <- "Yellowtail Flounder"
+yellowtail.out.df$french.name_nom.français <- "Limande à queue jaune"
 
 
 vars <- c("source", "latin.name_nom.latin", "english.name_nom.anglais", "french.name_nom.français", "year","month","number.otoliths_nombre.otolithes")
-o1 <- order(witch.out.df$source, witch.out.df$year, witch.out.df$month)
+o1 <- order(yellowtail.out.df$source, yellowtail.out.df$year, yellowtail.out.df$month)
 
-witch.out.fn <- "NAFO-4RST-Witch-Flounder-ages.csv"
-write.csv(witch.out.df[o1,vars], file=witch.out.fn, row.names = FALSE)
+yellowtail.out.fn <- "NAFO-4T-Yellowtail-Flounder-ages.csv"
+write.csv(yellowtail.out.df[o1,vars], file=yellowtail.out.fn, row.names = FALSE)
   
 ## and a so-called data dictionary to explain the different columns in the CSV file
 data.dic <- data.frame(
@@ -65,7 +59,7 @@ data.dic.fn <- "data-dictionary.csv"
 write.csv(data.dic, file=data.dic.fn, row.names = FALSE)
 ```
 
-The Web Service to be associated with this dataset will just be a polygon of NAFO division 4RST.
+The Web Service to be associated with this dataset will just be a polygon of NAFO division 4T.
 
 
 
