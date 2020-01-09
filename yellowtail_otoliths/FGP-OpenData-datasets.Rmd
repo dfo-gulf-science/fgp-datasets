@@ -1,7 +1,7 @@
 ---
 title: "Creation of Yellowtail Flounder ageing datasets for OpenData"
 author: "Daniel Ricard"
-date: "January 8, 2020"
+date: "January 9, 2020"
 output: pdf_document
 ---
 
@@ -26,11 +26,13 @@ y <- read.card(species=42, card.type="bio")
 ## com.files <- list.files(path="//DFNBE1CwpFSP002/Hd2/commercial/age", pattern="wfage")
 y.c <- read.card(year=1982, sampling="commercial", species=42, card.type="age") ## this loads all pre-1982 commercial ages
 
+l.4t <- which(substring(y.c$nafo.division,1,2)=="4T") ## keep only otoliths collected in NAFO 4T
+
 rv.df <- aggregate(fish.number~year+month, data=y[which(y$age.material==1),], length)
 rv.df$source <- "RV"
 names(rv.df)[3] <- "number.otoliths_nombre.otolithes"
 
-comm.df <- aggregate(otolith.number~year+month, data=y.c, length)
+comm.df <- aggregate(otolith.number~year+month, data=y.c[l.4t,], length)
 names(comm.df)[3] <- "number.otoliths_nombre.otolithes"
 comm.df$source <- "Commercial"
 
@@ -48,8 +50,10 @@ yellowtail.out.fn <- "NAFO-4T-Yellowtail-Flounder-ages.csv"
 write.csv(yellowtail.out.df[o1,vars], file=yellowtail.out.fn, row.names = FALSE)
   
 ## and a so-called data dictionary to explain the different columns in the CSV file
+vars.bilingual <- c("source", "latin.name_nom.latin", "english.name_nom.anglais", "french.name_nom.français", "year_année","month_mois","number.otoliths_nombre.otolithes")
+
 data.dic <- data.frame(
-  name_nom = vars
+  name_nom = vars.bilingual
   )
 data.dic$description_fr <- c("Source de otolithes, peut soit provenir du relevé par navire de recherche (Research Vessel (RV)) ou d'échantillonnage des pêches commerciales (Commercial)", "Nom latin de l'espèce", "Nom anglais de l'espèce", "Nom français de l'espèce", "Année d'échantillonnage des otolithes", "Mois d'échantillonnage des otolithes", "Nombre d'otolithes dans la collection")
 

@@ -1,7 +1,7 @@
 ---
 title: "Creation of Witch Flounder ageing datasets for OpenData"
 author: "Daniel Ricard"
-date: "January 8, 2020"
+date: "January 9, 2020"
 output: pdf_document
 ---
 
@@ -31,12 +31,13 @@ t.c <- read.card(year=yy, sampling="commercial", species=41, card.type="age")
 y.c <- rbind(y.c,t.c)
 }
 
+l.4t <- which(substring(y.c$nafo.division,1,2) %in% c("4R","4S","4T")) ## keep only otoliths collected in NAFO 4RST
 
 rv.df <- aggregate(fish.number~year+month, data=y[which(y$age.material==1),], length)
 rv.df$source <- "RV"
 names(rv.df)[3] <- "number.otoliths_nombre.otolithes"
 
-comm.df <- aggregate(otolith.number~year+month, data=y.c, length)
+comm.df <- aggregate(otolith.number~year+month, data=y.c[l.4t,], length)
 names(comm.df)[3] <- "number.otoliths_nombre.otolithes"
 comm.df$source <- "Commercial"
 
@@ -54,8 +55,10 @@ witch.out.fn <- "NAFO-4RST-Witch-Flounder-ages.csv"
 write.csv(witch.out.df[o1,vars], file=witch.out.fn, row.names = FALSE)
   
 ## and a so-called data dictionary to explain the different columns in the CSV file
+vars.bilingual <- c("source", "latin.name_nom.latin", "english.name_nom.anglais", "french.name_nom.français", "year_année","month_mois","number.otoliths_nombre.otolithes")
+
 data.dic <- data.frame(
-  name_nom = vars
+  name_nom = vars.bilingual
   )
 data.dic$description_fr <- c("Source de otolithes, peut soit provenir du relevé par navire de recherche (Research Vessel (RV)) ou d'échantillonnage des pêches commerciales (Commercial)", "Nom latin de l'espèce", "Nom anglais de l'espèce", "Nom français de l'espèce", "Année d'échantillonnage des otolithes", "Mois d'échantillonnage des otolithes", "Nombre d'otolithes dans la collection")
 
