@@ -9,6 +9,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
+<meta name="author" content="Daniel Ricard" />
 
 
 <title>Gulf Fisheries Centre Ageing Structures collection</title>
@@ -221,6 +222,7 @@ summary {
 
 
 <h1 class="title toc-ignore">Gulf Fisheries Centre Ageing Structures collection</h1>
+<h4 class="author">Daniel Ricard</h4>
 
 </div>
 
@@ -257,21 +259,20 @@ write.csv(data.dic, file=data.dic.fn, row.names = FALSE)</code></pre>
 <p>Otoliths from the September RV survey, from other surveys, from sentinel programs and from commercial fisheries.</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuIyMgUlYgZGF0YVxueSA8LSBydiRiaW9bd2hpY2gocnYkYmlvJHNwZWNpZXMgPT0xMCksXVxucnYuZGYgPC0gYWdncmVnYXRlKGZpc2gubnVtYmVyfnllYXIrbW9udGgsIGRhdGE9eVt3aGljaCh5JGFnZS5tYXRlcmlhbD09MSksXSwgbGVuZ3RoKVxucnYuZGYkc291cmNlIDwtIFwiUlZcIlxubmFtZXMocnYuZGYpIDwtIGMoXCJ5ZWFyX2FubsOpZVwiLCBcIm1vbnRoX21vaXNcIiwgXCJudW1iZXIub3RvbGl0aHNfbm9tYnJlLm90b2xpdGhlc1wiLFwic291cmNlXCIpXG5vdXQuZGYgPC0gcmJpbmQocnYuZGYpIywgY29tbS5kZilcbm91dC5kZiRsYXRpbi5uYW1lX25vbS5sYXRpbiA8LSBcIkdhZHVzIG1vcmh1YVwiXG5vdXQuZGYkZW5nbGlzaC5uYW1lX25vbS5hbmdsYWlzIDwtIFwiQXRsYW50aWMgQ29kXCJcbm91dC5kZiRmcmVuY2gubmFtZV9ub20uZnJhbsOnYWlzIDwtIFwiTW9ydWUgZnJhbmNoZVwiXG52YXJzIDwtIGMoXCJzb3VyY2VcIiwgXCJsYXRpbi5uYW1lX25vbS5sYXRpblwiLCBcImVuZ2xpc2gubmFtZV9ub20uYW5nbGFpc1wiLCBcImZyZW5jaC5uYW1lX25vbS5mcmFuw6dhaXNcIiwgXCJ5ZWFyX2FubsOpZVwiLFwibW9udGhfbW9pc1wiLFwibnVtYmVyLm90b2xpdGhzX25vbWJyZS5vdG9saXRoZXNcIilcbm8xIDwtIG9yZGVyKG91dC5kZiRzb3VyY2UsIG91dC5kZiR5ZWFyX2FubsOpZSwgb3V0LmRmJG1vbnRoX21vaXMpXG5vdXQuZm4gPC0gXCIuL05BRk8tNFQtQXRsYW50aWMtQ29kLWFnZXMuY3N2XCJcbndyaXRlLmNzdihvdXQuZGZbbzEsdmFyc10sIGZpbGU9b3V0LmZuLCByb3cubmFtZXMgPSBGQUxTRSlcbmBgYCJ9 -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuIyMgUlYgZGF0YVxueSA8LSBydiRiaW9bd2hpY2gocnYkYmlvJHNwZWNpZXM9PTEwKSxdXG5ydi5kZiA8LSBhZ2dyZWdhdGUoZmlzaC5udW1iZXJ+eWVhcittb250aCwgZGF0YT15W3doaWNoKHkkYWdlLm1hdGVyaWFsPT0xKSxdLCBsZW5ndGgpXG5uYW1lcyhydi5kZikgPC0gYyhcInllYXJfYW5uw6llXCIsIFwibW9udGhfbW9pc1wiLCBcIm51bWJlci5vdG9saXRoc19ub21icmUub3RvbGl0aGVzXCIpXG5ydi5kZiRzb3VyY2UgPC0gXCJSVlwiXG4jIyBjb21tZXJjaWFsIGRhdGFcbiMjIHdoYXQgeWVhcnMgYXJlIGF2YWlsYWJsZSBmb3IgY29tbWVyY2lhbCBhZ2VzP1xuIyMgY29tLmZpbGVzIDwtIGxpc3QuZmlsZXMocGF0aD1cIi8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZVwiLCBwYXR0ZXJuPVwiY29kYWdlXCIpXG55LmMgPC0gZ3VsZjo6cmVhZC5jYXJkKHllYXI9MTk4Miwgc2FtcGxpbmc9XCJjb21tZXJjaWFsXCIsIHNwZWNpZXM9MTAsIGNhcmQudHlwZT1cImFnZVwiKSAjIyB0aGlzIGxvYWRzIGFsbCBwcmUtMTk4MiBjb21tZXJjaWFsIGFnZXNcbmBgYCJ9 -->
 <pre class="r"><code>## RV data
-y &lt;- rv$bio[which(rv$bio$species ==10),]
+y &lt;- rv$bio[which(rv$bio$species==10),]
 rv.df &lt;- aggregate(fish.number~year+month, data=y[which(y$age.material==1),], length)
+names(rv.df) &lt;- c(&quot;year_année&quot;, &quot;month_mois&quot;, &quot;number.otoliths_nombre.otolithes&quot;)
 rv.df$source &lt;- &quot;RV&quot;
-names(rv.df) &lt;- c(&quot;year_année&quot;, &quot;month_mois&quot;, &quot;number.otoliths_nombre.otolithes&quot;,&quot;source&quot;)
-out.df &lt;- rbind(rv.df)#, comm.df)
-out.df$latin.name_nom.latin &lt;- &quot;Gadus morhua&quot;
-out.df$english.name_nom.anglais &lt;- &quot;Atlantic Cod&quot;
-out.df$french.name_nom.français &lt;- &quot;Morue franche&quot;
-vars &lt;- c(&quot;source&quot;, &quot;latin.name_nom.latin&quot;, &quot;english.name_nom.anglais&quot;, &quot;french.name_nom.français&quot;, &quot;year_année&quot;,&quot;month_mois&quot;,&quot;number.otoliths_nombre.otolithes&quot;)
-o1 &lt;- order(out.df$source, out.df$year_année, out.df$month_mois)
-out.fn &lt;- &quot;./NAFO-4T-Atlantic-Cod-ages.csv&quot;
-write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE)</code></pre>
+## commercial data
+## what years are available for commercial ages?
+## com.files &lt;- list.files(path=&quot;//DFNBE1CwpFSP002/Hd2/commercial/age&quot;, pattern=&quot;codage&quot;)
+y.c &lt;- gulf::read.card(year=1982, sampling=&quot;commercial&quot;, species=10, card.type=&quot;age&quot;) ## this loads all pre-1982 commercial ages</code></pre>
 <!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS9jb2RhZ2U0ODgyLmRhdCdcIlxuIn0= -->
+<pre><code>[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/codage4882.dat'&quot;</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -280,21 +281,36 @@ write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE)</code></pre>
 <p>Otoliths from the September RV survey, from other surveys, from sentinel programs and from commercial fisheries.</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuIyMgUlYgZGF0YVxueSA8LSBydiRiaW9bd2hpY2gocnYkYmlvJHNwZWNpZXMgPT0xMiksXVxucnYuZGYgPC0gYWdncmVnYXRlKGZpc2gubnVtYmVyfnllYXIrbW9udGgsIGRhdGE9eVt3aGljaCh5JGFnZS5tYXRlcmlhbD09MSksXSwgbGVuZ3RoKVxucnYuZGYkc291cmNlIDwtIFwiUlZcIlxubmFtZXMocnYuZGYpIDwtIGMoXCJ5ZWFyX2FubsOpZVwiLCBcIm1vbnRoX21vaXNcIiwgXCJudW1iZXIub3RvbGl0aHNfbm9tYnJlLm90b2xpdGhlc1wiLCBcInNvdXJjZVwiKVxub3V0LmRmIDwtIHJiaW5kKHJ2LmRmKSMsIGNvbW0uZGYpXG5vdXQuZGYkbGF0aW4ubmFtZV9ub20ubGF0aW4gPC0gXCJVcm9waHljaXMgdGVudWlzXCJcbm91dC5kZiRlbmdsaXNoLm5hbWVfbm9tLmFuZ2xhaXMgPC0gXCJXaGl0ZSBIYWtlXCJcbm91dC5kZiRmcmVuY2gubmFtZV9ub20uZnJhbsOnYWlzIDwtIFwiTWVybHVjaGUgYmxhbmNoZVwiXG52YXJzIDwtIGMoXCJzb3VyY2VcIiwgXCJsYXRpbi5uYW1lX25vbS5sYXRpblwiLCBcImVuZ2xpc2gubmFtZV9ub20uYW5nbGFpc1wiLCBcImZyZW5jaC5uYW1lX25vbS5mcmFuw6dhaXNcIiwgXCJ5ZWFyX2FubsOpZVwiLFwibW9udGhfbW9pc1wiLFwibnVtYmVyLm90b2xpdGhzX25vbWJyZS5vdG9saXRoZXNcIilcbm8xIDwtIG9yZGVyKG91dC5kZiRzb3VyY2UsIG91dC5kZiR5ZWFyX2FubsOpZSwgb3V0LmRmJG1vbnRoX21vaXMpXG5vdXQuZm4gPC0gXCIuL05BRk8tNFQtV2hpdGUtSGFrZS1hZ2VzLmNzdlwiXG53cml0ZS5jc3Yob3V0LmRmW28xLHZhcnNdLCBmaWxlPW91dC5mbiwgcm93Lm5hbWVzID0gRkFMU0UpXG5gYGAifQ== -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuIyMgUlYgZGF0YVxueSA8LSBydiRiaW9bd2hpY2gocnYkYmlvJHNwZWNpZXM9PTEyKSxdXG5ydi5kZiA8LSBhZ2dyZWdhdGUoZmlzaC5udW1iZXJ+eWVhcittb250aCwgZGF0YT15W3doaWNoKHkkYWdlLm1hdGVyaWFsPT0xKSxdLCBsZW5ndGgpXG5ydi5kZiRzb3VyY2UgPC0gXCJSVlwiXG5uYW1lcyhydi5kZikgPC0gYyhcInllYXJfYW5uw6llXCIsIFwibW9udGhfbW9pc1wiLCBcIm51bWJlci5vdG9saXRoc19ub21icmUub3RvbGl0aGVzXCIsIFwic291cmNlXCIpXG4jIyBjb21tZXJjaWFsIGRhdGFcbiMjIHdoYXQgeWVhcnMgYXJlIGF2YWlsYWJsZSBmb3IgY29tbWVyY2lhbCBhZ2VzP1xuIyMgY29tLmZpbGVzIDwtIGxpc3QuZmlsZXMocGF0aD1cIi8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZVwiLCBwYXR0ZXJuPVwid2hhZ2VcIilcbnkuYyA8LSBndWxmOjpyZWFkLmNhcmQoeWVhcj0xOTgyLCBzYW1wbGluZz1cImNvbW1lcmNpYWxcIiwgc3BlY2llcz0xMiwgY2FyZC50eXBlPVwiYWdlXCIpICMjIHRoaXMgbG9hZHMgYWxsIHByZS0xOTgyIGNvbW1lcmNpYWwgYWdlc1xuYGBgIn0= -->
 <pre class="r"><code>## RV data
-y &lt;- rv$bio[which(rv$bio$species ==12),]
+y &lt;- rv$bio[which(rv$bio$species==12),]
 rv.df &lt;- aggregate(fish.number~year+month, data=y[which(y$age.material==1),], length)
 rv.df$source &lt;- &quot;RV&quot;
 names(rv.df) &lt;- c(&quot;year_année&quot;, &quot;month_mois&quot;, &quot;number.otoliths_nombre.otolithes&quot;, &quot;source&quot;)
-out.df &lt;- rbind(rv.df)#, comm.df)
-out.df$latin.name_nom.latin &lt;- &quot;Urophycis tenuis&quot;
-out.df$english.name_nom.anglais &lt;- &quot;White Hake&quot;
-out.df$french.name_nom.français &lt;- &quot;Merluche blanche&quot;
-vars &lt;- c(&quot;source&quot;, &quot;latin.name_nom.latin&quot;, &quot;english.name_nom.anglais&quot;, &quot;french.name_nom.français&quot;, &quot;year_année&quot;,&quot;month_mois&quot;,&quot;number.otoliths_nombre.otolithes&quot;)
-o1 &lt;- order(out.df$source, out.df$year_année, out.df$month_mois)
-out.fn &lt;- &quot;./NAFO-4T-White-Hake-ages.csv&quot;
-write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE)</code></pre>
+## commercial data
+## what years are available for commercial ages?
+## com.files &lt;- list.files(path=&quot;//DFNBE1CwpFSP002/Hd2/commercial/age&quot;, pattern=&quot;whage&quot;)
+y.c &lt;- gulf::read.card(year=1982, sampling=&quot;commercial&quot;, species=12, card.type=&quot;age&quot;) ## this loads all pre-1982 commercial ages</code></pre>
 <!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS93aGFnZTQ4ODIuZGF0J1wiXG4ifQ== -->
+<pre><code>[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/whage4882.dat'&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZm9yKHl5IGluIGMoMTk4MzoyMDE3KSl7ICMjIGxvb3Agb3ZlciB5ZWFyc1xudC5jIDwtIGd1bGY6OnJlYWQuY2FyZCh5ZWFyPXl5LCBzYW1wbGluZz1cImNvbW1lcmNpYWxcIiwgc3BlY2llcz0xMiwgY2FyZC50eXBlPVwiYWdlXCIpXG55LmMgPC0gcmJpbmQoeS5jLHQuYylcbn1cbmBgYCJ9 -->
+<pre class="r"><code>for(yy in c(1983:2017)){ ## loop over years
+t.c &lt;- gulf::read.card(year=yy, sampling=&quot;commercial&quot;, species=12, card.type=&quot;age&quot;)
+y.c &lt;- rbind(y.c,t.c)
+}</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS93aGFnZTE5ODMuZGF0J1wiXG5bMV0gXCJSZWFkaW5nOiAnLy9ERk5CRTFDd3BGU1AwMDIvSGQyL2NvbW1lcmNpYWwvYWdlL3doYWdlMTk4NC5kYXQnXCJcbiJ9 -->
+<pre><code>[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/whage1983.dat'&quot;
+[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/whage1984.dat'&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiJ21pbnV0ZXMnIGFyZ3VtZW50IG11c3QgbGllIGJldHdlZW4gMCBhbmQgNjAuXG4ifQ== -->
+<pre><code>'minutes' argument must lie between 0 and 60.</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS93aGFnZTE5ODUuZGF0J1wiXG4ifQ== -->
+<pre><code>[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/whage1985.dat'&quot;</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -303,13 +319,98 @@ write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE)</code></pre>
 <p>Otoliths from the September RV survey, from other surveys, from sentinel programs and from commercial fisheries.</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuIyMgUlYgZGF0YVxueSA8LSBydiRiaW9bd2hpY2gocnYkYmlvJHNwZWNpZXMgPT00MCksXVxucnYuZGYgPC0gYWdncmVnYXRlKGZpc2gubnVtYmVyfnllYXIrbW9udGgsIGRhdGE9eVt3aGljaCh5JGFnZS5tYXRlcmlhbD09MSksXSwgbGVuZ3RoKVxucnYuZGYkc291cmNlIDwtIFwiUlZcIlxubmFtZXMocnYuZGYpIDwtIGMoXCJ5ZWFyX2FubsOpZVwiLCBcIm1vbnRoX21vaXNcIiwgXCJudW1iZXIub3RvbGl0aHNfbm9tYnJlLm90b2xpdGhlc1wiLCBcInNvdXJjZVwiKVxub3V0LmRmIDwtIHJiaW5kKHJ2LmRmKSMsIGNvbW0uZGYpXG5vdXQuZGYkbGF0aW4ubmFtZV9ub20ubGF0aW4gPC0gXCJIaXBwb2dsb3Nzb2lkZXMgcGxhdGVzc29pZGVzXCJcbm91dC5kZiRlbmdsaXNoLm5hbWVfbm9tLmFuZ2xhaXMgPC0gXCJBbWVyaWNhbiBQbGFpY2VcIlxub3V0LmRmJGZyZW5jaC5uYW1lX25vbS5mcmFuw6dhaXMgPC0gXCJQbGllIENhbmFkaWVubmVcIlxudmFycyA8LSBjKFwic291cmNlXCIsIFwibGF0aW4ubmFtZV9ub20ubGF0aW5cIiwgXCJlbmdsaXNoLm5hbWVfbm9tLmFuZ2xhaXNcIiwgXCJmcmVuY2gubmFtZV9ub20uZnJhbsOnYWlzXCIsIFwieWVhcl9hbm7DqWVcIixcIm1vbnRoX21vaXNcIixcIm51bWJlci5vdG9saXRoc19ub21icmUub3RvbGl0aGVzXCIpXG5vMSA8LSBvcmRlcihvdXQuZGYkc291cmNlLCBvdXQuZGYkeWVhcl9hbm7DqWUsIG91dC5kZiRtb250aF9tb2lzKVxub3V0LmZuIDwtIFwiLi9OQUZPLTRULUFtZXJpY2FuLVBsYWljZS1hZ2VzLmNzdlwiXG53cml0ZS5jc3Yob3V0LmRmW28xLHZhcnNdLCBmaWxlPW91dC5mbiwgcm93Lm5hbWVzID0gRkFMU0UpXG5gYGAifQ== -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuIyMgUlYgZGF0YVxueSA8LSBydiRiaW9bd2hpY2gocnYkYmlvJHNwZWNpZXM9PTQwKSxdXG5ydi5kZiA8LSBhZ2dyZWdhdGUoZmlzaC5udW1iZXJ+eWVhcittb250aCwgZGF0YT15W3doaWNoKHkkYWdlLm1hdGVyaWFsPT0xKSxdLCBsZW5ndGgpXG5ydi5kZiRzb3VyY2UgPC0gXCJSVlwiXG5uYW1lcyhydi5kZikgPC0gYyhcInllYXJfYW5uw6llXCIsIFwibW9udGhfbW9pc1wiLCBcIm51bWJlci5vdG9saXRoc19ub21icmUub3RvbGl0aGVzXCIsIFwic291cmNlXCIpXG4jIyBjb21tZXJjaWFsIGRhdGFcbiMjIHdoYXQgeWVhcnMgYXJlIGF2YWlsYWJsZSBmb3IgY29tbWVyY2lhbCBhZ2VzP1xuIyMgY29tLmZpbGVzIDwtIGxpc3QuZmlsZXMocGF0aD1cIi8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZVwiLCBwYXR0ZXJuPVwicGxhYWdlXCIpXG55LmMgPC0gZ3VsZjo6cmVhZC5jYXJkKHllYXI9MTk4Miwgc2FtcGxpbmc9XCJjb21tZXJjaWFsXCIsIHNwZWNpZXM9NDAsIGNhcmQudHlwZT1cImFnZVwiKSAjIyB0aGlzIGxvYWRzIGFsbCBwcmUtMTk4MiBjb21tZXJjaWFsIGFnZXNcbmBgYCJ9 -->
 <pre class="r"><code>## RV data
-y &lt;- rv$bio[which(rv$bio$species ==40),]
+y &lt;- rv$bio[which(rv$bio$species==40),]
 rv.df &lt;- aggregate(fish.number~year+month, data=y[which(y$age.material==1),], length)
 rv.df$source &lt;- &quot;RV&quot;
 names(rv.df) &lt;- c(&quot;year_année&quot;, &quot;month_mois&quot;, &quot;number.otoliths_nombre.otolithes&quot;, &quot;source&quot;)
-out.df &lt;- rbind(rv.df)#, comm.df)
+## commercial data
+## what years are available for commercial ages?
+## com.files &lt;- list.files(path=&quot;//DFNBE1CwpFSP002/Hd2/commercial/age&quot;, pattern=&quot;plaage&quot;)
+y.c &lt;- gulf::read.card(year=1982, sampling=&quot;commercial&quot;, species=40, card.type=&quot;age&quot;) ## this loads all pre-1982 commercial ages</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS9wbGFhZ2U0ODgyLmRhdCdcIlxuIn0= -->
+<pre><code>[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/plaage4882.dat'&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZm9yKHl5IGluIDE5ODM6MjAxOCl7ICMjIGxvb3Agb3ZlciB5ZWFyc1xudC5jIDwtIGd1bGY6OnJlYWQuY2FyZCh5ZWFyPXl5LCBzYW1wbGluZz1cImNvbW1lcmNpYWxcIiwgc3BlY2llcz00MCwgY2FyZC50eXBlPVwiYWdlXCIpXG55LmMgPC0gcmJpbmQoeS5jLHQuYylcbn1cbmBgYCJ9 -->
+<pre class="r"><code>for(yy in 1983:2018){ ## loop over years
+t.c &lt;- gulf::read.card(year=yy, sampling=&quot;commercial&quot;, species=40, card.type=&quot;age&quot;)
+y.c &lt;- rbind(y.c,t.c)
+}</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS9wbGFhZ2UxOTgzLmRhdCdcIlxuWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS9wbGFhZ2UxOTg0LmRhdCdcIlxuWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS9wbGFhZ2UxOTg1LmRhdCdcIlxuIn0= -->
+<pre><code>[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/plaage1983.dat'&quot;
+[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/plaage1984.dat'&quot;
+[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/plaage1985.dat'&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiJ21pbnV0ZXMnIGFyZ3VtZW50IG11c3QgbGllIGJldHdlZW4gMCBhbmQgNjAuXG4ifQ== -->
+<pre><code>'minutes' argument must lie between 0 and 60.</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS9wbGFhZ2UxOTg2LmRhdCdcIlxuWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS9wbGFhZ2UxOTg3LmRhdCdcIlxuIn0= -->
+<pre><code>[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/plaage1986.dat'&quot;
+[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/plaage1987.dat'&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiJ21pbnV0ZXMnIGFyZ3VtZW50IG11c3QgbGllIGJldHdlZW4gMCBhbmQgNjAuXG4ifQ== -->
+<pre><code>'minutes' argument must lie between 0 and 60.</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS9wbGFhZ2UxOTg4LmRhdCdcIlxuIn0= -->
+<pre><code>[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/plaage1988.dat'&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiJ21pbnV0ZXMnIGFyZ3VtZW50IG11c3QgbGllIGJldHdlZW4gMCBhbmQgNjAuXG4ifQ== -->
+<pre><code>'minutes' argument must lie between 0 and 60.</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS9wbGFhZ2UxOTg5LmRhdCdcIlxuWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS9wbGFhZ2UxOTkwLmRhdCdcIlxuWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS9wbGFhZ2UxOTkxLmRhdCdcIlxuIn0= -->
+<pre><code>[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/plaage1989.dat'&quot;
+[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/plaage1990.dat'&quot;
+[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/plaage1991.dat'&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiJ21pbnV0ZXMnIGFyZ3VtZW50IG11c3QgbGllIGJldHdlZW4gMCBhbmQgNjAuXG4ifQ== -->
+<pre><code>'minutes' argument must lie between 0 and 60.</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS9wbGFhZ2UxOTkyLmRhdCdcIlxuWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS9wbGFhZ2UxOTkzLmRhdCdcIlxuWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS9wbGFhZ2UxOTk0LmRhdCdcIlxuWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS9wbGFhZ2UxOTk1LmRhdCdcIlxuWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS9wbGFhZ2UxOTk2LmRhdCdcIlxuWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS9wbGFhZ2UxOTk3LmRhdCdcIlxuIn0= -->
+<pre><code>[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/plaage1992.dat'&quot;
+[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/plaage1993.dat'&quot;
+[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/plaage1994.dat'&quot;
+[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/plaage1995.dat'&quot;
+[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/plaage1996.dat'&quot;
+[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/plaage1997.dat'&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiJ21pbnV0ZXMnIGFyZ3VtZW50IG11c3QgbGllIGJldHdlZW4gMCBhbmQgNjAuJ21pbnV0ZXMnIGFyZ3VtZW50IG11c3QgbGllIGJldHdlZW4gMCBhbmQgNjAuXG4ifQ== -->
+<pre><code>'minutes' argument must lie between 0 and 60.'minutes' argument must lie between 0 and 60.</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS9wbGFhZ2UxOTk4LmRhdCdcIlxuWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS9wbGFhZ2UxOTk5LmRhdCdcIlxuWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS9wbGFhZ2UyMDAwLmRhdCdcIlxuWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS9wbGFhZ2UyMDAxLmRhdCdcIlxuWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS9wbGFhZ2UyMDAyLmRhdCdcIlxuWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS9wbGFhZ2UyMDAzLmRhdCdcIlxuWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS9wbGFhZ2UyMDA0LmRhdCdcIlxuWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS9wbGFhZ2UyMDA1LmRhdCdcIlxuWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS9wbGFhZ2UyMDA2LmRhdCdcIlxuWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS9wbGFhZ2UyMDA3LmRhdCdcIlxuWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS9wbGFhZ2UyMDA4LmRhdCdcIlxuWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS9wbGFhZ2UyMDA5LmRhdCdcIlxuWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS9wbGFhZ2UyMDEwLmRhdCdcIlxuWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS9wbGFhZ2UyMDExLmRhdCdcIlxuWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS9wbGFhZ2UyMDEyLmRhdCdcIlxuWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS9wbGFhZ2UyMDEzLmRhdCdcIlxuWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS9wbGFhZ2UyMDE0LmRhdCdcIlxuWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS9wbGFhZ2UyMDE1LmRhdCdcIlxuWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS9wbGFhZ2UyMDE2LmRhdCdcIlxuWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS9wbGFhZ2UyMDE3LmRhdCdcIlxuWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS9wbGFhZ2UyMDE4LmRhdCdcIlxuIn0= -->
+<pre><code>[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/plaage1998.dat'&quot;
+[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/plaage1999.dat'&quot;
+[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/plaage2000.dat'&quot;
+[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/plaage2001.dat'&quot;
+[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/plaage2002.dat'&quot;
+[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/plaage2003.dat'&quot;
+[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/plaage2004.dat'&quot;
+[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/plaage2005.dat'&quot;
+[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/plaage2006.dat'&quot;
+[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/plaage2007.dat'&quot;
+[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/plaage2008.dat'&quot;
+[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/plaage2009.dat'&quot;
+[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/plaage2010.dat'&quot;
+[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/plaage2011.dat'&quot;
+[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/plaage2012.dat'&quot;
+[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/plaage2013.dat'&quot;
+[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/plaage2014.dat'&quot;
+[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/plaage2015.dat'&quot;
+[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/plaage2016.dat'&quot;
+[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/plaage2017.dat'&quot;
+[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/plaage2018.dat'&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiJ21pbnV0ZXMnIGFyZ3VtZW50IG11c3QgbGllIGJldHdlZW4gMCBhbmQgNjAuXG4ifQ== -->
+<pre><code>'minutes' argument must lie between 0 and 60.</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubC40dCA8LSB3aGljaChzdWJzdHJpbmcoeS5jJG5hZm8uZGl2aXNpb24sMSwyKT09XCI0VFwiKSAjIyBrZWVwIG9ubHkgb3RvbGl0aHMgY29sbGVjdGVkIGluIE5BRk8gNFRcbmNvbW0uZGYgPC0gYWdncmVnYXRlKG90b2xpdGgubnVtYmVyfnllYXIrbW9udGgsIGRhdGE9eS5jW2wuNHQsXSwgbGVuZ3RoKVxubmFtZXMoY29tbS5kZikgPC0gYyhcInllYXJfYW5uw6llXCIsIFwibW9udGhfbW9pc1wiLCBcIm51bWJlci5vdG9saXRoc19ub21icmUub3RvbGl0aGVzXCIpXG5jb21tLmRmJHNvdXJjZSA8LSBcIkNvbW1lcmNpYWxcIlxub3V0LmRmIDwtIHJiaW5kKHJ2LmRmLCBjb21tLmRmKVxub3V0LmRmJGxhdGluLm5hbWVfbm9tLmxhdGluIDwtIFwiSGlwcG9nbG9zc29pZGVzIHBsYXRlc3NvaWRlc1wiXG5vdXQuZGYkZW5nbGlzaC5uYW1lX25vbS5hbmdsYWlzIDwtIFwiQW1lcmljYW4gUGxhaWNlXCJcbm91dC5kZiRmcmVuY2gubmFtZV9ub20uZnJhbsOnYWlzIDwtIFwiUGxpZSBDYW5hZGllbm5lXCJcbnZhcnMgPC0gYyhcInNvdXJjZVwiLCBcImxhdGluLm5hbWVfbm9tLmxhdGluXCIsIFwiZW5nbGlzaC5uYW1lX25vbS5hbmdsYWlzXCIsIFwiZnJlbmNoLm5hbWVfbm9tLmZyYW7Dp2Fpc1wiLCBcInllYXJfYW5uw6llXCIsXCJtb250aF9tb2lzXCIsXCJudW1iZXIub3RvbGl0aHNfbm9tYnJlLm90b2xpdGhlc1wiKVxubzEgPC0gb3JkZXIob3V0LmRmJHNvdXJjZSwgb3V0LmRmJHllYXJfYW5uw6llLCBvdXQuZGYkbW9udGhfbW9pcylcbm91dC5mbiA8LSBcIi4vTkFGTy00VC1BbWVyaWNhbi1QbGFpY2UtYWdlcy5jc3ZcIlxud3JpdGUuY3N2KG91dC5kZltvMSx2YXJzXSwgZmlsZT1vdXQuZm4sIHJvdy5uYW1lcyA9IEZBTFNFKVxuYGBgIn0= -->
+<pre class="r"><code>l.4t &lt;- which(substring(y.c$nafo.division,1,2)==&quot;4T&quot;) ## keep only otoliths collected in NAFO 4T
+comm.df &lt;- aggregate(otolith.number~year+month, data=y.c[l.4t,], length)
+names(comm.df) &lt;- c(&quot;year_année&quot;, &quot;month_mois&quot;, &quot;number.otoliths_nombre.otolithes&quot;)
+comm.df$source &lt;- &quot;Commercial&quot;
+out.df &lt;- rbind(rv.df, comm.df)
 out.df$latin.name_nom.latin &lt;- &quot;Hippoglossoides platessoides&quot;
 out.df$english.name_nom.anglais &lt;- &quot;American Plaice&quot;
 out.df$french.name_nom.français &lt;- &quot;Plie Canadienne&quot;
@@ -326,19 +427,129 @@ write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE)</code></pre>
 <p>Otoliths from the September RV survey, from other surveys, from sentinel programs and from commercial fisheries.</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuIyMgUlYgZGF0YVxueSA8LSBydiRiaW9bd2hpY2gocnYkYmlvJHNwZWNpZXMgPT00MSksXVxucnYuZGYgPC0gYWdncmVnYXRlKGZpc2gubnVtYmVyfnllYXIrbW9udGgsIGRhdGE9eVt3aGljaCh5JGFnZS5tYXRlcmlhbD09MSksXSwgbGVuZ3RoKVxucnYuZGYkc291cmNlIDwtIFwiUlZcIlxubmFtZXMocnYuZGYpIDwtIGMoXCJ5ZWFyX2FubsOpZVwiLCBcIm1vbnRoX21vaXNcIiwgXCJudW1iZXIub3RvbGl0aHNfbm9tYnJlLm90b2xpdGhlc1wiLCBcInNvdXJjZVwiKVxub3V0LmRmIDwtIHJiaW5kKHJ2LmRmKSMsIGNvbW0uZGYpXG5vdXQuZGYkbGF0aW4ubmFtZV9ub20ubGF0aW4gPC0gXCJHbHlwdG9jZXBoYWx1cyBjeW5vZ2xvc3N1c1wiXG5vdXQuZGYkZW5nbGlzaC5uYW1lX25vbS5hbmdsYWlzIDwtIFwiV2l0Y2ggRmxvdW5kZXJcIlxub3V0LmRmJGZyZW5jaC5uYW1lX25vbS5mcmFuw6dhaXMgPC0gXCJQbGllIEdyaXNlXCJcbnZhcnMgPC0gYyhcInNvdXJjZVwiLCBcImxhdGluLm5hbWVfbm9tLmxhdGluXCIsIFwiZW5nbGlzaC5uYW1lX25vbS5hbmdsYWlzXCIsIFwiZnJlbmNoLm5hbWVfbm9tLmZyYW7Dp2Fpc1wiLCBcInllYXJfYW5uw6llXCIsXCJtb250aF9tb2lzXCIsXCJudW1iZXIub3RvbGl0aHNfbm9tYnJlLm90b2xpdGhlc1wiKVxubzEgPC0gb3JkZXIob3V0LmRmJHNvdXJjZSwgb3V0LmRmJHllYXJfYW5uw6llLCBvdXQuZGYkbW9udGhfbW9pcylcbm91dC5mbiA8LSBcIi4vTkFGTy00VC1XaXRjaC1GbG91bmRlci1hZ2VzLmNzdlwiXG53cml0ZS5jc3Yob3V0LmRmW28xLHZhcnNdLCBmaWxlPW91dC5mbiwgcm93Lm5hbWVzID0gRkFMU0UpXG5gYGAifQ== -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuIyMgUlYgZGF0YVxueSA8LSBydiRiaW9bd2hpY2gocnYkYmlvJHNwZWNpZXMgPT00MSksXVxucnYuZGYgPC0gYWdncmVnYXRlKGZpc2gubnVtYmVyfnllYXIrbW9udGgsIGRhdGE9eVt3aGljaCh5JGFnZS5tYXRlcmlhbD09MSksXSwgbGVuZ3RoKVxubmFtZXMocnYuZGYpIDwtIGMoXCJ5ZWFyX2FubsOpZVwiLCBcIm1vbnRoX21vaXNcIiwgXCJudW1iZXIub3RvbGl0aHNfbm9tYnJlLm90b2xpdGhlc1wiKVxucnYuZGYkc291cmNlIDwtIFwiUlZcIlxuIyMgY29tbWVyY2lhbCBkYXRhXG4jIyB3aGF0IHllYXJzIGFyZSBhdmFpbGFibGUgZm9yIGNvbW1lcmNpYWwgYWdlcz9cbiMjIGNvbS5maWxlcyA8LSBsaXN0LmZpbGVzKHBhdGg9XCIvL0RGTkJFMUN3cEZTUDAwMi9IZDIvY29tbWVyY2lhbC9hZ2VcIiwgcGF0dGVybj1cIndpdGFnZVwiKVxueS5jIDwtIGd1bGY6OnJlYWQuY2FyZCh5ZWFyPTE5ODIsIHNhbXBsaW5nPVwiY29tbWVyY2lhbFwiLCBzcGVjaWVzPTQxLCBjYXJkLnR5cGU9XCJhZ2VcIikgIyMgdGhpcyBsb2FkcyBhbGwgcHJlLTE5ODIgY29tbWVyY2lhbCBhZ2VzXG5gYGAifQ== -->
 <pre class="r"><code>## RV data
 y &lt;- rv$bio[which(rv$bio$species ==41),]
 rv.df &lt;- aggregate(fish.number~year+month, data=y[which(y$age.material==1),], length)
+names(rv.df) &lt;- c(&quot;year_année&quot;, &quot;month_mois&quot;, &quot;number.otoliths_nombre.otolithes&quot;)
 rv.df$source &lt;- &quot;RV&quot;
-names(rv.df) &lt;- c(&quot;year_année&quot;, &quot;month_mois&quot;, &quot;number.otoliths_nombre.otolithes&quot;, &quot;source&quot;)
-out.df &lt;- rbind(rv.df)#, comm.df)
+## commercial data
+## what years are available for commercial ages?
+## com.files &lt;- list.files(path=&quot;//DFNBE1CwpFSP002/Hd2/commercial/age&quot;, pattern=&quot;witage&quot;)
+y.c &lt;- gulf::read.card(year=1982, sampling=&quot;commercial&quot;, species=41, card.type=&quot;age&quot;) ## this loads all pre-1982 commercial ages</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS93aXRhZ2U0ODgyLmRhdCdcIlxuIn0= -->
+<pre><code>[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/witage4882.dat'&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZm9yKHl5IGluIDE5OTg6MjAxNil7ICMjIGxvb3Agb3ZlciB5ZWFyc1xudC5jIDwtIGd1bGY6OnJlYWQuY2FyZCh5ZWFyPXl5LCBzYW1wbGluZz1cImNvbW1lcmNpYWxcIiwgc3BlY2llcz00MSwgY2FyZC50eXBlPVwiYWdlXCIpXG55LmMgPC0gcmJpbmQoeS5jLHQuYylcbn1cbmBgYCJ9 -->
+<pre class="r"><code>for(yy in 1998:2016){ ## loop over years
+t.c &lt;- gulf::read.card(year=yy, sampling=&quot;commercial&quot;, species=41, card.type=&quot;age&quot;)
+y.c &lt;- rbind(y.c,t.c)
+}</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS93aXRhZ2UxOTk4LmRhdCdcIlxuIn0= -->
+<pre><code>[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/witage1998.dat'&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiaW5jb21wbGV0ZSBmaW5hbCBsaW5lIGZvdW5kIG9uICcvL0RGTkJFMUN3cEZTUDAwMi9IZDIvY29tbWVyY2lhbC9hZ2Uvd2l0YWdlMTk5OC5kYXQnXG4ifQ== -->
+<pre><code>incomplete final line found on '//DFNBE1CwpFSP002/Hd2/commercial/age/witage1998.dat'</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS93aXRhZ2UxOTk5LmRhdCdcIlxuWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS93aXRhZ2UyMDAwLmRhdCdcIlxuIn0= -->
+<pre><code>[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/witage1999.dat'&quot;
+[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/witage2000.dat'&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiaW5jb21wbGV0ZSBmaW5hbCBsaW5lIGZvdW5kIG9uICcvL0RGTkJFMUN3cEZTUDAwMi9IZDIvY29tbWVyY2lhbC9hZ2Uvd2l0YWdlMjAwMC5kYXQnXG4ifQ== -->
+<pre><code>incomplete final line found on '//DFNBE1CwpFSP002/Hd2/commercial/age/witage2000.dat'</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS93aXRhZ2UyMDAxLmRhdCdcIlxuIn0= -->
+<pre><code>[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/witage2001.dat'&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiaW5jb21wbGV0ZSBmaW5hbCBsaW5lIGZvdW5kIG9uICcvL0RGTkJFMUN3cEZTUDAwMi9IZDIvY29tbWVyY2lhbC9hZ2Uvd2l0YWdlMjAwMS5kYXQnXG4ifQ== -->
+<pre><code>incomplete final line found on '//DFNBE1CwpFSP002/Hd2/commercial/age/witage2001.dat'</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS93aXRhZ2UyMDAyLmRhdCdcIlxuIn0= -->
+<pre><code>[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/witage2002.dat'&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiaW5jb21wbGV0ZSBmaW5hbCBsaW5lIGZvdW5kIG9uICcvL0RGTkJFMUN3cEZTUDAwMi9IZDIvY29tbWVyY2lhbC9hZ2Uvd2l0YWdlMjAwMi5kYXQnXG4ifQ== -->
+<pre><code>incomplete final line found on '//DFNBE1CwpFSP002/Hd2/commercial/age/witage2002.dat'</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS93aXRhZ2UyMDAzLmRhdCdcIlxuIn0= -->
+<pre><code>[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/witage2003.dat'&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiaW5jb21wbGV0ZSBmaW5hbCBsaW5lIGZvdW5kIG9uICcvL0RGTkJFMUN3cEZTUDAwMi9IZDIvY29tbWVyY2lhbC9hZ2Uvd2l0YWdlMjAwMy5kYXQnXG4ifQ== -->
+<pre><code>incomplete final line found on '//DFNBE1CwpFSP002/Hd2/commercial/age/witage2003.dat'</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS93aXRhZ2UyMDA0LmRhdCdcIlxuIn0= -->
+<pre><code>[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/witage2004.dat'&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiaW5jb21wbGV0ZSBmaW5hbCBsaW5lIGZvdW5kIG9uICcvL0RGTkJFMUN3cEZTUDAwMi9IZDIvY29tbWVyY2lhbC9hZ2Uvd2l0YWdlMjAwNC5kYXQnXG4ifQ== -->
+<pre><code>incomplete final line found on '//DFNBE1CwpFSP002/Hd2/commercial/age/witage2004.dat'</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS93aXRhZ2UyMDA1LmRhdCdcIlxuIn0= -->
+<pre><code>[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/witage2005.dat'&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiaW5jb21wbGV0ZSBmaW5hbCBsaW5lIGZvdW5kIG9uICcvL0RGTkJFMUN3cEZTUDAwMi9IZDIvY29tbWVyY2lhbC9hZ2Uvd2l0YWdlMjAwNS5kYXQnXG4ifQ== -->
+<pre><code>incomplete final line found on '//DFNBE1CwpFSP002/Hd2/commercial/age/witage2005.dat'</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS93aXRhZ2UyMDA2LmRhdCdcIlxuIn0= -->
+<pre><code>[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/witage2006.dat'&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiaW5jb21wbGV0ZSBmaW5hbCBsaW5lIGZvdW5kIG9uICcvL0RGTkJFMUN3cEZTUDAwMi9IZDIvY29tbWVyY2lhbC9hZ2Uvd2l0YWdlMjAwNi5kYXQnXG4ifQ== -->
+<pre><code>incomplete final line found on '//DFNBE1CwpFSP002/Hd2/commercial/age/witage2006.dat'</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS93aXRhZ2UyMDA3LmRhdCdcIlxuIn0= -->
+<pre><code>[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/witage2007.dat'&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiaW5jb21wbGV0ZSBmaW5hbCBsaW5lIGZvdW5kIG9uICcvL0RGTkJFMUN3cEZTUDAwMi9IZDIvY29tbWVyY2lhbC9hZ2Uvd2l0YWdlMjAwNy5kYXQnXG4ifQ== -->
+<pre><code>incomplete final line found on '//DFNBE1CwpFSP002/Hd2/commercial/age/witage2007.dat'</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS93aXRhZ2UyMDA4LmRhdCdcIlxuIn0= -->
+<pre><code>[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/witage2008.dat'&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiaW5jb21wbGV0ZSBmaW5hbCBsaW5lIGZvdW5kIG9uICcvL0RGTkJFMUN3cEZTUDAwMi9IZDIvY29tbWVyY2lhbC9hZ2Uvd2l0YWdlMjAwOC5kYXQnXG4ifQ== -->
+<pre><code>incomplete final line found on '//DFNBE1CwpFSP002/Hd2/commercial/age/witage2008.dat'</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS93aXRhZ2UyMDA5LmRhdCdcIlxuIn0= -->
+<pre><code>[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/witage2009.dat'&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiaW5jb21wbGV0ZSBmaW5hbCBsaW5lIGZvdW5kIG9uICcvL0RGTkJFMUN3cEZTUDAwMi9IZDIvY29tbWVyY2lhbC9hZ2Uvd2l0YWdlMjAwOS5kYXQnXG4ifQ== -->
+<pre><code>incomplete final line found on '//DFNBE1CwpFSP002/Hd2/commercial/age/witage2009.dat'</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS93aXRhZ2UyMDEwLmRhdCdcIlxuWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS93aXRhZ2UyMDExLmRhdCdcIlxuIn0= -->
+<pre><code>[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/witage2010.dat'&quot;
+[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/witage2011.dat'&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiaW5jb21wbGV0ZSBmaW5hbCBsaW5lIGZvdW5kIG9uICcvL0RGTkJFMUN3cEZTUDAwMi9IZDIvY29tbWVyY2lhbC9hZ2Uvd2l0YWdlMjAxMS5kYXQnXG4ifQ== -->
+<pre><code>incomplete final line found on '//DFNBE1CwpFSP002/Hd2/commercial/age/witage2011.dat'</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS93aXRhZ2UyMDEyLmRhdCdcIlxuWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS93aXRhZ2UyMDEzLmRhdCdcIlxuWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS93aXRhZ2UyMDE0LmRhdCdcIlxuIn0= -->
+<pre><code>[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/witage2012.dat'&quot;
+[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/witage2013.dat'&quot;
+[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/witage2014.dat'&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiaW5jb21wbGV0ZSBmaW5hbCBsaW5lIGZvdW5kIG9uICcvL0RGTkJFMUN3cEZTUDAwMi9IZDIvY29tbWVyY2lhbC9hZ2Uvd2l0YWdlMjAxNC5kYXQnXG4ifQ== -->
+<pre><code>incomplete final line found on '//DFNBE1CwpFSP002/Hd2/commercial/age/witage2014.dat'</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS93aXRhZ2UyMDE1LmRhdCdcIlxuIn0= -->
+<pre><code>[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/witage2015.dat'&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiaW5jb21wbGV0ZSBmaW5hbCBsaW5lIGZvdW5kIG9uICcvL0RGTkJFMUN3cEZTUDAwMi9IZDIvY29tbWVyY2lhbC9hZ2Uvd2l0YWdlMjAxNS5kYXQnXG4ifQ== -->
+<pre><code>incomplete final line found on '//DFNBE1CwpFSP002/Hd2/commercial/age/witage2015.dat'</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS93aXRhZ2UyMDE2LmRhdCdcIlxuIn0= -->
+<pre><code>[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/witage2016.dat'&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubC40dCA8LSB3aGljaChzdWJzdHJpbmcoeS5jJG5hZm8uZGl2aXNpb24sMSwyKSAlaW4lIGMoXCI0UlwiLFwiNFNcIixcIjRUXCIpKSAjIyBrZWVwIG9ubHkgb3RvbGl0aHMgY29sbGVjdGVkIGluIE5BRk8gNFJTVFxuY29tbS5kZiA8LSBhZ2dyZWdhdGUob3RvbGl0aC5udW1iZXJ+eWVhcittb250aCwgZGF0YT15LmNbbC40dCxdLCBsZW5ndGgpXG5uYW1lcyhjb21tLmRmKSA8LSBjKFwieWVhcl9hbm7DqWVcIiwgXCJtb250aF9tb2lzXCIsIFwibnVtYmVyLm90b2xpdGhzX25vbWJyZS5vdG9saXRoZXNcIilcbmNvbW0uZGYkc291cmNlIDwtIFwiQ29tbWVyY2lhbFwiXG5vdXQuZGYgPC0gcmJpbmQocnYuZGYsIGNvbW0uZGYpXG5vdXQuZGYkbGF0aW4ubmFtZV9ub20ubGF0aW4gPC0gXCJHbHlwdG9jZXBoYWx1cyBjeW5vZ2xvc3N1c1wiXG5vdXQuZGYkZW5nbGlzaC5uYW1lX25vbS5hbmdsYWlzIDwtIFwiV2l0Y2ggRmxvdW5kZXJcIlxub3V0LmRmJGZyZW5jaC5uYW1lX25vbS5mcmFuw6dhaXMgPC0gXCJQbGllIEdyaXNlXCJcbnZhcnMgPC0gYyhcInNvdXJjZVwiLCBcImxhdGluLm5hbWVfbm9tLmxhdGluXCIsIFwiZW5nbGlzaC5uYW1lX25vbS5hbmdsYWlzXCIsIFwiZnJlbmNoLm5hbWVfbm9tLmZyYW7Dp2Fpc1wiLCBcInllYXJfYW5uw6llXCIsXCJtb250aF9tb2lzXCIsXCJudW1iZXIub3RvbGl0aHNfbm9tYnJlLm90b2xpdGhlc1wiKVxubzEgPC0gb3JkZXIob3V0LmRmJHNvdXJjZSwgb3V0LmRmJHllYXJfYW5uw6llLCBvdXQuZGYkbW9udGhfbW9pcylcbm91dC5mbiA8LSBcIi4vTkFGTy00UlNULVdpdGNoLUZsb3VuZGVyLWFnZXMuY3N2XCJcbndyaXRlLmNzdihvdXQuZGZbbzEsdmFyc10sIGZpbGU9b3V0LmZuLCByb3cubmFtZXMgPSBGQUxTRSlcbmBgYCJ9 -->
+<pre class="r"><code>l.4t &lt;- which(substring(y.c$nafo.division,1,2) %in% c(&quot;4R&quot;,&quot;4S&quot;,&quot;4T&quot;)) ## keep only otoliths collected in NAFO 4RST
+comm.df &lt;- aggregate(otolith.number~year+month, data=y.c[l.4t,], length)
+names(comm.df) &lt;- c(&quot;year_année&quot;, &quot;month_mois&quot;, &quot;number.otoliths_nombre.otolithes&quot;)
+comm.df$source &lt;- &quot;Commercial&quot;
+out.df &lt;- rbind(rv.df, comm.df)
 out.df$latin.name_nom.latin &lt;- &quot;Glyptocephalus cynoglossus&quot;
 out.df$english.name_nom.anglais &lt;- &quot;Witch Flounder&quot;
 out.df$french.name_nom.français &lt;- &quot;Plie Grise&quot;
 vars &lt;- c(&quot;source&quot;, &quot;latin.name_nom.latin&quot;, &quot;english.name_nom.anglais&quot;, &quot;french.name_nom.français&quot;, &quot;year_année&quot;,&quot;month_mois&quot;,&quot;number.otoliths_nombre.otolithes&quot;)
 o1 &lt;- order(out.df$source, out.df$year_année, out.df$month_mois)
-out.fn &lt;- &quot;./NAFO-4T-Witch-Flounder-ages.csv&quot;
+out.fn &lt;- &quot;./NAFO-4RST-Witch-Flounder-ages.csv&quot;
 write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE)</code></pre>
 <!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
@@ -349,13 +560,26 @@ write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE)</code></pre>
 <p>Otoliths from the September RV survey, from other surveys, from sentinel programs and from commercial fisheries.</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuIyMgUlYgZGF0YVxueSA8LSBydiRiaW9bd2hpY2gocnYkYmlvJHNwZWNpZXMgPT00MiksXVxucnYuZGYgPC0gYWdncmVnYXRlKGZpc2gubnVtYmVyfnllYXIrbW9udGgsIGRhdGE9eVt3aGljaCh5JGFnZS5tYXRlcmlhbD09MSksXSwgbGVuZ3RoKVxucnYuZGYkc291cmNlIDwtIFwiUlZcIlxubmFtZXMocnYuZGYpIDwtIGMoXCJ5ZWFyX2FubsOpZVwiLCBcIm1vbnRoX21vaXNcIiwgXCJudW1iZXIub3RvbGl0aHNfbm9tYnJlLm90b2xpdGhlc1wiLCBcInNvdXJjZVwiKVxub3V0LmRmIDwtIHJiaW5kKHJ2LmRmKSMsIGNvbW0uZGYpXG5vdXQuZGYkbGF0aW4ubmFtZV9ub20ubGF0aW4gPC0gXCJMaW1hbmRhIGZlcnJ1Z2luZWFcIlxub3V0LmRmJGVuZ2xpc2gubmFtZV9ub20uYW5nbGFpcyA8LSBcIlllbGxvd3RhaWwgRmxvdW5kZXJcIlxub3V0LmRmJGZyZW5jaC5uYW1lX25vbS5mcmFuw6dhaXMgPC0gXCJMaW1hbmRlIMOgIHF1ZXVlIGphdW5lXCJcbnZhcnMgPC0gYyhcInNvdXJjZVwiLCBcImxhdGluLm5hbWVfbm9tLmxhdGluXCIsIFwiZW5nbGlzaC5uYW1lX25vbS5hbmdsYWlzXCIsIFwiZnJlbmNoLm5hbWVfbm9tLmZyYW7Dp2Fpc1wiLCBcInllYXJfYW5uw6llXCIsXCJtb250aF9tb2lzXCIsXCJudW1iZXIub3RvbGl0aHNfbm9tYnJlLm90b2xpdGhlc1wiKVxubzEgPC0gb3JkZXIob3V0LmRmJHNvdXJjZSwgb3V0LmRmJHllYXJfYW5uw6llLCBvdXQuZGYkbW9udGhfbW9pcylcbm91dC5mbiA8LSBcIi4vTkFGTy00VC1ZZWxsb3d0YWlsLUZsb3VuZGVyLWFnZXMuY3N2XCJcbndyaXRlLmNzdihvdXQuZGZbbzEsdmFyc10sIGZpbGU9b3V0LmZuLCByb3cubmFtZXMgPSBGQUxTRSlcbmBgYCJ9 -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuIyMgUlYgZGF0YVxueSA8LSBydiRiaW9bd2hpY2gocnYkYmlvJHNwZWNpZXMgPT00MiksXVxucnYuZGYgPC0gYWdncmVnYXRlKGZpc2gubnVtYmVyfnllYXIrbW9udGgsIGRhdGE9eVt3aGljaCh5JGFnZS5tYXRlcmlhbD09MSksXSwgbGVuZ3RoKVxucnYuZGYkc291cmNlIDwtIFwiUlZcIlxubmFtZXMocnYuZGYpIDwtIGMoXCJ5ZWFyX2FubsOpZVwiLCBcIm1vbnRoX21vaXNcIiwgXCJudW1iZXIub3RvbGl0aHNfbm9tYnJlLm90b2xpdGhlc1wiLCBcInNvdXJjZVwiKVxuIyMgY29tbWVyY2lhbCBkYXRhXG4jIyB3aGF0IHllYXJzIGFyZSBhdmFpbGFibGUgZm9yIGNvbW1lcmNpYWwgYWdlcz9cbiMjIGNvbS5maWxlcyA8LSBsaXN0LmZpbGVzKHBhdGg9XCIvL0RGTkJFMUN3cEZTUDAwMi9IZDIvY29tbWVyY2lhbC9hZ2VcIiwgcGF0dGVybj1cIndmYWdlXCIpXG55LmMgPC0gZ3VsZjo6cmVhZC5jYXJkKHllYXI9MTk4Miwgc2FtcGxpbmc9XCJjb21tZXJjaWFsXCIsIHNwZWNpZXM9NDIsIGNhcmQudHlwZT1cImFnZVwiKSAjIyB0aGlzIGxvYWRzIGFsbCBwcmUtMTk4MiBjb21tZXJjaWFsIGFnZXNcbmBgYCJ9 -->
 <pre class="r"><code>## RV data
 y &lt;- rv$bio[which(rv$bio$species ==42),]
 rv.df &lt;- aggregate(fish.number~year+month, data=y[which(y$age.material==1),], length)
 rv.df$source &lt;- &quot;RV&quot;
 names(rv.df) &lt;- c(&quot;year_année&quot;, &quot;month_mois&quot;, &quot;number.otoliths_nombre.otolithes&quot;, &quot;source&quot;)
-out.df &lt;- rbind(rv.df)#, comm.df)
+## commercial data
+## what years are available for commercial ages?
+## com.files &lt;- list.files(path=&quot;//DFNBE1CwpFSP002/Hd2/commercial/age&quot;, pattern=&quot;wfage&quot;)
+y.c &lt;- gulf::read.card(year=1982, sampling=&quot;commercial&quot;, species=42, card.type=&quot;age&quot;) ## this loads all pre-1982 commercial ages</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS95ZWxhZ2U0ODgyLmRhdCdcIlxuIn0= -->
+<pre><code>[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/yelage4882.dat'&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubC40dCA8LSB3aGljaChzdWJzdHJpbmcoeS5jJG5hZm8uZGl2aXNpb24sMSwyKT09XCI0VFwiKSAjIyBrZWVwIG9ubHkgb3RvbGl0aHMgY29sbGVjdGVkIGluIE5BRk8gNFRcbmNvbW0uZGYgPC0gYWdncmVnYXRlKG90b2xpdGgubnVtYmVyfnllYXIrbW9udGgsIGRhdGE9eS5jW2wuNHQsXSwgbGVuZ3RoKVxubmFtZXMoY29tbS5kZikgPC0gYyhcInllYXJfYW5uw6llXCIsIFwibW9udGhfbW9pc1wiLCBcIm51bWJlci5vdG9saXRoc19ub21icmUub3RvbGl0aGVzXCIpXG5jb21tLmRmJHNvdXJjZSA8LSBcIkNvbW1lcmNpYWxcIlxub3V0LmRmIDwtIHJiaW5kKHJ2LmRmLCBjb21tLmRmKVxub3V0LmRmJGxhdGluLm5hbWVfbm9tLmxhdGluIDwtIFwiTGltYW5kYSBmZXJydWdpbmVhXCJcbm91dC5kZiRlbmdsaXNoLm5hbWVfbm9tLmFuZ2xhaXMgPC0gXCJZZWxsb3d0YWlsIEZsb3VuZGVyXCJcbm91dC5kZiRmcmVuY2gubmFtZV9ub20uZnJhbsOnYWlzIDwtIFwiTGltYW5kZSDDoCBxdWV1ZSBqYXVuZVwiXG52YXJzIDwtIGMoXCJzb3VyY2VcIiwgXCJsYXRpbi5uYW1lX25vbS5sYXRpblwiLCBcImVuZ2xpc2gubmFtZV9ub20uYW5nbGFpc1wiLCBcImZyZW5jaC5uYW1lX25vbS5mcmFuw6dhaXNcIiwgXCJ5ZWFyX2FubsOpZVwiLFwibW9udGhfbW9pc1wiLFwibnVtYmVyLm90b2xpdGhzX25vbWJyZS5vdG9saXRoZXNcIilcbm8xIDwtIG9yZGVyKG91dC5kZiRzb3VyY2UsIG91dC5kZiR5ZWFyX2FubsOpZSwgb3V0LmRmJG1vbnRoX21vaXMpXG5vdXQuZm4gPC0gXCIuL05BRk8tNFQtWWVsbG93dGFpbC1GbG91bmRlci1hZ2VzLmNzdlwiXG53cml0ZS5jc3Yob3V0LmRmW28xLHZhcnNdLCBmaWxlPW91dC5mbiwgcm93Lm5hbWVzID0gRkFMU0UpXG5gYGAifQ== -->
+<pre class="r"><code>l.4t &lt;- which(substring(y.c$nafo.division,1,2)==&quot;4T&quot;) ## keep only otoliths collected in NAFO 4T
+comm.df &lt;- aggregate(otolith.number~year+month, data=y.c[l.4t,], length)
+names(comm.df) &lt;- c(&quot;year_année&quot;, &quot;month_mois&quot;, &quot;number.otoliths_nombre.otolithes&quot;)
+comm.df$source &lt;- &quot;Commercial&quot;
+out.df &lt;- rbind(rv.df, comm.df)
 out.df$latin.name_nom.latin &lt;- &quot;Limanda ferruginea&quot;
 out.df$english.name_nom.anglais &lt;- &quot;Yellowtail Flounder&quot;
 out.df$french.name_nom.français &lt;- &quot;Limande à queue jaune&quot;
@@ -372,13 +596,51 @@ write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE)</code></pre>
 <p>Otoliths from the September RV survey, from other surveys, from sentinel programs and from commercial fisheries.</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuIyMgUlYgZGF0YVxueSA8LSBydiRiaW9bd2hpY2gocnYkYmlvJHNwZWNpZXMgPT00MyksXVxucnYuZGYgPC0gYWdncmVnYXRlKGZpc2gubnVtYmVyfnllYXIrbW9udGgsIGRhdGE9eVt3aGljaCh5JGFnZS5tYXRlcmlhbD09MSksXSwgbGVuZ3RoKVxucnYuZGYkc291cmNlIDwtIFwiUlZcIlxubmFtZXMocnYuZGYpIDwtIGMoXCJ5ZWFyX2FubsOpZVwiLCBcIm1vbnRoX21vaXNcIiwgXCJudW1iZXIub3RvbGl0aHNfbm9tYnJlLm90b2xpdGhlc1wiLCBcInNvdXJjZVwiKVxub3V0LmRmIDwtIHJiaW5kKHJ2LmRmKSMsIGNvbW0uZGYpXG5vdXQuZGYkbGF0aW4ubmFtZV9ub20ubGF0aW4gPC0gXCJQc2V1ZG9wbGV1cm9uZWN0ZXMgYW1lcmljYW51c1wiXG5vdXQuZGYkZW5nbGlzaC5uYW1lX25vbS5hbmdsYWlzIDwtIFwiV2ludGVyIEZsb3VuZGVyXCJcbm91dC5kZiRmcmVuY2gubmFtZV9ub20uZnJhbsOnYWlzIDwtIFwiUGxpZSBSb3VnZVwiXG52YXJzIDwtIGMoXCJzb3VyY2VcIiwgXCJsYXRpbi5uYW1lX25vbS5sYXRpblwiLCBcImVuZ2xpc2gubmFtZV9ub20uYW5nbGFpc1wiLCBcImZyZW5jaC5uYW1lX25vbS5mcmFuw6dhaXNcIiwgXCJ5ZWFyX2FubsOpZVwiLFwibW9udGhfbW9pc1wiLFwibnVtYmVyLm90b2xpdGhzX25vbWJyZS5vdG9saXRoZXNcIilcbm8xIDwtIG9yZGVyKG91dC5kZiRzb3VyY2UsIG91dC5kZiR5ZWFyX2FubsOpZSwgb3V0LmRmJG1vbnRoX21vaXMpXG5vdXQuZm4gPC0gXCIuL05BRk8tNFQtV2ludGVyLUZsb3VuZGVyLWFnZXMuY3N2XCJcbndyaXRlLmNzdihvdXQuZGZbbzEsdmFyc10sIGZpbGU9b3V0LmZuLCByb3cubmFtZXMgPSBGQUxTRSlcbmBgYCJ9 -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuIyMgUlYgZGF0YVxueSA8LSBydiRiaW9bd2hpY2gocnYkYmlvJHNwZWNpZXMgPT00MyksXVxucnYuZGYgPC0gYWdncmVnYXRlKGZpc2gubnVtYmVyfnllYXIrbW9udGgsIGRhdGE9eVt3aGljaCh5JGFnZS5tYXRlcmlhbD09MSksXSwgbGVuZ3RoKVxucnYuZGYkc291cmNlIDwtIFwiUlZcIlxubmFtZXMocnYuZGYpIDwtIGMoXCJ5ZWFyX2FubsOpZVwiLCBcIm1vbnRoX21vaXNcIiwgXCJudW1iZXIub3RvbGl0aHNfbm9tYnJlLm90b2xpdGhlc1wiLCBcInNvdXJjZVwiKVxuIyMgY29tbWVyY2lhbCBkYXRhXG4jIyB3aGF0IHllYXJzIGFyZSBhdmFpbGFibGUgZm9yIGNvbW1lcmNpYWwgYWdlcz9cbiMjIGNvbS5maWxlcyA8LSBsaXN0LmZpbGVzKHBhdGg9XCIvL0RGTkJFMUN3cEZTUDAwMi9IZDIvY29tbWVyY2lhbC9hZ2VcIiwgcGF0dGVybj1cIndmYWdlXCIpXG55LmMgPC0gZ3VsZjo6cmVhZC5jYXJkKHllYXI9MTk5MCwgc2FtcGxpbmc9XCJjb21tZXJjaWFsXCIsIHNwZWNpZXM9NDMsIGNhcmQudHlwZT1cImFnZVwiKSAjIyB0aGlzIGxvYWRzIGFsbCBwcmUtMTk4MiBjb21tZXJjaWFsIGFnZXNcbmBgYCJ9 -->
 <pre class="r"><code>## RV data
 y &lt;- rv$bio[which(rv$bio$species ==43),]
 rv.df &lt;- aggregate(fish.number~year+month, data=y[which(y$age.material==1),], length)
 rv.df$source &lt;- &quot;RV&quot;
 names(rv.df) &lt;- c(&quot;year_année&quot;, &quot;month_mois&quot;, &quot;number.otoliths_nombre.otolithes&quot;, &quot;source&quot;)
-out.df &lt;- rbind(rv.df)#, comm.df)
+## commercial data
+## what years are available for commercial ages?
+## com.files &lt;- list.files(path=&quot;//DFNBE1CwpFSP002/Hd2/commercial/age&quot;, pattern=&quot;wfage&quot;)
+y.c &lt;- gulf::read.card(year=1990, sampling=&quot;commercial&quot;, species=43, card.type=&quot;age&quot;) ## this loads all pre-1982 commercial ages</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS93ZmFnZTE5OTAuZGF0J1wiXG4ifQ== -->
+<pre><code>[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/wfage1990.dat'&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZm9yKHl5IGluIGMoMTk5MSwxOTkyLDE5OTMsMjAxMiwyMDE0LDIwMTUsMjAxNikpeyAjIyBsb29wIG92ZXIgeWVhcnNcbnQuYyA8LSBndWxmOjpyZWFkLmNhcmQoeWVhcj15eSwgc2FtcGxpbmc9XCJjb21tZXJjaWFsXCIsIHNwZWNpZXM9NDMsIGNhcmQudHlwZT1cImFnZVwiKVxueS5jIDwtIHJiaW5kKHkuYyx0LmMpXG59XG5gYGAifQ== -->
+<pre class="r"><code>for(yy in c(1991,1992,1993,2012,2014,2015,2016)){ ## loop over years
+t.c &lt;- gulf::read.card(year=yy, sampling=&quot;commercial&quot;, species=43, card.type=&quot;age&quot;)
+y.c &lt;- rbind(y.c,t.c)
+}</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS93ZmFnZTE5OTEuZGF0J1wiXG5bMV0gXCJSZWFkaW5nOiAnLy9ERk5CRTFDd3BGU1AwMDIvSGQyL2NvbW1lcmNpYWwvYWdlL3dmYWdlMTk5Mi5kYXQnXCJcblsxXSBcIlJlYWRpbmc6ICcvL0RGTkJFMUN3cEZTUDAwMi9IZDIvY29tbWVyY2lhbC9hZ2Uvd2ZhZ2UxOTkzLmRhdCdcIlxuWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS93ZmFnZTIwMTIuZGF0J1wiXG5bMV0gXCJSZWFkaW5nOiAnLy9ERk5CRTFDd3BGU1AwMDIvSGQyL2NvbW1lcmNpYWwvYWdlL3dmYWdlMjAxNC5kYXQnXCJcbiJ9 -->
+<pre><code>[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/wfage1991.dat'&quot;
+[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/wfage1992.dat'&quot;
+[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/wfage1993.dat'&quot;
+[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/wfage2012.dat'&quot;
+[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/wfage2014.dat'&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiaW5jb21wbGV0ZSBmaW5hbCBsaW5lIGZvdW5kIG9uICcvL0RGTkJFMUN3cEZTUDAwMi9IZDIvY29tbWVyY2lhbC9hZ2Uvd2ZhZ2UyMDE0LmRhdCdcbiJ9 -->
+<pre><code>incomplete final line found on '//DFNBE1CwpFSP002/Hd2/commercial/age/wfage2014.dat'</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS93ZmFnZTIwMTUuZGF0J1wiXG4ifQ== -->
+<pre><code>[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/wfage2015.dat'&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiaW5jb21wbGV0ZSBmaW5hbCBsaW5lIGZvdW5kIG9uICcvL0RGTkJFMUN3cEZTUDAwMi9IZDIvY29tbWVyY2lhbC9hZ2Uvd2ZhZ2UyMDE1LmRhdCcnbWludXRlcycgYXJndW1lbnQgbXVzdCBsaWUgYmV0d2VlbiAwIGFuZCA2MC4nbWludXRlcycgYXJndW1lbnQgbXVzdCBsaWUgYmV0d2VlbiAwIGFuZCA2MC5cbiJ9 -->
+<pre><code>incomplete final line found on '//DFNBE1CwpFSP002/Hd2/commercial/age/wfage2015.dat''minutes' argument must lie between 0 and 60.'minutes' argument must lie between 0 and 60.</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiUmVhZGluZzogJy8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZS93ZmFnZTIwMTYuZGF0J1wiXG4ifQ== -->
+<pre><code>[1] &quot;Reading: '//DFNBE1CwpFSP002/Hd2/commercial/age/wfage2016.dat'&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubC40dCA8LSB3aGljaChzdWJzdHJpbmcoeS5jJG5hZm8uZGl2aXNpb24sMSwyKT09XCI0VFwiKSAjIyBrZWVwIG9ubHkgb3RvbGl0aHMgY29sbGVjdGVkIGluIE5BRk8gNFRcbmNvbW0uZGYgPC0gYWdncmVnYXRlKG90b2xpdGgubnVtYmVyfnllYXIrbW9udGgsIGRhdGE9eS5jW2wuNHQsXSwgbGVuZ3RoKVxubmFtZXMoY29tbS5kZikgPC0gYyhcInllYXJfYW5uw6llXCIsIFwibW9udGhfbW9pc1wiLCBcIm51bWJlci5vdG9saXRoc19ub21icmUub3RvbGl0aGVzXCIpXG5jb21tLmRmJHNvdXJjZSA8LSBcIkNvbW1lcmNpYWxcIlxub3V0LmRmIDwtIHJiaW5kKHJ2LmRmLCBjb21tLmRmKVxub3V0LmRmJGxhdGluLm5hbWVfbm9tLmxhdGluIDwtIFwiUHNldWRvcGxldXJvbmVjdGVzIGFtZXJpY2FudXNcIlxub3V0LmRmJGVuZ2xpc2gubmFtZV9ub20uYW5nbGFpcyA8LSBcIldpbnRlciBGbG91bmRlclwiXG5vdXQuZGYkZnJlbmNoLm5hbWVfbm9tLmZyYW7Dp2FpcyA8LSBcIlBsaWUgUm91Z2VcIlxudmFycyA8LSBjKFwic291cmNlXCIsIFwibGF0aW4ubmFtZV9ub20ubGF0aW5cIiwgXCJlbmdsaXNoLm5hbWVfbm9tLmFuZ2xhaXNcIiwgXCJmcmVuY2gubmFtZV9ub20uZnJhbsOnYWlzXCIsIFwieWVhcl9hbm7DqWVcIixcIm1vbnRoX21vaXNcIixcIm51bWJlci5vdG9saXRoc19ub21icmUub3RvbGl0aGVzXCIpXG5vMSA8LSBvcmRlcihvdXQuZGYkc291cmNlLCBvdXQuZGYkeWVhcl9hbm7DqWUsIG91dC5kZiRtb250aF9tb2lzKVxub3V0LmZuIDwtIFwiLi9OQUZPLTRULVdpbnRlci1GbG91bmRlci1hZ2VzLmNzdlwiXG53cml0ZS5jc3Yob3V0LmRmW28xLHZhcnNdLCBmaWxlPW91dC5mbiwgcm93Lm5hbWVzID0gRkFMU0UpXG5gYGAifQ== -->
+<pre class="r"><code>l.4t &lt;- which(substring(y.c$nafo.division,1,2)==&quot;4T&quot;) ## keep only otoliths collected in NAFO 4T
+comm.df &lt;- aggregate(otolith.number~year+month, data=y.c[l.4t,], length)
+names(comm.df) &lt;- c(&quot;year_année&quot;, &quot;month_mois&quot;, &quot;number.otoliths_nombre.otolithes&quot;)
+comm.df$source &lt;- &quot;Commercial&quot;
+out.df &lt;- rbind(rv.df, comm.df)
 out.df$latin.name_nom.latin &lt;- &quot;Pseudopleuronectes americanus&quot;
 out.df$english.name_nom.anglais &lt;- &quot;Winter Flounder&quot;
 out.df$french.name_nom.français &lt;- &quot;Plie Rouge&quot;
@@ -399,7 +661,7 @@ write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE)</code></pre>
 <!-- rnb-text-end -->
 </div>
 
-<div id="rmd-source-code">LS0tDQp0aXRsZTogIkd1bGYgRmlzaGVyaWVzIENlbnRyZSBBZ2VpbmcgU3RydWN0dXJlcyBjb2xsZWN0aW9uIg0Kb3V0cHV0OiBodG1sX25vdGVib29rDQotLS0NCg0KVGhlIEFnZWluZyBTdHJ1Y3R1cmVzIGNvbGxlY3Rpb24gaGVsZCBhdCB0aGUgR3VsZiBGaXNoZXJpZXMgQ2VudHJlIGNvbnNpc3RzIGluIFRlbGVvc3Qgc2FnZ2l0YWwgb3RvbGl0aHMgYW5kIENob25kcmljaHRoeWFuIHZlcnRlYnJhZS4gRm9yIGNlcnRhaW4gc3BlY2llcywgdGhlIHBoeXNpY2FsIHNwZWNpbWVucyBoZWxkIGluIHRoZSBjb2xsZWN0aW9uIGFyZSBvZnRlbiBhY2NvbXBhbmllZCB3aXRoIGRpZ2l0YWwgaW1hZ2VzLiBUaGUgaW5kaXZpZHVhbCBkZXRhaWxzIGFzc29jaWF0ZWQgd2l0aCBlYWNoIHN0cnVjdHVyZSBjb25zaXN0cyBpbiBjYXB0dXJlIGRhdGUgYW5kIGxvY2F0aW9uLCBsZW5ndGggb2YgaW5kaXZpZHVhbCBhbmQgdXN1YWxseSBpbmNsdWRlcyBhZGRpdGlvbmFsIHZhcmlhYmxlcyBzdWNoIGFzIHdlaWdodCBhbmQgbWF0dXJpdHkgc3RhdHVzLiANCg0KVGhlIHB1cnBvc2Ugb2YgdGhpcyBub3RlYm9vayBpcyB0byBmYWNpbGl0YXRlIHRoZSBnZW5lcmF0aW9uIGFuZCB1cGRhdGUgb2YgdGhlIEZHUCBkYXRhc2V0cyBhc3NvY2lhdGVkIHdpdGggdGhlIEFnZWluZyBTdHJ1Y3R1cmUgY29sbGVjdGlvbi4NCg0KYGBge3IgbG9hZGRhdGF9DQpsb2FkKCJDOi9Vc2Vycy9SaWNhcmREL0RvY3VtZW50cy9nY2NvZGUvZ3VsZi9kYXRhL3J2LnJkYSIpDQpgYGANCg0KIyMgRGF0YSBkaWN0aW9uYXJ5DQpgYGB7ciBkaWN0aW9uYXJ5fQ0KdmFycy5iaWxpbmd1YWwgPC0gYygic291cmNlIiwgImxhdGluLm5hbWVfbm9tLmxhdGluIiwgImVuZ2xpc2gubmFtZV9ub20uYW5nbGFpcyIsICJmcmVuY2gubmFtZV9ub20uZnJhbsOnYWlzIiwgInllYXJfYW5uw6llIiwibW9udGhfbW9pcyIsIm51bWJlci5vdG9saXRoc19ub21icmUub3RvbGl0aGVzIikNCg0KZGF0YS5kaWMgPC0gZGF0YS5mcmFtZSgNCiAgbmFtZV9ub20gPSB2YXJzLmJpbGluZ3VhbA0KICApDQpkYXRhLmRpYyRkZXNjcmlwdGlvbl9mciA8LSBjKCJTb3VyY2UgZGUgb3RvbGl0aGVzLCBwZXV0IHNvaXQgcHJvdmVuaXIgZHUgcmVsZXbDqSBwYXIgbmF2aXJlIGRlIHJlY2hlcmNoZSAoUmVzZWFyY2ggVmVzc2VsIChSVikpIG91IGQnw6ljaGFudGlsbG9ubmFnZSBkZXMgcMOqY2hlcyBjb21tZXJjaWFsZXMgKENvbW1lcmNpYWwpIiwgIk5vbSBsYXRpbiBkZSBsJ2VzcMOoY2UiLCAiTm9tIGFuZ2xhaXMgZGUgbCdlc3DDqGNlIiwgIk5vbSBmcmFuw6dhaXMgZGUgbCdlc3DDqGNlIiwgIkFubsOpZSBkJ8OpY2hhbnRpbGxvbm5hZ2UgZGVzIG90b2xpdGhlcyIsICJNb2lzIGQnw6ljaGFudGlsbG9ubmFnZSBkZXMgb3RvbGl0aGVzIiwgIk5vbWJyZSBkJ290b2xpdGhlcyBkYW5zIGxhIGNvbGxlY3Rpb24iKQ0KDQpkYXRhLmRpYyRkZXNjcmlwdGlvbl9lbiA8LSBjKCJTb3VyY2Ugb2Ygb3RvbGl0aHMsIGNhbiBiZSBlaXRoZXIgZnJvbSB0aGUgUmVzZWFyY2ggVmVzc2VsIChSVikgc3VydmV5IG9yIGZyb20gY29tbWVyY2lhbCBzYW1wbGluZyAoQ29tbWVyY2lhbCkiLCAiTGF0aW4gbmFtZSBvZiB0aGUgc3BlY2llcyIsICJFbmdsaXNoIG5hbWUgb2YgdGhlIHNwZWNpZXMiLCAiRnJlbmNoIG5hbWUgb2YgdGhlIHNwZWNpZXMiLCAiWWVhciB3aGVuIG90b2xpdGhzIHdlcmUgY29sbGVjdGVkIiwgIk1vbnRoIHdoZW4gb3RvbGl0aCB3ZXJlIGNvbGxlY3RlZCIsICJOdW1iZXIgb2Ygb3RvbGl0aHMgaW4gY29sbGVjdGlvbiIpDQoNCmRhdGEuZGljLmZuIDwtICJkYXRhLWRpY3Rpb25hcnkuY3N2Ig0Kd3JpdGUuY3N2KGRhdGEuZGljLCBmaWxlPWRhdGEuZGljLmZuLCByb3cubmFtZXMgPSBGQUxTRSkNCmBgYA0KDQoNCiMjIEF0bGFudGljIENvZA0KT3RvbGl0aHMgZnJvbSB0aGUgU2VwdGVtYmVyIFJWIHN1cnZleSwgZnJvbSBvdGhlciBzdXJ2ZXlzLCBmcm9tIHNlbnRpbmVsIHByb2dyYW1zIGFuZCBmcm9tIGNvbW1lcmNpYWwgZmlzaGVyaWVzLg0KYGBge3IgY29kfQ0KIyMgUlYgZGF0YQ0KeSA8LSBydiRiaW9bd2hpY2gocnYkYmlvJHNwZWNpZXMgPT0xMCksXQ0KcnYuZGYgPC0gYWdncmVnYXRlKGZpc2gubnVtYmVyfnllYXIrbW9udGgsIGRhdGE9eVt3aGljaCh5JGFnZS5tYXRlcmlhbD09MSksXSwgbGVuZ3RoKQ0KcnYuZGYkc291cmNlIDwtICJSViINCm5hbWVzKHJ2LmRmKSA8LSBjKCJ5ZWFyX2FubsOpZSIsICJtb250aF9tb2lzIiwgIm51bWJlci5vdG9saXRoc19ub21icmUub3RvbGl0aGVzIiwic291cmNlIikNCg0Kb3V0LmRmIDwtIHJiaW5kKHJ2LmRmKSMsIGNvbW0uZGYpDQpvdXQuZGYkbGF0aW4ubmFtZV9ub20ubGF0aW4gPC0gIkdhZHVzIG1vcmh1YSINCm91dC5kZiRlbmdsaXNoLm5hbWVfbm9tLmFuZ2xhaXMgPC0gIkF0bGFudGljIENvZCINCm91dC5kZiRmcmVuY2gubmFtZV9ub20uZnJhbsOnYWlzIDwtICJNb3J1ZSBmcmFuY2hlIg0KDQp2YXJzIDwtIGMoInNvdXJjZSIsICJsYXRpbi5uYW1lX25vbS5sYXRpbiIsICJlbmdsaXNoLm5hbWVfbm9tLmFuZ2xhaXMiLCAiZnJlbmNoLm5hbWVfbm9tLmZyYW7Dp2FpcyIsICJ5ZWFyX2FubsOpZSIsIm1vbnRoX21vaXMiLCJudW1iZXIub3RvbGl0aHNfbm9tYnJlLm90b2xpdGhlcyIpDQpvMSA8LSBvcmRlcihvdXQuZGYkc291cmNlLCBvdXQuZGYkeWVhcl9hbm7DqWUsIG91dC5kZiRtb250aF9tb2lzKQ0KDQpvdXQuZm4gPC0gIi4vTkFGTy00VC1BdGxhbnRpYy1Db2QtYWdlcy5jc3YiDQp3cml0ZS5jc3Yob3V0LmRmW28xLHZhcnNdLCBmaWxlPW91dC5mbiwgcm93Lm5hbWVzID0gRkFMU0UpDQoNCmBgYA0KDQoNCiMjIFdoaXRlIEhha2UNCk90b2xpdGhzIGZyb20gdGhlIFNlcHRlbWJlciBSViBzdXJ2ZXksIGZyb20gb3RoZXIgc3VydmV5cywgZnJvbSBzZW50aW5lbCBwcm9ncmFtcyBhbmQgZnJvbSBjb21tZXJjaWFsIGZpc2hlcmllcy4NCmBgYHtyIGhha2V9DQojIyBSViBkYXRhDQp5IDwtIHJ2JGJpb1t3aGljaChydiRiaW8kc3BlY2llcyA9PTEyKSxdDQpydi5kZiA8LSBhZ2dyZWdhdGUoZmlzaC5udW1iZXJ+eWVhcittb250aCwgZGF0YT15W3doaWNoKHkkYWdlLm1hdGVyaWFsPT0xKSxdLCBsZW5ndGgpDQpydi5kZiRzb3VyY2UgPC0gIlJWIg0KbmFtZXMocnYuZGYpIDwtIGMoInllYXJfYW5uw6llIiwgIm1vbnRoX21vaXMiLCAibnVtYmVyLm90b2xpdGhzX25vbWJyZS5vdG9saXRoZXMiLCAic291cmNlIikNCg0Kb3V0LmRmIDwtIHJiaW5kKHJ2LmRmKSMsIGNvbW0uZGYpDQpvdXQuZGYkbGF0aW4ubmFtZV9ub20ubGF0aW4gPC0gIlVyb3BoeWNpcyB0ZW51aXMiDQpvdXQuZGYkZW5nbGlzaC5uYW1lX25vbS5hbmdsYWlzIDwtICJXaGl0ZSBIYWtlIg0Kb3V0LmRmJGZyZW5jaC5uYW1lX25vbS5mcmFuw6dhaXMgPC0gIk1lcmx1Y2hlIGJsYW5jaGUiDQoNCnZhcnMgPC0gYygic291cmNlIiwgImxhdGluLm5hbWVfbm9tLmxhdGluIiwgImVuZ2xpc2gubmFtZV9ub20uYW5nbGFpcyIsICJmcmVuY2gubmFtZV9ub20uZnJhbsOnYWlzIiwgInllYXJfYW5uw6llIiwibW9udGhfbW9pcyIsIm51bWJlci5vdG9saXRoc19ub21icmUub3RvbGl0aGVzIikNCm8xIDwtIG9yZGVyKG91dC5kZiRzb3VyY2UsIG91dC5kZiR5ZWFyX2FubsOpZSwgb3V0LmRmJG1vbnRoX21vaXMpDQoNCm91dC5mbiA8LSAiLi9OQUZPLTRULVdoaXRlLUhha2UtYWdlcy5jc3YiDQp3cml0ZS5jc3Yob3V0LmRmW28xLHZhcnNdLCBmaWxlPW91dC5mbiwgcm93Lm5hbWVzID0gRkFMU0UpDQoNCmBgYA0KDQojIyBBbWVyaWNhbiBQbGFpY2UNCk90b2xpdGhzIGZyb20gdGhlIFNlcHRlbWJlciBSViBzdXJ2ZXksIGZyb20gb3RoZXIgc3VydmV5cywgZnJvbSBzZW50aW5lbCBwcm9ncmFtcyBhbmQgZnJvbSBjb21tZXJjaWFsIGZpc2hlcmllcy4NCmBgYHtyIHBsYWljZX0NCiMjIFJWIGRhdGENCnkgPC0gcnYkYmlvW3doaWNoKHJ2JGJpbyRzcGVjaWVzID09NDApLF0NCnJ2LmRmIDwtIGFnZ3JlZ2F0ZShmaXNoLm51bWJlcn55ZWFyK21vbnRoLCBkYXRhPXlbd2hpY2goeSRhZ2UubWF0ZXJpYWw9PTEpLF0sIGxlbmd0aCkNCnJ2LmRmJHNvdXJjZSA8LSAiUlYiDQpuYW1lcyhydi5kZikgPC0gYygieWVhcl9hbm7DqWUiLCAibW9udGhfbW9pcyIsICJudW1iZXIub3RvbGl0aHNfbm9tYnJlLm90b2xpdGhlcyIsICJzb3VyY2UiKQ0KDQpvdXQuZGYgPC0gcmJpbmQocnYuZGYpIywgY29tbS5kZikNCm91dC5kZiRsYXRpbi5uYW1lX25vbS5sYXRpbiA8LSAiSGlwcG9nbG9zc29pZGVzIHBsYXRlc3NvaWRlcyINCm91dC5kZiRlbmdsaXNoLm5hbWVfbm9tLmFuZ2xhaXMgPC0gIkFtZXJpY2FuIFBsYWljZSINCm91dC5kZiRmcmVuY2gubmFtZV9ub20uZnJhbsOnYWlzIDwtICJQbGllIENhbmFkaWVubmUiDQoNCnZhcnMgPC0gYygic291cmNlIiwgImxhdGluLm5hbWVfbm9tLmxhdGluIiwgImVuZ2xpc2gubmFtZV9ub20uYW5nbGFpcyIsICJmcmVuY2gubmFtZV9ub20uZnJhbsOnYWlzIiwgInllYXJfYW5uw6llIiwibW9udGhfbW9pcyIsIm51bWJlci5vdG9saXRoc19ub21icmUub3RvbGl0aGVzIikNCm8xIDwtIG9yZGVyKG91dC5kZiRzb3VyY2UsIG91dC5kZiR5ZWFyX2FubsOpZSwgb3V0LmRmJG1vbnRoX21vaXMpDQoNCm91dC5mbiA8LSAiLi9OQUZPLTRULUFtZXJpY2FuLVBsYWljZS1hZ2VzLmNzdiINCndyaXRlLmNzdihvdXQuZGZbbzEsdmFyc10sIGZpbGU9b3V0LmZuLCByb3cubmFtZXMgPSBGQUxTRSkNCg0KYGBgDQoNCiMjIFdpdGNoIEZsb3VuZGVyDQpPdG9saXRocyBmcm9tIHRoZSBTZXB0ZW1iZXIgUlYgc3VydmV5LCBmcm9tIG90aGVyIHN1cnZleXMsIGZyb20gc2VudGluZWwgcHJvZ3JhbXMgYW5kIGZyb20gY29tbWVyY2lhbCBmaXNoZXJpZXMuDQpgYGB7ciB3aXRjaH0NCiMjIFJWIGRhdGENCnkgPC0gcnYkYmlvW3doaWNoKHJ2JGJpbyRzcGVjaWVzID09NDEpLF0NCnJ2LmRmIDwtIGFnZ3JlZ2F0ZShmaXNoLm51bWJlcn55ZWFyK21vbnRoLCBkYXRhPXlbd2hpY2goeSRhZ2UubWF0ZXJpYWw9PTEpLF0sIGxlbmd0aCkNCnJ2LmRmJHNvdXJjZSA8LSAiUlYiDQpuYW1lcyhydi5kZikgPC0gYygieWVhcl9hbm7DqWUiLCAibW9udGhfbW9pcyIsICJudW1iZXIub3RvbGl0aHNfbm9tYnJlLm90b2xpdGhlcyIsICJzb3VyY2UiKQ0KDQpvdXQuZGYgPC0gcmJpbmQocnYuZGYpIywgY29tbS5kZikNCm91dC5kZiRsYXRpbi5uYW1lX25vbS5sYXRpbiA8LSAiR2x5cHRvY2VwaGFsdXMgY3lub2dsb3NzdXMiDQpvdXQuZGYkZW5nbGlzaC5uYW1lX25vbS5hbmdsYWlzIDwtICJXaXRjaCBGbG91bmRlciINCm91dC5kZiRmcmVuY2gubmFtZV9ub20uZnJhbsOnYWlzIDwtICJQbGllIEdyaXNlIg0KDQp2YXJzIDwtIGMoInNvdXJjZSIsICJsYXRpbi5uYW1lX25vbS5sYXRpbiIsICJlbmdsaXNoLm5hbWVfbm9tLmFuZ2xhaXMiLCAiZnJlbmNoLm5hbWVfbm9tLmZyYW7Dp2FpcyIsICJ5ZWFyX2FubsOpZSIsIm1vbnRoX21vaXMiLCJudW1iZXIub3RvbGl0aHNfbm9tYnJlLm90b2xpdGhlcyIpDQpvMSA8LSBvcmRlcihvdXQuZGYkc291cmNlLCBvdXQuZGYkeWVhcl9hbm7DqWUsIG91dC5kZiRtb250aF9tb2lzKQ0KDQpvdXQuZm4gPC0gIi4vTkFGTy00VC1XaXRjaC1GbG91bmRlci1hZ2VzLmNzdiINCndyaXRlLmNzdihvdXQuZGZbbzEsdmFyc10sIGZpbGU9b3V0LmZuLCByb3cubmFtZXMgPSBGQUxTRSkNCmBgYA0KDQojIyBZZWxsb3d0YWlsIEZsb3VuZGVyDQpPdG9saXRocyBmcm9tIHRoZSBTZXB0ZW1iZXIgUlYgc3VydmV5LCBmcm9tIG90aGVyIHN1cnZleXMsIGZyb20gc2VudGluZWwgcHJvZ3JhbXMgYW5kIGZyb20gY29tbWVyY2lhbCBmaXNoZXJpZXMuDQpgYGB7ciB5ZWxsb3d0YWlsfQ0KIyMgUlYgZGF0YQ0KeSA8LSBydiRiaW9bd2hpY2gocnYkYmlvJHNwZWNpZXMgPT00MiksXQ0KcnYuZGYgPC0gYWdncmVnYXRlKGZpc2gubnVtYmVyfnllYXIrbW9udGgsIGRhdGE9eVt3aGljaCh5JGFnZS5tYXRlcmlhbD09MSksXSwgbGVuZ3RoKQ0KcnYuZGYkc291cmNlIDwtICJSViINCm5hbWVzKHJ2LmRmKSA8LSBjKCJ5ZWFyX2FubsOpZSIsICJtb250aF9tb2lzIiwgIm51bWJlci5vdG9saXRoc19ub21icmUub3RvbGl0aGVzIiwgInNvdXJjZSIpDQoNCm91dC5kZiA8LSByYmluZChydi5kZikjLCBjb21tLmRmKQ0Kb3V0LmRmJGxhdGluLm5hbWVfbm9tLmxhdGluIDwtICJMaW1hbmRhIGZlcnJ1Z2luZWEiDQpvdXQuZGYkZW5nbGlzaC5uYW1lX25vbS5hbmdsYWlzIDwtICJZZWxsb3d0YWlsIEZsb3VuZGVyIg0Kb3V0LmRmJGZyZW5jaC5uYW1lX25vbS5mcmFuw6dhaXMgPC0gIkxpbWFuZGUgw6AgcXVldWUgamF1bmUiDQoNCnZhcnMgPC0gYygic291cmNlIiwgImxhdGluLm5hbWVfbm9tLmxhdGluIiwgImVuZ2xpc2gubmFtZV9ub20uYW5nbGFpcyIsICJmcmVuY2gubmFtZV9ub20uZnJhbsOnYWlzIiwgInllYXJfYW5uw6llIiwibW9udGhfbW9pcyIsIm51bWJlci5vdG9saXRoc19ub21icmUub3RvbGl0aGVzIikNCm8xIDwtIG9yZGVyKG91dC5kZiRzb3VyY2UsIG91dC5kZiR5ZWFyX2FubsOpZSwgb3V0LmRmJG1vbnRoX21vaXMpDQoNCm91dC5mbiA8LSAiLi9OQUZPLTRULVllbGxvd3RhaWwtRmxvdW5kZXItYWdlcy5jc3YiDQp3cml0ZS5jc3Yob3V0LmRmW28xLHZhcnNdLCBmaWxlPW91dC5mbiwgcm93Lm5hbWVzID0gRkFMU0UpDQoNCmBgYA0KDQojIyBXaW50ZXIgRmxvdW5kZXINCk90b2xpdGhzIGZyb20gdGhlIFNlcHRlbWJlciBSViBzdXJ2ZXksIGZyb20gb3RoZXIgc3VydmV5cywgZnJvbSBzZW50aW5lbCBwcm9ncmFtcyBhbmQgZnJvbSBjb21tZXJjaWFsIGZpc2hlcmllcy4NCmBgYHtyIHdpbnRlcn0NCiMjIFJWIGRhdGENCnkgPC0gcnYkYmlvW3doaWNoKHJ2JGJpbyRzcGVjaWVzID09NDMpLF0NCnJ2LmRmIDwtIGFnZ3JlZ2F0ZShmaXNoLm51bWJlcn55ZWFyK21vbnRoLCBkYXRhPXlbd2hpY2goeSRhZ2UubWF0ZXJpYWw9PTEpLF0sIGxlbmd0aCkNCnJ2LmRmJHNvdXJjZSA8LSAiUlYiDQpuYW1lcyhydi5kZikgPC0gYygieWVhcl9hbm7DqWUiLCAibW9udGhfbW9pcyIsICJudW1iZXIub3RvbGl0aHNfbm9tYnJlLm90b2xpdGhlcyIsICJzb3VyY2UiKQ0KDQpvdXQuZGYgPC0gcmJpbmQocnYuZGYpIywgY29tbS5kZikNCm91dC5kZiRsYXRpbi5uYW1lX25vbS5sYXRpbiA8LSAiUHNldWRvcGxldXJvbmVjdGVzIGFtZXJpY2FudXMiDQpvdXQuZGYkZW5nbGlzaC5uYW1lX25vbS5hbmdsYWlzIDwtICJXaW50ZXIgRmxvdW5kZXIiDQpvdXQuZGYkZnJlbmNoLm5hbWVfbm9tLmZyYW7Dp2FpcyA8LSAiUGxpZSBSb3VnZSINCg0KdmFycyA8LSBjKCJzb3VyY2UiLCAibGF0aW4ubmFtZV9ub20ubGF0aW4iLCAiZW5nbGlzaC5uYW1lX25vbS5hbmdsYWlzIiwgImZyZW5jaC5uYW1lX25vbS5mcmFuw6dhaXMiLCAieWVhcl9hbm7DqWUiLCJtb250aF9tb2lzIiwibnVtYmVyLm90b2xpdGhzX25vbWJyZS5vdG9saXRoZXMiKQ0KbzEgPC0gb3JkZXIob3V0LmRmJHNvdXJjZSwgb3V0LmRmJHllYXJfYW5uw6llLCBvdXQuZGYkbW9udGhfbW9pcykNCg0Kb3V0LmZuIDwtICIuL05BRk8tNFQtV2ludGVyLUZsb3VuZGVyLWFnZXMuY3N2Ig0Kd3JpdGUuY3N2KG91dC5kZltvMSx2YXJzXSwgZmlsZT1vdXQuZm4sIHJvdy5uYW1lcyA9IEZBTFNFKQ0KDQpgYGANCg0KDQojIyBDaG9uZHJpY2h0aHlhbg0KT3RvbGl0aHMgZnJvbSB0aGUgU2VwdGVtYmVyIFJWIHN1cnZleS4NCg0KIyMgQXRsYW50aWMgSGVycmluZw0KDQo=</div>
+<div id="rmd-source-code">LS0tDQp0aXRsZTogIkd1bGYgRmlzaGVyaWVzIENlbnRyZSBBZ2VpbmcgU3RydWN0dXJlcyBjb2xsZWN0aW9uIg0KYXV0aG9yOiAiRGFuaWVsIFJpY2FyZCINCm91dHB1dDogaHRtbF9ub3RlYm9vaw0KLS0tDQoNClRoZSBBZ2VpbmcgU3RydWN0dXJlcyBjb2xsZWN0aW9uIGhlbGQgYXQgdGhlIEd1bGYgRmlzaGVyaWVzIENlbnRyZSBjb25zaXN0cyBpbiBUZWxlb3N0IHNhZ2dpdGFsIG90b2xpdGhzIGFuZCBDaG9uZHJpY2h0aHlhbiB2ZXJ0ZWJyYWUuIEZvciBjZXJ0YWluIHNwZWNpZXMsIHRoZSBwaHlzaWNhbCBzcGVjaW1lbnMgaGVsZCBpbiB0aGUgY29sbGVjdGlvbiBhcmUgb2Z0ZW4gYWNjb21wYW5pZWQgd2l0aCBkaWdpdGFsIGltYWdlcy4gVGhlIGluZGl2aWR1YWwgZGV0YWlscyBhc3NvY2lhdGVkIHdpdGggZWFjaCBzdHJ1Y3R1cmUgY29uc2lzdHMgaW4gY2FwdHVyZSBkYXRlIGFuZCBsb2NhdGlvbiwgbGVuZ3RoIG9mIGluZGl2aWR1YWwgYW5kIHVzdWFsbHkgaW5jbHVkZXMgYWRkaXRpb25hbCB2YXJpYWJsZXMgc3VjaCBhcyB3ZWlnaHQgYW5kIG1hdHVyaXR5IHN0YXR1cy4gDQoNClRoZSBwdXJwb3NlIG9mIHRoaXMgbm90ZWJvb2sgaXMgdG8gZmFjaWxpdGF0ZSB0aGUgZ2VuZXJhdGlvbiBhbmQgdXBkYXRlIG9mIHRoZSBGR1AgZGF0YXNldHMgYXNzb2NpYXRlZCB3aXRoIHRoZSBBZ2VpbmcgU3RydWN0dXJlIGNvbGxlY3Rpb24uDQoNCmBgYHtyIGxvYWRkYXRhfQ0KbG9hZCgiQzovVXNlcnMvUmljYXJkRC9Eb2N1bWVudHMvZ2Njb2RlL2d1bGYvZGF0YS9ydi5yZGEiKQ0KYGBgDQoNCiMjIERhdGEgZGljdGlvbmFyeQ0KYGBge3IgZGljdGlvbmFyeX0NCnZhcnMuYmlsaW5ndWFsIDwtIGMoInNvdXJjZSIsICJsYXRpbi5uYW1lX25vbS5sYXRpbiIsICJlbmdsaXNoLm5hbWVfbm9tLmFuZ2xhaXMiLCAiZnJlbmNoLm5hbWVfbm9tLmZyYW7Dp2FpcyIsICJ5ZWFyX2FubsOpZSIsIm1vbnRoX21vaXMiLCJudW1iZXIub3RvbGl0aHNfbm9tYnJlLm90b2xpdGhlcyIpDQoNCmRhdGEuZGljIDwtIGRhdGEuZnJhbWUoDQogIG5hbWVfbm9tID0gdmFycy5iaWxpbmd1YWwNCiAgKQ0KZGF0YS5kaWMkZGVzY3JpcHRpb25fZnIgPC0gYygiU291cmNlIGRlIG90b2xpdGhlcywgcGV1dCBzb2l0IHByb3ZlbmlyIGR1IHJlbGV2w6kgcGFyIG5hdmlyZSBkZSByZWNoZXJjaGUgKFJlc2VhcmNoIFZlc3NlbCAoUlYpKSBvdSBkJ8OpY2hhbnRpbGxvbm5hZ2UgZGVzIHDDqmNoZXMgY29tbWVyY2lhbGVzIChDb21tZXJjaWFsKSIsICJOb20gbGF0aW4gZGUgbCdlc3DDqGNlIiwgIk5vbSBhbmdsYWlzIGRlIGwnZXNww6hjZSIsICJOb20gZnJhbsOnYWlzIGRlIGwnZXNww6hjZSIsICJBbm7DqWUgZCfDqWNoYW50aWxsb25uYWdlIGRlcyBvdG9saXRoZXMiLCAiTW9pcyBkJ8OpY2hhbnRpbGxvbm5hZ2UgZGVzIG90b2xpdGhlcyIsICJOb21icmUgZCdvdG9saXRoZXMgZGFucyBsYSBjb2xsZWN0aW9uIikNCg0KZGF0YS5kaWMkZGVzY3JpcHRpb25fZW4gPC0gYygiU291cmNlIG9mIG90b2xpdGhzLCBjYW4gYmUgZWl0aGVyIGZyb20gdGhlIFJlc2VhcmNoIFZlc3NlbCAoUlYpIHN1cnZleSBvciBmcm9tIGNvbW1lcmNpYWwgc2FtcGxpbmcgKENvbW1lcmNpYWwpIiwgIkxhdGluIG5hbWUgb2YgdGhlIHNwZWNpZXMiLCAiRW5nbGlzaCBuYW1lIG9mIHRoZSBzcGVjaWVzIiwgIkZyZW5jaCBuYW1lIG9mIHRoZSBzcGVjaWVzIiwgIlllYXIgd2hlbiBvdG9saXRocyB3ZXJlIGNvbGxlY3RlZCIsICJNb250aCB3aGVuIG90b2xpdGggd2VyZSBjb2xsZWN0ZWQiLCAiTnVtYmVyIG9mIG90b2xpdGhzIGluIGNvbGxlY3Rpb24iKQ0KDQpkYXRhLmRpYy5mbiA8LSAiZGF0YS1kaWN0aW9uYXJ5LmNzdiINCndyaXRlLmNzdihkYXRhLmRpYywgZmlsZT1kYXRhLmRpYy5mbiwgcm93Lm5hbWVzID0gRkFMU0UpDQpgYGANCg0KDQojIyBBdGxhbnRpYyBDb2QNCk90b2xpdGhzIGZyb20gdGhlIFNlcHRlbWJlciBSViBzdXJ2ZXksIGZyb20gb3RoZXIgc3VydmV5cywgZnJvbSBzZW50aW5lbCBwcm9ncmFtcyBhbmQgZnJvbSBjb21tZXJjaWFsIGZpc2hlcmllcy4NCmBgYHtyIGNvZH0NCiMjIFJWIGRhdGENCnkgPC0gcnYkYmlvW3doaWNoKHJ2JGJpbyRzcGVjaWVzPT0xMCksXQ0KcnYuZGYgPC0gYWdncmVnYXRlKGZpc2gubnVtYmVyfnllYXIrbW9udGgsIGRhdGE9eVt3aGljaCh5JGFnZS5tYXRlcmlhbD09MSksXSwgbGVuZ3RoKQ0KbmFtZXMocnYuZGYpIDwtIGMoInllYXJfYW5uw6llIiwgIm1vbnRoX21vaXMiLCAibnVtYmVyLm90b2xpdGhzX25vbWJyZS5vdG9saXRoZXMiKQ0KcnYuZGYkc291cmNlIDwtICJSViINCg0KIyMgY29tbWVyY2lhbCBkYXRhDQojIyB3aGF0IHllYXJzIGFyZSBhdmFpbGFibGUgZm9yIGNvbW1lcmNpYWwgYWdlcz8NCiMjIGNvbS5maWxlcyA8LSBsaXN0LmZpbGVzKHBhdGg9Ii8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZSIsIHBhdHRlcm49ImNvZGFnZSIpDQp5LmMgPC0gZ3VsZjo6cmVhZC5jYXJkKHllYXI9MTk4Miwgc2FtcGxpbmc9ImNvbW1lcmNpYWwiLCBzcGVjaWVzPTEwLCBjYXJkLnR5cGU9ImFnZSIpICMjIHRoaXMgbG9hZHMgYWxsIHByZS0xOTgyIGNvbW1lcmNpYWwgYWdlcw0KZm9yKHl5IGluIGMoMTk4MzoyMDAyLDIwMDQ6MjAxOCkpeyAjIyBsb29wIG92ZXIgeWVhcnMNCnQuYyA8LSBndWxmOjpyZWFkLmNhcmQoeWVhcj15eSwgc2FtcGxpbmc9ImNvbW1lcmNpYWwiLCBzcGVjaWVzPTEwLCBjYXJkLnR5cGU9ImFnZSIpDQp5LmMgPC0gcmJpbmQoeS5jLHQuYykNCn0NCmwuNHR2biA8LSB3aGljaChzdWJzdHJpbmcoeS5jJG5hZm8uZGl2aXNpb24sMSwyKT09IjRUIiB8IHN1YnN0cmluZyh5LmMkbmFmby5kaXZpc2lvbiwxLDMpPT0iNFZOIikgIyMga2VlcCBvbmx5IG90b2xpdGhzIGNvbGxlY3RlZCBpbiBOQUZPIDRUVk4NCmNvbW0uZGYgPC0gYWdncmVnYXRlKG90b2xpdGgubnVtYmVyfnllYXIrbW9udGgsIGRhdGE9eS5jW2wuNHR2bixdLCBsZW5ndGgpDQpuYW1lcyhjb21tLmRmKSA8LSBjKCJ5ZWFyX2FubsOpZSIsICJtb250aF9tb2lzIiwgIm51bWJlci5vdG9saXRoc19ub21icmUub3RvbGl0aGVzIikNCmNvbW0uZGYkc291cmNlIDwtICJDb21tZXJjaWFsIg0KDQpvdXQuZGYgPC0gcmJpbmQocnYuZGYsIGNvbW0uZGYpDQpvdXQuZGYkbGF0aW4ubmFtZV9ub20ubGF0aW4gPC0gIkdhZHVzIG1vcmh1YSINCm91dC5kZiRlbmdsaXNoLm5hbWVfbm9tLmFuZ2xhaXMgPC0gIkF0bGFudGljIENvZCINCm91dC5kZiRmcmVuY2gubmFtZV9ub20uZnJhbsOnYWlzIDwtICJNb3J1ZSBmcmFuY2hlIg0KDQp2YXJzIDwtIGMoInNvdXJjZSIsICJsYXRpbi5uYW1lX25vbS5sYXRpbiIsICJlbmdsaXNoLm5hbWVfbm9tLmFuZ2xhaXMiLCAiZnJlbmNoLm5hbWVfbm9tLmZyYW7Dp2FpcyIsICJ5ZWFyX2FubsOpZSIsIm1vbnRoX21vaXMiLCJudW1iZXIub3RvbGl0aHNfbm9tYnJlLm90b2xpdGhlcyIpDQpvMSA8LSBvcmRlcihvdXQuZGYkc291cmNlLCBvdXQuZGYkeWVhcl9hbm7DqWUsIG91dC5kZiRtb250aF9tb2lzKQ0KDQpvdXQuZm4gPC0gIi4vTkFGTy00VDRWTi1BdGxhbnRpYy1Db2QtYWdlcy5jc3YiDQp3cml0ZS5jc3Yob3V0LmRmW28xLHZhcnNdLCBmaWxlPW91dC5mbiwgcm93Lm5hbWVzID0gRkFMU0UpDQoNCmBgYA0KDQoNCiMjIFdoaXRlIEhha2UNCk90b2xpdGhzIGZyb20gdGhlIFNlcHRlbWJlciBSViBzdXJ2ZXksIGZyb20gb3RoZXIgc3VydmV5cywgZnJvbSBzZW50aW5lbCBwcm9ncmFtcyBhbmQgZnJvbSBjb21tZXJjaWFsIGZpc2hlcmllcy4NCmBgYHtyIGhha2V9DQojIyBSViBkYXRhDQp5IDwtIHJ2JGJpb1t3aGljaChydiRiaW8kc3BlY2llcz09MTIpLF0NCnJ2LmRmIDwtIGFnZ3JlZ2F0ZShmaXNoLm51bWJlcn55ZWFyK21vbnRoLCBkYXRhPXlbd2hpY2goeSRhZ2UubWF0ZXJpYWw9PTEpLF0sIGxlbmd0aCkNCnJ2LmRmJHNvdXJjZSA8LSAiUlYiDQpuYW1lcyhydi5kZikgPC0gYygieWVhcl9hbm7DqWUiLCAibW9udGhfbW9pcyIsICJudW1iZXIub3RvbGl0aHNfbm9tYnJlLm90b2xpdGhlcyIsICJzb3VyY2UiKQ0KDQojIyBjb21tZXJjaWFsIGRhdGENCiMjIHdoYXQgeWVhcnMgYXJlIGF2YWlsYWJsZSBmb3IgY29tbWVyY2lhbCBhZ2VzPw0KIyMgY29tLmZpbGVzIDwtIGxpc3QuZmlsZXMocGF0aD0iLy9ERk5CRTFDd3BGU1AwMDIvSGQyL2NvbW1lcmNpYWwvYWdlIiwgcGF0dGVybj0id2hhZ2UiKQ0KeS5jIDwtIGd1bGY6OnJlYWQuY2FyZCh5ZWFyPTE5ODIsIHNhbXBsaW5nPSJjb21tZXJjaWFsIiwgc3BlY2llcz0xMiwgY2FyZC50eXBlPSJhZ2UiKSAjIyB0aGlzIGxvYWRzIGFsbCBwcmUtMTk4MiBjb21tZXJjaWFsIGFnZXMNCmZvcih5eSBpbiBjKDE5ODM6MjAxNykpeyAjIyBsb29wIG92ZXIgeWVhcnMNCnQuYyA8LSBndWxmOjpyZWFkLmNhcmQoeWVhcj15eSwgc2FtcGxpbmc9ImNvbW1lcmNpYWwiLCBzcGVjaWVzPTEyLCBjYXJkLnR5cGU9ImFnZSIpDQp5LmMgPC0gcmJpbmQoeS5jLHQuYykNCn0NCmwuNHR2biA8LSB3aGljaChzdWJzdHJpbmcoeS5jJG5hZm8uZGl2aXNpb24sMSwyKT09IjRUIiB8IHN1YnN0cmluZyh5LmMkbmFmby5kaXZpc2lvbiwxLDMpPT0iNFZOIikgIyMga2VlcCBvbmx5IG90b2xpdGhzIGNvbGxlY3RlZCBpbiBOQUZPIDRUVk4NCmNvbW0uZGYgPC0gYWdncmVnYXRlKG90b2xpdGgubnVtYmVyfnllYXIrbW9udGgsIGRhdGE9eS5jW2wuNHR2bixdLCBsZW5ndGgpDQpuYW1lcyhjb21tLmRmKSA8LSBjKCJ5ZWFyX2FubsOpZSIsICJtb250aF9tb2lzIiwgIm51bWJlci5vdG9saXRoc19ub21icmUub3RvbGl0aGVzIikNCmNvbW0uZGYkc291cmNlIDwtICJDb21tZXJjaWFsIg0KDQpvdXQuZGYgPC0gcmJpbmQocnYuZGYsIGNvbW0uZGYpDQpvdXQuZGYkbGF0aW4ubmFtZV9ub20ubGF0aW4gPC0gIlVyb3BoeWNpcyB0ZW51aXMiDQpvdXQuZGYkZW5nbGlzaC5uYW1lX25vbS5hbmdsYWlzIDwtICJXaGl0ZSBIYWtlIg0Kb3V0LmRmJGZyZW5jaC5uYW1lX25vbS5mcmFuw6dhaXMgPC0gIk1lcmx1Y2hlIGJsYW5jaGUiDQoNCnZhcnMgPC0gYygic291cmNlIiwgImxhdGluLm5hbWVfbm9tLmxhdGluIiwgImVuZ2xpc2gubmFtZV9ub20uYW5nbGFpcyIsICJmcmVuY2gubmFtZV9ub20uZnJhbsOnYWlzIiwgInllYXJfYW5uw6llIiwibW9udGhfbW9pcyIsIm51bWJlci5vdG9saXRoc19ub21icmUub3RvbGl0aGVzIikNCm8xIDwtIG9yZGVyKG91dC5kZiRzb3VyY2UsIG91dC5kZiR5ZWFyX2FubsOpZSwgb3V0LmRmJG1vbnRoX21vaXMpDQoNCm91dC5mbiA8LSAiLi9OQUZPLTRULVdoaXRlLUhha2UtYWdlcy5jc3YiDQp3cml0ZS5jc3Yob3V0LmRmW28xLHZhcnNdLCBmaWxlPW91dC5mbiwgcm93Lm5hbWVzID0gRkFMU0UpDQoNCmBgYA0KDQojIyBBbWVyaWNhbiBQbGFpY2UNCk90b2xpdGhzIGZyb20gdGhlIFNlcHRlbWJlciBSViBzdXJ2ZXksIGZyb20gb3RoZXIgc3VydmV5cywgZnJvbSBzZW50aW5lbCBwcm9ncmFtcyBhbmQgZnJvbSBjb21tZXJjaWFsIGZpc2hlcmllcy4NCmBgYHtyIHBsYWljZX0NCiMjIFJWIGRhdGENCnkgPC0gcnYkYmlvW3doaWNoKHJ2JGJpbyRzcGVjaWVzPT00MCksXQ0KcnYuZGYgPC0gYWdncmVnYXRlKGZpc2gubnVtYmVyfnllYXIrbW9udGgsIGRhdGE9eVt3aGljaCh5JGFnZS5tYXRlcmlhbD09MSksXSwgbGVuZ3RoKQ0KcnYuZGYkc291cmNlIDwtICJSViINCm5hbWVzKHJ2LmRmKSA8LSBjKCJ5ZWFyX2FubsOpZSIsICJtb250aF9tb2lzIiwgIm51bWJlci5vdG9saXRoc19ub21icmUub3RvbGl0aGVzIiwgInNvdXJjZSIpDQoNCiMjIGNvbW1lcmNpYWwgZGF0YQ0KIyMgd2hhdCB5ZWFycyBhcmUgYXZhaWxhYmxlIGZvciBjb21tZXJjaWFsIGFnZXM/DQojIyBjb20uZmlsZXMgPC0gbGlzdC5maWxlcyhwYXRoPSIvL0RGTkJFMUN3cEZTUDAwMi9IZDIvY29tbWVyY2lhbC9hZ2UiLCBwYXR0ZXJuPSJwbGFhZ2UiKQ0KeS5jIDwtIGd1bGY6OnJlYWQuY2FyZCh5ZWFyPTE5ODIsIHNhbXBsaW5nPSJjb21tZXJjaWFsIiwgc3BlY2llcz00MCwgY2FyZC50eXBlPSJhZ2UiKSAjIyB0aGlzIGxvYWRzIGFsbCBwcmUtMTk4MiBjb21tZXJjaWFsIGFnZXMNCmZvcih5eSBpbiAxOTgzOjIwMTgpeyAjIyBsb29wIG92ZXIgeWVhcnMNCnQuYyA8LSBndWxmOjpyZWFkLmNhcmQoeWVhcj15eSwgc2FtcGxpbmc9ImNvbW1lcmNpYWwiLCBzcGVjaWVzPTQwLCBjYXJkLnR5cGU9ImFnZSIpDQp5LmMgPC0gcmJpbmQoeS5jLHQuYykNCn0NCg0KbC40dCA8LSB3aGljaChzdWJzdHJpbmcoeS5jJG5hZm8uZGl2aXNpb24sMSwyKT09IjRUIikgIyMga2VlcCBvbmx5IG90b2xpdGhzIGNvbGxlY3RlZCBpbiBOQUZPIDRUDQoNCmNvbW0uZGYgPC0gYWdncmVnYXRlKG90b2xpdGgubnVtYmVyfnllYXIrbW9udGgsIGRhdGE9eS5jW2wuNHQsXSwgbGVuZ3RoKQ0KbmFtZXMoY29tbS5kZikgPC0gYygieWVhcl9hbm7DqWUiLCAibW9udGhfbW9pcyIsICJudW1iZXIub3RvbGl0aHNfbm9tYnJlLm90b2xpdGhlcyIpDQpjb21tLmRmJHNvdXJjZSA8LSAiQ29tbWVyY2lhbCINCg0KDQpvdXQuZGYgPC0gcmJpbmQocnYuZGYsIGNvbW0uZGYpDQpvdXQuZGYkbGF0aW4ubmFtZV9ub20ubGF0aW4gPC0gIkhpcHBvZ2xvc3NvaWRlcyBwbGF0ZXNzb2lkZXMiDQpvdXQuZGYkZW5nbGlzaC5uYW1lX25vbS5hbmdsYWlzIDwtICJBbWVyaWNhbiBQbGFpY2UiDQpvdXQuZGYkZnJlbmNoLm5hbWVfbm9tLmZyYW7Dp2FpcyA8LSAiUGxpZSBDYW5hZGllbm5lIg0KDQp2YXJzIDwtIGMoInNvdXJjZSIsICJsYXRpbi5uYW1lX25vbS5sYXRpbiIsICJlbmdsaXNoLm5hbWVfbm9tLmFuZ2xhaXMiLCAiZnJlbmNoLm5hbWVfbm9tLmZyYW7Dp2FpcyIsICJ5ZWFyX2FubsOpZSIsIm1vbnRoX21vaXMiLCJudW1iZXIub3RvbGl0aHNfbm9tYnJlLm90b2xpdGhlcyIpDQpvMSA8LSBvcmRlcihvdXQuZGYkc291cmNlLCBvdXQuZGYkeWVhcl9hbm7DqWUsIG91dC5kZiRtb250aF9tb2lzKQ0KDQpvdXQuZm4gPC0gIi4vTkFGTy00VC1BbWVyaWNhbi1QbGFpY2UtYWdlcy5jc3YiDQp3cml0ZS5jc3Yob3V0LmRmW28xLHZhcnNdLCBmaWxlPW91dC5mbiwgcm93Lm5hbWVzID0gRkFMU0UpDQoNCmBgYA0KDQojIyBXaXRjaCBGbG91bmRlcg0KT3RvbGl0aHMgZnJvbSB0aGUgU2VwdGVtYmVyIFJWIHN1cnZleSwgZnJvbSBvdGhlciBzdXJ2ZXlzLCBmcm9tIHNlbnRpbmVsIHByb2dyYW1zIGFuZCBmcm9tIGNvbW1lcmNpYWwgZmlzaGVyaWVzLg0KYGBge3Igd2l0Y2h9DQojIyBSViBkYXRhDQp5IDwtIHJ2JGJpb1t3aGljaChydiRiaW8kc3BlY2llcyA9PTQxKSxdDQpydi5kZiA8LSBhZ2dyZWdhdGUoZmlzaC5udW1iZXJ+eWVhcittb250aCwgZGF0YT15W3doaWNoKHkkYWdlLm1hdGVyaWFsPT0xKSxdLCBsZW5ndGgpDQpuYW1lcyhydi5kZikgPC0gYygieWVhcl9hbm7DqWUiLCAibW9udGhfbW9pcyIsICJudW1iZXIub3RvbGl0aHNfbm9tYnJlLm90b2xpdGhlcyIpDQpydi5kZiRzb3VyY2UgPC0gIlJWIg0KDQojIyBjb21tZXJjaWFsIGRhdGENCiMjIHdoYXQgeWVhcnMgYXJlIGF2YWlsYWJsZSBmb3IgY29tbWVyY2lhbCBhZ2VzPw0KIyMgY29tLmZpbGVzIDwtIGxpc3QuZmlsZXMocGF0aD0iLy9ERk5CRTFDd3BGU1AwMDIvSGQyL2NvbW1lcmNpYWwvYWdlIiwgcGF0dGVybj0id2l0YWdlIikNCnkuYyA8LSBndWxmOjpyZWFkLmNhcmQoeWVhcj0xOTgyLCBzYW1wbGluZz0iY29tbWVyY2lhbCIsIHNwZWNpZXM9NDEsIGNhcmQudHlwZT0iYWdlIikgIyMgdGhpcyBsb2FkcyBhbGwgcHJlLTE5ODIgY29tbWVyY2lhbCBhZ2VzDQpmb3IoeXkgaW4gMTk5ODoyMDE2KXsgIyMgbG9vcCBvdmVyIHllYXJzDQp0LmMgPC0gZ3VsZjo6cmVhZC5jYXJkKHllYXI9eXksIHNhbXBsaW5nPSJjb21tZXJjaWFsIiwgc3BlY2llcz00MSwgY2FyZC50eXBlPSJhZ2UiKQ0KeS5jIDwtIHJiaW5kKHkuYyx0LmMpDQp9DQoNCmwuNHQgPC0gd2hpY2goc3Vic3RyaW5nKHkuYyRuYWZvLmRpdmlzaW9uLDEsMikgJWluJSBjKCI0UiIsIjRTIiwiNFQiKSkgIyMga2VlcCBvbmx5IG90b2xpdGhzIGNvbGxlY3RlZCBpbiBOQUZPIDRSU1QNCmNvbW0uZGYgPC0gYWdncmVnYXRlKG90b2xpdGgubnVtYmVyfnllYXIrbW9udGgsIGRhdGE9eS5jW2wuNHQsXSwgbGVuZ3RoKQ0KbmFtZXMoY29tbS5kZikgPC0gYygieWVhcl9hbm7DqWUiLCAibW9udGhfbW9pcyIsICJudW1iZXIub3RvbGl0aHNfbm9tYnJlLm90b2xpdGhlcyIpDQpjb21tLmRmJHNvdXJjZSA8LSAiQ29tbWVyY2lhbCINCg0KDQpvdXQuZGYgPC0gcmJpbmQocnYuZGYsIGNvbW0uZGYpDQpvdXQuZGYkbGF0aW4ubmFtZV9ub20ubGF0aW4gPC0gIkdseXB0b2NlcGhhbHVzIGN5bm9nbG9zc3VzIg0Kb3V0LmRmJGVuZ2xpc2gubmFtZV9ub20uYW5nbGFpcyA8LSAiV2l0Y2ggRmxvdW5kZXIiDQpvdXQuZGYkZnJlbmNoLm5hbWVfbm9tLmZyYW7Dp2FpcyA8LSAiUGxpZSBHcmlzZSINCg0KdmFycyA8LSBjKCJzb3VyY2UiLCAibGF0aW4ubmFtZV9ub20ubGF0aW4iLCAiZW5nbGlzaC5uYW1lX25vbS5hbmdsYWlzIiwgImZyZW5jaC5uYW1lX25vbS5mcmFuw6dhaXMiLCAieWVhcl9hbm7DqWUiLCJtb250aF9tb2lzIiwibnVtYmVyLm90b2xpdGhzX25vbWJyZS5vdG9saXRoZXMiKQ0KbzEgPC0gb3JkZXIob3V0LmRmJHNvdXJjZSwgb3V0LmRmJHllYXJfYW5uw6llLCBvdXQuZGYkbW9udGhfbW9pcykNCg0Kb3V0LmZuIDwtICIuL05BRk8tNFJTVC1XaXRjaC1GbG91bmRlci1hZ2VzLmNzdiINCndyaXRlLmNzdihvdXQuZGZbbzEsdmFyc10sIGZpbGU9b3V0LmZuLCByb3cubmFtZXMgPSBGQUxTRSkNCmBgYA0KDQojIyBZZWxsb3d0YWlsIEZsb3VuZGVyDQpPdG9saXRocyBmcm9tIHRoZSBTZXB0ZW1iZXIgUlYgc3VydmV5LCBmcm9tIG90aGVyIHN1cnZleXMsIGZyb20gc2VudGluZWwgcHJvZ3JhbXMgYW5kIGZyb20gY29tbWVyY2lhbCBmaXNoZXJpZXMuDQpgYGB7ciB5ZWxsb3d0YWlsfQ0KIyMgUlYgZGF0YQ0KeSA8LSBydiRiaW9bd2hpY2gocnYkYmlvJHNwZWNpZXMgPT00MiksXQ0KcnYuZGYgPC0gYWdncmVnYXRlKGZpc2gubnVtYmVyfnllYXIrbW9udGgsIGRhdGE9eVt3aGljaCh5JGFnZS5tYXRlcmlhbD09MSksXSwgbGVuZ3RoKQ0KcnYuZGYkc291cmNlIDwtICJSViINCm5hbWVzKHJ2LmRmKSA8LSBjKCJ5ZWFyX2FubsOpZSIsICJtb250aF9tb2lzIiwgIm51bWJlci5vdG9saXRoc19ub21icmUub3RvbGl0aGVzIiwgInNvdXJjZSIpDQoNCiMjIGNvbW1lcmNpYWwgZGF0YQ0KIyMgd2hhdCB5ZWFycyBhcmUgYXZhaWxhYmxlIGZvciBjb21tZXJjaWFsIGFnZXM/DQojIyBjb20uZmlsZXMgPC0gbGlzdC5maWxlcyhwYXRoPSIvL0RGTkJFMUN3cEZTUDAwMi9IZDIvY29tbWVyY2lhbC9hZ2UiLCBwYXR0ZXJuPSJ3ZmFnZSIpDQp5LmMgPC0gZ3VsZjo6cmVhZC5jYXJkKHllYXI9MTk4Miwgc2FtcGxpbmc9ImNvbW1lcmNpYWwiLCBzcGVjaWVzPTQyLCBjYXJkLnR5cGU9ImFnZSIpICMjIHRoaXMgbG9hZHMgYWxsIHByZS0xOTgyIGNvbW1lcmNpYWwgYWdlcw0KDQpsLjR0IDwtIHdoaWNoKHN1YnN0cmluZyh5LmMkbmFmby5kaXZpc2lvbiwxLDIpPT0iNFQiKSAjIyBrZWVwIG9ubHkgb3RvbGl0aHMgY29sbGVjdGVkIGluIE5BRk8gNFQNCmNvbW0uZGYgPC0gYWdncmVnYXRlKG90b2xpdGgubnVtYmVyfnllYXIrbW9udGgsIGRhdGE9eS5jW2wuNHQsXSwgbGVuZ3RoKQ0KbmFtZXMoY29tbS5kZikgPC0gYygieWVhcl9hbm7DqWUiLCAibW9udGhfbW9pcyIsICJudW1iZXIub3RvbGl0aHNfbm9tYnJlLm90b2xpdGhlcyIpDQpjb21tLmRmJHNvdXJjZSA8LSAiQ29tbWVyY2lhbCINCg0Kb3V0LmRmIDwtIHJiaW5kKHJ2LmRmLCBjb21tLmRmKQ0Kb3V0LmRmJGxhdGluLm5hbWVfbm9tLmxhdGluIDwtICJMaW1hbmRhIGZlcnJ1Z2luZWEiDQpvdXQuZGYkZW5nbGlzaC5uYW1lX25vbS5hbmdsYWlzIDwtICJZZWxsb3d0YWlsIEZsb3VuZGVyIg0Kb3V0LmRmJGZyZW5jaC5uYW1lX25vbS5mcmFuw6dhaXMgPC0gIkxpbWFuZGUgw6AgcXVldWUgamF1bmUiDQoNCnZhcnMgPC0gYygic291cmNlIiwgImxhdGluLm5hbWVfbm9tLmxhdGluIiwgImVuZ2xpc2gubmFtZV9ub20uYW5nbGFpcyIsICJmcmVuY2gubmFtZV9ub20uZnJhbsOnYWlzIiwgInllYXJfYW5uw6llIiwibW9udGhfbW9pcyIsIm51bWJlci5vdG9saXRoc19ub21icmUub3RvbGl0aGVzIikNCm8xIDwtIG9yZGVyKG91dC5kZiRzb3VyY2UsIG91dC5kZiR5ZWFyX2FubsOpZSwgb3V0LmRmJG1vbnRoX21vaXMpDQoNCm91dC5mbiA8LSAiLi9OQUZPLTRULVllbGxvd3RhaWwtRmxvdW5kZXItYWdlcy5jc3YiDQp3cml0ZS5jc3Yob3V0LmRmW28xLHZhcnNdLCBmaWxlPW91dC5mbiwgcm93Lm5hbWVzID0gRkFMU0UpDQpgYGANCg0KIyMgV2ludGVyIEZsb3VuZGVyDQpPdG9saXRocyBmcm9tIHRoZSBTZXB0ZW1iZXIgUlYgc3VydmV5LCBmcm9tIG90aGVyIHN1cnZleXMsIGZyb20gc2VudGluZWwgcHJvZ3JhbXMgYW5kIGZyb20gY29tbWVyY2lhbCBmaXNoZXJpZXMuDQpgYGB7ciB3aW50ZXJ9DQojIyBSViBkYXRhDQp5IDwtIHJ2JGJpb1t3aGljaChydiRiaW8kc3BlY2llcyA9PTQzKSxdDQpydi5kZiA8LSBhZ2dyZWdhdGUoZmlzaC5udW1iZXJ+eWVhcittb250aCwgZGF0YT15W3doaWNoKHkkYWdlLm1hdGVyaWFsPT0xKSxdLCBsZW5ndGgpDQpydi5kZiRzb3VyY2UgPC0gIlJWIg0KbmFtZXMocnYuZGYpIDwtIGMoInllYXJfYW5uw6llIiwgIm1vbnRoX21vaXMiLCAibnVtYmVyLm90b2xpdGhzX25vbWJyZS5vdG9saXRoZXMiLCAic291cmNlIikNCg0KIyMgY29tbWVyY2lhbCBkYXRhDQojIyB3aGF0IHllYXJzIGFyZSBhdmFpbGFibGUgZm9yIGNvbW1lcmNpYWwgYWdlcz8NCiMjIGNvbS5maWxlcyA8LSBsaXN0LmZpbGVzKHBhdGg9Ii8vREZOQkUxQ3dwRlNQMDAyL0hkMi9jb21tZXJjaWFsL2FnZSIsIHBhdHRlcm49IndmYWdlIikNCnkuYyA8LSBndWxmOjpyZWFkLmNhcmQoeWVhcj0xOTkwLCBzYW1wbGluZz0iY29tbWVyY2lhbCIsIHNwZWNpZXM9NDMsIGNhcmQudHlwZT0iYWdlIikgIyMgdGhpcyBsb2FkcyBhbGwgcHJlLTE5ODIgY29tbWVyY2lhbCBhZ2VzDQpmb3IoeXkgaW4gYygxOTkxLDE5OTIsMTk5MywyMDEyLDIwMTQsMjAxNSwyMDE2KSl7ICMjIGxvb3Agb3ZlciB5ZWFycw0KdC5jIDwtIGd1bGY6OnJlYWQuY2FyZCh5ZWFyPXl5LCBzYW1wbGluZz0iY29tbWVyY2lhbCIsIHNwZWNpZXM9NDMsIGNhcmQudHlwZT0iYWdlIikNCnkuYyA8LSByYmluZCh5LmMsdC5jKQ0KfQ0KDQpsLjR0IDwtIHdoaWNoKHN1YnN0cmluZyh5LmMkbmFmby5kaXZpc2lvbiwxLDIpPT0iNFQiKSAjIyBrZWVwIG9ubHkgb3RvbGl0aHMgY29sbGVjdGVkIGluIE5BRk8gNFQNCmNvbW0uZGYgPC0gYWdncmVnYXRlKG90b2xpdGgubnVtYmVyfnllYXIrbW9udGgsIGRhdGE9eS5jW2wuNHQsXSwgbGVuZ3RoKQ0KbmFtZXMoY29tbS5kZikgPC0gYygieWVhcl9hbm7DqWUiLCAibW9udGhfbW9pcyIsICJudW1iZXIub3RvbGl0aHNfbm9tYnJlLm90b2xpdGhlcyIpDQpjb21tLmRmJHNvdXJjZSA8LSAiQ29tbWVyY2lhbCINCg0KDQpvdXQuZGYgPC0gcmJpbmQocnYuZGYsIGNvbW0uZGYpDQpvdXQuZGYkbGF0aW4ubmFtZV9ub20ubGF0aW4gPC0gIlBzZXVkb3BsZXVyb25lY3RlcyBhbWVyaWNhbnVzIg0Kb3V0LmRmJGVuZ2xpc2gubmFtZV9ub20uYW5nbGFpcyA8LSAiV2ludGVyIEZsb3VuZGVyIg0Kb3V0LmRmJGZyZW5jaC5uYW1lX25vbS5mcmFuw6dhaXMgPC0gIlBsaWUgUm91Z2UiDQoNCnZhcnMgPC0gYygic291cmNlIiwgImxhdGluLm5hbWVfbm9tLmxhdGluIiwgImVuZ2xpc2gubmFtZV9ub20uYW5nbGFpcyIsICJmcmVuY2gubmFtZV9ub20uZnJhbsOnYWlzIiwgInllYXJfYW5uw6llIiwibW9udGhfbW9pcyIsIm51bWJlci5vdG9saXRoc19ub21icmUub3RvbGl0aGVzIikNCm8xIDwtIG9yZGVyKG91dC5kZiRzb3VyY2UsIG91dC5kZiR5ZWFyX2FubsOpZSwgb3V0LmRmJG1vbnRoX21vaXMpDQoNCm91dC5mbiA8LSAiLi9OQUZPLTRULVdpbnRlci1GbG91bmRlci1hZ2VzLmNzdiINCndyaXRlLmNzdihvdXQuZGZbbzEsdmFyc10sIGZpbGU9b3V0LmZuLCByb3cubmFtZXMgPSBGQUxTRSkNCg0KYGBgDQoNCiMjIENob25kcmljaHRoeWFuDQpPdG9saXRocyBmcm9tIHRoZSBTZXB0ZW1iZXIgUlYgc3VydmV5Lg0KDQojIyBBdGxhbnRpYyBIZXJyaW5nDQoNCg==</div>
 
 
 

@@ -1,8 +1,0 @@
-"name_nom","description_fr","description_en"
-"source","Source de otolithes, peut soit provenir du relevé par navire de recherche (Research Vessel (RV)) ou d'échantillonnage des pêches commerciales (Commercial)","Source of otoliths, can be either from the Research Vessel (RV) survey or from commercial sampling (Commercial)"
-"latin.name_nom.latin","Nom latin de l'espèce","Latin name of the species"
-"english.name_nom.anglais","Nom anglais de l'espèce","English name of the species"
-"french.name_nom.français","Nom français de l'espèce","French name of the species"
-"year_année","Année d'échantillonnage des otolithes","Year when otoliths were collected"
-"month_mois","Mois d'échantillonnage des otolithes","Month when otolith were collected"
-"number.otoliths_nombre.otolithes","Nombre d'otolithes dans la collection","Number of otoliths in collection"
