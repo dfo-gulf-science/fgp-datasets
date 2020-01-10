@@ -1,7 +1,7 @@
 ---
 title: "Creation of Atlantic Cod ageing datasets for OpenData"
 author: "Daniel Ricard"
-date: "January 9, 2020"
+date: "January 10, 2020"
 output: pdf_document
 ---
 
@@ -35,10 +35,10 @@ l.4tvn <- which(substring(y.c$nafo.division,1,2)=="4T" | substring(y.c$nafo.divi
 
 rv.df <- aggregate(fish.number~year+month, data=y[which(y$age.material==1),], length)
 rv.df$source <- "RV"
-names(rv.df)[3] <- "number.otoliths_nombre.otolithes"
+names(rv.df) <- c("year_année", "month_mois", "number.otoliths_nombre.otolithes")
 
 comm.df <- aggregate(otolith.number~year+month, data=y.c[l.4tvn,], length)
-names(comm.df)[3] <- "number.otoliths_nombre.otolithes"
+names(comm.df) <- c("year_année", "month_mois", "number.otoliths_nombre.otolithes")
 comm.df$source <- "Commercial"
 
 
@@ -48,7 +48,7 @@ cod.out.df$english.name_nom.anglais <- "Atlantic Cod"
 cod.out.df$french.name_nom.français <- "Morue franche"
 
 
-vars <- c("source", "latin.name_nom.latin", "english.name_nom.anglais", "french.name_nom.français", "year","month","number.otoliths_nombre.otolithes")
+vars <- c("source", "latin.name_nom.latin", "english.name_nom.anglais", "french.name_nom.français", "year_année","month_mois","number.otoliths_nombre.otolithes")
 o1 <- order(cod.out.df$source, cod.out.df$year, cod.out.df$month)
 
 cod.out.fn <- "NAFO-4T-Atlantic-Cod-ages.csv"

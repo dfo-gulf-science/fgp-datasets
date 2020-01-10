@@ -1,0 +1,167 @@
+---
+title: "Gulf Fisheries Centre Ageing Structures collection"
+output: html_notebook
+---
+
+The Ageing Structures collection held at the Gulf Fisheries Centre consists in Teleost saggital otoliths and Chondrichthyan vertebrae. For certain species, the physical specimens held in the collection are often accompanied with digital images. The individual details associated with each structure consists in capture date and location, length of individual and usually includes additional variables such as weight and maturity status. 
+
+The purpose of this notebook is to facilitate the generation and update of the FGP datasets associated with the Ageing Structure collection.
+
+```{r loaddata}
+load("C:/Users/RicardD/Documents/gccode/gulf/data/rv.rda")
+```
+
+## Data dictionary
+```{r dictionary}
+vars.bilingual <- c("source", "latin.name_nom.latin", "english.name_nom.anglais", "french.name_nom.français", "year_année","month_mois","number.otoliths_nombre.otolithes")
+
+data.dic <- data.frame(
+  name_nom = vars.bilingual
+  )
+data.dic$description_fr <- c("Source de otolithes, peut soit provenir du relevé par navire de recherche (Research Vessel (RV)) ou d'échantillonnage des pêches commerciales (Commercial)", "Nom latin de l'espèce", "Nom anglais de l'espèce", "Nom français de l'espèce", "Année d'échantillonnage des otolithes", "Mois d'échantillonnage des otolithes", "Nombre d'otolithes dans la collection")
+
+data.dic$description_en <- c("Source of otoliths, can be either from the Research Vessel (RV) survey or from commercial sampling (Commercial)", "Latin name of the species", "English name of the species", "French name of the species", "Year when otoliths were collected", "Month when otolith were collected", "Number of otoliths in collection")
+
+data.dic.fn <- "data-dictionary.csv"
+write.csv(data.dic, file=data.dic.fn, row.names = FALSE)
+```
+
+
+## Atlantic Cod
+Otoliths from the September RV survey, from other surveys, from sentinel programs and from commercial fisheries.
+```{r cod}
+## RV data
+y <- rv$bio[which(rv$bio$species ==10),]
+rv.df <- aggregate(fish.number~year+month, data=y[which(y$age.material==1),], length)
+rv.df$source <- "RV"
+names(rv.df) <- c("year_année", "month_mois", "number.otoliths_nombre.otolithes","source")
+
+out.df <- rbind(rv.df)#, comm.df)
+out.df$latin.name_nom.latin <- "Gadus morhua"
+out.df$english.name_nom.anglais <- "Atlantic Cod"
+out.df$french.name_nom.français <- "Morue franche"
+
+vars <- c("source", "latin.name_nom.latin", "english.name_nom.anglais", "french.name_nom.français", "year_année","month_mois","number.otoliths_nombre.otolithes")
+o1 <- order(out.df$source, out.df$year_année, out.df$month_mois)
+
+out.fn <- "./NAFO-4T-Atlantic-Cod-ages.csv"
+write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE)
+
+```
+
+
+## White Hake
+Otoliths from the September RV survey, from other surveys, from sentinel programs and from commercial fisheries.
+```{r hake}
+## RV data
+y <- rv$bio[which(rv$bio$species ==12),]
+rv.df <- aggregate(fish.number~year+month, data=y[which(y$age.material==1),], length)
+rv.df$source <- "RV"
+names(rv.df) <- c("year_année", "month_mois", "number.otoliths_nombre.otolithes", "source")
+
+out.df <- rbind(rv.df)#, comm.df)
+out.df$latin.name_nom.latin <- "Urophycis tenuis"
+out.df$english.name_nom.anglais <- "White Hake"
+out.df$french.name_nom.français <- "Merluche blanche"
+
+vars <- c("source", "latin.name_nom.latin", "english.name_nom.anglais", "french.name_nom.français", "year_année","month_mois","number.otoliths_nombre.otolithes")
+o1 <- order(out.df$source, out.df$year_année, out.df$month_mois)
+
+out.fn <- "./NAFO-4T-White-Hake-ages.csv"
+write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE)
+
+```
+
+## American Plaice
+Otoliths from the September RV survey, from other surveys, from sentinel programs and from commercial fisheries.
+```{r plaice}
+## RV data
+y <- rv$bio[which(rv$bio$species ==40),]
+rv.df <- aggregate(fish.number~year+month, data=y[which(y$age.material==1),], length)
+rv.df$source <- "RV"
+names(rv.df) <- c("year_année", "month_mois", "number.otoliths_nombre.otolithes", "source")
+
+out.df <- rbind(rv.df)#, comm.df)
+out.df$latin.name_nom.latin <- "Hippoglossoides platessoides"
+out.df$english.name_nom.anglais <- "American Plaice"
+out.df$french.name_nom.français <- "Plie Canadienne"
+
+vars <- c("source", "latin.name_nom.latin", "english.name_nom.anglais", "french.name_nom.français", "year_année","month_mois","number.otoliths_nombre.otolithes")
+o1 <- order(out.df$source, out.df$year_année, out.df$month_mois)
+
+out.fn <- "./NAFO-4T-American-Plaice-ages.csv"
+write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE)
+
+```
+
+## Witch Flounder
+Otoliths from the September RV survey, from other surveys, from sentinel programs and from commercial fisheries.
+```{r witch}
+## RV data
+y <- rv$bio[which(rv$bio$species ==41),]
+rv.df <- aggregate(fish.number~year+month, data=y[which(y$age.material==1),], length)
+rv.df$source <- "RV"
+names(rv.df) <- c("year_année", "month_mois", "number.otoliths_nombre.otolithes", "source")
+
+out.df <- rbind(rv.df)#, comm.df)
+out.df$latin.name_nom.latin <- "Glyptocephalus cynoglossus"
+out.df$english.name_nom.anglais <- "Witch Flounder"
+out.df$french.name_nom.français <- "Plie Grise"
+
+vars <- c("source", "latin.name_nom.latin", "english.name_nom.anglais", "french.name_nom.français", "year_année","month_mois","number.otoliths_nombre.otolithes")
+o1 <- order(out.df$source, out.df$year_année, out.df$month_mois)
+
+out.fn <- "./NAFO-4T-Witch-Flounder-ages.csv"
+write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE)
+```
+
+## Yellowtail Flounder
+Otoliths from the September RV survey, from other surveys, from sentinel programs and from commercial fisheries.
+```{r yellowtail}
+## RV data
+y <- rv$bio[which(rv$bio$species ==42),]
+rv.df <- aggregate(fish.number~year+month, data=y[which(y$age.material==1),], length)
+rv.df$source <- "RV"
+names(rv.df) <- c("year_année", "month_mois", "number.otoliths_nombre.otolithes", "source")
+
+out.df <- rbind(rv.df)#, comm.df)
+out.df$latin.name_nom.latin <- "Limanda ferruginea"
+out.df$english.name_nom.anglais <- "Yellowtail Flounder"
+out.df$french.name_nom.français <- "Limande à queue jaune"
+
+vars <- c("source", "latin.name_nom.latin", "english.name_nom.anglais", "french.name_nom.français", "year_année","month_mois","number.otoliths_nombre.otolithes")
+o1 <- order(out.df$source, out.df$year_année, out.df$month_mois)
+
+out.fn <- "./NAFO-4T-Yellowtail-Flounder-ages.csv"
+write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE)
+
+```
+
+## Winter Flounder
+Otoliths from the September RV survey, from other surveys, from sentinel programs and from commercial fisheries.
+```{r winter}
+## RV data
+y <- rv$bio[which(rv$bio$species ==43),]
+rv.df <- aggregate(fish.number~year+month, data=y[which(y$age.material==1),], length)
+rv.df$source <- "RV"
+names(rv.df) <- c("year_année", "month_mois", "number.otoliths_nombre.otolithes", "source")
+
+out.df <- rbind(rv.df)#, comm.df)
+out.df$latin.name_nom.latin <- "Pseudopleuronectes americanus"
+out.df$english.name_nom.anglais <- "Winter Flounder"
+out.df$french.name_nom.français <- "Plie Rouge"
+
+vars <- c("source", "latin.name_nom.latin", "english.name_nom.anglais", "french.name_nom.français", "year_année","month_mois","number.otoliths_nombre.otolithes")
+o1 <- order(out.df$source, out.df$year_année, out.df$month_mois)
+
+out.fn <- "./NAFO-4T-Winter-Flounder-ages.csv"
+write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE)
+
+```
+
+
+## Chondrichthyan
+Otoliths from the September RV survey.
+
+## Atlantic Herring
+

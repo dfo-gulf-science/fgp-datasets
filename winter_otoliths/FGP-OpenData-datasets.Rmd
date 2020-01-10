@@ -1,7 +1,7 @@
 ---
 title: "Creation of Winter Flounder ageing datasets for OpenData"
 author: "Daniel Ricard"
-date: "January 9, 2020"
+date: "January 10, 2020"
 output: pdf_document
 ---
 
@@ -34,10 +34,10 @@ l.4t <- which(substring(y.c$nafo.division,1,2)=="4T") ## keep only otoliths coll
 
 rv.df <- aggregate(fish.number~year+month, data=y[which(y$age.material==1),], length)
 rv.df$source <- "RV"
-names(rv.df)[3] <- "number.otoliths_nombre.otolithes"
+names(rv.df) <- c("year_année", "month_mois", "number.otoliths_nombre.otolithes")
 
 comm.df <- aggregate(otolith.number~year+month, data=y.c[l.4t,], length)
-names(comm.df)[3] <- "number.otoliths_nombre.otolithes"
+names(comm.df) <- c("year_année", "month_mois", "number.otoliths_nombre.otolithes")
 comm.df$source <- "Commercial"
 
 
