@@ -1,0 +1,18 @@
+---
+title: "Gulf Region port sampling dataset"
+output: html_notebook
+author: Daniel Ricard
+---
+
+Creation of FGP/OpenData dataset for Gulf Region port sampling program.
+
+
+```{r portsampling}
+y.40 <- gulf::read.card(sampling="commercial", card.type="length", species=40, year=1984)
+
+out.df <- gulf::freq.comlen(y.40, by = "sample.number", scale = FALSE) 
+  
+out.fn <- "NAFO-4T-Port-Sampling-samples.csv"
+write.csv(out.df, file=out.fn, row.names = FALSE)
+
+```

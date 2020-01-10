@@ -70,8 +70,8 @@ Otoliths from the September RV survey, from other surveys, from sentinel program
 ## RV data
 y <- rv$bio[which(rv$bio$species==12),]
 rv.df <- aggregate(fish.number~year+month, data=y[which(y$age.material==1),], length)
+names(rv.df) <- c("year_année", "month_mois", "number.otoliths_nombre.otolithes")
 rv.df$source <- "RV"
-names(rv.df) <- c("year_année", "month_mois", "number.otoliths_nombre.otolithes", "source")
 
 ## commercial data
 ## what years are available for commercial ages?
@@ -105,8 +105,8 @@ Otoliths from the September RV survey, from other surveys, from sentinel program
 ## RV data
 y <- rv$bio[which(rv$bio$species==40),]
 rv.df <- aggregate(fish.number~year+month, data=y[which(y$age.material==1),], length)
+names(rv.df) <- c("year_année", "month_mois", "number.otoliths_nombre.otolithes")
 rv.df$source <- "RV"
-names(rv.df) <- c("year_année", "month_mois", "number.otoliths_nombre.otolithes", "source")
 
 ## commercial data
 ## what years are available for commercial ages?
@@ -179,8 +179,8 @@ Otoliths from the September RV survey, from other surveys, from sentinel program
 ## RV data
 y <- rv$bio[which(rv$bio$species ==42),]
 rv.df <- aggregate(fish.number~year+month, data=y[which(y$age.material==1),], length)
+names(rv.df) <- c("year_année", "month_mois", "number.otoliths_nombre.otolithes")
 rv.df$source <- "RV"
-names(rv.df) <- c("year_année", "month_mois", "number.otoliths_nombre.otolithes", "source")
 
 ## commercial data
 ## what years are available for commercial ages?
@@ -210,8 +210,8 @@ Otoliths from the September RV survey, from other surveys, from sentinel program
 ## RV data
 y <- rv$bio[which(rv$bio$species ==43),]
 rv.df <- aggregate(fish.number~year+month, data=y[which(y$age.material==1),], length)
+names(rv.df) <- c("year_année", "month_mois", "number.otoliths_nombre.otolithes")
 rv.df$source <- "RV"
-names(rv.df) <- c("year_année", "month_mois", "number.otoliths_nombre.otolithes", "source")
 
 ## commercial data
 ## what years are available for commercial ages?
@@ -241,8 +241,38 @@ write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE)
 
 ```
 
-## Chondrichthyan
-Otoliths from the September RV survey.
+## Chondrichthyan vertabrae
+Vertebrae from the September RV survey.
+
+```{r skates}
+## RV data
+y <- rv$bio[which(rv$bio$species %in% c(200:204)),]
+rv.df <- aggregate(fish.number~year+month+species, data=y[which(y$age.material==1),], length)
+names(rv.df) <- c("year_année", "month_mois", "species", "number.vertebrae_nombre.vertèbres")
+rv.df$source <- "RV"
+rv.df$latin.name_nom.latin <- stringr::str_to_lower(gulf::species.str(rv.df$species, "latin"))
+rv.df$english.name_nom.anglais <- stringr::str_to_title(gulf::species.str(rv.df$species, "english"))
+rv.df$french.name_nom.français <- gulf::species.str(rv.df$species, "french")
+
+firstup <- function(x) {
+  x <- tolower(x)
+  substr(x, 1, 1) <- toupper(substr(x, 1, 1))
+  x
+}
+
+rv.df$latin.name_nom.latin <- firstup(rv.df$latin.name_nom.latin)
+
+out.df <- rbind(rv.df)
+
+vars <- c("source", "latin.name_nom.latin", "english.name_nom.anglais", "french.name_nom.français", "year_année","month_mois","number.vertebrae_nombre.vertèbres")
+o1 <- order(out.df$source, out.df$year_année, out.df$month_mois)
+
+out.fn <- "./NAFO-4T-Chondrichthyan-ages.csv"
+write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE)
+
+```
+
+
 
 ## Atlantic Herring
 
