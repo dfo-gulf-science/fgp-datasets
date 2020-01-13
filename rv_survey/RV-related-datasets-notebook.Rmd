@@ -9,7 +9,7 @@ load("C:/Users/RicardD/Documents/gccode/gulf/data/rv.rda")
 ```
 
 
-## [September RV dataset](http://dmapps/en/inventory/526/view/)
+## 1 [September RV dataset](http://dmapps/en/inventory/526/view/)
 
 
 ```{r SeptemberRV}
@@ -18,34 +18,45 @@ table(x$year, x$month)
 ```
 
 
-## [Inshore surveys](http://dmapps/en/inventory/413/view/)
+## 2 [Inshore surveys](http://dmapps/en/inventory/413/view/)
 ```{r inshore}
 x <- read.card("inshore", card.type="set")
 table(x$year, x$month)
 ```
 
-## [January surveys](http://dmapps/en/inventory/502/view/)
+## 3 [January surveys](http://dmapps/en/inventory/502/view/)
 ```{r January}
 x <- read.card("January", card.type="set")
 table(x$year, x$gear)
 gear.str(c(9,61))
 ```
 
-## [Juvenile cod surveys](http://dmapps/en/inventory/501/view/)
+## 4 [Juvenile cod surveys](http://dmapps/en/inventory/501/view/)
 ```{r juvenile}
 x <- read.card("juvenile", card.type="set")
 table(x$year, x$month)
+table(x$gear)
+gear.str(c(3,12,13,98))
 ```
 
-## [Seasonal surveys](http://dmapps/en/inventory/1485/view/)
+## 5 [Seasonal surveys](http://dmapps/en/inventory/1485/view/)
 ```{r, seasonal}
 x <- read.card("seasonal", card.type="set")
 table(x$year, x$month)
 ```
 
 
-## [Historical RV surveys](http://dmapps/en/inventory/499/view/)
+## 6 [Historical RV surveys](http://dmapps/en/inventory/499/view/)
 ```{r, historical}
 #x <- read.card("historical", card.type="set")
 #table(x$year)
 ```
+
+## 7 [Northumberland Strait survey](http://dmapps/en/inventory/728/view/)
+
+## 8 [Snow crab survey](http://dmapps/en/inventory/498/view/)
+
+## 9 [Scallop survey](http://dmapps/en/inventory/740/view/)
+
+## 10 [Sentinel trawl survey](http://dmapps/en/inventory/713/view/)
+
