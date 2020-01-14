@@ -25,6 +25,20 @@ data.dic$description_en <- c("Source of otoliths, can be either from the Researc
 
 data.dic.fn <- "data-dictionary.csv"
 write.csv(data.dic, file=data.dic.fn, row.names = FALSE)
+
+## data dictionary for skates
+vars.bilingual <- c("source", "latin.name_nom.latin", "english.name_nom.anglais", "french.name_nom.français", "year_année","month_mois","number.vertebrae_nombre.vertèbres")
+
+data.dic <- data.frame(
+  name_nom = vars.bilingual
+  )
+data.dic$description_fr <- c("Source des vertèbres, le relevé par navire de recherche (Research Vessel (RV))", "Nom latin de l'espèce", "Nom anglais de l'espèce", "Nom français de l'espèce", "Année d'échantillonnage des vertèbres", "Mois d'échantillonnage des vertèbres", "Nombre de vertèbres dans la collection")
+
+data.dic$description_en <- c("Source of vertebrae, the Research Vessel (RV) survey", "Latin name of the species", "English name of the species", "French name of the species", "Year when vertebrae were collected", "Month when vertebrae were collected", "Number of vertebrae in collection")
+
+data.dic.fn <- "data-dictionary-skates.csv"
+write.csv(data.dic, file=data.dic.fn, row.names = FALSE)
+
 ```
 
 
