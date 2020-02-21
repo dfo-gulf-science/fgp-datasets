@@ -1,0 +1,18 @@
+name_nom,description_en,description_fr
+year,The year when the station was surveyed,L'année du chalutage
+month,The month when the station was surveyed,Le mois du chalutage
+day,The day when the station was surveyed,Le jour du chalutage
+tow.id,Unique identifier for each tow,Identifiant unique 
+start.time,The time at start of tow,L'heure du début du chalutage
+comment,Comment,Commentaire
+snow.crab.male,Count of male Snow crab in tow,Compte du crabe des neiges mâle
+snow.crab.female,Count of female Snow crab in tow,Compte du crabe des neiges femelle
+Atlantic.cod,Count of Atlantic Cod in tow,Compte de la morue franche
+American.plaice,Count of American Plaice in tow,Compte de la plie canadienne
+Yellowtail.flounder,Count of Yellowtail Flounder in tow,Compte de la limande à queue jaune
+Winter.flounder,Count of Winter Flounder in tow,Compte de la plie rouge
+Thorny.skate,Count of Thorny Skate in tow,Compte de la raie épineuset
+Smooth.skate,Count of Smooth Skate in tow,Compte de la raie lisse
+Longhorn.sculpin,Count of Longhorn Sculpin in tow,Compte du chaboisseau à dix-huit épines
+Sea.potato,Count of Sea Potato in tow,Compte de patate de mer
+Hyas.coarctatus,Count of Hyas Coarctatus in tow,Compte du crabe lyre (araignée)
