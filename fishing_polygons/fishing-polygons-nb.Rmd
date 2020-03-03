@@ -1,0 +1,17 @@
+---
+title: "Fishing polygons notebook"
+output:
+  html_document:
+    df_print: paged
+---
+
+Working with Michael Elliott to establish a central location for polygons of fishing zones in the Gulf of St. Lawrence.
+
+```{r nfld-LFAs}
+library(sf)
+library(here)
+
+fc <- sf::st_read(here(), layer = "NFLD_Lobster_PolygonsFromPolylines")
+plot(fc)
+
+```
