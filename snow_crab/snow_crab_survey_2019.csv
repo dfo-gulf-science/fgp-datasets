@@ -1,4 +1,4 @@
-year,month,day,tow.id,longitude,latitude,start.time,comment,snow.crab.male,snow.crab.female,Atlantic.cod,American.plaice,Yellowtail.flounder,Winter.flounder,Thorny.skate,Smooth.skate,Longhorn.sculpin,Sea.potato,Hyas.coarctatus
+year__année,month__mois,day__jour,tow_trait,longitude,latitude,start__départ,comment__commentaire,snow_crab_males__mâles_de_crabe_des_neiges,snow_crab_females__femâles_de_crabe_des_neiges,Atlantic_cod__morue_franche,American_plaice__plie_américaine,Yellowtail_flounder__limande_à_queue_jaune,winter_flounder__plie_rouge,thorny_skate__raie_épineuset,smooth_skate__raie_lisse,longhorn_sculpin__chaboisseau_à_dix_huit_épines,sea_potato__patate_de_mer,Hyas_coarctatus
 2019,7,12,GP354F,-60.3894,47.38342,5:12:29,Variable 2 a 2.4 noeuds,0,0,27,0,0,0,1,0,0,0,11
 2019,7,12,GP351F,-60.4655,47.43065,6:55:00,Stable ~ 2.1 kts,64,1,6,113,0,0,16,2,0,0,0
 2019,7,12,GP353FR,-60.4038,47.52278,9:50:55,Force a cause de vase ~ 2.1 kts,0,0,0,0,0,0,1,4,0,0,0
