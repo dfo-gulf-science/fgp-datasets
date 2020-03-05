@@ -7,7 +7,7 @@ output:
   html_document: default
   word_document: default
 ---
-This document is the narrative of how an Excel file called "sGSL-scallop-RV-FGP.csv" was generated. 
+This document is the narrative of how an Excel file called "sGSL-scallop-RV-FGP.csv" was generated.
 
 
 ```{r setup, fig.height=6, fig.width=6}
@@ -34,7 +34,7 @@ knitr::kable(data.frame(uu,experiment.str(uu)))## what are the experiment codes
 #Need to remove data that is of no use for analysis
 
 # true for sets other than NULL sets
-logical1 <- x$experiment == 1 
+logical1 <- x$experiment == 1
 
 #Subset set cards with conditions
 x <- x[logical1,]
@@ -52,12 +52,12 @@ x$latitude <- latitude(x)
 x$mission <- paste(x$vessel.code, x$cruise.number, sep="")
 
 ox <- order(x$year, x$month, x$day, x$start.hour)
-x <- x[ox,] # reorder chronologically 
+x <- x[ox,] # reorder chronologically
 
 ```
 
 
-Catch cards contain the total catch information for the species of interest. Here they are adjusted for distance towed, estimated diurnal effects and estimated vessel-gear effects.  
+Catch cards contain the total catch information for the species of interest. Here they are adjusted for distance towed, estimated diurnal effects and estimated vessel-gear effects.
 ```{r catch2}
 ### Catch card for all years requesteed
 y <- read.card(card.type="cat", year = yrs , survey=survey)
@@ -83,9 +83,7 @@ csv.fn2 <- file.path(fp,fn2)
 ooz <- order(z$year, z$month, z$day, z$start.hour, z$start.minute, z$species)
 
 #columns to keep
-fvars2 <- c("year","month","day","start.hour","start.minute","latitude","longitude","gear.str","species","french.name","english.name","latin.name","weight.caught","number.caught")
+fvars2 <- c("year__annee","month__mois","day__jour","start_hour__heure_de_depart","start_minute__minute_de_depart","latitude","longitude","gear__equipement","species__espece","french_name__nom_francais","english_name__nom_anglais","latin_name__nom_latin","weight_caught__poids_pris","number_caught__quantite__attrape")
 zz=  z[ooz,fvars2]
 write.csv(zz, file=csv.fn2, row.names=FALSE)
 ```
-
-
