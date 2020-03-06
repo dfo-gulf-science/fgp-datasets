@@ -1,0 +1,8 @@
+name_nom,description_en,description_fr
+SiteZone,Site name,Nom de la station
+Province,Province site falls in,Province dans laquelle la station se trouve
+YearAnnee,Sampling year,Année d'échantillonnage
+Lat,Geographic latitude coordinate in decimal degrees (WGS84),Coordonnée de la latitude géographique en degrés décimaux (WGS84)
+Long,Geographic longitude coordinate in decimal degrees (WGS84),Coordonnée de la longitude géographique en degrés décimaux (WGS84)
+Pct,Percent of estuary contained by geographic coordinate boundary ,Pourcentage de l'estuaire contenu par la limite de la coordonnée géographique 
+OtherAutre,Other comments relating to the location of the geographic coordinate or the type of logger deployed,Autres commentaires relatifs à la localisation de la coordonnée géographique ou au type d'enregistreur déployé
