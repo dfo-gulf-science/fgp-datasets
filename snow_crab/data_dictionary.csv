@@ -1,18 +1,20 @@
 name_nom,description_en,description_fr
-year,The year when the station was surveyed,L'annÈe du chalutage
-month,The month when the station was surveyed,Le mois du chalutage
-day,The day when the station was surveyed,Le jour du chalutage
-tow.id,Unique identifier for each tow,Identifiant unique 
-start.time,The time at start of tow,L'heure du dÈbut du chalutage
-comment,Comment,Commentaire
-snow.crab.male,Count of male Snow crab in tow,Compte du crabe des neiges m‚le
-snow.crab.female,Count of female Snow crab in tow,Compte du crabe des neiges femelle
-Atlantic.cod,Count of Atlantic Cod in tow,Compte de la morue franche
-American.plaice,Count of American Plaice in tow,Compte de la plie canadienne
-Yellowtail.flounder,Count of Yellowtail Flounder in tow,Compte de la limande ‡ queue jaune
-Winter.flounder,Count of Winter Flounder in tow,Compte de la plie rouge
-Thorny.skate,Count of Thorny Skate in tow,Compte de la raie Èpineuset
-Smooth.skate,Count of Smooth Skate in tow,Compte de la raie lisse
-Longhorn.sculpin,Count of Longhorn Sculpin in tow,Compte du chaboisseau ‡ dix-huit Èpines
-Sea.potato,Count of Sea Potato in tow,Compte de patate de mer
-Hyas.coarctatus,Count of Hyas Coarctatus in tow,Compte du crabe lyre (araignÈe)
+year__annee,The year when the station was surveyed,L'ann√©e du chalutage
+month__mois,The month when the station was surveyed,Le mois du chalutage
+day__jour,The day when the station was surveyed,Le jour du chalutage
+tow_trait,Unique identifier for each tow,Identifiant unique
+longitude,start longitude of tow,la longitude de d√©part du trait
+latitude,start latitude of tow,la latitude de d√©part du trait
+start__depart,The time at start of tow,L'heure du d√©but du chalutage
+comment__commentaire,Comment,Commentaire
+snow_crab_males__males_de_crabe_des_neiges,Count of male Snow crab in tow,Compte du crabe des neiges m√¢le
+snow_crab_females__females_de_crabe_des_neiges,Count of female Snow crab in tow,Compte du crabe des neiges femelle
+Atlantic_cod__morue_franche,Count of Atlantic Cod in tow,Compte de la morue franche
+American_plaice__plie_americaine,Count of American Plaice in tow,Compte de la plie canadienne
+Yellowtail_flounder__limande_a_queue_jaune,Count of Yellowtail Flounder in tow,Compte de la limande √† queue jaune
+winter_flounder__plie_rouge,Count of Winter Flounder in tow,Compte de la plie rouge
+thorny_skate__raie_epineuset,Count of Thorny Skate in tow,Compte de la raie √©pineuset
+smooth_skate__raie_lisse,Count of Smooth Skate in tow,Compte de la raie lisse
+longhorn_sculpin__chaboisseau_a_dix_huit_√©pines,Count of Longhorn Sculpin in tow,Compte du chaboisseau √† dix-huit √©pines
+sea_potato__patate_de_mer,Count of Sea Potato in tow,Compte de patate de mer
+Hyas_coarctatus,Count of Hyas Coarctatus in tow,Compte du crabe lyre (araign√©e)

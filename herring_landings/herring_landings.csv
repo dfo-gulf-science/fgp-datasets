@@ -1,4 +1,4 @@
-year_annee,stock,4t_fixed_spring,4t_mobile_spring,4t_fixed_fall,4t_mobile_fall,4t_total,4vn_total,4tvn_total
+﻿year_annee,stock,4t_fixed_spring,4t_mobile_spring,4t_fixed_fall,4t_mobile_fall,4t_total,4vn_total,4tvn_total
 1978,ss,7498,6400,231,10187,24316,799,25115
 1978,fs,1048,1647,4910,21568,29173,2042,31215
 1978,total,8546,8047,5141,31755,53489,2841,56330
@@ -119,3 +119,9 @@ year_annee,stock,4t_fixed_spring,4t_mobile_spring,4t_fixed_fall,4t_mobile_fall,4
 2017,ss,928,4,215,42,1189,0,1189
 2017,fs,18,86,20381,38,20523,0,20523
 2017,total,946,90,20596,80,21712,0,21712
+2018,ss,438,58,99,203,798,0,798
+2018,fs,39,1187,15186,330,16742,0,16742
+2018,total,477,1245,15285,533,17540,0,17540
+2019,ss,485,0,44,518,1047,0,1047
+2019,fs,56,0,14844,644,15544,0,15544
+2019,total,541,0,14888,1162,16591,0,16591
