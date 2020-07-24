@@ -356,7 +356,7 @@
 		<SimpleData name="region">quebec</SimpleData>
 		<SimpleData name="label">21B</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-66.3466666666666,48.1158333333333 -66.3583333333333,48.0844444444444 -66.3225,48.0544444444444 -65.9027777777778,48.0297222222222 -65.9027777777778,48.21</coordinates></LineString>
+      <LineString><coordinates>-66.3466666666667,48.1158333333333 -66.3583333333333,48.0844444444444 -66.3225,48.0544444444444 -65.9027777777778,48.0297222222222 -65.9027777777778,48.21</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
