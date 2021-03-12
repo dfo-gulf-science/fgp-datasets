@@ -1,7 +1,7 @@
 ---
 title: "Extract to create a csv file used to feed FGP/OGSL/ETC"
 author: "Pablo Vergara"
-date: "February 14 2020"
+date: "March 12 2021"
 output:
   pdf_document: default
   html_document: default
@@ -20,7 +20,7 @@ Using the function "read.card" from the DFO Gulf Region's R package "gulf", read
 
 ```{r sets}
 survey = "sca"
-yrs <- c(2012, 2013, 2014, 2015, 2016,2018)
+yrs <- c(2012, 2013, 2014, 2015, 2016,2018,2019)
 x <- read.card(card.type="set", year=yrs, survey = survey)
 ## we want to keep only representative tows, within the historical context that some tows were identified as "hydrography" before 1993 but were really fishing stations
 uu <- sort(unique(x$experiment))
@@ -88,7 +88,8 @@ fvars2 <- c("year","month","day","start.hour","start.minute","latitude","longitu
 
 zz=  z[ooz,fvars2]
 #rename header for FGP
-fgpheader <- c("year__annee","month__mois","day__jour","start_hour__heure_de_depart","start_minute__minute_de_depart","latitude","longitude","gear__equipement","species__espece","french_name__nom_francais","english_name__nom_anglais","latin_name__nom_latin","weight_caught__poids_pris","number_caught__quantite__attrape")
-names(zz) = fgpheader
+ 
+names(zz) <- c("year__annee","month__mois","day__jour","start_hour__heure_de_depart","start_minute__minute_de_depart","latitude","longitude","gear__equipement","species__espece","french_name__nom_francais","english_name__nom_anglais","latin_name__nom_latin","weight_caught__poids_pris","number_caught__quantite__attrape")
+
 write.csv(zz, file=csv.fn2, row.names=FALSE)
 ```
