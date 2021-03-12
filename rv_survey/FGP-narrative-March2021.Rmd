@@ -105,5 +105,8 @@ ooz <- order(z$year, z$month, z$day, z$start.hour, z$start.minute, z$species)
 #columns to keep
 fvars2 <- c("year","month","day","start.hour","start.minute","latitude","longitude","gear.str","species","french.name","english.name","latin.name","weight.caught","number.caught")
 zz=  z[ooz,fvars2]
+
+#header for FGP must be in both languages
+names(zz) <- c("year__annee","month__mois","day__jour","start_hour__heure_de_depart","start_minute__minute_de_depart","latitude","longitude","gear__equipement","species__espece","french_name__nom_francais","english_name__nom_anglais","latin_name__nom_latin","weight_caught__poids_pris","number_caught__quantite__attrape")
 write.csv(zz, file=csv.fn2, row.names=FALSE)
 ```
