@@ -12,4 +12,4 @@ english_name__nom_anglais,English name of the species identified in station bein
 latin_name__nom_latin,Latin name of the species identified in station being surveyed,Nom latin de l'espèce identifiée dans la station étudiée
 french_name__nom_francais,French name of the species identified in station being surveyed,Nom français de l'espèce identifiée dans la station étudiée
 weight_caught__poids_pris,The total weight in kilograms of a specific species caught in the set,Le poids total en kilogrammes d'une espèce spécifique capturée lors d'un trait
-number_caught__quantite__attrape,The estimated total number of specimens of a specific species which was caught in a set,Le nombre total estimé de spécimens d'une espèce spécifique capturés lors d'un trait
+number_caught__quantite_attrape,The estimated total number of specimens of a specific species which was caught in a set,Le nombre total estimé de spécimens d'une espèce spécifique capturés lors d'un trait
