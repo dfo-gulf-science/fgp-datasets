@@ -1,7 +1,7 @@
 ---
 title: "Extract to create cSV used to feed FGP/OGSL/ETC"
 author: "Pablo Vergara"
-date: "Dec 09 2019"
+date: "March 11 2021"
 output:
   pdf_document: default
   html_document: default
@@ -22,12 +22,12 @@ survey ="ns"
 Using the function "read.card" from the DFO Gulf Region's R package "gulf", read in the set cards and exclude hydrographic stations and null sets, so as to keep only representative tows in strata 401 to 439.
 
 ```{r sets}
-yrs <- 1999:2018 # only producing 2018 for the moment, will produce others years once we are sure data is in proper format
+yrs <- 1999:2019 # 
 x <- read.card(card.type="set", year=yrs, survey =survey)
 index <- x$experiment == 1
 x <- x[which(index),]
 
-valid.cruise<-c('0901','O024','O139','O241','O341','O434','O536','O637','O030','O022','O029','O103','O129','O026','P126','P021','P521','P018','P024','P041')###only cruise numbers from July/August
+valid.cruise<-c('0901','O024','O139','O241','O341','O434','O536','O637','O030','O022','O029','O103','O129','O026','P126','P021','P521','P018','P024','P041', 'P140')###only cruise numbers from July/August
 
 
 index  <- paste0(x$vessel.code,  x$cruise.number) %in% valid.cruise
@@ -83,10 +83,9 @@ ooz <- order(z$year, z$month, z$day, z$start.hour, z$start.minute, z$species)
 #columns to keep
 fvars2 <- c("cruise.number","year","month","day","start.hour","start.minute","latitude","longitude","gear.str","species","french.name","english.name","latin.name","weight.caught","number.caught")
 
-zz = z[ooz,fvars2]
+zz=  z[ooz,fvars2]
 
 #proper headers for FGP
-names(zz) = c("cruise_number__numero_de_criosiere","year__annee","month__mois","day_jour","start_hour__heure_de_depart","start_minute__minute_de_depart","latitude","longitude","gear__equipement","species__espece","french_name__nom_francais","english_name__nom_anglais","latin_name__nom_latin","weight_caught__poids_pris","number_caught__quantite__attrape")
-
+names(zz) =  c("cruise_number__numero_de_criosiere","year__annee","month__mois","day_jour","start_hour__heure_de_depart","start_minute__minute_de_depart","latitude","longitude","gear__equipement","species__espece","french_name__nom_francais","english_name__nom_anglais","latin_name__nom_latin","weight_caught__poids_pris","number_caught__quantite__attrape")
 write.csv(zz, file=csv.fn2, row.names=FALSE)
 ```
