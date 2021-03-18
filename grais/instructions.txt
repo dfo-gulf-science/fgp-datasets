@@ -1,0 +1,24 @@
+Hi Rose et al.,
+
+These instructions relate to the following record on FGP
+uuid: 503a957e-7d6b-11e9-aef3-f48c505b2a29 
+URL: https://gcgeo.gc.ca/geonetwork/metadata/eng/503a957e-7d6b-11e9-aef3-f48c505b2a29
+
+DATA RESOURCES:
+###############
+The files contained in the folder named "data resources" need to be staged on the public facing servers (pacgis01). 
+Please send me the urls of these resources once they have been staged
+
+WMS:
+####
+The files in the folder named "mapping" should be used to update the webservices:
+english service --> "station_summary_report_eng.csv" 
+french service --> "station_summary_report_fra.csv"
+
+These are point data and the column called "Station Name" can be used for the point captions. 
+
+
+Thanks
+
+
+
