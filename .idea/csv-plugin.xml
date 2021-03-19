@@ -66,7 +66,21 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\port_sampling\NAFO-4T-Port-Sampling-samples.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\rv_survey\data resources\data-dictionary.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\rv_survey\data resources\sGSL-September-RV-FGP.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
