@@ -1,0 +1,15 @@
+These instructions relate to the following record on FGP
+uuid: 17bda544-dd77-99c4-5785-74315d9badaa
+URL: https://gcgeo.gc.ca/geonetwork/metadata/eng/17bda544-dd77-99c4-5785-74315d9badaa
+
+DATA RESOURCES:
+###############
+The 3 files contained in this folder need to be staged on the public facing servers (pacgis01). 
+Please send me the urls of these resources once they have been staged
+
+
+Thanks
+David
+
+
+
