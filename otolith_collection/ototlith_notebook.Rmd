@@ -1,6 +1,7 @@
 ---
 title: "Gulf Fisheries Centre Ageing Structures collection"
 author: "Daniel Ricard"
+date: '`r paste0("Last modified timestap: ", format(Sys.time(), "%Y-%m-%d %H:%M:%S"))`'
 output: html_notebook
 ---
 
@@ -9,7 +10,8 @@ The Ageing Structures collection held at the Gulf Fisheries Centre consists in T
 The purpose of this notebook is to facilitate the generation and update of the FGP datasets associated with the Ageing Structure collection.
 
 ```{r loaddata}
-load("C:/Users/RicardD/Documents/gccode/gulf/data/rv.rda")
+library(gulf)
+data(rv)
 ```
 
 ## Data dictionary
@@ -53,7 +55,7 @@ rv.df$source <- "RV"
 
 ## commercial data
 ## what years are available for commercial ages?
-## com.files <- list.files(path="//DFNBE1CwpFSP002/Hd2/commercial/age", pattern="codage")
+## com.files <- list.files(path="//ENT.dfo-mpo.ca/dfo-mpo/GROUP/GLF/Regional_Shares/Science/Hd2/commercial/age", pattern="codage")
 y.c <- gulf::read.card(year=1982, sampling="commercial", species=10, card.type="age") ## this loads all pre-1982 commercial ages
 for(yy in c(1983:2002,2004:2018)){ ## loop over years
 t.c <- gulf::read.card(year=yy, sampling="commercial", species=10, card.type="age")
@@ -89,7 +91,7 @@ rv.df$source <- "RV"
 
 ## commercial data
 ## what years are available for commercial ages?
-## com.files <- list.files(path="//DFNBE1CwpFSP002/Hd2/commercial/age", pattern="whage")
+## com.files <- list.files(path="//ENT.dfo-mpo.ca/dfo-mpo/GROUP/GLF/Regional_Shares/Science/Hd2/commercial/age", pattern="whage")
 y.c <- gulf::read.card(year=1982, sampling="commercial", species=12, card.type="age") ## this loads all pre-1982 commercial ages
 for(yy in c(1983:2017)){ ## loop over years
 t.c <- gulf::read.card(year=yy, sampling="commercial", species=12, card.type="age")
@@ -124,7 +126,7 @@ rv.df$source <- "RV"
 
 ## commercial data
 ## what years are available for commercial ages?
-## com.files <- list.files(path="//DFNBE1CwpFSP002/Hd2/commercial/age", pattern="plaage")
+## com.files <- list.files(path="//ENT.dfo-mpo.ca/dfo-mpo/GROUP/GLF/Regional_Shares/Science/Hd2/commercial/age", pattern="plaage")
 y.c <- gulf::read.card(year=1982, sampling="commercial", species=40, card.type="age") ## this loads all pre-1982 commercial ages
 for(yy in 1983:2018){ ## loop over years
 t.c <- gulf::read.card(year=yy, sampling="commercial", species=40, card.type="age")
@@ -162,7 +164,7 @@ rv.df$source <- "RV"
 
 ## commercial data
 ## what years are available for commercial ages?
-## com.files <- list.files(path="//DFNBE1CwpFSP002/Hd2/commercial/age", pattern="witage")
+## com.files <- list.files(path="//ENT.dfo-mpo.ca/dfo-mpo/GROUP/GLF/Regional_Shares/Science/Hd2/commercial/age", pattern="witage")
 y.c <- gulf::read.card(year=1982, sampling="commercial", species=41, card.type="age") ## this loads all pre-1982 commercial ages
 for(yy in 1998:2016){ ## loop over years
 t.c <- gulf::read.card(year=yy, sampling="commercial", species=41, card.type="age")
@@ -198,8 +200,9 @@ rv.df$source <- "RV"
 
 ## commercial data
 ## what years are available for commercial ages?
-## com.files <- list.files(path="//DFNBE1CwpFSP002/Hd2/commercial/age", pattern="wfage")
+## com.files <- list.files(path="//ENT.dfo-mpo.ca/dfo-mpo/GROUP/GLF/Regional_Shares/Science/Hd2/commercial/age", pattern="yelage")
 y.c <- gulf::read.card(year=1982, sampling="commercial", species=42, card.type="age") ## this loads all pre-1982 commercial ages
+
 
 l.4t <- which(substring(y.c$nafo.division,1,2)=="4T") ## keep only otoliths collected in NAFO 4T
 comm.df <- aggregate(otolith.number~year+month, data=y.c[l.4t,], length)
@@ -229,9 +232,9 @@ rv.df$source <- "RV"
 
 ## commercial data
 ## what years are available for commercial ages?
-## com.files <- list.files(path="//DFNBE1CwpFSP002/Hd2/commercial/age", pattern="wfage")
+## com.files <- list.files(path="//ENT.dfo-mpo.ca/dfo-mpo/GROUP/GLF/Regional_Shares/Science/Hd2/commercial/age", pattern="wfage")
 y.c <- gulf::read.card(year=1990, sampling="commercial", species=43, card.type="age") ## this loads all pre-1982 commercial ages
-for(yy in c(1991,1992,1993,2012,2014,2015,2016)){ ## loop over years
+for(yy in c(1990,1991,1992,1993,2012,2014,2015,2016)){ ## loop over years
 t.c <- gulf::read.card(year=yy, sampling="commercial", species=43, card.type="age")
 y.c <- rbind(y.c,t.c)
 }
