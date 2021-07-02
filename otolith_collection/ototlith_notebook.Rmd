@@ -57,7 +57,7 @@ rv.df$source <- "RV"
 ## what years are available for commercial ages?
 ## com.files <- list.files(path="//ENT.dfo-mpo.ca/dfo-mpo/GROUP/GLF/Regional_Shares/Science/Hd2/commercial/age", pattern="codage")
 y.c <- gulf::read.card(year=1982, sampling="commercial", species=10, card.type="age") ## this loads all pre-1982 commercial ages
-for(yy in c(1983:2002,2004:2018)){ ## loop over years
+for(yy in c(1983:2002,2004:2019)){ ## loop over years
 t.c <- gulf::read.card(year=yy, sampling="commercial", species=10, card.type="age")
 y.c <- rbind(y.c,t.c)
 }
@@ -93,7 +93,7 @@ rv.df$source <- "RV"
 ## what years are available for commercial ages?
 ## com.files <- list.files(path="//ENT.dfo-mpo.ca/dfo-mpo/GROUP/GLF/Regional_Shares/Science/Hd2/commercial/age", pattern="whage")
 y.c <- gulf::read.card(year=1982, sampling="commercial", species=12, card.type="age") ## this loads all pre-1982 commercial ages
-for(yy in c(1983:2017)){ ## loop over years
+for(yy in c(1983:2019)){ ## loop over years
 t.c <- gulf::read.card(year=yy, sampling="commercial", species=12, card.type="age")
 y.c <- rbind(y.c,t.c)
 }
@@ -128,7 +128,7 @@ rv.df$source <- "RV"
 ## what years are available for commercial ages?
 ## com.files <- list.files(path="//ENT.dfo-mpo.ca/dfo-mpo/GROUP/GLF/Regional_Shares/Science/Hd2/commercial/age", pattern="plaage")
 y.c <- gulf::read.card(year=1982, sampling="commercial", species=40, card.type="age") ## this loads all pre-1982 commercial ages
-for(yy in 1983:2018){ ## loop over years
+for(yy in 1983:2019){ ## loop over years
 t.c <- gulf::read.card(year=yy, sampling="commercial", species=40, card.type="age")
 y.c <- rbind(y.c,t.c)
 }
