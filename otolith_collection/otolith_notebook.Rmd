@@ -16,6 +16,9 @@ data(rv)
 
 ## Data dictionary
 ```{r dictionary}
+#################################################################
+#################################################################
+## data dictionary including the number of aged otoliths
 vars.bilingual <- c("source", "latin.name_nom.latin", "english.name_nom.anglais", "french.name_nom.français", "year_année","month_mois","number.otoliths_nombre.otolithes","number.otoliths.aged_nombre.otolithes.agées")
 
 data.dic <- data.frame(
@@ -28,6 +31,7 @@ data.dic$description_en <- c("Source of otoliths, can be either from the NAFO 4T
 data.dic.fn <- "data-dictionary.csv"
 write.csv(data.dic, file=data.dic.fn, row.names = FALSE, fileEncoding = "UTF8")
 
+#################################################################
 ## data dictionary for skates
 vars.bilingual <- c("source", "latin.name_nom.latin", "english.name_nom.anglais", "french.name_nom.français", "year_année","month_mois","number.vertebrae_nombre.vertèbres")
 
@@ -40,12 +44,11 @@ data.dic$description_en <- c("Source of vertebrae, the Research Vessel (RV) surv
 
 data.dic.fn <- "data-dictionary-skates.csv"
 write.csv(data.dic, file=data.dic.fn, row.names = FALSE, fileEncoding = "UTF8")
-
 ```
 
 
 ## Atlantic Cod
-Otoliths from the September RV survey, from other surveys, from sentinel programs and from commercial fisheries.
+Otoliths from the September RV survey, from other surveys, from sentinel programs, from port sampling of commercial fisheries and from at-sea observers.
 
 WHERE ARE THE COMMERCIAL SAMPLES FOR 2020 AND 2021?
 
@@ -114,7 +117,7 @@ write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE, fileEncoding = "UTF8"
 
 
 ## White Hake
-Otoliths from the September RV survey, from other surveys, from sentinel programs and from commercial fisheries.
+Otoliths from the September RV survey, from other surveys, from sentinel programs, from port sampling of commercial fisheries and from at-sea observers.
 
 WHERE ARE THE COMMERCIAL SAMPLES FOR 2020 AND 2021?
 
@@ -130,6 +133,7 @@ rv.df$source <- "RV-4T"
 ## com.files <- list.files(path="//ENT.dfo-mpo.ca/dfo-mpo/GROUP/GLF/Regional_Shares/Science/Hd2/commercial/age", pattern="whage")
 y.c <- gulf::read.card(year=1982, sampling="commercial", species=12, card.type="age") ## this loads all pre-1982 commercial ages
 for(yy in c(1983:2019)){ ## loop over years
+  print(paste0("Year ",yy))
 t.c <- gulf::read.card(year=yy, sampling="commercial", species=12, card.type="age")
 y.c <- rbind(y.c,t.c)
 }
@@ -138,7 +142,14 @@ comm.df <- aggregate(otolith.number~year+month, data=y.c[l.4tvn,], length)
 names(comm.df) <- c("year_année", "month_mois", "number.otoliths_nombre.otolithes")
 comm.df$source <- "Commercial"
 
-out.df <- rbind(rv.df, comm.df)
+## observers
+y.o <- read.card(sampling = "obs", year = 2000:2020, card = "age", species = 12)
+obs.df <- aggregate(fish.number~year+month, data=y.o, length)
+names(obs.df) <- c("year_année", "month_mois", "number.otoliths_nombre.otolithes")
+obs.df$source <- "Observers"
+
+
+out.df <- rbind(rv.df, comm.df,obs.df)
 out.df$latin.name_nom.latin <- "Urophycis tenuis"
 out.df$english.name_nom.anglais <- "White Hake"
 out.df$french.name_nom.français <- "Merluche blanche"
@@ -167,7 +178,16 @@ m.comm.df <- merge(comm.df, comm.df2, all.x=TRUE, by=c("year_année","month_mois
 m.comm.df$source <- "Commercial"
 m.comm.df[is.na(m.comm.df$number.otoliths.aged_nombre.otolithes.agées),"number.otoliths.aged_nombre.otolithes.agées"] <- 0
 
-out.df <- rbind(m.rv.df, m.comm.df)
+## observers
+l.aged <- which(y.o$age %in% c(0:25)) 
+obs.df2 <- aggregate(fish.number~year+month, data=y.o[l.aged,], length)
+names(obs.df2) <- c("year_année", "month_mois", "number.otoliths.aged_nombre.otolithes.agées")
+m.obs.df <- merge(obs.df, obs.df2, all.x=TRUE, by=c("year_année","month_mois"))
+m.obs.df$source <- "Observers"
+m.obs.df[is.na(m.obs.df$number.otoliths.aged_nombre.otolithes.agées),"number.otoliths.aged_nombre.otolithes.agées"] <- 0
+
+
+out.df <- rbind(m.rv.df, m.comm.df, m.obs.df)
 out.df$latin.name_nom.latin <- "Urophycis tenuis"
 out.df$english.name_nom.anglais <- "White Hake"
 out.df$french.name_nom.français <- "Merluche blanche"
@@ -178,11 +198,10 @@ o1 <- order(out.df$source, out.df$year_année, out.df$month_mois)
 out.fn <- "./NAFO-4T-White-Hake-ages.csv"
 write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE, fileEncoding = "UTF8")
 
-
 ```
 
 ## American Plaice
-Otoliths from the September RV survey, from other surveys, from sentinel programs and from commercial fisheries.
+Otoliths from the September RV survey, from other surveys, from sentinel programs, from port sampling of commercial fisheries and from at-sea observers.
 
 WHERE ARE THE COMMERCIAL SAMPLES FOR 2020 AND 2021?
 
@@ -192,12 +211,15 @@ y <- rv$bio[which(rv$bio$species==40),]
 rv.df <- aggregate(fish.number~year+month, data=y[which(y$age.material==1),], length)
 names(rv.df) <- c("year_année", "month_mois", "number.otoliths_nombre.otolithes")
 rv.df$source <- "RV-4T"
+## oo <- order(rv.df$year, rv.df$month)
+## rv.df[oo,]
 
 ## commercial data
 ## what years are available for commercial ages?
 ## com.files <- list.files(path="//ENT.dfo-mpo.ca/dfo-mpo/GROUP/GLF/Regional_Shares/Science/Hd2/commercial/age", pattern="plaage")
 y.c <- gulf::read.card(year=1982, sampling="commercial", species=40, card.type="age") ## this loads all pre-1982 commercial ages
 for(yy in 1983:2019){ ## loop over years
+  print(paste0("Year ",yy))
 t.c <- gulf::read.card(year=yy, sampling="commercial", species=40, card.type="age")
 y.c <- rbind(y.c,t.c)
 }
@@ -208,8 +230,14 @@ comm.df <- aggregate(otolith.number~year+month, data=y.c[l.4t,], length)
 names(comm.df) <- c("year_année", "month_mois", "number.otoliths_nombre.otolithes")
 comm.df$source <- "Commercial"
 
+## observers data
+y.o <- read.card(sampling = "obs", year = 2000:2020, card = "age", species = 40)
+obs.df <- aggregate(fish.number~year+month, data=y.o, length)
+names(obs.df) <- c("year_année", "month_mois", "number.otoliths_nombre.otolithes")
+obs.df$source <- "Observers"
 
-out.df <- rbind(rv.df, comm.df)
+
+out.df <- rbind(rv.df, comm.df, obs.df)
 out.df$latin.name_nom.latin <- "Hippoglossoides platessoides"
 out.df$english.name_nom.anglais <- "American Plaice"
 out.df$french.name_nom.français <- "Plie canadienne"
@@ -238,7 +266,15 @@ m.comm.df <- merge(comm.df, comm.df2, all.x=TRUE, by=c("year_année","month_mois
 m.comm.df$source <- "Commercial"
 m.comm.df[is.na(m.comm.df$number.otoliths.aged_nombre.otolithes.agées),"number.otoliths.aged_nombre.otolithes.agées"] <- 0
 
-out.df <- rbind(m.rv.df, m.comm.df)
+## observers
+l.aged <- which(y.o$age %in% c(0:25)) 
+obs.df2 <- aggregate(fish.number~year+month, data=y.o[l.aged,], length)
+names(obs.df2) <- c("year_année", "month_mois", "number.otoliths.aged_nombre.otolithes.agées")
+m.obs.df <- merge(obs.df, obs.df2, all.x=TRUE, by=c("year_année","month_mois"))
+m.obs.df$source <- "Observers"
+m.obs.df[is.na(m.obs.df$number.otoliths.aged_nombre.otolithes.agées),"number.otoliths.aged_nombre.otolithes.agées"] <- 0
+
+out.df <- rbind(m.rv.df, m.comm.df, m.obs.df)
 out.df$latin.name_nom.latin <- "Hippoglossoides platessoides"
 out.df$english.name_nom.anglais <- "American Plaice"
 out.df$french.name_nom.français <- "Plie canadienne"
@@ -249,13 +285,13 @@ o1 <- order(out.df$source, out.df$year_année, out.df$month_mois)
 out.fn <- "./NAFO-4T-American-Plaice-ages.csv"
 write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE, fileEncoding = "UTF8")
 
-
 ```
 
 ## Witch Flounder
-Otoliths from the September RV survey, from other surveys, from sentinel programs and from commercial fisheries. Otoliths collected in the Quebec August survey in 4RS.
+Otoliths from the September RV survey, from other surveys, from sentinel programs and from port sampling of commercial fisheries and from at-sea observers. Otoliths collected in the Quebec August survey in 4RS.
 
 WHERE ARE THE COMMERCIAL SAMPLES FOR 2017 TO 2021?
+
 
 ```{r witch, cache=TRUE}
 ## RV data
@@ -264,11 +300,14 @@ rv.df <- aggregate(fish.number~year+month, data=y[which(y$age.material==1),], le
 names(rv.df) <- c("year_année", "month_mois", "number.otoliths_nombre.otolithes")
 rv.df$source <- "RV-4T"
 
+## oo <- order(rv.df$year, rv.df$month)
+## rv.df[oo,]
 ## commercial data
 ## what years are available for commercial ages?
 ## com.files <- list.files(path="//ENT.dfo-mpo.ca/dfo-mpo/GROUP/GLF/Regional_Shares/Science/Hd2/commercial/age", pattern="witage")
 y.c <- gulf::read.card(year=1982, sampling="commercial", species=41, card.type="age") ## this loads all pre-1982 commercial ages
-for(yy in 1998:2016){ ## loop over years
+for(yy in 1998:2019){ ## loop over years
+  print(paste0("Year ",yy))
 t.c <- gulf::read.card(year=yy, sampling="commercial", species=41, card.type="age")
 y.c <- rbind(y.c,t.c)
 }
@@ -278,8 +317,14 @@ comm.df <- aggregate(otolith.number~year+month, data=y.c[l.4t,], length)
 names(comm.df) <- c("year_année", "month_mois", "number.otoliths_nombre.otolithes")
 comm.df$source <- "Commercial"
 
+## observers data
+y.o <- read.card(sampling = "obs", year = 1999:2020, card = "age", species = 41)
+obs.df <- aggregate(fish.number~year+month, data=y.o, length)
+names(obs.df) <- c("year_année", "month_mois", "number.otoliths_nombre.otolithes")
+obs.df$source <- "Observers"
 
-out.df <- rbind(rv.df, comm.df)
+
+out.df <- rbind(rv.df, comm.df, obs.df)
 out.df$latin.name_nom.latin <- "Glyptocephalus cynoglossus"
 out.df$english.name_nom.anglais <- "Witch Flounder"
 out.df$french.name_nom.français <- "Plie grise"
@@ -308,7 +353,12 @@ m.comm.df <- merge(comm.df, comm.df2, all.x=TRUE, by=c("year_année","month_mois
 m.comm.df$source <- "Commercial"
 m.comm.df[is.na(m.comm.df$number.otoliths.aged_nombre.otolithes.agées),"number.otoliths.aged_nombre.otolithes.agées"] <- 0
 
-out.df <- rbind(m.rv.df, m.comm.df)
+## do the same for observer samples, how many were aged
+l.4tvn <- which(y.o$age %in% c(0:25)) 
+m.obs.df <- obs.df
+m.obs.df$number.otoliths.aged_nombre.otolithes.agées <- 0
+  
+out.df <- rbind(m.rv.df, m.comm.df, m.obs.df)
 out.df$latin.name_nom.latin <- "Glyptocephalus cynoglossus"
 out.df$english.name_nom.anglais <- "Witch Flounder"
 out.df$french.name_nom.français <- "Plie grise"
@@ -318,11 +368,10 @@ o1 <- order(out.df$source, out.df$year_année, out.df$month_mois)
 
 out.fn <- "./NAFO-4RST-Witch-Flounder-ages.csv"
 write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE, fileEncoding = "UTF8")
-
 ```
 
 ## Yellowtail Flounder
-Otoliths from the September RV survey, from other surveys, from sentinel programs and from commercial fisheries
+Otoliths from the September RV survey, from other surveys, from sentinel programs and from port sampling of commercial fisheries and from at-sea observers.
 
 WHERE ARE THE COMMERCIAL SAMPLES FOR YEARS AFTER 1982?
 
@@ -338,11 +387,12 @@ rv.df$source <- "RV-4T"
 ## com.files <- list.files(path="//ENT.dfo-mpo.ca/dfo-mpo/GROUP/GLF/Regional_Shares/Science/Hd2/commercial/age", pattern="yelage")
 y.c <- gulf::read.card(year=1982, sampling="commercial", species=42, card.type="age") ## this loads all pre-1982 commercial ages
 
-
 l.4t <- which(substring(y.c$nafo.division,1,2)=="4T") ## keep only otoliths collected in NAFO 4T
 comm.df <- aggregate(otolith.number~year+month, data=y.c[l.4t,], length)
 names(comm.df) <- c("year_année", "month_mois", "number.otoliths_nombre.otolithes")
 comm.df$source <- "Commercial"
+
+## there is no observers otoliths for yellowtail
 
 out.df <- rbind(rv.df, comm.df)
 out.df$latin.name_nom.latin <- "Limanda ferruginea"
@@ -387,7 +437,7 @@ write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE, fileEncoding = "UTF8"
 ```
 
 ## Winter Flounder
-Otoliths from the September RV survey, from other surveys, from sentinel programs and from commercial fisheries.
+Otoliths from the September RV survey, from other surveys, from sentinel programs, from port sampling of commercial fisheries and from at-sea observers.
 
 WHERE ARE THE COMMERCIAL SAMPLES FOR YEARS AFTER 2016?
 
@@ -402,7 +452,7 @@ rv.df$source <- "RV-4T"
 ## what years are available for commercial ages?
 ## com.files <- list.files(path="//ENT.dfo-mpo.ca/dfo-mpo/GROUP/GLF/Regional_Shares/Science/Hd2/commercial/age", pattern="wfage")
 y.c <- gulf::read.card(year=1990, sampling="commercial", species=43, card.type="age") ## this loads all pre-1982 commercial ages
-for(yy in c(1990,1991,1992,1993,2012,2014,2015,2016)){ ## loop over years
+for(yy in c(1990:1993,2012,2014:2019)){ ## loop over years
 t.c <- gulf::read.card(year=yy, sampling="commercial", species=43, card.type="age")
 y.c <- rbind(y.c,t.c)
 }
@@ -412,6 +462,7 @@ comm.df <- aggregate(otolith.number~year+month, data=y.c[l.4t,], length)
 names(comm.df) <- c("year_année", "month_mois", "number.otoliths_nombre.otolithes")
 comm.df$source <- "Commercial"
 
+## observers
 
 out.df <- rbind(rv.df, comm.df)
 out.df$latin.name_nom.latin <- "Pseudopleuronectes americanus"
@@ -457,6 +508,8 @@ write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE, fileEncoding = "UTF8"
 
 ## Chondrichthyan vertabrae
 Vertebrae from the September RV survey.
+
+WHERE ARE THE AGES?
 
 ```{r skates, cache=TRUE}
 ## RV data
