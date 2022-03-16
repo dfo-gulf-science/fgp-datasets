@@ -50,7 +50,10 @@ write.csv(data.dic, file=data.dic.fn, row.names = FALSE, fileEncoding = "UTF8")
 ## Atlantic Cod
 Otoliths from the September RV survey, from other surveys, from sentinel programs, from port sampling of commercial fisheries and from at-sea observers.
 
-WHERE ARE THE COMMERCIAL SAMPLES FOR 2020 AND 2021?
+Unresolved issues: 
+- observers prior to 1999
+- observer 2014 has entries where year, month and day is 0
+- sentinel 2019, no data on Hd2
 
 ```{r cod, cache=TRUE}
 ## RV data
@@ -79,7 +82,7 @@ names(comm.df) <- c("year_année", "month_mois", "number.otoliths_nombre.otolith
 comm.df$source <- "Commercial"
 
 ## observers
-y.o <- read.card(sampling = "obs", year = 1994:2020, card = "age", species = 10)
+y.o <- read.card(sampling = "obs", year = 2015:2020, card = "age", species = 10) ## 1994:2014, 
 obs.df <- aggregate(fish.number~year+month, data=y.o, length)
 names(obs.df) <- c("year_année", "month_mois", "number.otoliths_nombre.otolithes")
 obs.df$source <- "Observers"
@@ -148,7 +151,8 @@ write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE, fileEncoding = "UTF8"
 ## White Hake
 Otoliths from the September RV survey, from other surveys, from sentinel programs, from port sampling of commercial fisheries and from at-sea observers.
 
-WHERE ARE THE COMMERCIAL SAMPLES FOR 2020 AND 2021?
+Unresolved issues: 
+- observers 2016, 2018 and 2019 are still not on Hd2
 
 ```{r hake, cache=TRUE}
 ## RV data
@@ -247,7 +251,7 @@ rv.df$source <- "RV-4T"
 ## what years are available for commercial ages?
 ## com.files <- list.files(path="//ENT.dfo-mpo.ca/dfo-mpo/GROUP/GLF/Regional_Shares/Science/Hd2/commercial/age", pattern="plaage")
 y.c <- gulf::read.card(year=1982, sampling="commercial", species=40, card.type="age") ## this loads all pre-1982 commercial ages
-for(yy in 1983:2019){ ## loop over years
+for(yy in 1983:2021){ ## loop over years
   print(paste0("Year ",yy))
 t.c <- gulf::read.card(year=yy, sampling="commercial", species=40, card.type="age")
 y.c <- rbind(y.c,t.c)
