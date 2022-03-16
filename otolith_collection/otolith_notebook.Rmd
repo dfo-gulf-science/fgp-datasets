@@ -69,7 +69,7 @@ sent.df$source <- "SENT-4T"
 ## what years are available for commercial ages?
 ## com.files <- list.files(path="//ENT.dfo-mpo.ca/dfo-mpo/GROUP/GLF/Regional_Shares/Science/Hd2/commercial/age", pattern="codage")
 y.c <- gulf::read.card(year=1982, sampling="commercial", species=10, card.type="age") ## this loads all pre-1982 commercial ages
-for(yy in c(1983:2002,2004:2019)){ ## loop over years ,2021
+for(yy in c(1983:2002,2004:2019,2021)){ ## loop over years 
 t.c <- gulf::read.card(year=yy, sampling="commercial", species=10, card.type="age")
 y.c <- rbind(y.c,t.c)
 }
