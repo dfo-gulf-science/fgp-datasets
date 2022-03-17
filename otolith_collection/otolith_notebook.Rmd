@@ -63,7 +63,7 @@ names(rv.df) <- c("year_année", "month_mois", "number.otoliths_nombre.otolithes
 rv.df$source <- "RV-4T"
 
 ## Sentinel data
-y.s <- x <- read.card("sentinel", species=10, card.type="bio")
+y.s <- read.card("sentinel", species=10, card.type="bio")
 sent.df <- aggregate(fish.number~year+month, data=y.s[which(y.s$age.material==1),], length)
 names(sent.df) <- c("year_année", "month_mois", "number.otoliths_nombre.otolithes")
 sent.df$source <- "SENT-4T"
@@ -111,7 +111,7 @@ m.rv.df$source <- "RV-4T"
 m.rv.df[is.na(m.rv.df$number.otoliths.aged_nombre.otolithes.agées),"number.otoliths.aged_nombre.otolithes.agées"] <- 0
 
 ## Sentinel
-sent.df2 <- aggregate(fish.number~year+month, data=y[which(y$age.material==1 & y$age %in% c(0:30)),], length)
+sent.df2 <- aggregate(fish.number~year+month, data=y.s[which(y.s$age.material==1 & y.s$age %in% c(0:30)),], length)
 names(sent.df2) <- c("year_année", "month_mois", "number.otoliths.aged_nombre.otolithes.agées")
 m.sent.df <- merge(sent.df, sent.df2, all.x=TRUE, by=c("year_année","month_mois"))
 m.sent.df$source <- "SENT-4T"
