@@ -11,8 +11,8 @@
 2012,6,27,13,57,46.2490833333333,-64.33125,"8 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.151791111111111,15.1791111111111
 2012,6,27,13,57,46.2490833333333,-64.33125,"8 gang toothed scallop drag lined with 14 mm mesh",8300,"Anthozoa non-spécifié","Anthozoa unidentified","Anthozoa (c.)",0,0.185111111111111
 2012,6,27,13,57,46.2490833333333,-64.33125,"8 gang toothed scallop drag lined with 14 mm mesh",8600,"Porifera non-spécifié","Sponge unidentified","Porifera",0.490544444444444,0
-2012,6,27,13,57,46.2490833333333,-64.33125,"8 gang toothed scallop drag lined with 14 mm mesh",9991,"","First Unidentified Per Set","",0,0.370222222222222
-2012,6,27,13,57,46.2490833333333,-64.33125,"8 gang toothed scallop drag lined with 14 mm mesh",9992,"","Second Unidentified Per Set","",0.634931111111111,0
+2012,6,27,13,57,46.2490833333333,-64.33125,"8 gang toothed scallop drag lined with 14 mm mesh",9991,NA,"First Unidentified Per Set",NA,0,0.370222222222222
+2012,6,27,13,57,46.2490833333333,-64.33125,"8 gang toothed scallop drag lined with 14 mm mesh",9992,NA,"Second Unidentified Per Set",NA,0.634931111111111,0
 2012,6,28,7,59,46.3359166666667,-64.3255,"8 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0,0.595
 2012,6,28,7,59,46.3359166666667,-64.3255,"8 gang toothed scallop drag lined with 14 mm mesh",122,"Tanche-tautogue","Cunner","Tautogolabrus adspersus",0.0595,1.19
 2012,6,28,7,59,46.3359166666667,-64.3255,"8 gang toothed scallop drag lined with 14 mm mesh",143,"Turbot de sable","Windowpane flounder","Scophthalmus aquosus",0,1.785
@@ -42,7 +42,7 @@
 2012,6,28,10,14,46.3083333333333,-64.1086666666667,"8 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.11662,7.77466666666667
 2012,6,28,10,14,46.3083333333333,-64.1086666666667,"8 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0,44.4266666666667
 2012,6,28,10,14,46.3083333333333,-64.1086666666667,"8 gang toothed scallop drag lined with 14 mm mesh",4332,"Moule géante","Northern horsemussel","Modiolus modiolus",0,1.666
-2012,6,28,10,14,46.3083333333333,-64.1086666666667,"8 gang toothed scallop drag lined with 14 mm mesh",5200,"Patelle non-spécifié","Limpet unidentified","",0,0.555333333333333
+2012,6,28,10,14,46.3083333333333,-64.1086666666667,"8 gang toothed scallop drag lined with 14 mm mesh",5200,"Patelle non-spécifié","Limpet unidentified",NA,0,0.555333333333333
 2012,6,28,10,14,46.3083333333333,-64.1086666666667,"8 gang toothed scallop drag lined with 14 mm mesh",6110,"Asterias non-spécifié","Asterias unidentified","Asterias sp.",0.277666666666667,27.7666666666667
 2012,6,28,10,14,46.3083333333333,-64.1086666666667,"8 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0,7.77466666666667
 2012,6,28,10,14,46.3083333333333,-64.1086666666667,"8 gang toothed scallop drag lined with 14 mm mesh",6200,"Ophiuroidea non-spécifié","Brittle star unidentified","Ophiuroidea (s.o.)",0,0.555333333333333
@@ -119,7 +119,7 @@
 2012,6,29,10,24,46.1885833333333,-63.9995,"8 gang toothed scallop drag lined with 14 mm mesh",6110,"Asterias non-spécifié","Asterias unidentified","Asterias sp.",0,1.51454545454545
 2012,6,29,10,24,46.1885833333333,-63.9995,"8 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0,0.757272727272727
 2012,6,29,10,24,46.1885833333333,-63.9995,"8 gang toothed scallop drag lined with 14 mm mesh",8300,"Anthozoa non-spécifié","Anthozoa unidentified","Anthozoa (c.)",0,0.757272727272727
-2012,6,29,10,24,46.1885833333333,-63.9995,"8 gang toothed scallop drag lined with 14 mm mesh",9500,"Vase","Mud","",0,1.51454545454545
+2012,6,29,10,24,46.1885833333333,-63.9995,"8 gang toothed scallop drag lined with 14 mm mesh",9500,"Vase","Mud",NA,0,1.51454545454545
 2012,6,29,10,52,46.2195,-63.9768333333333,"8 gang toothed scallop drag lined with 14 mm mesh",122,"Tanche-tautogue","Cunner","Tautogolabrus adspersus",0,1.04125
 2012,6,29,10,52,46.2195,-63.9768333333333,"8 gang toothed scallop drag lined with 14 mm mesh",301,"Chaboisseau à épines courtes","Shorthorn sculpin","Myoxocephalus scorpius",0,2.0825
 2012,6,29,10,52,46.2195,-63.9768333333333,"8 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0,2.0825
@@ -1141,7 +1141,7 @@
 2013,7,2,9,4,47.8524166666667,-65.6350833333333,"8 gang toothed scallop drag lined with 14 mm mesh",4342,"Coque d'Islande","Iceland cockle","Ciliatocardium ciliatum",1.12455,31.2375
 2013,7,2,9,4,47.8524166666667,-65.6350833333333,"8 gang toothed scallop drag lined with 14 mm mesh",4360,"Nuculanidae non-spécifié","Nuculanidae unidentified","Nuculanidae (f.)",0.0145775,4.165
 2013,7,2,9,4,47.8524166666667,-65.6350833333333,"8 gang toothed scallop drag lined with 14 mm mesh",6211,"Ophiure pâquerette","Daisy brittle star","Ophiopholis aculeata",0.19159,99.96
-2013,7,2,9,4,47.8524166666667,-65.6350833333333,"8 gang toothed scallop drag lined with 14 mm mesh",8327,"Corail mou non-spécifié","Soft coral unidentified","",0.0104125,22.9075
+2013,7,2,9,4,47.8524166666667,-65.6350833333333,"8 gang toothed scallop drag lined with 14 mm mesh",8327,"Corail mou non-spécifié","Soft coral unidentified",NA,0.0104125,22.9075
 2013,7,2,9,32,47.8329166666667,-65.6260833333333,"8 gang toothed scallop drag lined with 14 mm mesh",2411,"Crevette verte","Arctic argid","Argis dentata",0.002499,0.277666666666667
 2013,7,2,9,32,47.8329166666667,-65.6260833333333,"8 gang toothed scallop drag lined with 14 mm mesh",3130,"Nereis non-spécifié","Nereis unidentified","Nereis sp.",0.00111066666666667,0.277666666666667
 2013,7,2,9,32,47.8329166666667,-65.6260833333333,"8 gang toothed scallop drag lined with 14 mm mesh",3200,"Aphrodita hastata","Aphrodita hastata","Aphrodita hastata",0.00388733333333333,0.555333333333333
@@ -1380,7 +1380,7 @@
 2013,7,3,15,35,47.7745833333333,-65.4881666666667,"8 gang toothed scallop drag lined with 14 mm mesh",4342,"Coque d'Islande","Iceland cockle","Ciliatocardium ciliatum",1.03014333333333,30.5433333333333
 2013,7,3,15,35,47.7745833333333,-65.4881666666667,"8 gang toothed scallop drag lined with 14 mm mesh",4360,"Nuculanidae non-spécifié","Nuculanidae unidentified","Nuculanidae (f.)",0.00555333333333333,1.38833333333333
 2013,7,3,15,35,47.7745833333333,-65.4881666666667,"8 gang toothed scallop drag lined with 14 mm mesh",6211,"Ophiure pâquerette","Daisy brittle star","Ophiopholis aculeata",0.1666,72.1933333333333
-2013,7,3,15,35,47.7745833333333,-65.4881666666667,"8 gang toothed scallop drag lined with 14 mm mesh",8327,"Corail mou non-spécifié","Soft coral unidentified","",0.0138833333333333,13.8833333333333
+2013,7,3,15,35,47.7745833333333,-65.4881666666667,"8 gang toothed scallop drag lined with 14 mm mesh",8327,"Corail mou non-spécifié","Soft coral unidentified",NA,0.0138833333333333,13.8833333333333
 2013,7,3,15,35,47.7745833333333,-65.4881666666667,"8 gang toothed scallop drag lined with 14 mm mesh",9300,"Géomon/algues/varech non-spécifié","Seaweed/Algae/Kelp unidentified","Obsolete",0.701108333333333,0
 2013,7,4,7,30,47.8740833333333,-65.2995833333333,"8 gang toothed scallop drag lined with 14 mm mesh",2211,"Crevette nordique","Northern shrimp","Pandalus borealis",0.00647888888888889,1.85111111111111
 2013,7,4,7,30,47.8740833333333,-65.2995833333333,"8 gang toothed scallop drag lined with 14 mm mesh",2535,"Spirorbis non-spécifié","Spirorbis unidentified","Spirorbis sp.",0.257304444444444,64.7888888888889
@@ -1401,8 +1401,8 @@
 2013,7,4,8,19,47.8075833333333,-65.3818333333333,"8 gang toothed scallop drag lined with 14 mm mesh",4342,"Coque d'Islande","Iceland cockle","Ciliatocardium ciliatum",0.550537272727273,18.9318181818182
 2013,7,4,8,19,47.8075833333333,-65.3818333333333,"8 gang toothed scallop drag lined with 14 mm mesh",4360,"Nuculanidae non-spécifié","Nuculanidae unidentified","Nuculanidae (f.)",0.00605818181818182,4.54363636363636
 2013,7,4,8,19,47.8075833333333,-65.3818333333333,"8 gang toothed scallop drag lined with 14 mm mesh",6211,"Ophiure pâquerette","Daisy brittle star","Ophiopholis aculeata",0.00151454545454545,2.27181818181818
-2013,7,4,8,19,47.8075833333333,-65.3818333333333,"8 gang toothed scallop drag lined with 14 mm mesh",8327,"Corail mou non-spécifié","Soft coral unidentified","",0.00757272727272727,17.4172727272727
-2013,7,4,8,19,47.8075833333333,-65.3818333333333,"8 gang toothed scallop drag lined with 14 mm mesh",9001,"Poisson et/ou invertébré non-spécifié","Fish/Invertebrates unidentified","",0.0219609090909091,0
+2013,7,4,8,19,47.8075833333333,-65.3818333333333,"8 gang toothed scallop drag lined with 14 mm mesh",8327,"Corail mou non-spécifié","Soft coral unidentified",NA,0.00757272727272727,17.4172727272727
+2013,7,4,8,19,47.8075833333333,-65.3818333333333,"8 gang toothed scallop drag lined with 14 mm mesh",9001,"Poisson et/ou invertébré non-spécifié","Fish/Invertebrates unidentified",NA,0.0219609090909091,0
 2013,7,4,8,19,47.8075833333333,-65.3818333333333,"8 gang toothed scallop drag lined with 14 mm mesh",9300,"Géomon/algues/varech non-spécifié","Seaweed/Algae/Kelp unidentified","Obsolete",0.436189090909091,0
 2013,7,4,9,34,47.7685,-65.3586666666667,"8 gang toothed scallop drag lined with 14 mm mesh",300,"Chaboisseau à dix-huit-épines","Longhorn sculpin","Myoxocephalus octodecemspinosus",0.001666,1.666
 2013,7,4,9,34,47.7685,-65.3586666666667,"8 gang toothed scallop drag lined with 14 mm mesh",320,"Hémitriptère atlantique","Sea raven","Hemitripterus americanus",0.013328,1.666
@@ -1420,7 +1420,7 @@
 2013,7,4,9,34,47.7685,-65.3586666666667,"8 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.044982,38.318
 2013,7,4,9,34,47.7685,-65.3586666666667,"8 gang toothed scallop drag lined with 14 mm mesh",6211,"Ophiure pâquerette","Daisy brittle star","Ophiopholis aculeata",0.044982,28.322
 2013,7,4,9,34,47.7685,-65.3586666666667,"8 gang toothed scallop drag lined with 14 mm mesh",6411,"Oursin vert","Green sea urchin","Strongylocentrotus droebachiensis",0.529788,6.664
-2013,7,4,9,34,47.7685,-65.3586666666667,"8 gang toothed scallop drag lined with 14 mm mesh",8327,"Corail mou non-spécifié","Soft coral unidentified","",0.01666,3.332
+2013,7,4,9,34,47.7685,-65.3586666666667,"8 gang toothed scallop drag lined with 14 mm mesh",8327,"Corail mou non-spécifié","Soft coral unidentified",NA,0.01666,3.332
 2013,7,4,9,34,47.7685,-65.3586666666667,"8 gang toothed scallop drag lined with 14 mm mesh",8500,"Méduse non-spécifié","Jellyfish unidentified","Scyphozoa (c.)",0.09996,1.666
 2013,7,4,9,34,47.7685,-65.3586666666667,"8 gang toothed scallop drag lined with 14 mm mesh",8611,"Polymastia bartletti","Polymastia bartletti","Polymastia bartletti",0.01666,4.998
 2013,7,4,9,34,47.7685,-65.3586666666667,"8 gang toothed scallop drag lined with 14 mm mesh",9300,"Géomon/algues/varech non-spécifié","Seaweed/Algae/Kelp unidentified","Obsolete",0.514794,0
@@ -1434,8 +1434,8 @@
 2013,7,4,10,33,47.8209166666667,-65.4788333333333,"8 gang toothed scallop drag lined with 14 mm mesh",4304,"Quahog nordique","Ocean quahog","Arctica islandica",0.0370222222222222,0.925555555555556
 2013,7,4,10,33,47.8209166666667,-65.4788333333333,"8 gang toothed scallop drag lined with 14 mm mesh",4342,"Coque d'Islande","Iceland cockle","Ciliatocardium ciliatum",0.372073333333333,9.25555555555556
 2013,7,4,10,33,47.8209166666667,-65.4788333333333,"8 gang toothed scallop drag lined with 14 mm mesh",6211,"Ophiure pâquerette","Daisy brittle star","Ophiopholis aculeata",0.000925555555555556,0.925555555555556
-2013,7,4,10,33,47.8209166666667,-65.4788333333333,"8 gang toothed scallop drag lined with 14 mm mesh",8327,"Corail mou non-spécifié","Soft coral unidentified","",0.00925555555555556,17.5855555555556
-2013,7,4,10,33,47.8209166666667,-65.4788333333333,"8 gang toothed scallop drag lined with 14 mm mesh",9001,"Poisson et/ou invertébré non-spécifié","Fish/Invertebrates unidentified","",0.00370222222222222,0
+2013,7,4,10,33,47.8209166666667,-65.4788333333333,"8 gang toothed scallop drag lined with 14 mm mesh",8327,"Corail mou non-spécifié","Soft coral unidentified",NA,0.00925555555555556,17.5855555555556
+2013,7,4,10,33,47.8209166666667,-65.4788333333333,"8 gang toothed scallop drag lined with 14 mm mesh",9001,"Poisson et/ou invertébré non-spécifié","Fish/Invertebrates unidentified",NA,0.00370222222222222,0
 2013,7,4,10,33,47.8209166666667,-65.4788333333333,"8 gang toothed scallop drag lined with 14 mm mesh",9300,"Géomon/algues/varech non-spécifié","Seaweed/Algae/Kelp unidentified","Obsolete",3.2487,0
 2013,7,4,12,31,47.8601666666667,-65.24425,"8 gang toothed scallop drag lined with 14 mm mesh",2411,"Crevette verte","Arctic argid","Argis dentata",0.012495,1.38833333333333
 2013,7,4,12,31,47.8601666666667,-65.24425,"8 gang toothed scallop drag lined with 14 mm mesh",2527,"Crabe lyre (araignée)","Atlantic lyre crab/Greater toad crab","Hyas araneus",0.00277666666666667,1.38833333333333
@@ -1497,7 +1497,7 @@
 2013,7,5,12,11,47.8160833333333,-65.57825,"8 gang toothed scallop drag lined with 14 mm mesh",4342,"Coque d'Islande","Iceland cockle","Ciliatocardium ciliatum",1.8013625,57.26875
 2013,7,5,12,11,47.8160833333333,-65.57825,"8 gang toothed scallop drag lined with 14 mm mesh",4360,"Nuculanidae non-spécifié","Nuculanidae unidentified","Nuculanidae (f.)",0.0020825,2.0825
 2013,7,5,12,11,47.8160833333333,-65.57825,"8 gang toothed scallop drag lined with 14 mm mesh",6211,"Ophiure pâquerette","Daisy brittle star","Ophiopholis aculeata",0.0833,34.36125
-2013,7,5,12,11,47.8160833333333,-65.57825,"8 gang toothed scallop drag lined with 14 mm mesh",8327,"Corail mou non-spécifié","Soft coral unidentified","",0.0104125,10.4125
+2013,7,5,12,11,47.8160833333333,-65.57825,"8 gang toothed scallop drag lined with 14 mm mesh",8327,"Corail mou non-spécifié","Soft coral unidentified",NA,0.0104125,10.4125
 2013,7,5,12,11,47.8160833333333,-65.57825,"8 gang toothed scallop drag lined with 14 mm mesh",9300,"Géomon/algues/varech non-spécifié","Seaweed/Algae/Kelp unidentified","Obsolete",1.29115,0
 2013,7,5,13,21,47.8125833333333,-65.3579166666667,"8 gang toothed scallop drag lined with 14 mm mesh",40,"Plie canadienne","American plaice","Hippoglossoides platessoides",0.117545555555556,1.85111111111111
 2013,7,5,13,21,47.8125833333333,-65.3579166666667,"8 gang toothed scallop drag lined with 14 mm mesh",2211,"Crevette nordique","Northern shrimp","Pandalus borealis",0.00740444444444444,4.62777777777778
@@ -3053,7 +3053,7 @@
 2015,8,20,11,21,45.99725,-62.3133333333333,"8 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.00104125,2.0825
 2015,8,20,11,21,45.99725,-62.3133333333333,"8 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.86111375,5.20625
 2015,8,20,11,21,45.99725,-62.3133333333333,"8 gang toothed scallop drag lined with 14 mm mesh",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0,1.04125
-2015,8,20,11,21,45.99725,-62.3133333333333,"8 gang toothed scallop drag lined with 14 mm mesh",5200,"Patelle non-spécifié","Limpet unidentified","",0.00104125,1.04125
+2015,8,20,11,21,45.99725,-62.3133333333333,"8 gang toothed scallop drag lined with 14 mm mesh",5200,"Patelle non-spécifié","Limpet unidentified",NA,0.00104125,1.04125
 2015,8,20,11,21,45.99725,-62.3133333333333,"8 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.00104125,2.0825
 2015,8,20,11,21,45.99725,-62.3133333333333,"8 gang toothed scallop drag lined with 14 mm mesh",6211,"Ophiure pâquerette","Daisy brittle star","Ophiopholis aculeata",0.00104125,2.0825
 2015,8,20,11,21,45.99725,-62.3133333333333,"8 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.079135,7.28875
@@ -4052,7 +4052,7 @@
 2016,8,12,17,13,47.8043333333333,-64.3443333333333,"8 gang toothed scallop drag lined with 14 mm mesh",4322,"Pétoncle d'Islande","Iceland scallop","Chlamys islandica",0.14889875,3.12375
 2016,8,12,17,13,47.8043333333333,-64.3443333333333,"8 gang toothed scallop drag lined with 14 mm mesh",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0,1.04125
 2016,8,12,17,13,47.8043333333333,-64.3443333333333,"8 gang toothed scallop drag lined with 14 mm mesh",4700,"Chiton non-spécifié","Chitons unidentified","Polyplacophora (c.)",0.00104125,1.04125
-2016,8,12,17,13,47.8043333333333,-64.3443333333333,"8 gang toothed scallop drag lined with 14 mm mesh",5200,"Patelle non-spécifié","Limpet unidentified","",0.00104125,1.04125
+2016,8,12,17,13,47.8043333333333,-64.3443333333333,"8 gang toothed scallop drag lined with 14 mm mesh",5200,"Patelle non-spécifié","Limpet unidentified",NA,0.00104125,1.04125
 2016,8,12,17,13,47.8043333333333,-64.3443333333333,"8 gang toothed scallop drag lined with 14 mm mesh",6100,"Asteroidea non-spécifié","Starfish unidentified","Asteroidea (s.o.)",0.51541875,7.28875
 2016,8,12,17,13,47.8043333333333,-64.3443333333333,"8 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.00520625,5.20625
 2016,8,12,17,13,47.8043333333333,-64.3443333333333,"8 gang toothed scallop drag lined with 14 mm mesh",6121,"Soleil de mer pourpre","Purple sunstar","Solaster endeca",0.0229075,1.04125
@@ -4401,7 +4401,7 @@
 2016,8,15,9,43,47.9548333333333,-64.8455,"8 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.38318,116.62
 2016,8,15,9,43,47.9548333333333,-64.8455,"8 gang toothed scallop drag lined with 14 mm mesh",4342,"Coque d'Islande","Iceland cockle","Ciliatocardium ciliatum",0.14056875,5.20625
 2016,8,15,9,43,47.9548333333333,-64.8455,"8 gang toothed scallop drag lined with 14 mm mesh",4351,"Nuculana non-spécifié","Nuculana unidentified","Nuculana sp.",0.0020825,2.0825
-2016,8,15,9,43,47.9548333333333,-64.8455,"8 gang toothed scallop drag lined with 14 mm mesh",5200,"Patelle non-spécifié","Limpet unidentified","",0,2.0825
+2016,8,15,9,43,47.9548333333333,-64.8455,"8 gang toothed scallop drag lined with 14 mm mesh",5200,"Patelle non-spécifié","Limpet unidentified",NA,0,2.0825
 2016,8,15,9,43,47.9548333333333,-64.8455,"8 gang toothed scallop drag lined with 14 mm mesh",6200,"Ophiuroidea non-spécifié","Brittle star unidentified","Ophiuroidea (s.o.)",0.11662,149.94
 2016,8,15,9,43,47.9548333333333,-64.8455,"8 gang toothed scallop drag lined with 14 mm mesh",6400,"Strongylocentrotus non-spécifié","Sea urchin unidentified","Strongylocentrotus sp.",0.07601125,1.04125
 2016,8,15,9,43,47.9548333333333,-64.8455,"8 gang toothed scallop drag lined with 14 mm mesh",6715,"Psolus brun","Arctic armored cucumber","Psolus phantapus",0.00728875,2.0825
@@ -6268,3 +6268,784 @@
 2019,10,31,9,42,46.5230833333333,-64.3798333333333,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.54,4
 2019,10,31,9,42,46.5230833333333,-64.3798333333333,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",1.9,10
 2019,10,31,9,42,46.5230833333333,-64.3798333333333,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.001,1
+2020,10,15,9,12,46.5304166666667,-64.3639166666667,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.007,1
+2020,10,15,9,12,46.5304166666667,-64.3639166666667,"2 gang toothed scallop drag lined with 14 mm mesh",303,"Chaboisseau bronzé","Grubby","Myoxocephalus aenaeus",0.021,2
+2020,10,15,9,12,46.5304166666667,-64.3639166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.504,10
+2020,10,15,9,12,46.5304166666667,-64.3639166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",1.89,10
+2020,10,15,9,12,46.5304166666667,-64.3639166666667,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.026,3
+2020,10,15,9,12,46.5304166666667,-64.3639166666667,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.238,1
+2020,10,15,9,12,46.5304166666667,-64.3639166666667,"6 gang toothed scallop drag with 82.6mm rings",4331,"Moule bleue","Blue mussel","Mytilus edulis",0.035,2
+2020,10,15,9,12,46.5304166666667,-64.3639166666667,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.01,4
+2020,10,15,9,12,46.5304166666667,-64.3639166666667,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.036,3
+2020,10,15,9,12,46.5304166666667,-64.3639166666667,"2 gang toothed scallop drag lined with 14 mm mesh",8300,"Anthozoa non-spécifié","Anthozoa unidentified","Anthozoa (c.)",0.038,1
+2020,10,15,10,3,46.5421666666667,-34.3751666666667,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.392,12
+2020,10,15,10,3,46.5421666666667,-34.3751666666667,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.32,5
+2020,10,15,10,3,46.5421666666667,-34.3751666666667,"2 gang toothed scallop drag lined with 14 mm mesh",4221,"Natice de l'Atlantique ou héros","Northern moonsnail","Euspira heros",0.159,1
+2020,10,15,10,3,46.5421666666667,-34.3751666666667,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.092,14
+2020,10,15,10,3,46.5421666666667,-34.3751666666667,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.987,8
+2020,10,15,10,3,46.5421666666667,-64.3751666666667,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",1.01,4
+2020,10,15,10,3,46.5421666666667,-34.3751666666667,"2 gang toothed scallop drag lined with 14 mm mesh",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,1
+2020,10,15,10,3,46.5421666666667,-34.3751666666667,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.012,6
+2020,10,15,10,3,46.5421666666667,-64.3751666666667,"6 gang toothed scallop drag with 82.6mm rings",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.006,1
+2020,10,15,10,3,46.5421666666667,-34.3751666666667,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.053,8
+2020,10,15,10,47,46.5413333333333,-64.399,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.138,3
+2020,10,15,10,47,46.5413333333333,-64.399,"6 gang toothed scallop drag with 82.6mm rings",303,"Chaboisseau bronzé","Grubby","Myoxocephalus aenaeus",0.013,1
+2020,10,15,10,47,46.5413333333333,-64.399,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.255,4
+2020,10,15,10,47,46.5413333333333,-64.399,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",1.07,4
+2020,10,15,10,47,46.5413333333333,-64.399,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.11,21
+2020,10,15,10,47,46.5413333333333,-64.399,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.3,5
+2020,10,15,10,47,46.5413333333333,-64.399,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",1.86,9
+2020,10,15,10,47,46.5413333333333,-64.399,"6 gang toothed scallop drag with 82.6mm rings",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.001,1
+2020,10,15,11,20,46.5561666666667,-64.3936666666667,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.03,3
+2020,10,15,11,20,46.5561666666667,-64.3936666666667,"2 gang toothed scallop drag lined with 14 mm mesh",301,"Chaboisseau à épines courtes","Shorthorn sculpin","Myoxocephalus scorpius",0.017,1
+2020,10,15,11,20,46.5561666666667,-64.3936666666667,"2 gang toothed scallop drag lined with 14 mm mesh",303,"Chaboisseau bronzé","Grubby","Myoxocephalus aenaeus",0.01,1
+2020,10,15,11,20,46.5561666666667,-64.3936666666667,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.186,8
+2020,10,15,11,20,46.5561666666667,-64.3936666666667,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.249,3
+2020,10,15,11,20,46.5561666666667,-64.3936666666667,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.884,7
+2020,10,15,11,20,46.5561666666667,-64.3936666666667,"6 gang toothed scallop drag with 82.6mm rings",2550,"Homard américain","American lobster","Homarus americanus",1.1,3
+2020,10,15,11,20,46.5561666666667,-64.3936666666667,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.215,37
+2020,10,15,11,20,46.5561666666667,-64.3936666666667,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",1.31,8
+2020,10,15,11,20,46.5561666666667,-64.3936666666667,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",1.49,7
+2020,10,15,11,20,46.5561666666667,-64.3936666666667,"2 gang toothed scallop drag lined with 14 mm mesh",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,2
+2020,10,15,11,20,46.5561666666667,-64.3936666666667,"6 gang toothed scallop drag with 82.6mm rings",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,2
+2020,10,15,11,20,46.5561666666667,-64.3936666666667,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.001,1
+2020,10,15,11,20,46.5561666666667,-64.3936666666667,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.104,9
+2020,10,15,11,20,46.5561666666667,-64.3936666666667,"6 gang toothed scallop drag with 82.6mm rings",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.007,1
+2020,10,15,11,55,46.5596666666667,-64.4150833333333,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",1.28,18
+2020,10,15,11,55,46.5596666666667,-64.4150833333333,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.128,1
+2020,10,15,11,55,46.5596666666667,-64.4150833333333,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.831,3
+2020,10,15,11,55,46.5596666666667,-64.4150833333333,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.152,30
+2020,10,15,11,55,46.5596666666667,-64.4150833333333,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.661,14
+2020,10,15,11,55,46.5596666666667,-64.4150833333333,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",1.97,9
+2020,10,15,11,55,46.5596666666667,-64.4150833333333,"6 gang toothed scallop drag with 82.6mm rings",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,2
+2020,10,15,11,55,46.5596666666667,-64.4150833333333,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.013,12
+2020,10,15,11,55,46.5596666666667,-64.4150833333333,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.066,6
+2020,10,15,13,31,47.06425,-64.4535833333333,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.14,6
+2020,10,15,13,31,47.06425,-64.4535833333333,"2 gang toothed scallop drag lined with 14 mm mesh",143,"Turbot de sable","Windowpane flounder","Scophthalmus aquosus",0.009,1
+2020,10,15,13,31,47.06425,-64.4535833333333,"6 gang toothed scallop drag with 82.6mm rings",2211,"Crevette nordique","Northern shrimp","Pandalus borealis",0.001,1
+2020,10,15,13,31,47.06425,-64.4535833333333,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.338,3
+2020,10,15,13,31,47.06425,-64.4535833333333,"2 gang toothed scallop drag lined with 14 mm mesh",4221,"Natice de l'Atlantique ou héros","Northern moonsnail","Euspira heros",1.04,4
+2020,10,15,13,31,47.06425,-64.4535833333333,"6 gang toothed scallop drag with 82.6mm rings",4221,"Natice de l'Atlantique ou héros","Northern moonsnail","Euspira heros",1.31,4
+2020,10,15,13,31,47.06425,-64.4535833333333,"2 gang toothed scallop drag lined with 14 mm mesh",4317,"Mactre de l'Atlantique","Atlantic surf clam","Spisula solidissima",0.446,1
+2020,10,15,13,31,47.06425,-64.4535833333333,"6 gang toothed scallop drag with 82.6mm rings",4317,"Mactre de l'Atlantique","Atlantic surf clam","Spisula solidissima",0.24,1
+2020,10,15,13,31,47.06425,-64.4535833333333,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.252,1
+2020,10,15,13,31,47.06425,-64.4535833333333,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.15,1
+2020,10,15,13,31,47.06425,-64.4535833333333,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",6.5,406
+2020,10,15,13,31,47.06425,-64.4535833333333,"6 gang toothed scallop drag with 82.6mm rings",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.124,8
+2020,10,15,14,1,46.5688333333333,-64.4719166666667,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.072,3
+2020,10,15,14,1,46.5688333333333,-64.4719166666667,"6 gang toothed scallop drag with 82.6mm rings",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.02,1
+2020,10,15,14,1,46.5688333333333,-64.4719166666667,"2 gang toothed scallop drag lined with 14 mm mesh",143,"Turbot de sable","Windowpane flounder","Scophthalmus aquosus",0.005,1
+2020,10,15,14,1,46.5688333333333,-64.4719166666667,"2 gang toothed scallop drag lined with 14 mm mesh",303,"Chaboisseau bronzé","Grubby","Myoxocephalus aenaeus",0.025,2
+2020,10,15,14,1,46.5688333333333,-64.4719166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.378,10
+2020,10,15,14,1,46.5688333333333,-64.4719166666667,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.209,1
+2020,10,15,14,1,46.5688333333333,-64.4719166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.421,2
+2020,10,15,14,1,46.5688333333333,-64.4719166666667,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.091,12
+2020,10,15,14,1,46.5688333333333,-64.4719166666667,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.672,3
+2020,10,15,14,1,46.5688333333333,-64.4719166666667,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",1.64,7
+2020,10,15,14,1,46.5688333333333,-64.4719166666667,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.03,5
+2020,10,15,14,1,46.5688333333333,-64.4719166666667,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.057,5
+2020,10,15,14,34,46.5815833333333,-64.4929166666667,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.09,1
+2020,10,15,14,34,46.5815833333333,-64.4929166666667,"6 gang toothed scallop drag with 82.6mm rings",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.057,1
+2020,10,15,14,34,46.5815833333333,-64.4929166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.406,9
+2020,10,15,14,34,46.5815833333333,-64.4929166666667,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.108,17
+2020,10,15,14,34,46.5815833333333,-64.4929166666667,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.552,2
+2020,10,15,14,34,46.5815833333333,-64.4929166666667,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.758,3
+2020,10,15,14,34,46.5815833333333,-64.4929166666667,"2 gang toothed scallop drag lined with 14 mm mesh",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,1
+2020,10,15,14,34,46.5815833333333,-64.4929166666667,"6 gang toothed scallop drag with 82.6mm rings",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,1
+2020,10,15,14,34,46.5815833333333,-64.4929166666667,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.01,5
+2020,10,15,14,34,46.5815833333333,-64.4929166666667,"6 gang toothed scallop drag with 82.6mm rings",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.001,1
+2020,10,15,14,34,46.5815833333333,-64.4929166666667,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.367,32
+2020,10,15,14,34,46.5815833333333,-64.4929166666667,"6 gang toothed scallop drag with 82.6mm rings",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.009,1
+2020,10,15,14,58,46.594,-64.5044166666667,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.585,9
+2020,10,15,14,58,46.594,-64.5044166666667,"2 gang toothed scallop drag lined with 14 mm mesh",300,"Chaboisseau à dix-huit-épines","Longhorn sculpin","Myoxocephalus octodecemspinosus",0.046,1
+2020,10,15,14,58,46.594,-64.5044166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.132,2
+2020,10,15,14,58,46.594,-64.5044166666667,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.288,1
+2020,10,15,14,58,46.594,-64.5044166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.15,2
+2020,10,15,14,58,46.594,-64.5044166666667,"2 gang toothed scallop drag lined with 14 mm mesh",4221,"Natice de l'Atlantique ou héros","Northern moonsnail","Euspira heros",0.141,1
+2020,10,15,14,58,46.594,-64.5044166666667,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.654,3
+2020,10,15,14,58,46.594,-64.5044166666667,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.474,2
+2020,10,15,14,58,46.594,-64.5044166666667,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.61,41
+2020,10,15,15,23,46.62475,-64.5008333333333,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.028,3
+2020,10,15,15,23,46.62475,-64.5008333333333,"2 gang toothed scallop drag lined with 14 mm mesh",300,"Chaboisseau à dix-huit-épines","Longhorn sculpin","Myoxocephalus octodecemspinosus",0.038,1
+2020,10,15,15,23,46.62475,-64.5008333333333,"2 gang toothed scallop drag lined with 14 mm mesh",303,"Chaboisseau bronzé","Grubby","Myoxocephalus aenaeus",0.014,1
+2020,10,15,15,23,46.62475,-64.5008333333333,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.418,20
+2020,10,15,15,23,46.62475,-64.5008333333333,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.327,2
+2020,10,15,15,23,46.62475,-64.5008333333333,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.624,6
+2020,10,15,15,23,46.62475,-64.5008333333333,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.075,14
+2020,10,15,15,23,46.62475,-64.5008333333333,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",2.22,18
+2020,10,15,15,23,46.62475,-64.5008333333333,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",3.34,17
+2020,10,15,15,23,46.62475,-64.5008333333333,"6 gang toothed scallop drag with 82.6mm rings",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,1
+2020,10,15,15,23,46.62475,-64.5008333333333,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.012,11
+2020,10,15,16,0,46.6380833333333,-64.5213333333333,"2 gang toothed scallop drag lined with 14 mm mesh",303,"Chaboisseau bronzé","Grubby","Myoxocephalus aenaeus",0.026,2
+2020,10,15,16,0,46.6380833333333,-64.5213333333333,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.341,13
+2020,10,15,16,0,46.64225,-64.5213333333333,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.095,6
+2020,10,15,16,0,46.6380833333333,-64.5213333333333,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.724,3
+2020,10,15,16,0,46.6380833333333,-64.5213333333333,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.085,13
+2020,10,15,16,0,46.64225,-64.5213333333333,"6 gang toothed scallop drag with 82.6mm rings",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.004,1
+2020,10,15,16,0,46.6380833333333,-64.5213333333333,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",1.76,21
+2020,10,15,16,0,46.64225,-64.5213333333333,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",4.81,26
+2020,10,15,16,0,46.64225,-64.5213333333333,"6 gang toothed scallop drag with 82.6mm rings",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,5
+2020,10,15,16,0,46.6380833333333,-64.5213333333333,"2 gang toothed scallop drag lined with 14 mm mesh",6111,"Astérie boréale commune","Common starfish","Asterias rubens",0.001,3
+2020,10,15,16,0,46.64225,-64.5213333333333,"6 gang toothed scallop drag with 82.6mm rings",6111,"Astérie boréale commune","Common starfish","Asterias rubens",0.003,3
+2020,10,15,16,0,46.6380833333333,-64.5213333333333,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.05,27
+2020,10,15,16,0,46.64225,-64.5213333333333,"6 gang toothed scallop drag with 82.6mm rings",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.002,1
+2020,10,15,16,0,46.6380833333333,-64.5213333333333,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.019,2
+2020,10,15,16,0,46.64225,-64.5213333333333,"6 gang toothed scallop drag with 82.6mm rings",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.004,1
+2020,10,15,16,37,46.6520833333333,-64.5320833333333,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.106,1
+2020,10,15,16,37,46.6520833333333,-64.5320833333333,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.458,22
+2020,10,15,16,37,46.6520833333333,-64.5320833333333,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.39,12
+2020,10,15,16,37,46.6520833333333,-64.5320833333333,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.085,1
+2020,10,15,16,37,46.6520833333333,-64.5320833333333,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.082,17
+2020,10,15,16,37,46.6520833333333,-64.5320833333333,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.209,8
+2020,10,15,16,37,46.6520833333333,-64.5320833333333,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",3.61,16
+2020,10,15,16,37,46.6520833333333,-64.5320833333333,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.039,24
+2020,10,15,16,37,46.6520833333333,-64.5320833333333,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.085,7
+2020,10,15,17,16,46.6620833333333,-64.53225,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.377,12
+2020,10,15,17,16,46.6620833333333,-64.53225,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.155,1
+2020,10,15,17,16,46.6620833333333,-64.53225,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.287,1
+2020,10,15,17,16,46.6620833333333,-64.53225,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.036,7
+2020,10,15,17,16,46.6620833333333,-64.53225,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.801,8
+2020,10,15,17,16,46.6620833333333,-64.53225,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",2.15,13
+2020,10,15,17,16,46.6620833333333,-64.53225,"6 gang toothed scallop drag with 82.6mm rings",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,1
+2020,10,15,17,16,46.6620833333333,-64.53225,"2 gang toothed scallop drag lined with 14 mm mesh",6111,"Astérie boréale commune","Common starfish","Asterias rubens",0.009,7
+2020,10,15,17,16,46.6620833333333,-64.53225,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.052,38
+2020,10,15,17,16,46.6620833333333,-64.53225,"6 gang toothed scallop drag with 82.6mm rings",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.053,1
+2020,10,15,17,16,46.6620833333333,-64.53225,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.018,1
+2020,10,16,12,48,46.22725,-63.7239166666667,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.041,4
+2020,10,16,12,48,46.22725,-63.7239166666667,"2 gang toothed scallop drag lined with 14 mm mesh",122,"Tanche-tautogue","Cunner","Tautogolabrus adspersus",0.032,1
+2020,10,16,12,48,46.22725,-63.7239166666667,"2 gang toothed scallop drag lined with 14 mm mesh",303,"Chaboisseau bronzé","Grubby","Myoxocephalus aenaeus",0.01,1
+2020,10,16,12,48,46.22725,-63.7239166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.072,2
+2020,10,16,12,48,46.22725,-63.7239166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.467,2
+2020,10,16,12,48,46.22725,-63.7239166666667,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.225,1
+2020,10,16,12,48,46.22725,-63.7239166666667,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.006,3
+2020,10,16,13,21,46.192,-63.6871666666667,"2 gang toothed scallop drag lined with 14 mm mesh",204,"Raie tachetée","Winter skate","Leucoraja ocellata",0.432,1
+2020,10,16,13,21,46.192,-63.6871666666667,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.148,6
+2020,10,16,13,21,46.192,-63.6871666666667,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.826,1
+2020,10,16,13,21,46.192,-63.6871666666667,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.065,11
+2020,10,16,13,21,46.192,-63.6871666666667,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.592,4
+2020,10,16,13,21,46.192,-63.6871666666667,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",4.16,23
+2020,10,16,13,21,46.192,-63.6871666666667,"6 gang toothed scallop drag with 82.6mm rings",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,3
+2020,10,16,13,21,46.192,-63.6871666666667,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.008,1
+2020,10,16,13,21,46.192,-63.6871666666667,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",1.09,118
+2020,10,16,13,21,46.192,-63.6871666666667,"6 gang toothed scallop drag with 82.6mm rings",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.096,11
+2020,10,16,13,21,46.192,-63.6871666666667,"6 gang toothed scallop drag with 82.6mm rings",9301,"Fucus non-spécifié","Brown rockweed unidentified","Fucus sp.",0.534,1
+2020,10,16,13,51,46.1871666666667,-63.6574166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.08,3
+2020,10,16,13,51,46.1871666666667,-63.6574166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.264,1
+2020,10,16,13,51,46.1871666666667,-63.6574166666667,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.08,14
+2020,10,16,13,51,46.1871666666667,-63.6574166666667,"6 gang toothed scallop drag with 82.6mm rings",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.005,1
+2020,10,16,13,51,46.1871666666667,-63.6574166666667,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",1.52,16
+2020,10,16,13,51,46.1871666666667,-63.6574166666667,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",2.27,16
+2020,10,16,13,51,46.1871666666667,-63.6574166666667,"6 gang toothed scallop drag with 82.6mm rings",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,3
+2020,10,16,13,51,46.1871666666667,-63.6574166666667,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.002,1
+2020,10,16,13,51,46.1871666666667,-63.6574166666667,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",1.79,241
+2020,10,16,13,51,46.1871666666667,-63.6574166666667,"6 gang toothed scallop drag with 82.6mm rings",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.07,10
+2020,10,16,13,51,46.1871666666667,-63.6574166666667,"6 gang toothed scallop drag with 82.6mm rings",9304,"Rhodophyta non-spécifié","Red seaweed unidentified","Rhodophyta sp.",0.048,1
+2020,10,16,14,17,46.1755833333333,-63.65275,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.022,1
+2020,10,16,14,17,46.1755833333333,-63.65275,"2 gang toothed scallop drag lined with 14 mm mesh",303,"Chaboisseau bronzé","Grubby","Myoxocephalus aenaeus",0.09,1
+2020,10,16,14,17,46.1755833333333,-63.65275,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.395,7
+2020,10,16,14,17,46.1755833333333,-63.65275,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.029,4
+2020,10,16,14,17,46.1755833333333,-63.65275,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",1.78,21
+2020,10,16,14,17,46.1755833333333,-63.653,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",2.07,13
+2020,10,16,14,17,46.1755833333333,-63.65275,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.001,1
+2020,10,16,14,17,46.1755833333333,-63.65275,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.538,55
+2020,10,16,14,17,46.1755833333333,-63.653,"6 gang toothed scallop drag with 82.6mm rings",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.019,2
+2020,10,16,14,17,46.1755833333333,-63.65275,"2 gang toothed scallop drag lined with 14 mm mesh",9300,"Géomon/algues/varech non-spécifié","Seaweed/Algae/Kelp unidentified","Obsolete",0.026,1
+2020,10,16,14,40,46.1645,-63.67775,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.012,2
+2020,10,16,14,40,46.1645,-63.67775,"2 gang toothed scallop drag lined with 14 mm mesh",122,"Tanche-tautogue","Cunner","Tautogolabrus adspersus",0.014,1
+2020,10,16,14,40,46.1645,-63.67775,"2 gang toothed scallop drag lined with 14 mm mesh",204,"Raie tachetée","Winter skate","Leucoraja ocellata",0.138,1
+2020,10,16,14,40,46.1645,-63.67775,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.086,3
+2020,10,16,14,40,46.1645,-63.67775,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.043,8
+2020,10,16,14,40,46.1645,-63.67775,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.832,11
+2020,10,16,14,40,46.1645,-63.67775,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",7.02,47
+2020,10,16,14,40,46.1645,-63.67775,"2 gang toothed scallop drag lined with 14 mm mesh",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,3
+2020,10,16,14,40,46.1645,-63.67775,"6 gang toothed scallop drag with 82.6mm rings",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,3
+2020,10,16,14,40,46.1645,-63.67775,"2 gang toothed scallop drag lined with 14 mm mesh",6111,"Astérie boréale commune","Common starfish","Asterias rubens",0.006,4
+2020,10,16,14,40,46.1645,-63.67775,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.008,6
+2020,10,16,14,40,46.1645,-63.67775,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.051,6
+2020,10,16,15,12,46.1841666666667,-63.7149166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.284,2
+2020,10,16,15,12,46.1841666666667,-63.7149166666667,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.602,3
+2020,10,16,15,12,46.1841666666667,-63.7149166666667,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.998,7
+2020,10,16,15,12,46.1841666666667,-63.7149166666667,"2 gang toothed scallop drag lined with 14 mm mesh",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,2
+2020,10,16,15,12,46.1841666666667,-63.7149166666667,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.011,4
+2020,10,16,15,12,46.1841666666667,-63.7149166666667,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.011,2
+2020,10,17,8,12,46.204,-63.73825,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.102,5
+2020,10,17,8,12,46.204,-63.73825,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.038,5
+2020,10,17,8,12,46.204,-63.73825,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.155,1
+2020,10,17,8,12,46.204,-35.1549166666667,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",2.1,14
+2020,10,17,8,12,46.204,-63.73825,"2 gang toothed scallop drag lined with 14 mm mesh",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,1
+2020,10,17,8,12,46.204,-35.1549166666667,"6 gang toothed scallop drag with 82.6mm rings",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,4
+2020,10,17,8,12,46.204,-63.73825,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",1.38,52
+2020,10,17,8,12,46.204,-35.1549166666667,"6 gang toothed scallop drag with 82.6mm rings",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.016,2
+2020,10,17,8,40,46.1935833333333,-63.742,"2 gang toothed scallop drag lined with 14 mm mesh",640,"Loquette d'Amérique","Ocean pout","Zoarces americanus",0.04,1
+2020,10,17,8,40,46.1935833333333,-63.742,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.122,3
+2020,10,17,8,40,46.1935833333333,-63.742,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.025,1
+2020,10,17,8,40,46.1935833333333,-63.742,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.133,20
+2020,10,17,8,40,46.1935833333333,-63.742,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",1.27,18
+2020,10,17,8,40,46.1935833333333,-63.742,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",2.05,14
+2020,10,17,8,40,46.1935833333333,-63.742,"2 gang toothed scallop drag lined with 14 mm mesh",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,1
+2020,10,17,8,40,46.1935833333333,-63.742,"6 gang toothed scallop drag with 82.6mm rings",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,3
+2020,10,17,8,40,46.1935833333333,-63.742,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.049,8
+2020,10,17,8,40,46.1935833333333,-63.742,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.48,67
+2020,10,17,8,40,46.1935833333333,-63.742,"6 gang toothed scallop drag with 82.6mm rings",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.01,2
+2020,10,17,9,29,46.1655,-63.7036666666667,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.018,1
+2020,10,17,9,29,46.1655,-63.7036666666667,"2 gang toothed scallop drag lined with 14 mm mesh",143,"Turbot de sable","Windowpane flounder","Scophthalmus aquosus",0.001,1
+2020,10,17,9,29,46.1655,-63.7036666666667,"2 gang toothed scallop drag lined with 14 mm mesh",303,"Chaboisseau bronzé","Grubby","Myoxocephalus aenaeus",0.003,1
+2020,10,17,9,29,46.1655,-63.7036666666667,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.05,1
+2020,10,17,9,29,46.1655,-63.7036666666667,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.348,1
+2020,10,17,9,29,46.1655,-63.7036666666667,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.022,8
+2020,10,17,9,29,46.1655,-63.7036666666667,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",1.65,18
+2020,10,17,9,29,46.1655,-63.7044166666667,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.987,9
+2020,10,17,9,29,46.1655,-63.7044166666667,"6 gang toothed scallop drag with 82.6mm rings",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,2
+2020,10,17,9,29,46.1655,-63.7036666666667,"2 gang toothed scallop drag lined with 14 mm mesh",6111,"Astérie boréale commune","Common starfish","Asterias rubens",0.003,1
+2020,10,17,9,29,46.1655,-63.7044166666667,"6 gang toothed scallop drag with 82.6mm rings",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.002,1
+2020,10,17,9,29,46.1655,-63.7036666666667,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.177,25
+2020,10,17,9,29,46.1655,-63.7044166666667,"6 gang toothed scallop drag with 82.6mm rings",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.002,1
+2020,10,17,9,59,46.15425,-63.7006666666667,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.003,1
+2020,10,17,9,59,46.15425,-63.7006666666667,"6 gang toothed scallop drag with 82.6mm rings",2539,"Crabe calico","Lady crab","Ovalipes ocellatus",0.147,1
+2020,10,17,9,59,46.15425,-63.7006666666667,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",1,1
+2020,10,17,9,59,46.15425,-63.7006666666667,"2 gang toothed scallop drag lined with 14 mm mesh",4221,"Natice de l'Atlantique ou héros","Northern moonsnail","Euspira heros",0.178,1
+2020,10,17,9,59,46.15425,-63.7006666666667,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.08,11
+2020,10,17,9,59,46.15425,-63.7006666666667,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",2.09,27
+2020,10,17,9,59,46.15425,-63.7006666666667,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",1.94,14
+2020,10,17,9,59,46.15425,-63.7006666666667,"2 gang toothed scallop drag lined with 14 mm mesh",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,2
+2020,10,17,9,59,46.15425,-63.7006666666667,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.044,15
+2020,10,17,9,59,46.15425,-63.7006666666667,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",2.01,287
+2020,10,17,10,50,46.1445,-63.692,"2 gang toothed scallop drag lined with 14 mm mesh",143,"Turbot de sable","Windowpane flounder","Scophthalmus aquosus",0.056,1
+2020,10,17,10,50,46.1445,-63.692,"6 gang toothed scallop drag with 82.6mm rings",2539,"Crabe calico","Lady crab","Ovalipes ocellatus",0.173,1
+2020,10,17,10,50,46.1445,-63.692,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.004,2
+2020,10,17,10,50,46.1445,-63.692,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.315,3
+2020,10,17,10,50,46.1445,-63.692,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",1.7,11
+2020,10,17,10,50,46.1445,-63.692,"2 gang toothed scallop drag lined with 14 mm mesh",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,2
+2020,10,17,10,50,46.1445,-63.692,"6 gang toothed scallop drag with 82.6mm rings",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,1
+2020,10,17,11,26,46.1316666666667,-63.68725,"2 gang toothed scallop drag lined with 14 mm mesh",143,"Turbot de sable","Windowpane flounder","Scophthalmus aquosus",0.001,1
+2020,10,17,11,26,46.1316666666667,-63.68725,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.448,5
+2020,10,17,11,26,46.1316666666667,-63.68725,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.284,2
+2020,10,17,11,26,46.1316666666667,-63.68725,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.268,1
+2020,10,17,11,26,46.1316666666667,-63.68725,"6 gang toothed scallop drag with 82.6mm rings",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,1
+2020,10,17,11,26,46.1316666666667,-63.68725,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",13.5,1036
+2020,10,19,8,0,46.2123333333333,-63.65825,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.025,4
+2020,10,19,8,0,46.2123333333333,-63.65825,"2 gang toothed scallop drag lined with 14 mm mesh",303,"Chaboisseau bronzé","Grubby","Myoxocephalus aenaeus",0.057,5
+2020,10,19,8,0,46.2123333333333,-63.65825,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.163,4
+2020,10,19,8,0,46.2123333333333,-63.65825,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.59,2
+2020,10,19,8,0,46.2123333333333,-63.65825,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.171,1
+2020,10,19,8,0,46.2123333333333,-63.65825,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.271,2
+2020,10,19,8,0,46.2123333333333,-63.65825,"2 gang toothed scallop drag lined with 14 mm mesh",6111,"Astérie boréale commune","Common starfish","Asterias rubens",0.001,1
+2020,10,19,8,0,46.2123333333333,-63.65825,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.76,11
+2020,10,19,8,32,46.187,-63.6239166666667,"2 gang toothed scallop drag lined with 14 mm mesh",12,"Merluche blanche","White hake","Urophycis tenuis",0.036,1
+2020,10,19,8,32,46.187,-63.6239166666667,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.068,1
+2020,10,19,8,32,46.187,-63.6239166666667,"2 gang toothed scallop drag lined with 14 mm mesh",303,"Chaboisseau bronzé","Grubby","Myoxocephalus aenaeus",0.008,1
+2020,10,19,8,32,46.187,-63.6239166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.553,2
+2020,10,19,8,32,46.187,-63.6239166666667,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",2.14,142
+2020,10,19,8,32,46.187,-63.6239166666667,"6 gang toothed scallop drag with 82.6mm rings",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.218,16
+2020,10,19,8,32,46.187,-63.6239166666667,"6 gang toothed scallop drag with 82.6mm rings",9300,"Géomon/algues/varech non-spécifié","Seaweed/Algae/Kelp unidentified","Obsolete",0.177,2
+2020,10,19,8,55,46.1788333333333,-63.6031666666667,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.038,2
+2020,10,19,8,55,46.1788333333333,-63.6031666666667,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.038,1
+2020,10,19,8,55,46.1788333333333,-63.6031666666667,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.002,2
+2020,10,19,8,55,46.1788333333333,-63.6031666666667,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",22,1757
+2020,10,19,9,15,46.1658333333333,-63.6174166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.198,3
+2020,10,19,9,15,46.1658333333333,-63.6174166666667,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.005,3
+2020,10,19,9,15,46.1658333333333,-63.6174166666667,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",11.9,701
+2020,10,19,9,34,46.1541666666667,-63.6135,"2 gang toothed scallop drag lined with 14 mm mesh",143,"Turbot de sable","Windowpane flounder","Scophthalmus aquosus",0.008,1
+2020,10,19,9,34,46.1541666666667,-63.6135,"2 gang toothed scallop drag lined with 14 mm mesh",204,"Raie tachetée","Winter skate","Leucoraja ocellata",0.321,1
+2020,10,19,9,34,46.1541666666667,-63.6135,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.514,7
+2020,10,19,9,34,46.1541666666667,-63.6135,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.483,2
+2020,10,19,9,34,46.1541666666667,-63.6135,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",6.97,403
+2020,10,19,9,53,46.14825,-63.6279166666667,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.144,1
+2020,10,19,9,53,46.14825,-63.6279166666667,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",25.8,1808
+2020,10,19,10,9,46.1473333333333,-63.64625,"2 gang toothed scallop drag lined with 14 mm mesh",303,"Chaboisseau bronzé","Grubby","Myoxocephalus aenaeus",0.012,1
+2020,10,19,10,9,46.1473333333333,-63.64625,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.372,13
+2020,10,19,10,9,46.1473333333333,-63.64625,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.2,1
+2020,10,19,10,9,46.1473333333333,-63.64625,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.578,3
+2020,10,19,10,9,46.1473333333333,-63.64625,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.206,1
+2020,10,19,10,9,46.1473333333333,-63.64625,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.008,6
+2020,10,19,10,9,46.1473333333333,-63.64625,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.92,67
+2020,10,19,10,31,46.1375833333333,-63.6334166666667,"6 gang toothed scallop drag with 82.6mm rings",204,"Raie tachetée","Winter skate","Leucoraja ocellata",1.3,2
+2020,10,19,10,31,46.1375833333333,-63.6334166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.104,2
+2020,10,19,10,31,46.1375833333333,-63.6334166666667,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.21,2
+2020,10,19,10,31,46.1375833333333,-63.6334166666667,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.5,3
+2020,10,19,10,31,46.1375833333333,-63.6334166666667,"6 gang toothed scallop drag with 82.6mm rings",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,1
+2020,10,19,10,31,46.1375833333333,-63.6334166666667,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",21.9,1459
+2020,10,19,10,55,46.1386666666667,-63.6043333333333,"2 gang toothed scallop drag lined with 14 mm mesh",143,"Turbot de sable","Windowpane flounder","Scophthalmus aquosus",0.012,1
+2020,10,19,10,55,46.1386666666667,-63.6043333333333,"6 gang toothed scallop drag with 82.6mm rings",143,"Turbot de sable","Windowpane flounder","Scophthalmus aquosus",0.026,1
+2020,10,19,10,55,46.1386666666667,-63.6043333333333,"2 gang toothed scallop drag lined with 14 mm mesh",2417,"Crevette grise","Sevenspine bay shrimp","Crangon septemspinosa",0.001,1
+2020,10,19,10,55,46.1386666666667,-63.6043333333333,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.08,1
+2020,10,19,10,55,46.1386666666667,-63.6043333333333,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.196,1
+2020,10,19,10,55,46.1386666666667,-63.6043333333333,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.364,1
+2020,10,19,10,55,46.1386666666667,-63.6043333333333,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",24.4,3594
+2020,10,19,10,55,46.1386666666667,-63.6043333333333,"6 gang toothed scallop drag with 82.6mm rings",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",24.4,3594
+2020,10,19,11,20,46.1150833333333,-63.6104166666667,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.034,2
+2020,10,19,11,20,46.1150833333333,-63.6104166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.242,7
+2020,10,19,11,20,46.1150833333333,-63.6104166666667,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.238,1
+2020,10,19,11,20,46.1150833333333,-63.6104166666667,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.018,2
+2020,10,19,11,20,46.1150833333333,-63.6104166666667,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.002,1
+2020,10,19,12,48,46.10775,-63.6624166666667,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.102,6
+2020,10,19,12,48,46.10775,-63.6624166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2417,"Crevette grise","Sevenspine bay shrimp","Crangon septemspinosa",0.002,1
+2020,10,19,12,48,46.10775,-63.6624166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.966,24
+2020,10,19,12,48,46.10775,-63.6624166666667,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.448,7
+2020,10,19,12,48,46.10775,-63.6624166666667,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.006,1
+2020,10,19,12,48,46.10775,-63.6624166666667,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.078,1
+2020,10,19,12,48,46.10775,-63.6624166666667,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",1.4,6
+2020,10,19,12,48,46.10775,-63.6624166666667,"2 gang toothed scallop drag lined with 14 mm mesh",6111,"Astérie boréale commune","Common starfish","Asterias rubens",0.008,3
+2020,10,19,12,48,46.10775,-63.6624166666667,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.068,17
+2020,10,19,12,48,46.10775,-63.6624166666667,"6 gang toothed scallop drag with 82.6mm rings",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.002,1
+2020,10,19,12,48,46.10775,-63.6624166666667,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",1.15,91
+2020,10,19,13,15,46.1188333333333,-63.6908333333333,"2 gang toothed scallop drag lined with 14 mm mesh",122,"Tanche-tautogue","Cunner","Tautogolabrus adspersus",0.012,1
+2020,10,19,13,15,46.1188333333333,-63.6908333333333,"2 gang toothed scallop drag lined with 14 mm mesh",143,"Turbot de sable","Windowpane flounder","Scophthalmus aquosus",0.002,1
+2020,10,19,13,15,46.1188333333333,-63.6908333333333,"6 gang toothed scallop drag with 82.6mm rings",204,"Raie tachetée","Winter skate","Leucoraja ocellata",0.186,1
+2020,10,19,13,15,46.1188333333333,-63.6908333333333,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.222,4
+2020,10,19,13,15,46.1188333333333,-63.6908333333333,"2 gang toothed scallop drag lined with 14 mm mesh",2539,"Crabe calico","Lady crab","Ovalipes ocellatus",0.178,1
+2020,10,19,13,15,46.1188333333333,-63.6908333333333,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.022,3
+2020,10,19,13,15,46.1188333333333,-63.6908333333333,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.406,2
+2020,10,19,13,15,46.1188333333333,-63.6908333333333,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.34,2
+2020,10,19,13,15,46.1188333333333,-63.6908333333333,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.004,4
+2020,10,19,13,15,46.1188333333333,-63.6908333333333,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",5.39,963
+2020,10,19,13,15,46.1188333333333,-63.6908333333333,"6 gang toothed scallop drag with 82.6mm rings",9300,"Géomon/algues/varech non-spécifié","Seaweed/Algae/Kelp unidentified","Obsolete",0.228,3
+2020,10,19,13,41,46.1236666666667,-63.6635,"2 gang toothed scallop drag lined with 14 mm mesh",640,"Loquette d'Amérique","Ocean pout","Zoarces americanus",0.006,1
+2020,10,19,13,41,46.1236666666667,-63.6635,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.729,23
+2020,10,19,13,41,46.1236666666667,-63.6635,"2 gang toothed scallop drag lined with 14 mm mesh",2539,"Crabe calico","Lady crab","Ovalipes ocellatus",0.078,1
+2020,10,19,13,41,46.1236666666667,-63.6635,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.006,1
+2020,10,19,13,41,46.1236666666667,-63.6635,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",1.06,7
+2020,10,19,13,41,46.1236666666667,-63.6635,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",1.32,7
+2020,10,19,13,41,46.1236666666667,-63.6635,"2 gang toothed scallop drag lined with 14 mm mesh",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,1
+2020,10,19,13,41,46.1236666666667,-63.6635,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.002,4
+2020,10,19,13,41,46.1236666666667,-63.6635,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",1.11,95
+2020,10,19,14,8,46.1283333333333,-63.68,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.044,1
+2020,10,19,14,8,46.1283333333333,-63.68,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.304,4
+2020,10,19,14,8,46.1283333333333,-63.68,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",36,2335
+2020,10,19,14,30,46.1308333333333,-63.7043333333333,"2 gang toothed scallop drag lined with 14 mm mesh",12,"Merluche blanche","White hake","Urophycis tenuis",0.026,1
+2020,10,19,14,30,46.1308333333333,-63.7043333333333,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.018,4
+2020,10,19,14,30,46.1308333333333,-63.7043333333333,"2 gang toothed scallop drag lined with 14 mm mesh",143,"Turbot de sable","Windowpane flounder","Scophthalmus aquosus",0.096,2
+2020,10,19,14,30,46.1308333333333,-63.7043333333333,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.266,9
+2020,10,19,14,30,46.1308333333333,-63.7043333333333,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.148,1
+2020,10,19,14,30,46.1308333333333,-63.7043333333333,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.024,5
+2020,10,19,14,30,46.1308333333333,-63.7043333333333,"6 gang toothed scallop drag with 82.6mm rings",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.002,1
+2020,10,19,14,30,46.1308333333333,-63.7043333333333,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.12,2
+2020,10,19,14,30,46.1308333333333,-63.7043333333333,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.886,5
+2020,10,19,14,30,46.1308333333333,-63.7043333333333,"6 gang toothed scallop drag with 82.6mm rings",4331,"Moule bleue","Blue mussel","Mytilus edulis",0.092,2
+2020,10,19,14,30,46.1308333333333,-63.7043333333333,"2 gang toothed scallop drag lined with 14 mm mesh",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,1
+2020,10,19,14,30,46.1308333333333,-63.7043333333333,"6 gang toothed scallop drag with 82.6mm rings",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,2
+2020,10,19,14,30,46.1308333333333,-63.7043333333333,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.002,6
+2020,10,19,14,30,46.1308333333333,-63.7043333333333,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",14.1,1203
+2020,10,19,14,30,46.1308333333333,-63.7043333333333,"6 gang toothed scallop drag with 82.6mm rings",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.058,6
+2020,10,19,14,30,46.1308333333333,-63.7043333333333,"2 gang toothed scallop drag lined with 14 mm mesh",9300,"Géomon/algues/varech non-spécifié","Seaweed/Algae/Kelp unidentified","Obsolete",0.258,3
+2020,10,19,14,30,46.1308333333333,-63.7043333333333,"6 gang toothed scallop drag with 82.6mm rings",9300,"Géomon/algues/varech non-spécifié","Seaweed/Algae/Kelp unidentified","Obsolete",0.078,1
+2020,10,19,15,31,46.1471666666667,-63.7303333333333,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.17,3
+2020,10,19,15,31,46.1471666666667,-63.7303333333333,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.11,1
+2020,10,19,15,31,46.1471666666667,-63.7303333333333,"2 gang toothed scallop drag lined with 14 mm mesh",4221,"Natice de l'Atlantique ou héros","Northern moonsnail","Euspira heros",0.092,1
+2020,10,19,15,31,46.1471666666667,-63.7303333333333,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.04,7
+2020,10,19,15,31,46.1471666666667,-63.7303333333333,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.008,2
+2020,10,19,15,54,46.1700833333333,-63.7381666666667,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.068,1
+2020,10,19,15,54,46.1700833333333,-63.7381666666667,"2 gang toothed scallop drag lined with 14 mm mesh",143,"Turbot de sable","Windowpane flounder","Scophthalmus aquosus",0.004,1
+2020,10,19,15,54,46.1700833333333,-63.7381666666667,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.252,9
+2020,10,19,15,54,46.1700833333333,-63.7381666666667,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.12,1
+2020,10,19,15,54,46.1700833333333,-63.7381666666667,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.198,1
+2020,10,19,15,54,46.1700833333333,-63.7381666666667,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.026,5
+2020,10,19,15,54,46.1700833333333,-63.7381666666667,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",1.52,18
+2020,10,19,15,54,46.1700833333333,-63.7381666666667,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",5.31,35
+2020,10,19,15,54,46.1700833333333,-63.7381666666667,"2 gang toothed scallop drag lined with 14 mm mesh",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,2
+2020,10,19,15,54,46.1700833333333,-63.7381666666667,"6 gang toothed scallop drag with 82.6mm rings",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,2
+2020,10,19,15,54,46.1700833333333,-63.7381666666667,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.01,4
+2020,10,19,15,54,46.1700833333333,-63.7381666666667,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",5.32,673
+2020,10,19,16,23,46.1679166666667,-63.75925,"2 gang toothed scallop drag lined with 14 mm mesh",12,"Merluche blanche","White hake","Urophycis tenuis",0.04,1
+2020,10,19,16,23,46.1679166666667,-63.75925,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.256,5
+2020,10,19,16,23,46.1679166666667,-63.75925,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.182,1
+2020,10,19,16,23,46.1679166666667,-63.75925,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.03,6
+2020,10,19,16,23,46.1679166666667,-63.75925,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",5.94,691
+2020,10,19,16,50,46.1939166666667,-63.75725,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.042,2
+2020,10,19,16,50,46.1939166666667,-63.75725,"6 gang toothed scallop drag with 82.6mm rings",251,"Gadidae non-spécifié","Gadidae unidentified","Gadidae (f.)",0.026,1
+2020,10,19,16,50,46.1939166666667,-63.75725,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.444,10
+2020,10,19,16,50,46.1939166666667,-63.75725,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.026,1
+2020,10,19,16,50,46.1939166666667,-63.75725,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.316,1
+2020,10,19,16,50,46.1939166666667,-63.75725,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.054,11
+2020,10,19,16,50,46.1939166666667,-63.75725,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",1.54,14
+2020,10,19,16,50,46.1939166666667,-63.75725,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",1.56,10
+2020,10,19,16,50,46.1939166666667,-63.75725,"2 gang toothed scallop drag lined with 14 mm mesh",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,1
+2020,10,19,16,50,46.1939166666667,-63.75725,"6 gang toothed scallop drag with 82.6mm rings",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,2
+2020,10,19,16,50,46.1939166666667,-63.75725,"2 gang toothed scallop drag lined with 14 mm mesh",6111,"Astérie boréale commune","Common starfish","Asterias rubens",0.001,1
+2020,10,19,16,50,46.1939166666667,-63.75725,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.014,2
+2020,10,19,16,50,46.1939166666667,-63.75725,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.3,44
+2020,10,19,17,45,46.1934166666667,-63.7888333333333,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.01,1
+2020,10,19,17,45,46.1934166666667,-63.7888333333333,"2 gang toothed scallop drag lined with 14 mm mesh",143,"Turbot de sable","Windowpane flounder","Scophthalmus aquosus",0.008,1
+2020,10,19,17,45,46.1934166666667,-63.7888333333333,"2 gang toothed scallop drag lined with 14 mm mesh",303,"Chaboisseau bronzé","Grubby","Myoxocephalus aenaeus",0.008,1
+2020,10,19,17,45,46.1934166666667,-63.7888333333333,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.364,10
+2020,10,19,17,45,46.1934166666667,-63.7888333333333,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.038,2
+2020,10,19,17,45,46.1934166666667,-63.7888333333333,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.326,1
+2020,10,19,17,45,46.1934166666667,-63.7888333333333,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.012,2
+2020,10,19,17,45,46.1934166666667,-63.7888333333333,"2 gang toothed scallop drag lined with 14 mm mesh",4355,"Mactre de Stimpson","Arctic surfclam","Mactromeris polynyma",0.518,1
+2020,10,19,17,45,46.1934166666667,-63.7888333333333,"2 gang toothed scallop drag lined with 14 mm mesh",6111,"Astérie boréale commune","Common starfish","Asterias rubens",0.022,5
+2020,10,19,17,45,46.1934166666667,-63.7888333333333,"6 gang toothed scallop drag with 82.6mm rings",6111,"Astérie boréale commune","Common starfish","Asterias rubens",0.012,2
+2020,10,19,17,45,46.1934166666667,-63.7888333333333,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.002,1
+2020,10,19,17,45,46.1934166666667,-63.7888333333333,"6 gang toothed scallop drag with 82.6mm rings",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.002,1
+2020,10,19,17,45,46.1934166666667,-63.7888333333333,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.006,1
+2020,10,19,17,45,46.1934166666667,-63.7888333333333,"6 gang toothed scallop drag with 82.6mm rings",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.006,1
+2020,10,19,17,45,46.1934166666667,-63.7888333333333,"2 gang toothed scallop drag lined with 14 mm mesh",9300,"Géomon/algues/varech non-spécifié","Seaweed/Algae/Kelp unidentified","Obsolete",0.03,1
+2020,10,19,17,45,46.1934166666667,-63.7888333333333,"6 gang toothed scallop drag with 82.6mm rings",9300,"Géomon/algues/varech non-spécifié","Seaweed/Algae/Kelp unidentified","Obsolete",0.08,2
+2020,10,19,18,11,46.2088333333333,-63.7835833333333,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.254,6
+2020,10,19,18,11,46.2088333333333,-63.7835833333333,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.114,2
+2020,10,19,18,11,46.2088333333333,-63.7835833333333,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",1.35,6
+2020,10,19,18,11,46.2088333333333,-63.7835833333333,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",7.28,51
+2020,10,19,18,11,46.2088333333333,-63.7835833333333,"6 gang toothed scallop drag with 82.6mm rings",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,5
+2020,10,19,18,11,46.2088333333333,-63.7835833333333,"6 gang toothed scallop drag with 82.6mm rings",6111,"Astérie boréale commune","Common starfish","Asterias rubens",0.012,5
+2020,10,19,18,11,46.2088333333333,-63.7835833333333,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.162,23
+2020,10,19,18,11,46.2088333333333,-63.7835833333333,"6 gang toothed scallop drag with 82.6mm rings",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.004,1
+2020,10,21,9,15,46.5484166666667,-64.35675,"2 gang toothed scallop drag lined with 14 mm mesh",143,"Turbot de sable","Windowpane flounder","Scophthalmus aquosus",0.015,1
+2020,10,21,9,15,46.5484166666667,-64.35675,"2 gang toothed scallop drag lined with 14 mm mesh",300,"Chaboisseau à dix-huit-épines","Longhorn sculpin","Myoxocephalus octodecemspinosus",0.039,1
+2020,10,21,9,15,46.5484166666667,-64.35675,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.212,3
+2020,10,21,9,15,46.5484166666667,-64.35675,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.196,1
+2020,10,21,9,15,46.5484166666667,-64.35675,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",1.39,9
+2020,10,21,9,15,46.5484166666667,-64.35675,"6 gang toothed scallop drag with 82.6mm rings",2550,"Homard américain","American lobster","Homarus americanus",0.108,1
+2020,10,21,9,15,46.5484166666667,-64.35675,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.023,3
+2020,10,21,9,15,46.5484166666667,-64.35675,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.003,1
+2020,10,21,9,43,46.5569166666667,-64.3551666666667,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.047,1
+2020,10,21,9,43,46.5569166666667,-64.3551666666667,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.435,8
+2020,10,21,9,43,46.5569166666667,-64.3551666666667,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.038,1
+2020,10,21,9,43,46.5569166666667,-64.3551666666667,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.036,5
+2020,10,21,9,43,46.5569166666667,-64.3551666666667,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.013,5
+2020,10,21,9,43,46.5569166666667,-64.3551666666667,"6 gang toothed scallop drag with 82.6mm rings",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.002,1
+2020,10,21,9,57,46.565,-64.3646666666667,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.012,1
+2020,10,21,9,57,46.565,-64.3646666666667,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.122,7
+2020,10,21,9,57,46.565,-64.3646666666667,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.144,1
+2020,10,21,9,57,46.565,-64.3646666666667,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.178,1
+2020,10,21,9,57,46.565,-64.3646666666667,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.077,12
+2020,10,21,9,57,46.565,-64.3646666666667,"6 gang toothed scallop drag with 82.6mm rings",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.029,4
+2020,10,21,9,57,46.565,-64.3646666666667,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.101,3
+2020,10,21,9,57,46.565,-64.3646666666667,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.002,1
+2020,10,21,9,57,46.565,-64.3646666666667,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.058,8
+2020,10,21,10,18,46.5768333333333,-64.3479166666667,"2 gang toothed scallop drag lined with 14 mm mesh",303,"Chaboisseau bronzé","Grubby","Myoxocephalus aenaeus",0.008,1
+2020,10,21,10,18,46.5768333333333,-64.3479166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.484,8
+2020,10,21,10,18,46.5768333333333,-64.3479166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.612,2
+2020,10,21,10,18,46.5768333333333,-64.3479166666667,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.02,3
+2020,10,21,10,18,46.5768333333333,-64.3479166666667,"2 gang toothed scallop drag lined with 14 mm mesh",4332,"Moule géante","Northern horsemussel","Modiolus modiolus",0.18,1
+2020,10,21,10,18,46.5768333333333,-64.3479166666667,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.004,2
+2020,10,21,10,18,46.5768333333333,-64.3479166666667,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.014,1
+2020,10,21,10,18,46.5768333333333,-64.3479166666667,"2 gang toothed scallop drag lined with 14 mm mesh",9300,"Géomon/algues/varech non-spécifié","Seaweed/Algae/Kelp unidentified","Obsolete",0.491,11
+2020,10,21,10,18,46.5768333333333,-64.3479166666667,"6 gang toothed scallop drag with 82.6mm rings",9300,"Géomon/algues/varech non-spécifié","Seaweed/Algae/Kelp unidentified","Obsolete",1.34,29
+2020,10,21,10,40,46.5883333333333,-64.3786666666667,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.18,16
+2020,10,21,10,40,46.5883333333333,-64.3786666666667,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.211,2
+2020,10,21,10,40,46.5883333333333,-64.3786666666667,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.3,2
+2020,10,21,10,40,46.5883333333333,-64.3786666666667,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.02,3
+2020,10,21,10,40,46.5883333333333,-64.3786666666667,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.03,1
+2020,10,21,10,40,46.5883333333333,-64.3786666666667,"2 gang toothed scallop drag lined with 14 mm mesh",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,2
+2020,10,21,10,40,46.5883333333333,-64.3786666666667,"6 gang toothed scallop drag with 82.6mm rings",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,2
+2020,10,21,10,40,46.5883333333333,-64.3786666666667,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.009,8
+2020,10,21,10,40,46.5883333333333,-64.3786666666667,"6 gang toothed scallop drag with 82.6mm rings",9300,"Géomon/algues/varech non-spécifié","Seaweed/Algae/Kelp unidentified","Obsolete",0.044,1
+2020,10,21,11,3,46.5996666666667,-64.3888333333333,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.111,18
+2020,10,21,11,3,46.5996666666667,-64.3888333333333,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.321,3
+2020,10,21,11,3,46.5996666666667,-64.3888333333333,"2 gang toothed scallop drag lined with 14 mm mesh",4221,"Natice de l'Atlantique ou héros","Northern moonsnail","Euspira heros",0.039,1
+2020,10,21,11,3,46.5996666666667,-64.3888333333333,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.073,12
+2020,10,21,11,3,46.5996666666667,-64.3888333333333,"6 gang toothed scallop drag with 82.6mm rings",4317,"Mactre de l'Atlantique","Atlantic surf clam","Spisula solidissima",0.593,1
+2020,10,21,11,31,46.58475,-64.3964166666667,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.015,2
+2020,10,21,11,31,46.58475,-64.3964166666667,"6 gang toothed scallop drag with 82.6mm rings",300,"Chaboisseau à dix-huit-épines","Longhorn sculpin","Myoxocephalus octodecemspinosus",0.075,1
+2020,10,21,11,31,46.58475,-64.3964166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2417,"Crevette grise","Sevenspine bay shrimp","Crangon septemspinosa",0.001,1
+2020,10,21,11,31,46.58475,-64.3964166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.546,33
+2020,10,21,11,31,46.58475,-64.3964166666667,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.179,2
+2020,10,21,11,31,46.58475,-64.3964166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.243,2
+2020,10,21,11,31,46.58475,-64.3964166666667,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.097,16
+2020,10,21,11,31,46.58475,-64.3964166666667,"6 gang toothed scallop drag with 82.6mm rings",4317,"Mactre de l'Atlantique","Atlantic surf clam","Spisula solidissima",0.558,1
+2020,10,21,11,31,46.58475,-64.3964166666667,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.007,1
+2020,10,21,11,31,46.58475,-64.3964166666667,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.745,4
+2020,10,21,11,31,46.58475,-64.3964166666667,"2 gang toothed scallop drag lined with 14 mm mesh",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,1
+2020,10,21,11,31,46.58475,-64.3964166666667,"6 gang toothed scallop drag with 82.6mm rings",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,2
+2020,10,21,11,31,46.58475,-64.3964166666667,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.005,3
+2020,10,21,11,31,46.58475,-64.3964166666667,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.05,4
+2020,10,21,11,31,46.58475,-64.3964166666667,"6 gang toothed scallop drag with 82.6mm rings",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.002,1
+2020,10,21,11,31,46.58475,-64.3964166666667,"2 gang toothed scallop drag lined with 14 mm mesh",9300,"Géomon/algues/varech non-spécifié","Seaweed/Algae/Kelp unidentified","Obsolete",0.047,1
+2020,10,21,11,57,46.5830833333333,-64.4226666666667,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.02,2
+2020,10,21,11,57,46.5830833333333,-64.4226666666667,"2 gang toothed scallop drag lined with 14 mm mesh",300,"Chaboisseau à dix-huit-épines","Longhorn sculpin","Myoxocephalus octodecemspinosus",0.28,1
+2020,10,21,11,57,46.5830833333333,-64.4226666666667,"2 gang toothed scallop drag lined with 14 mm mesh",303,"Chaboisseau bronzé","Grubby","Myoxocephalus aenaeus",0.035,3
+2020,10,21,11,57,46.5830833333333,-64.4226666666667,"2 gang toothed scallop drag lined with 14 mm mesh",640,"Loquette d'Amérique","Ocean pout","Zoarces americanus",0.161,2
+2020,10,21,11,57,46.5830833333333,-64.4226666666667,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.752,14
+2020,10,21,11,57,46.5830833333333,-64.4226666666667,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.071,2
+2020,10,21,11,57,46.5830833333333,-64.4226666666667,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.93,6
+2020,10,21,11,57,46.5830833333333,-64.4226666666667,"6 gang toothed scallop drag with 82.6mm rings",2550,"Homard américain","American lobster","Homarus americanus",0.119,1
+2020,10,21,11,57,46.5830833333333,-64.4226666666667,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.133,20
+2020,10,21,11,57,46.5830833333333,-64.4226666666667,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.077,2
+2020,10,21,11,57,46.5830833333333,-64.4226666666667,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",1.44,6
+2020,10,21,11,57,46.5830833333333,-64.4226666666667,"6 gang toothed scallop drag with 82.6mm rings",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,1
+2020,10,21,11,57,46.5830833333333,-64.4226666666667,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.018,8
+2020,10,21,11,57,46.5830833333333,-64.4226666666667,"2 gang toothed scallop drag lined with 14 mm mesh",6200,"Ophiuroidea non-spécifié","Brittle star unidentified","Ophiuroidea (s.o.)",0.001,1
+2020,10,21,13,17,46.5779166666667,-64.4434166666667,"2 gang toothed scallop drag lined with 14 mm mesh",303,"Chaboisseau bronzé","Grubby","Myoxocephalus aenaeus",0.032,2
+2020,10,21,13,17,46.5779166666667,-64.4434166666667,"2 gang toothed scallop drag lined with 14 mm mesh",640,"Loquette d'Amérique","Ocean pout","Zoarces americanus",0.075,1
+2020,10,21,13,17,46.5779166666667,-64.4434166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.404,10
+2020,10,21,13,17,46.5779166666667,-64.4434166666667,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.408,3
+2020,10,21,13,17,46.5779166666667,-64.4434166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",1.22,8
+2020,10,21,13,17,46.5779166666667,-64.4434166666667,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",1.35,11
+2020,10,21,13,17,46.5779166666667,-64.4434166666667,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",2.69,11
+2020,10,21,13,17,46.5779166666667,-64.4434166666667,"2 gang toothed scallop drag lined with 14 mm mesh",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,1
+2020,10,21,13,17,46.5779166666667,-64.4434166666667,"6 gang toothed scallop drag with 82.6mm rings",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,3
+2020,10,21,13,17,46.5779166666667,-64.4434166666667,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.003,3
+2020,10,21,13,46,46.5926666666667,-64.4705,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.266,9
+2020,10,21,13,46,46.5926666666667,-64.4705,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.001,1
+2020,10,21,13,46,46.5926666666667,-64.4705,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.302,3
+2020,10,21,13,46,46.5926666666667,-64.4705,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.018,4
+2020,10,21,13,46,46.5926666666667,-64.4705,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.814,11
+2020,10,21,13,46,46.5926666666667,-64.4705,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",3.05,16
+2020,10,21,13,46,46.5926666666667,-64.4705,"2 gang toothed scallop drag lined with 14 mm mesh",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,2
+2020,10,21,13,46,46.5926666666667,-64.4705,"6 gang toothed scallop drag with 82.6mm rings",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,3
+2020,10,21,13,46,46.5926666666667,-64.4705,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.002,3
+2020,10,21,14,13,46.5933333333333,-64.4464166666667,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.001,1
+2020,10,21,14,13,46.5933333333333,-64.4464166666667,"6 gang toothed scallop drag with 82.6mm rings",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.022,2
+2020,10,21,14,13,46.5933333333333,-64.4464166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.264,18
+2020,10,21,14,13,46.5933333333333,-64.4464166666667,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.37,11
+2020,10,21,14,13,46.5933333333333,-64.4464166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.143,1
+2020,10,21,14,13,46.5933333333333,-64.4464166666667,"6 gang toothed scallop drag with 82.6mm rings",2550,"Homard américain","American lobster","Homarus americanus",0.156,1
+2020,10,21,14,13,46.5933333333333,-64.4464166666667,"6 gang toothed scallop drag with 82.6mm rings",4221,"Natice de l'Atlantique ou héros","Northern moonsnail","Euspira heros",0.202,1
+2020,10,21,14,13,46.5933333333333,-64.4464166666667,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.012,2
+2020,10,21,14,13,46.5933333333333,-64.4464166666667,"6 gang toothed scallop drag with 82.6mm rings",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.008,1
+2020,10,21,14,13,46.5933333333333,-64.4464166666667,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",2.61,23
+2020,10,21,14,13,46.5933333333333,-64.4464166666667,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",10.2,79
+2020,10,21,14,13,46.5933333333333,-64.4464166666667,"6 gang toothed scallop drag with 82.6mm rings",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,2
+2020,10,21,14,13,46.5933333333333,-64.4464166666667,"6 gang toothed scallop drag with 82.6mm rings",6111,"Astérie boréale commune","Common starfish","Asterias rubens",0.001,1
+2020,10,21,14,13,46.5933333333333,-64.4464166666667,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.032,11
+2020,10,21,14,13,46.5933333333333,-64.4464166666667,"6 gang toothed scallop drag with 82.6mm rings",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.004,2
+2020,10,21,15,4,46.6036666666667,-64.4365,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.074,3
+2020,10,21,15,4,46.6048333333333,-64.4365,"6 gang toothed scallop drag with 82.6mm rings",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.058,2
+2020,10,21,15,4,46.6036666666667,-64.4365,"2 gang toothed scallop drag lined with 14 mm mesh",143,"Turbot de sable","Windowpane flounder","Scophthalmus aquosus",0.008,1
+2020,10,21,15,4,46.6036666666667,-64.4365,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.672,30
+2020,10,21,15,4,46.6048333333333,-64.4365,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.424,4
+2020,10,21,15,4,46.6036666666667,-64.4365,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.808,7
+2020,10,21,15,4,46.6048333333333,-64.4365,"6 gang toothed scallop drag with 82.6mm rings",4221,"Natice de l'Atlantique ou héros","Northern moonsnail","Euspira heros",0.128,1
+2020,10,21,15,4,46.6036666666667,-64.4365,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.024,5
+2020,10,21,15,4,46.6048333333333,-64.4365,"6 gang toothed scallop drag with 82.6mm rings",4317,"Mactre de l'Atlantique","Atlantic surf clam","Spisula solidissima",1.34,3
+2020,10,21,15,4,46.6036666666667,-64.4365,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.87,6
+2020,10,21,15,4,46.6048333333333,-64.4365,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",3.31,13
+2020,10,21,15,4,46.6036666666667,-64.4365,"2 gang toothed scallop drag lined with 14 mm mesh",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,1
+2020,10,21,15,4,46.6036666666667,-64.4365,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.046,8
+2020,10,21,15,4,46.6036666666667,-64.4365,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.014,1
+2020,10,21,15,37,46.6103333333333,-64.43625,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.622,16
+2020,10,21,15,37,46.6103333333333,-64.44375,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.554,4
+2020,10,21,15,37,46.6103333333333,-64.43625,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.34,1
+2020,10,21,15,37,46.6103333333333,-64.43625,"2 gang toothed scallop drag lined with 14 mm mesh",4221,"Natice de l'Atlantique ou héros","Northern moonsnail","Euspira heros",0.23,1
+2020,10,21,15,37,46.6103333333333,-64.44375,"6 gang toothed scallop drag with 82.6mm rings",4317,"Mactre de l'Atlantique","Atlantic surf clam","Spisula solidissima",1.35,2
+2020,10,21,15,37,46.6103333333333,-64.44375,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.54,2
+2020,10,21,15,37,46.6103333333333,-64.44375,"6 gang toothed scallop drag with 82.6mm rings",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,1
+2020,10,21,15,37,46.6103333333333,-64.44375,"6 gang toothed scallop drag with 82.6mm rings",9300,"Géomon/algues/varech non-spécifié","Seaweed/Algae/Kelp unidentified","Obsolete",0.05,1
+2020,10,21,16,6,46.6200833333333,-64.4655833333333,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.058,2
+2020,10,21,16,6,46.6200833333333,-64.4655833333333,"6 gang toothed scallop drag with 82.6mm rings",204,"Raie tachetée","Winter skate","Leucoraja ocellata",0.414,1
+2020,10,21,16,6,46.6200833333333,-64.4655833333333,"2 gang toothed scallop drag lined with 14 mm mesh",300,"Chaboisseau à dix-huit-épines","Longhorn sculpin","Myoxocephalus octodecemspinosus",0.084,1
+2020,10,21,16,6,46.6200833333333,-64.4655833333333,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.54,22
+2020,10,21,16,6,46.6200833333333,-64.4655833333333,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.812,6
+2020,10,21,16,6,46.6200833333333,-64.4655833333333,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.218,1
+2020,10,21,16,6,46.6200833333333,-64.4655833333333,"6 gang toothed scallop drag with 82.6mm rings",2550,"Homard américain","American lobster","Homarus americanus",0.06,1
+2020,10,21,16,6,46.6200833333333,-64.4655833333333,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.006,1
+2020,10,21,16,6,46.6200833333333,-64.4655833333333,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",1.8,24
+2020,10,21,16,6,46.6200833333333,-64.4655833333333,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",6.22,32
+2020,10,21,16,6,46.6200833333333,-64.4655833333333,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.088,15
+2020,10,21,16,38,46.6199166666667,-64.4729166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.492,12
+2020,10,21,16,38,46.6199166666667,-64.4729166666667,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.504,4
+2020,10,21,16,38,46.6199166666667,-64.4729166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.502,2
+2020,10,21,16,38,46.6199166666667,-64.4729166666667,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.006,1
+2020,10,21,16,38,46.6199166666667,-64.4729166666667,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",2.93,24
+2020,10,21,16,38,46.6199166666667,-64.4729166666667,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",5.97,28
+2020,10,21,16,38,46.6199166666667,-64.4729166666667,"6 gang toothed scallop drag with 82.6mm rings",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,1
+2020,10,21,16,38,46.6199166666667,-64.4729166666667,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.03,15
+2020,10,21,16,38,46.6199166666667,-64.4729166666667,"6 gang toothed scallop drag with 82.6mm rings",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.002,1
+2020,10,22,9,4,46.63975,-64.4403333333333,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.183,3
+2020,10,22,9,4,46.63975,-64.4403333333333,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.509,3
+2020,10,22,9,4,46.63975,-64.4403333333333,"2 gang toothed scallop drag lined with 14 mm mesh",2539,"Crabe calico","Lady crab","Ovalipes ocellatus",0.137,1
+2020,10,22,9,4,46.63975,-64.4403333333333,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.348,2
+2020,10,22,9,4,46.63975,-64.4403333333333,"6 gang toothed scallop drag with 82.6mm rings",2550,"Homard américain","American lobster","Homarus americanus",0.285,1
+2020,10,22,9,4,46.63975,-64.4403333333333,"6 gang toothed scallop drag with 82.6mm rings",4317,"Mactre de l'Atlantique","Atlantic surf clam","Spisula solidissima",1.96,3
+2020,10,22,9,23,46.6376666666667,-64.4551666666667,"2 gang toothed scallop drag lined with 14 mm mesh",611,"Ammodytes non-spécifié","Ammodytes unidentified","Ammodytes sp.",0.008,1
+2020,10,22,9,23,46.6376666666667,-64.4551666666667,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.1,1
+2020,10,22,9,23,46.6376666666667,-64.4551666666667,"6 gang toothed scallop drag with 82.6mm rings",2550,"Homard américain","American lobster","Homarus americanus",2.11,1
+2020,10,22,9,23,46.6376666666667,-64.4551666666667,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.194,10
+2020,10,22,9,23,46.6376666666667,-64.4551666666667,"6 gang toothed scallop drag with 82.6mm rings",9300,"Géomon/algues/varech non-spécifié","Seaweed/Algae/Kelp unidentified","Obsolete",0.131,2
+2020,10,22,9,45,46.6359166666667,-64.48125,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.013,1
+2020,10,22,9,45,46.6359166666667,-64.48125,"2 gang toothed scallop drag lined with 14 mm mesh",303,"Chaboisseau bronzé","Grubby","Myoxocephalus aenaeus",0.077,4
+2020,10,22,9,45,46.6359166666667,-64.48125,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.512,20
+2020,10,22,9,45,46.6434166666667,-64.48125,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.983,7
+2020,10,22,9,45,46.6434166666667,-64.48125,"6 gang toothed scallop drag with 82.6mm rings",2527,"Crabe lyre (araignée)","Atlantic lyre crab/Greater toad crab","Hyas araneus",0.001,1
+2020,10,22,9,45,46.6359166666667,-64.48125,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.175,3
+2020,10,22,9,45,46.6359166666667,-64.48125,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.022,4
+2020,10,22,9,45,46.6359166666667,-64.48125,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",1.38,16
+2020,10,22,9,45,46.6434166666667,-64.48125,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",7.63,39
+2020,10,22,9,45,46.6434166666667,-64.48125,"6 gang toothed scallop drag with 82.6mm rings",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,2
+2020,10,22,9,45,46.6359166666667,-64.48125,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.04,11
+2020,10,22,9,45,46.6434166666667,-64.48125,"6 gang toothed scallop drag with 82.6mm rings",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.017,2
+2020,10,22,10,21,46.6554166666667,-64.4773333333333,"6 gang toothed scallop drag with 82.6mm rings",143,"Turbot de sable","Windowpane flounder","Scophthalmus aquosus",0.202,1
+2020,10,22,10,21,46.6554166666667,-64.4773333333333,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.265,2
+2020,10,22,10,21,46.6554166666667,-64.4773333333333,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.075,1
+2020,10,22,10,21,46.6554166666667,-64.4773333333333,"6 gang toothed scallop drag with 82.6mm rings",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.014,1
+2020,10,22,10,35,46.6655,-64.4773333333333,"2 gang toothed scallop drag lined with 14 mm mesh",143,"Turbot de sable","Windowpane flounder","Scophthalmus aquosus",0.03,1
+2020,10,22,10,35,46.6655,-64.4773333333333,"6 gang toothed scallop drag with 82.6mm rings",143,"Turbot de sable","Windowpane flounder","Scophthalmus aquosus",0.135,1
+2020,10,22,10,35,46.6655,-64.4773333333333,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.032,2
+2020,10,22,10,56,46.661,-64.5106666666667,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.024,1
+2020,10,22,10,56,46.661,-64.5106666666667,"2 gang toothed scallop drag lined with 14 mm mesh",303,"Chaboisseau bronzé","Grubby","Myoxocephalus aenaeus",0.019,1
+2020,10,22,10,56,46.661,-64.5106666666667,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.526,15
+2020,10,22,10,56,46.661,-64.5106666666667,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.071,1
+2020,10,22,10,56,46.661,-64.5106666666667,"2 gang toothed scallop drag lined with 14 mm mesh",2527,"Crabe lyre (araignée)","Atlantic lyre crab/Greater toad crab","Hyas araneus",0.004,1
+2020,10,22,10,56,46.661,-64.5106666666667,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",1.13,13
+2020,10,22,10,56,46.661,-64.5106666666667,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.719,6
+2020,10,22,10,56,46.661,-64.5106666666667,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.806,3
+2020,10,22,10,56,46.661,-64.5106666666667,"2 gang toothed scallop drag lined with 14 mm mesh",4332,"Moule géante","Northern horsemussel","Modiolus modiolus",0.213,1
+2020,10,22,10,56,46.661,-64.5106666666667,"6 gang toothed scallop drag with 82.6mm rings",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,2
+2020,10,22,10,56,46.661,-64.5106666666667,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.005,2
+2020,10,22,10,56,46.661,-64.5106666666667,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.024,1
+2020,10,22,11,26,46.6774166666667,-64.508,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.068,4
+2020,10,22,11,26,46.6774166666667,-64.508,"2 gang toothed scallop drag lined with 14 mm mesh",300,"Chaboisseau à dix-huit-épines","Longhorn sculpin","Myoxocephalus octodecemspinosus",0.08,2
+2020,10,22,11,26,46.6774166666667,-64.508,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.505,29
+2020,10,22,11,26,46.6774166666667,-64.508,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.308,6
+2020,10,22,11,26,46.6774166666667,-64.508,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",1.63,11
+2020,10,22,11,26,46.6774166666667,-64.508,"6 gang toothed scallop drag with 82.6mm rings",2550,"Homard américain","American lobster","Homarus americanus",0.038,1
+2020,10,22,11,26,46.6774166666667,-64.508,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.008,2
+2020,10,22,11,26,46.6774166666667,-64.508,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",1.94,22
+2020,10,22,11,26,46.6774166666667,-64.508,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",9.32,38
+2020,10,22,11,26,46.6774166666667,-64.508,"6 gang toothed scallop drag with 82.6mm rings",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,2
+2020,10,22,11,26,46.6774166666667,-64.508,"2 gang toothed scallop drag lined with 14 mm mesh",6111,"Astérie boréale commune","Common starfish","Asterias rubens",0.001,1
+2020,10,22,11,26,46.6774166666667,-64.508,"6 gang toothed scallop drag with 82.6mm rings",6111,"Astérie boréale commune","Common starfish","Asterias rubens",0.004,2
+2020,10,22,11,26,46.6774166666667,-64.508,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.015,7
+2020,10,22,11,26,46.6774166666667,-64.508,"6 gang toothed scallop drag with 82.6mm rings",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.002,1
+2020,10,22,13,2,46.6808333333333,-64.5049166666667,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.066,3
+2020,10,22,13,2,46.6808333333333,-64.5049166666667,"2 gang toothed scallop drag lined with 14 mm mesh",303,"Chaboisseau bronzé","Grubby","Myoxocephalus aenaeus",0.047,2
+2020,10,22,13,2,46.6808333333333,-64.5049166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.66,16
+2020,10,22,13,2,46.6808333333333,-64.5049166666667,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.213,1
+2020,10,22,13,2,46.6808333333333,-64.5049166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2521,"Crabe lyre (arctique)","Arctic Lyre Crab/Lesser toad crab","Hyas coarctatus",0.001,1
+2020,10,22,13,2,46.6808333333333,-64.5049166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2527,"Crabe lyre (araignée)","Atlantic lyre crab/Greater toad crab","Hyas araneus",0.003,2
+2020,10,22,13,2,46.6808333333333,-64.5049166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.812,6
+2020,10,22,13,2,46.6808333333333,-64.5049166666667,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.019,3
+2020,10,22,13,2,46.6808333333333,-64.5049166666667,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.653,9
+2020,10,22,13,2,46.6808333333333,-64.5049166666667,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",1.31,5
+2020,10,22,13,2,46.6808333333333,-64.5049166666667,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.005,1
+2020,10,22,13,2,46.6808333333333,-64.5049166666667,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.007,1
+2020,10,22,13,32,46.7029166666667,-64.5080833333333,"2 gang toothed scallop drag lined with 14 mm mesh",12,"Merluche blanche","White hake","Urophycis tenuis",0.112,2
+2020,10,22,13,32,46.7029166666667,-64.5080833333333,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.092,4
+2020,10,22,13,32,46.7029166666667,-64.5080833333333,"2 gang toothed scallop drag lined with 14 mm mesh",300,"Chaboisseau à dix-huit-épines","Longhorn sculpin","Myoxocephalus octodecemspinosus",0.1,5
+2020,10,22,13,32,46.7029166666667,-64.5080833333333,"6 gang toothed scallop drag with 82.6mm rings",300,"Chaboisseau à dix-huit-épines","Longhorn sculpin","Myoxocephalus octodecemspinosus",0.038,1
+2020,10,22,13,32,46.7029166666667,-64.5080833333333,"2 gang toothed scallop drag lined with 14 mm mesh",303,"Chaboisseau bronzé","Grubby","Myoxocephalus aenaeus",0.017,1
+2020,10,22,13,32,46.7029166666667,-64.5080833333333,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",1.94,41
+2020,10,22,13,32,46.7029166666667,-64.5080833333333,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",2.02,12
+2020,10,22,13,32,46.7029166666667,-64.5080833333333,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",1.32,8
+2020,10,22,13,32,46.7029166666667,-64.5080833333333,"6 gang toothed scallop drag with 82.6mm rings",2550,"Homard américain","American lobster","Homarus americanus",0.357,1
+2020,10,22,13,32,46.7029166666667,-64.5080833333333,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.02,3
+2020,10,22,13,32,46.7029166666667,-64.5080833333333,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.681,4
+2020,10,22,13,32,46.7029166666667,-64.5080833333333,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",1.36,5
+2020,10,22,13,32,46.7029166666667,-64.5080833333333,"6 gang toothed scallop drag with 82.6mm rings",6111,"Astérie boréale commune","Common starfish","Asterias rubens",0.002,2
+2020,10,22,13,32,46.7029166666667,-64.5080833333333,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.01,6
+2020,10,22,13,32,46.7029166666667,-64.5080833333333,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.018,1
+2020,10,22,14,9,46.7060833333333,-64.5540833333333,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.048,4
+2020,10,22,14,9,46.7060833333333,-64.5540833333333,"2 gang toothed scallop drag lined with 14 mm mesh",303,"Chaboisseau bronzé","Grubby","Myoxocephalus aenaeus",0.018,1
+2020,10,22,14,9,46.7060833333333,-64.5540833333333,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.547,26
+2020,10,22,14,9,46.7060833333333,-64.5540833333333,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",1.27,7
+2020,10,22,14,9,46.7060833333333,-64.5540833333333,"2 gang toothed scallop drag lined with 14 mm mesh",2527,"Crabe lyre (araignée)","Atlantic lyre crab/Greater toad crab","Hyas araneus",0.005,3
+2020,10,22,14,9,46.7060833333333,-64.5540833333333,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.584,1
+2020,10,22,14,9,46.7060833333333,-64.5540833333333,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.016,2
+2020,10,22,14,9,46.7060833333333,-64.5540833333333,"6 gang toothed scallop drag with 82.6mm rings",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.001,1
+2020,10,22,14,9,46.7060833333333,-64.5540833333333,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.655,3
+2020,10,22,14,9,46.7060833333333,-64.5540833333333,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",1.42,5
+2020,10,22,14,9,46.7060833333333,-64.5540833333333,"6 gang toothed scallop drag with 82.6mm rings",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,1
+2020,10,22,14,9,46.7060833333333,-64.5540833333333,"6 gang toothed scallop drag with 82.6mm rings",6111,"Astérie boréale commune","Common starfish","Asterias rubens",0.002,3
+2020,10,22,14,9,46.7060833333333,-64.5540833333333,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.01,5
+2020,10,22,14,9,46.7060833333333,-64.5540833333333,"6 gang toothed scallop drag with 82.6mm rings",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.001,1
+2020,10,22,14,9,46.7060833333333,-64.5540833333333,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.011,1
+2020,10,22,14,9,46.7060833333333,-64.5540833333333,"2 gang toothed scallop drag lined with 14 mm mesh",9300,"Géomon/algues/varech non-spécifié","Seaweed/Algae/Kelp unidentified","Obsolete",1.07,0
+2020,10,22,14,9,46.7060833333333,-64.5540833333333,"6 gang toothed scallop drag with 82.6mm rings",9300,"Géomon/algues/varech non-spécifié","Seaweed/Algae/Kelp unidentified","Obsolete",3.15,0
+2020,10,22,14,45,46.6845833333333,-64.5469166666667,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.017,1
+2020,10,22,14,45,46.6845833333333,-64.5469166666667,"2 gang toothed scallop drag lined with 14 mm mesh",303,"Chaboisseau bronzé","Grubby","Myoxocephalus aenaeus",0.053,4
+2020,10,22,14,45,46.6845833333333,-64.5469166666667,"2 gang toothed scallop drag lined with 14 mm mesh",320,"Hémitriptère atlantique","Sea raven","Hemitripterus americanus",0.092,1
+2020,10,22,14,45,46.6845833333333,-64.5469166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",1.03,24
+2020,10,22,14,45,46.6845833333333,-64.5469166666667,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.516,2
+2020,10,22,14,45,46.6845833333333,-64.5469166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2527,"Crabe lyre (araignée)","Atlantic lyre crab/Greater toad crab","Hyas araneus",0.002,2
+2020,10,22,14,45,46.6845833333333,-64.5469166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.466,4
+2020,10,22,14,45,46.6845833333333,-64.5469166666667,"6 gang toothed scallop drag with 82.6mm rings",2550,"Homard américain","American lobster","Homarus americanus",0.204,1
+2020,10,22,14,45,46.6845833333333,-64.5469166666667,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.833,6
+2020,10,22,14,45,46.6845833333333,-64.5469166666667,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",4.56,17
+2020,10,22,14,45,46.6845833333333,-64.5469166666667,"6 gang toothed scallop drag with 82.6mm rings",6111,"Astérie boréale commune","Common starfish","Asterias rubens",0.002,5
+2020,10,22,14,45,46.6845833333333,-64.5469166666667,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.005,4
+2020,10,22,14,45,46.6845833333333,-64.5469166666667,"6 gang toothed scallop drag with 82.6mm rings",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.003,1
+2020,10,22,14,45,46.6845833333333,-64.5469166666667,"6 gang toothed scallop drag with 82.6mm rings",8621,"Chalina digitée","Eyed finger sponge","Haliclona (Haliclona) oculata",0.169,2
+2020,10,22,14,45,46.6845833333333,-64.5469166666667,"6 gang toothed scallop drag with 82.6mm rings",8623,"Halichondria (Halichondria) panicea","Breadcrumb sponge","Halichondria (Halichondria) panicea",1.01,6
+2020,10,22,14,45,46.6845833333333,-64.5469166666667,"2 gang toothed scallop drag lined with 14 mm mesh",9300,"Géomon/algues/varech non-spécifié","Seaweed/Algae/Kelp unidentified","Obsolete",1.1,0
+2020,10,22,14,45,46.6845833333333,-64.5469166666667,"6 gang toothed scallop drag with 82.6mm rings",9300,"Géomon/algues/varech non-spécifié","Seaweed/Algae/Kelp unidentified","Obsolete",0.74,0
+2020,10,22,15,25,46.6765833333333,-64.5653333333333,"2 gang toothed scallop drag lined with 14 mm mesh",143,"Turbot de sable","Windowpane flounder","Scophthalmus aquosus",0.057,2
+2020,10,22,15,25,46.6765833333333,-64.5653333333333,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.221,2
+2020,10,22,15,25,46.6765833333333,-64.5653333333333,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",1.25,5
+2020,10,22,15,25,46.6765833333333,-64.5653333333333,"2 gang toothed scallop drag lined with 14 mm mesh",4221,"Natice de l'Atlantique ou héros","Northern moonsnail","Euspira heros",0.121,1
+2020,10,22,15,25,46.6765833333333,-64.5653333333333,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.259,16
+2020,10,22,15,47,46.6633333333333,-64.5608333333333,"2 gang toothed scallop drag lined with 14 mm mesh",143,"Turbot de sable","Windowpane flounder","Scophthalmus aquosus",0.156,2
+2020,10,22,15,47,55.61275,-64.5608333333333,"6 gang toothed scallop drag with 82.6mm rings",204,"Raie tachetée","Winter skate","Leucoraja ocellata",0.415,1
+2020,10,22,15,47,46.6633333333333,-64.5608333333333,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.254,1
+2020,10,22,15,47,55.61275,-64.5608333333333,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.277,1
+2020,10,22,15,47,46.6633333333333,-64.5608333333333,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.645,2
+2020,10,22,15,47,46.6633333333333,-64.5608333333333,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",1.96,97
+2020,10,22,16,4,46.6476666666667,-64.5695,"2 gang toothed scallop drag lined with 14 mm mesh",204,"Raie tachetée","Winter skate","Leucoraja ocellata",0.324,1
+2020,10,22,16,4,46.6476666666667,-64.5695,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.343,1
+2020,10,22,16,4,46.6476666666667,-64.5695,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",10.5,530
+2020,10,22,16,21,46.6303333333333,-64.5564166666667,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.041,2
+2020,10,22,16,21,46.6303333333333,-64.5564166666667,"6 gang toothed scallop drag with 82.6mm rings",204,"Raie tachetée","Winter skate","Leucoraja ocellata",1.43,2
+2020,10,22,16,21,46.6303333333333,-64.5564166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.358,5
+2020,10,22,16,21,46.6303333333333,-64.5564166666667,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.309,1
+2020,10,22,16,21,46.6303333333333,-64.5564166666667,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",11,679
+2020,10,22,16,41,46.6095833333333,-64.5410833333333,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.083,4
+2020,10,22,16,41,46.6095833333333,-64.5410833333333,"2 gang toothed scallop drag lined with 14 mm mesh",611,"Ammodytes non-spécifié","Ammodytes unidentified","Ammodytes sp.",0.008,1
+2020,10,22,16,41,46.6095833333333,-64.5410833333333,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",24,1310
+2020,10,23,8,40,46.5444166666667,-64.4956666666667,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.002,1
+2020,10,23,8,40,46.5444166666667,-64.4956666666667,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.082,9
+2020,10,23,8,40,46.5444166666667,-64.4956666666667,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.226,2
+2020,10,23,8,40,46.5444166666667,-64.4956666666667,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.092,1
+2020,10,23,8,40,46.5444166666667,-64.4956666666667,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.008,1
+2020,10,23,8,40,46.5444166666667,-64.4956666666667,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.588,3
+2020,10,23,8,40,46.5444166666667,-64.4956666666667,"6 gang toothed scallop drag with 82.6mm rings",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,1
+2020,10,23,8,40,46.5444166666667,-64.4956666666667,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.01,3
+2020,10,23,9,5,46.5768333333333,-64.5285833333333,"2 gang toothed scallop drag lined with 14 mm mesh",143,"Turbot de sable","Windowpane flounder","Scophthalmus aquosus",0.133,1
+2020,10,23,9,5,46.5768333333333,-64.5285833333333,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.243,6
+2020,10,23,9,5,46.5768333333333,-64.5285833333333,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.455,2
+2020,10,23,9,5,46.5768333333333,-64.5285833333333,"2 gang toothed scallop drag lined with 14 mm mesh",2527,"Crabe lyre (araignée)","Atlantic lyre crab/Greater toad crab","Hyas araneus",0.003,1
+2020,10,23,9,5,46.5768333333333,-64.5285833333333,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.125,2
+2020,10,23,9,5,46.5768333333333,-64.5285833333333,"2 gang toothed scallop drag lined with 14 mm mesh",4221,"Natice de l'Atlantique ou héros","Northern moonsnail","Euspira heros",0.282,2
+2020,10,23,9,5,46.5768333333333,-64.5285833333333,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.01,1
+2020,10,23,9,5,46.5768333333333,-64.5285833333333,"2 gang toothed scallop drag lined with 14 mm mesh",4319,"Saxicave arctique","Arctic hiatella","Hiatella arctica",0.009,2
+2020,10,23,9,5,46.5768333333333,-64.5285833333333,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.335,1
+2020,10,23,9,5,46.5768333333333,-64.5285833333333,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.693,2
+2020,10,23,9,5,46.5768333333333,-64.5285833333333,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.001,1
+2020,10,23,9,5,46.5768333333333,-64.5285833333333,"6 gang toothed scallop drag with 82.6mm rings",6200,"Ophiuroidea non-spécifié","Brittle star unidentified","Ophiuroidea (s.o.)",0.001,1
+2020,10,23,9,5,46.5768333333333,-64.5285833333333,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.071,7
+2020,10,23,9,33,46.5891666666667,-64.5469166666667,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.033,1
+2020,10,23,9,33,46.5891666666667,-64.5469166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.602,5
+2020,10,23,9,33,46.5891666666667,-64.5469166666667,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.211,1
+2020,10,23,9,33,46.5891666666667,-64.5469166666667,"2 gang toothed scallop drag lined with 14 mm mesh",4332,"Moule géante","Northern horsemussel","Modiolus modiolus",0.312,1
+2020,10,23,9,33,46.5891666666667,-64.5469166666667,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",25.1,1581
+2020,10,23,10,2,46.5786666666667,-64.5164166666667,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.003,1
+2020,10,23,10,2,46.5786666666667,-64.5164166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.889,12
+2020,10,23,10,2,46.5759166666667,-64.5164166666667,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.464,3
+2020,10,23,10,2,46.5786666666667,-64.5164166666667,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.025,3
+2020,10,23,10,2,46.5786666666667,-64.5164166666667,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.798,4
+2020,10,23,10,2,46.5759166666667,-64.5164166666667,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",3.53,13
+2020,10,23,10,2,46.5786666666667,-64.5164166666667,"2 gang toothed scallop drag lined with 14 mm mesh",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,1
+2020,10,23,10,2,46.5759166666667,-64.5164166666667,"6 gang toothed scallop drag with 82.6mm rings",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,3
+2020,10,23,10,2,46.5786666666667,-64.5164166666667,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.007,1
+2020,10,23,10,2,46.5786666666667,-64.5164166666667,"2 gang toothed scallop drag lined with 14 mm mesh",6200,"Ophiuroidea non-spécifié","Brittle star unidentified","Ophiuroidea (s.o.)",0.001,1
+2020,10,23,10,2,46.5786666666667,-64.5164166666667,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.001,1
+2020,10,23,10,23,46.5631666666667,-64.5115833333333,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.11,3
+2020,10,23,10,23,46.5631666666667,-64.5115833333333,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.719,8
+2020,10,23,10,23,46.5631666666667,-64.5115833333333,"2 gang toothed scallop drag lined with 14 mm mesh",4316,"Astarte non-spécifié","Astarte unidentified","Astarte sp.",0.016,2
+2020,10,23,10,23,46.5631666666667,-64.5115833333333,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.293,1
+2020,10,23,10,23,46.5631666666667,-64.5115833333333,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.811,3
+2020,10,23,10,23,46.5631666666667,-64.5115833333333,"6 gang toothed scallop drag with 82.6mm rings",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,1
+2020,10,23,10,23,46.5631666666667,-64.5115833333333,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.008,4
+2020,10,23,10,49,46.5485833333333,-64.4695,"2 gang toothed scallop drag lined with 14 mm mesh",143,"Turbot de sable","Windowpane flounder","Scophthalmus aquosus",0.064,1
+2020,10,23,10,49,46.5485833333333,-64.4695,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.302,11
+2020,10,23,10,49,46.5485833333333,-64.4695,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.24,1
+2020,10,23,10,49,46.5485833333333,-64.4695,"2 gang toothed scallop drag lined with 14 mm mesh",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",1.14,4
+2020,10,23,10,49,46.5485833333333,-64.4695,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",1.48,6
+2020,10,23,10,49,46.5485833333333,-64.4695,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",19.5,1110
+2020,10,23,11,21,46.5346666666667,-64.4159166666667,"2 gang toothed scallop drag lined with 14 mm mesh",40,"Plie canadienne","American plaice","Hippoglossoides platessoides",0.014,1
+2020,10,23,11,21,46.5346666666667,-64.4159166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.843,8
+2020,10,23,11,21,46.5346666666667,-64.4159166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.227,2
+2020,10,23,11,21,46.5346666666667,-64.4159166666667,"2 gang toothed scallop drag lined with 14 mm mesh",4221,"Natice de l'Atlantique ou héros","Northern moonsnail","Euspira heros",0.215,1
+2020,10,23,11,21,46.5346666666667,-64.4159166666667,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",10.9,723
+2020,10,23,11,41,46.5198333333333,-64.4069166666667,"6 gang toothed scallop drag with 82.6mm rings",204,"Raie tachetée","Winter skate","Leucoraja ocellata",1.46,2
+2020,10,23,11,41,46.5198333333333,-64.4069166666667,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.622,4
+2020,10,23,11,41,46.5198333333333,-64.4069166666667,"6 gang toothed scallop drag with 82.6mm rings",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.426,4
+2020,10,23,11,41,46.5198333333333,-64.4069166666667,"2 gang toothed scallop drag lined with 14 mm mesh",4317,"Mactre de l'Atlantique","Atlantic surf clam","Spisula solidissima",0.59,2
+2020,10,23,11,41,46.5198333333333,-64.4069166666667,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",18.9,1368
+2020,10,23,13,9,46.5184166666667,-64.3665,"2 gang toothed scallop drag lined with 14 mm mesh",43,"Plie rouge","Winter flounder","Pseudopleuronectes americanus",0.05,1
+2020,10,23,13,9,46.5184166666667,-64.3665,"2 gang toothed scallop drag lined with 14 mm mesh",303,"Chaboisseau bronzé","Grubby","Myoxocephalus aenaeus",0.016,1
+2020,10,23,13,9,46.5184166666667,-64.3665,"2 gang toothed scallop drag lined with 14 mm mesh",2513,"Crabe commun","Atlantic rock crab","Cancer irroratus",0.581,12
+2020,10,23,13,9,46.5184166666667,-64.3665,"2 gang toothed scallop drag lined with 14 mm mesh",2527,"Crabe lyre (araignée)","Atlantic lyre crab/Greater toad crab","Hyas araneus",0.008,1
+2020,10,23,13,9,46.5184166666667,-64.3665,"2 gang toothed scallop drag lined with 14 mm mesh",2550,"Homard américain","American lobster","Homarus americanus",0.579,3
+2020,10,23,13,9,46.5184166666667,-64.3665,"6 gang toothed scallop drag with 82.6mm rings",4321,"Pétoncle géant","Sea scallop","Placopecten magellanicus",0.841,3
+2020,10,23,13,9,46.5184166666667,-64.3665,"6 gang toothed scallop drag with 82.6mm rings",4349,"Pectinidae non-spécifié vide","Scallop unidentified empty","Pectinidae sp. empty",0.5,1
+2020,10,23,13,9,46.5184166666667,-64.3665,"2 gang toothed scallop drag lined with 14 mm mesh",6119,"Petite étoile rouge sang","Fat blood star","Henricia sanguinolenta",0.01,3
+2020,10,23,13,9,46.5184166666667,-64.3665,"2 gang toothed scallop drag lined with 14 mm mesh",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.463,29
+2020,10,23,13,9,46.5184166666667,-64.3665,"6 gang toothed scallop drag with 82.6mm rings",6511,"Oursin plat","Common sand dollar","Echinarachnius parma",0.004,1

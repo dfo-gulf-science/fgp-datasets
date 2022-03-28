@@ -1,0 +1,95 @@
+---
+title: "Extract to create a csv file used to feed FGP/OGSL/ETC"
+author: "Pablo Vergara"
+date: "March 24 2022"
+output:
+  pdf_document: default
+  html_document: default
+  word_document: default
+---
+This document is the narrative of how an Excel file called "sGSL-scallop-RV-FGP.csv" was generated.
+
+
+```{r setup, fig.height=6, fig.width=6}
+`%nin%` = Negate(`%in%`) ## a useful operator
+suppressPackageStartupMessages(library(gulf))
+```
+
+## SETS
+Using the function "read.card" from the DFO Gulf Region's R package "gulf", read in the set cards and exclude hydrographic stations and null sets, so as to keep only representative tows.
+
+```{r sets}
+survey = "sca"
+yrs <- c(2012, 2013, 2014, 2015, 2016,2018,2019,2020)
+x <- read.card(card.type="set", year=yrs, survey = survey)
+## we want to keep only representative tows, within the historical context that some tows were identified as "hydrography" before 1993 but were really fishing stations
+uu <- sort(unique(x$experiment))
+```
+
+```{r results='asis'}
+knitr::kable(data.frame(uu,experiment.str(uu)))## what are the experiment codes
+```
+
+```{r}
+#Need to remove data that is of no use for analysis
+
+# true for sets other than NULL sets
+logical1 <- x$experiment == 1
+
+#Subset set cards with conditions
+x <- x[logical1,]
+```
+
+Add a few useful columns to the data frame containing the set card information (including depth and swept area as requested).
+```{r sets2}
+## add useful columns
+x$unique.id <- paste(x$year, x$cruise.number, x$vessel.code, x$set.number, sep="-")
+x$experiment.str <- experiment.str(x$experiment)
+x$vessel.str <- vessel.str(x$vessel.code)
+x$gear.str <- gear.str(x$gear)
+x$longitude <- longitude(x)
+x$latitude <- latitude(x)
+x$mission <- paste(x$vessel.code, x$cruise.number, sep="")
+
+ox <- order(x$year, x$month, x$day, x$start.hour)
+x <- x[ox,] # reorder chronologically
+
+```
+
+
+Catch cards contain the total catch information for the species of interest. Here they are adjusted for distance towed, estimated diurnal effects and estimated vessel-gear effects.
+```{r catch2}
+### Catch card for all years requesteed
+y <- read.card(card.type="cat", year = yrs , survey=survey)
+
+```
+
+## CATCH
+```{r adjust}
+y <- adjust(y, x)
+y$unique.id <- paste(y$year, y$cruise.number, y$vessel.code, y$set.number, sep="-")
+y$english.name <- species.str(y$species, "english")
+y$latin.name <- species.str(y$species, "latin")
+y$french.name <- species.str(y$species, "french")
+
+z <- merge(y,x, all.x = TRUE, by = "unique.id", names = c("longitude","latitude", "gear.str"))
+
+##  CSV
+## write to file
+fn2 <- "sGSL-scallop-RV-FGP.csv"
+fp  <- "D:/SourceControl/Git Hub/fgp-datasets/scallop_survey/"
+csv.fn2 <- file.path(fp,fn2)
+
+ooz <- order(z$year, z$month, z$day, z$start.hour, z$start.minute, z$species)
+
+#columns to keep
+fvars2 <- c("year","month","day","start.hour","start.minute","latitude","longitude","gear.str","species","french.name","english.name","latin.name","weight.caught","number.caught")
+
+
+zz=  z[ooz,fvars2]
+#rename header for FGP
+ 
+names(zz) <- c("year__annee","month__mois","day__jour","start_hour__heure_de_depart","start_minute__minute_de_depart","latitude","longitude","gear__equipement","species__espece","french_name__nom_francais","english_name__nom_anglais","latin_name__nom_latin","weight_caught__poids_pris","number_caught__quantite__attrape")
+
+write.csv(zz, file=csv.fn2, row.names=FALSE)
+```
