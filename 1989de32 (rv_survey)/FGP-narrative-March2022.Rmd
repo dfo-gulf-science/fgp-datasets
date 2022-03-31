@@ -113,7 +113,7 @@ z <- merge(y,x, all.x = TRUE, by = "unique.id", names = c("longitude","latitude"
 ##  CSV
 ## write catch cards to file
 fn2 <- "sGSL-September-RV-FGP.csv"
-fp  <-"D:/SourceControl/Git Hub/fgp-datasets/rv_survey/"
+fp  <-"D:/SourceControl/Git Hub/fgp-datasets/1989de32 (rv_survey)/"
 
 csv.fn2 <- file.path(fp,fn2)
 

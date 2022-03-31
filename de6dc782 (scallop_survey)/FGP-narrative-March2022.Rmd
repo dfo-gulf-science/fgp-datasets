@@ -77,7 +77,7 @@ z <- merge(y,x, all.x = TRUE, by = "unique.id", names = c("longitude","latitude"
 ##  CSV
 ## write to file
 fn2 <- "sGSL-scallop-RV-FGP.csv"
-fp  <- "D:/SourceControl/Git Hub/fgp-datasets/scallop_survey/"
+fp  <- "D:/SourceControl/Git Hub/fgp-datasets/de6dc782 (scallop_survey)/"
 csv.fn2 <- file.path(fp,fn2)
 
 ooz <- order(z$year, z$month, z$day, z$start.hour, z$start.minute, z$species)
