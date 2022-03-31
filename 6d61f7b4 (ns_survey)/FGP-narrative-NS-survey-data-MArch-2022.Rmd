@@ -75,7 +75,7 @@ z <- merge(y,x, all.x = TRUE, by = "unique.id", names = c("longitude","latitude"
 ##  CSV
 ## write catch cards to file
 fn2 <- "sGSL-Northumberland-Survey-FGP.csv"
-fp  <- "D:/SourceControl/Git Hub/fgp-datasets/ns_survey/"
+fp  <- "D:/SourceControl/Git Hub/fgp-datasets/6d61f7b4 (ns_survey)/"
 csv.fn2 <- file.path(fp,fn2)
 
 ooz <- order(z$year, z$month, z$day, z$start.hour, z$start.minute, z$species)
