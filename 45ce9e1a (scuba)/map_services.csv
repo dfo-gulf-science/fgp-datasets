@@ -1,4 +1,4 @@
-year,site_name,site_lat,site_lng,start_date,end_date,n_transects,n_lobsters
+year__annee,site_name__nom_de_site,latitude,longitude,start_date__date_de_depart,end_date__date_de_fin,n_transects__no_de_transects,n_lobsters__no_homards
 2009,Toney River,45.78481833,-62.94120667,8/17/2009,8/17/2009,3,60
 2010,Toney River,45.78481833,-62.94120667,8/30/2010,8/30/2010,6,178
 2012,Toney River,45.78481833,-62.94120667,8/1/2012,8/1/2012,3,50
