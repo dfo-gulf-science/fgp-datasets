@@ -587,7 +587,7 @@ out.df <- rbind(rv.df)
 vars <- c("source", "latin.name_nom.latin", "english.name_nom.anglais", "french.name_nom.français", "year_année","month_mois","number.vertebrae_nombre.vertèbres")
 o1 <- order(out.df$source, out.df$year_année, out.df$month_mois)
 
-out.fn <- "./NAFO-4T-Chondrichthyan-otoliths.csv"
+out.fn <- "./NAFO-4T-Chondrichthyan-vertebrae.csv"
 write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE, fileEncoding = "UTF8")
 
 ## how many were actually aged?
