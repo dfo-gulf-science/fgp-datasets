@@ -1,0 +1,19 @@
+name_nom,description_en,description_fr
+Year,year,année
+SSB_spring,Spring spawners biomass in kilotons (kt),Biomasse des reproducteurs de printemps en kilotonnes (kt)
+SSB_spring 95% low,Spring spawners biomass in kilotons (kt) 95% confidence intervals lower limit,Biomasse des reproducteurs de printemps en kilotonnes (kt) interval de confiance 95 % limite inférieure
+SSB_spring 95% high,Spring spawners biomass in kilotons (kt) 95% confidence intervals higher limit,Biomasse des reproducteurs de printemps en kilotonnes (kt) interval de confiance 95 % limite supérieure
+SSB_spring 50% low,Spring spawners biomass in kilotons (kt) 50% confidence intervals lower limit,Biomasse des reproducteurs de printemps en kilotonnes (kt) interval de confiance 50 % limite inférieure
+SSB_spring 50% high,Spring spawners biomass in kilotons (kt) 50% confidence intervals higher limit,Biomasse des reproducteurs de printemps en kilotonnes (kt) interval de confiance 50 % limite supérieure
+SSB_fall North,Fall spawners biomass in kilotons (kt) for north region,Biomasse des reproducteurs d'automne en kilotonnes (kt) pour la région nord
+SSB_fall North 95% low,Fall spawners biomass in kilotons (kt) for north region 95% confidence intervals lower limit,Biomasse des reproducteurs d'automne en kilotonnes (kt) pour la région nord interval de confiance 95% limite inférieure
+SSB_fall North 95% high,Fall spawners biomass in kilotons (kt) for north region 95% confidence intervals higher limit,Biomasse des reproducteurs d'automne en kilotonnes (kt) pour la région nord interval de confiance 95% limite supérieure
+SSB_fall Middle,Fall spawners biomass in kilotons (kt) for middle region,Biomasse des reproducteurs d'automne en kilotonnes (kt) pour la région centrale
+SSB_fall Middle 95% low,Fall spawners biomass in kilotons (kt) for middle region 95% confidence intervals lower limit,Biomasse des reproducteurs d'automne en kilotonnes (kt) pour la région centrale interval de confiance 95% limite inférieure
+SSB_fall Middle 95% high,Fall spawners biomass in kilotons (kt) for middle region 95% confidence intervals higher limit,Biomasse des reproducteurs d'automne en kilotonnes (kt) pour la région centrale interval de confiance 95% limite supérieure
+SSB_fall South,Fall spawners biomass in kilotons (kt) for south region,Biomasse des reproducteurs d'automne en kilotonnes (kt) pour la région sud
+SSB_fall South 95% low,Fall spawners biomass in kilotons (kt) for south region 95% confidence intervals lower limit,Biomasse des reproducteurs d'automne en kilotonnes (kt) pour la région sud interval de confiance 95% limite inférieure
+SSB_fall South 95% high,Fall spawners biomass in kilotons (kt) for south region 95% confidence intervals higher limit,Biomasse des reproducteurs d'automne en kilotonnes (kt) pour la région sud interval de confiance 95% limite supérieure
+SSB_fall Total,Fall spawners biomass in kilotons (kt) for all region,Biomasse des reproducteurs d'automne en kilotonnes (kt) pour toutes les régions
+SSB_fall Total 95% low,Fall spawners biomass in kilotons (kt) for all region 95% confidence intervals lower limit,Biomasse des reproducteurs d'automne en kilotonnes (kt) pour toutes les régions interval de confiance 95% limite inférieure
+SSB_fall Total 95% high,Fall spawners biomass in kilotons (kt) for all region 95% confidence intervals higher limit,Biomasse des reproducteurs d'automne en kilotonnes (kt) pour toutes les régions interval de confiance 95% limite supérieure
