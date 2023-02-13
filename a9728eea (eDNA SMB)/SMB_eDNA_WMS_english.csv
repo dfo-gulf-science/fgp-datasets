@@ -103,7 +103,7 @@ Latitude,Longitude,Site,Sample IDs,Year,Event Date,Recorded By,Occurrence Status
 46.58815,-66.97387,Site 52,"r21:2828, r21:2829, r21:2827",2021,2021-06-22,DFO Gulf,Not detected,green
 46.60005,-66.98332,Site 27A,"r21:2831, r21:2832, r21:2833",2021,2021-06-22,DFO Gulf,Not detected,green
 46.49976,-66.95794,Site 2,"r21:3088, r21:3089, r21:3090",2021,2021-07-19,DFO Gulf,Suspected,orange
-46.50327,-66.96548,"Site 2, Site 1","r21:3097, r21:3096, r21:3098",2021,2021-07-19,DFO Gulf,Not detected,green
+46.50327,-66.96548,Site 1,"r21:3097, r21:3096, r21:3098",2021,2021-07-19,DFO Gulf,Not detected,green
 46.50257,-66.96341,Site 54,"r21:3093, r21:3094, r21:3092",2021,2021-07-19,DFO Gulf,Not detected,green
 46.50981,-67.08282,Site 30,"r21:3082, r21:3081, r21:3080",2021,2021-07-19,DFO Gulf,Not detected,green
 46.5797,-66.75891,Site 18A,"r21:3068, r21:3069, r21:3070, r22:2357, r22:2358, r22:2359","2021, 2022","2021-07-19, 2022-07-20",DFO Gulf,Suspected,orange
