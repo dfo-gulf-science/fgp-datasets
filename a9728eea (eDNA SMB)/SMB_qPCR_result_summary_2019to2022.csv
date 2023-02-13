@@ -1,675 +1,675 @@
 Year,sampleID,Sample type,eventID,samplingSite,eventDate,recordedBy,decimalLatitude,decimalLongitude,volumeFiltered (mL),FilterType,occurrenceStatus,SMB Ct_1,SMB Ct_2,SMB Ct_3,SMB Pg/L_1 ,SMB Pg/L_2,SMB Pg/L_3
-2019,r19D:1915,Field blank,2019-r19D:1915,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:1916,Sample,2019-r19D:1916,Site 1,8/27/2019,DFO Gulf,46.50335,-66.9651,325,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:1917,Sample,2019-r19D:1917,Site 1,8/27/2019,DFO Gulf,46.50335,-66.9651,350,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:1918,Sample,2019-r19D:1918,Site 1,8/27/2019,DFO Gulf,46.50335,-66.9651,425,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:1919,Sample,2019-r19D:1919,Site 2,8/27/2019,DFO Gulf,46.49888,-66.95682,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:1920,Sample,2019-r19D:1920,Site 2,8/27/2019,DFO Gulf,46.49891,-66.95677,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:1921,Sample,2019-r19D:1921,Site 2,8/27/2019,DFO Gulf,46.49886,-66.95685,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:1922,Sample,2019-r19D:1922,Site 3,8/27/2019,DFO Gulf,46.49718,-66.95809,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:1923,Sample,2019-r19D:1923,Site 3,8/27/2019,DFO Gulf,46.49707,-66.95817,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:1924,Sample,2019-r19D:1924,Site 3,8/27/2019,DFO Gulf,46.49698,-66.95823,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:1925,Field blank,2019-r19D:1925,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:1926,Sample,2019-r19D:1926,Site 4,8/27/2019,DFO Gulf,46.49564,-66.93989,1000,0.8 ï¿½m Nylon,Suspected,35.24,No Ct,36.94,6.95,0,2.22
-2019,r19D:1927,Sample,2019-r19D:1927,Site 4,8/27/2019,DFO Gulf,46.49565,-66.93987,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:1928,Sample,2019-r19D:1928,Site 4,8/27/2019,DFO Gulf,46.49564,-66.93983,1000,0.8 ï¿½m Nylon,Suspected,35.29,35.77,36.74,6.73,4.88,2.54
-2019,r19D:1929,Sample,2019-r19D:1929,Site 5,8/27/2019,DFO Gulf,46.508,-66.94947,1000,0.8 ï¿½m Nylon,Suspected,35.44,34.8,34.02,6.09,9.35,15.8
-2019,r19D:1930,Sample,2019-r19D:1930,Site 5,8/27/2019,DFO Gulf,46.50799,-66.94947,1000,0.8 ï¿½m Nylon,Suspected,34.82,35.68,No Ct,9.21,5.18,0
-2019,r19D:1931,DNA extraction blank,2019-r19D:1931,NA,NA,DFO Gulf,NA,NA,NA,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:1932,Sample,2019-r19D:1932,Site 5,8/27/2019,DFO Gulf,46.50798,-66.94944,1000,0.8 ï¿½m Nylon,Suspected,No Ct,35.81,33.61,0,4.76,20.68
-2019,r19D:1933,Sample,2019-r19D:1933,Site 6,8/27/2019,DFO Gulf,46.51599,-66.94915,1000,0.8 ï¿½m Nylon,Suspected,34.27,34.93,35.35,13.3,8.54,6.45
-2019,r19D:1934,Sample,2019-r19D:1934,Site 6,8/27/2019,DFO Gulf,46.51599,-66.9491,1000,0.8 ï¿½m Nylon,Suspected,No Ct,34.33,34.95,0,12.83,8.47
-2019,r19D:1935,Sample,2019-r19D:1935,Site 6,8/27/2019,DFO Gulf,46.516,-66.94906,1000,0.8 ï¿½m Nylon,Suspected,35.18,No Ct,34.25,7.24,0,13.54
-2019,r19D:1936,Lab blank,2019-r19D:1936,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:1937,Sample,2019-r19D:1937,Site 7,8/27/2019,DFO Gulf,46.51666,-66.95041,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:1938,Sample,2019-r19D:1938,Site 7,8/27/2019,DFO Gulf,46.51664,-66.9504,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:1939,Sample,2019-r19D:1939,Site 7,8/27/2019,DFO Gulf,46.51661,-66.9504,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:1940,Sample,2019-r19D:1940,Site 8,8/27/2019,DFO Gulf,46.51831,-66.94831,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:1941,Sample,2019-r19D:1941,Site 8,8/27/2019,DFO Gulf,46.5183,-66.94826,1000,0.8 ï¿½m Nylon,Suspected,34.77,34.78,33.98,9.55,9.46,16.23
-2019,r19D:1942,Sample,2019-r19D:1942,Site 8,8/27/2019,DFO Gulf,46.51828,-66.9482,1000,0.8 ï¿½m Nylon,Inconclusive,35.76,No Ct,No Ct,4.9,0,0
-2019,r19D:1943,Sample,2019-r19D:1943,Site 9,8/27/2019,DFO Gulf,46.51916,-66.94681,1000,0.8 ï¿½m Nylon,Suspected,35.89,35.85,No Ct,4.49,4.63,0
-2019,r19D:1944,Sample,2019-r19D:1944,Site 9,8/27/2019,DFO Gulf,46.51906,-66.94672,1000,0.8 ï¿½m Nylon,Suspected,35.68,34.83,No Ct,5.17,9.13,0
-2019,r19D:1945,Sample,2019-r19D:1945,Site 9,8/27/2019,DFO Gulf,46.51896,-66.94663,1000,0.8 ï¿½m Nylon,Suspected,No Ct,35.18,35.25,0,7.25,6.92
-2019,r19D:1949,Lab blank,2019-r19D:1949,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:1950,Sample,2019-r19D:1950,Site 10,8/28/2019,DFO Gulf,46.49392,-67.01024,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:1951,Sample,2019-r19D:1951,Site 10,8/28/2019,DFO Gulf,46.49411,-67.0101,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:1952,Sample,2019-r19D:1952,Site 10,8/28/2019,DFO Gulf,46.49407,-67.01006,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:1953,Field blank,2019-r19D:1953,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:1954,Lab blank,2019-r19D:1954,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:1955,DNA extraction blank,2019-r19D:1955,NA,NA,DFO Gulf,NA,NA,NA,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:1990,Sample,2019-r19D:1990,Site 25,9/6/2019,DFO Gulf,46.55018,-67.04403,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:1991,Sample,2019-r19D:1991,Site 25,9/6/2019,DFO Gulf,46.55018,-67.04403,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:1992,Sample,2019-r19D:1992,Site 25,9/6/2019,DFO Gulf,46.55018,-67.04403,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:1993,Sample,2019-r19D:1993,Site 26,9/6/2019,DFO Gulf,46.57771,-67.04132,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:1994,Sample,2019-r19D:1994,Site 26,9/6/2019,DFO Gulf,46.57771,-67.04132,1000,0.8 ï¿½m Nylon,Inconclusive,No Ct,No Ct,37.88,0,0,1.19
-2019,r19D:1995,Sample,2019-r19D:1995,Site 27,9/6/2019,DFO Gulf,46.60067,-66.98572,550,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:1996,Sample,2019-r19D:1996,Site 26,9/6/2019,DFO Gulf,46.57771,-67.04132,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:1997,Sample,2019-r19D:1997,Site 27,9/6/2019,DFO Gulf,46.60067,-66.98572,525,0.8 ï¿½m Nylon,Inconclusive,No Ct,No Ct,37.35,0,0,0.85
-2019,r19D:1998,Sample,2019-r19D:1998,Site 27,9/6/2019,DFO Gulf,46.60067,-66.98572,500,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:1999,Field blank,2019-r19D:1999,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2003,Lab blank,2019-r19D:2003,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2004,Sample,2019-r19D:2004,Site 14,8/28/2019,ARM,46.54418,-66.85125,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2005,Field blank,2019-r19D:2005,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2018,Sample,2019-r19D:2018,Site 13,9/12/2019,DFO Gulf,46.53652,-66.87909,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2019,Sample,2019-r19D:2019,Site 13,9/12/2019,DFO Gulf,46.53652,-66.87909,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2020,Sample,2019-r19D:2020,Site 13,9/12/2019,DFO Gulf,46.53503,-66.88127,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2021,Sample,2019-r19D:2021,Site 13,9/12/2019,DFO Gulf,46.53508,-66.88129,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2022,Sample,2019-r19D:2022,Site 11,9/12/2019,DFO Gulf,46.51914,-66.92581,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2023,Sample,2019-r19D:2023,Site 11,9/12/2019,DFO Gulf,46.51838,-66.92639,1000,0.8 ï¿½m Nylon,Suspected,39.33,39.47,38.12,0.45,0.41,1.01
-2019,r19D:2024,Sample,2019-r19D:2024,Site 11,9/12/2019,DFO Gulf,46.51838,-66.92639,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2025,Sample,2019-r19D:2025,Site 8,9/12/2019,DFO Gulf,46.5172,-66.94911,1000,0.8 ï¿½m Nylon,Suspected,38.22,38.11,No Ct,0.94,1.02,0
-2019,r19D:2026,Sample,2019-r19D:2026,Site 11,9/12/2019,DFO Gulf,46.51914,-66.92581,1000,0.8 ï¿½m Nylon,Inconclusive,38.36,No Ct,No Ct,0.86,0,0
-2019,r19D:2027,Sample,2019-r19D:2027,Site 8,9/12/2019,DFO Gulf,46.5172,-66.94911,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2028,Sample,2019-r19D:2028,Site 8 ,9/12/2019,DFO Gulf,46.51639,-66.9497,1000,0.8 ï¿½m Nylon,Suspected,38.4,38.7,39.71,0.83,0.68,0.35
-2019,r19D:2029,Sample,2019-r19D:2029,Site 5,9/12/2019,DFO Gulf,46.50753,-66.94977,1000,0.8 ï¿½m Nylon,Suspected,38.38,39.12,37.83,0.85,0.52,1.22
-2019,r19D:2030,Sample,2019-r19D:2030,Site 25,9/12/2019,DFO Gulf,46.55011,-67.04399,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2031,Sample,2019-r19D:2031,Site 25,9/12/2019,DFO Gulf,46.55011,-67.04399,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2032,Sample,2019-r19D:2032,Site 5,9/12/2019,DFO Gulf,46.50753,-66.94977,1000,0.8 ï¿½m Nylon,Suspected,No Ct,37.22,37.76,0,1.85,1.28
-2019,r19D:2033,Sample,2019-r19D:2033,Site 5,9/12/2019,DFO Gulf,46.50809,-66.94965,1000,0.8 ï¿½m Nylon,Suspected,No Ct,38.58,38.38,0,0.74,0.85
-2019,r19D:2034,Lab blank,2019-r19D:2034,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2035,Sample,2019-r19D:2035,Site 24,9/12/2019,DFO Gulf,46.4541,-66.42307,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2036,Sample,2019-r19D:2036,Site 24,9/12/2019,DFO Gulf,46.45406,-66.42301,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2037,DNA extraction blank,2019-r19D:2037,NA,NA,DFO Gulf,NA,NA,NA,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2038,Sample,2019-r19D:2038,Site 24,9/12/2019,DFO Gulf,46.45404,-66.42295,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2039,Sample,2019-r19D:2039,Site 23,9/12/2019,DFO Gulf,46.48196,-66.4797,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2040,Sample,2019-r19D:2040,Site 23,9/12/2019,DFO Gulf,46.48188,-66.47978,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2041,Sample,2019-r19D:2041,Site 23,9/12/2019,DFO Gulf,46.48183,-66.47985,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2042,Sample,2019-r19D:2042,Site 22,9/12/2019,DFO Gulf,46.51649,-66.51611,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2043,Sample,2019-r19D:2043,Site 22,9/12/2019,DFO Gulf,46.51649,-66.51594,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2044,Sample,2019-r19D:2044,Site 22,9/12/2019,DFO Gulf,46.51649,-66.51587,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2045,Lab blank,2019-r19D:2045,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2046,Sample,2019-r19D:2046,Site 21,9/12/2019,DFO Gulf,46.56018,-66.55818,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2047,Sample,2019-r19D:2047,Site 21,9/12/2019,DFO Gulf,46.56006,-66.55818,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2048,Sample,2019-r19D:2048,Site 21,9/12/2019,DFO Gulf,46.55979,-66.5582,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2049,Sample,2019-r19D:2049,Site 20,9/12/2019,DFO Gulf,46.60068,-66.63867,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2050,Sample,2019-r19D:2050,Site 20,9/12/2019,DFO Gulf,46.60063,-66.63863,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2051,Sample,2019-r19D:2051,Site 20,9/12/2019,DFO Gulf,46.60059,-66.63861,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2052,Sample,2019-r19D:2052,Site 19,9/12/2019,DFO Gulf,46.58557,-66.70121,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2053,Sample,2019-r19D:2053,Site 19,9/12/2019,DFO Gulf,46.58554,-66.70118,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2054,Sample,2019-r19D:2054,Site 19,9/12/2019,DFO Gulf,46.58557,-66.70119,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2055,Lab blank,2019-r19D:2055,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2056,Field blank,2019-r19D:2056,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2057,DNA extraction blank,2019-r19D:2057,NA,NA,DFO Gulf,NA,NA,NA,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2240,Sample,2019-r19D:2240,Site 13,10/3/2019,DFO Gulf,46.53456,-66.88125,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2241,Sample,2019-r19D:2241,Site 13,10/3/2019,DFO Gulf,46.53477,-66.88146,1000,0.8 ï¿½m Nylon,Inconclusive,No Ct,35.82,No Ct,0,0.74,0
-2019,r19D:2242,Sample,2019-r19D:2242,Site 13,10/3/2019,DFO Gulf,46.53499,-66.88155,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2243,Sample,2019-r19D:2243,Site 26,10/3/2019,DFO Gulf,46.57803,-67.04152,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2244,Sample,2019-r19D:2244,Site 26,10/3/2019,DFO Gulf,46.57803,-67.04152,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2245,Sample,2019-r19D:2245,Site 5,10/3/2019,DFO Gulf,46.50642,-66.95071,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2246,Sample,2019-r19D:2246,Site 5,10/3/2019,DFO Gulf,46.50642,-66.95071,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2247,Sample,2019-r19D:2247,Site 5,10/3/2019,DFO Gulf,46.50642,-66.95071,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2248,Sample,2019-r19D:2248,Site 26,10/3/2019,DFO Gulf,46.57803,-67.04152,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2249,Lab blank,2019-r19D:2249,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2250,Field blank,2019-r19D:2250,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2251,DNA extraction blank,2019-r19D:2251,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2316,Sample,2019-r19D:2316,Site 5,10/10/2019,DFO Gulf,46.50754,-66.94977,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2317,Sample,2019-r19D:2317,Site 27,10/10/2019,DFO Gulf,46.60062,-66.9858,800,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2318,Sample,2019-r19D:2318,Site 27,10/10/2019,DFO Gulf,46.60062,-66.9858,775,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2319,Sample,2019-r19D:2319,Site 27,10/10/2019,DFO Gulf,46.60062,-66.9858,775,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2320,Sample,2019-r19D:2320,Site 26,10/10/2019,DFO Gulf,46.57803,-67.04152,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2321,Sample,2019-r19D:2321,Site 26,10/10/2019,DFO Gulf,46.57803,-67.04152,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2322,Sample,2019-r19D:2322,Site 15,10/10/2019,DFO Gulf,46.55547,-66.84771,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2323,Sample,2019-r19D:2323,Site 26,10/10/2019,DFO Gulf,46.57803,-67.04152,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2324,Sample,2019-r19D:2324,Site 15,10/10/2019,DFO Gulf,46.55547,-66.84771,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2325,Sample,2019-r19D:2325,Site 15,10/10/2019,DFO Gulf,46.55547,-66.84771,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2326,Sample,2019-r19D:2326,Site 14,10/10/2019,DFO Gulf,46.54391,-66.85485,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2327,Sample,2019-r19D:2327,Site 14,10/10/2019,DFO Gulf,46.54391,-66.85485,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2328,Sample,2019-r19D:2328,Site 14,10/10/2019,DFO Gulf,46.54391,-66.85485,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2329,Sample,2019-r19D:2329,Site 17,10/10/2019,DFO Gulf,46.5737,-66.81342,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2330,Sample,2019-r19D:2330,Site 17,10/10/2019,DFO Gulf,46.5737,-66.81342,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2331,DNA extraction blank,2019-r19D:2331,NA,NA,DFO Gulf,NA,NA,NA,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2332,Sample,2019-r19D:2332,Site 17,10/10/2019,DFO Gulf,46.5737,-66.81342,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2333,Sample,2019-r19D:2333,Site 29,10/10/2019,DFO Gulf,46.49828,-67.0485,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2334,Lab blank,2019-r19D:2334,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2335,Sample,2019-r19D:2335,Site 12,10/10/2019,DFO Gulf,46.52954,-66.90152,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2336,Sample,2019-r19D:2336,Site 29,10/10/2019,DFO Gulf,46.49828,-67.0485,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2337,Sample,2019-r19D:2337,Site 12,10/10/2019,DFO Gulf,46.52954,-66.90152,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2338,Sample,2019-r19D:2338,Site 12,10/10/2019,DFO Gulf,46.52954,-66.90152,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2339,Sample,2019-r19D:2339,Site 18,10/10/2019,DFO Gulf,46.58102,-66.75007,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2340,Sample,2019-r19D:2340,Site 5,10/10/2019,DFO Gulf,46.50754,-66.94977,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2341,Sample,2019-r19D:2341,Site 16,10/10/2019,DFO Gulf,46.56257,-66.832,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2342,Sample,2019-r19D:2342,Site 16,10/10/2019,DFO Gulf,46.56257,-66.832,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2343,Sample,2019-r19D:2343,Site 18,10/10/2019,DFO Gulf,46.58102,-66.75007,1000,0.8 ï¿½m Nylon,Inconclusive,No Ct,35.73,No Ct,0,0.74,0
-2019,r19D:2344,Lab blank,2019-r19D:2344,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2345,Sample,2019-r19D:2345,Site 16,10/10/2019,DFO Gulf,46.56257,-66.832,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2346,Sample,2019-r19D:2346,Site 18,10/10/2019,DFO Gulf,46.58142,-66.7502,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2347,Sample,2019-r19D:2347,Site 29,10/10/2019,DFO Gulf,46.49828,-67.0485,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2348,Sample,2019-r19D:2348,Site 5,10/10/2019,DFO Gulf,46.50754,-66.94977,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2019,r19D:2349,Field blank,2019-r19D:2349,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2020,r20:2187,Sample,2020-r20:2187,Site 5,8/26/2020,DFO Gulf,46.50753,-66.94977,1000,0.8 ï¿½m Nylon,Suspected,35.47,34.18,NA,5.96,14.15,NA
-2020,r20:2188,Sample,2020-r20:2188,Site 5,8/26/2020,DFO Gulf,46.50753,-66.94977,1000,0.8 ï¿½m Nylon,Suspected,35.97,35.36,NA,4.27,6.43,NA
-2020,r20:2189,Sample,2020-r20:2189,Site 5,8/26/2020,DFO Gulf,46.50753,-66.94977,1000,0.8 ï¿½m Nylon,Suspected,34.94,37.1,NA,8.49,2,NA
-2020,r20:2190,Sample,2020-r20:2190,Site 14,8/26/2020,DFO Gulf,46.54391,-66.85485,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2191,Sample,2020-r20:2191,Site 14,8/26/2020,DFO Gulf,46.54391,-66.85485,1000,0.8 ï¿½m Nylon,Inconclusive,No Ct,35.95,NA,0,4.33,NA
-2020,r20:2192,Field blank,2020-r20:2192,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Inconclusive,40.36,No Ct,NA,0.22,0,NA
-2020,r20:2193,Sample,2020-r20:2193,Site 14,8/26/2020,DFO Gulf,46.54391,-66.85485,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2194,Sample,2020-r20:2194,Site 15,8/26/2020,DFO Gulf,46.55547,-66.84771,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2196,Sample,2020-r20:2196,Site 15,8/26/2020,DFO Gulf,46.55547,-66.84771,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2198,Sample,2020-r20:2198,Site 16,8/26/2020,DFO Gulf,46.56257,-66.832,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2199,Lab blank,2020-r20:2199,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2200,Sample,2020-r20:2200,Site 15,8/26/2020,DFO Gulf,46.55547,-66.84771,750,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2201,DNA extraction blank,2020-r20:2201,NA,NA,DFO Gulf,NA,NA,NA,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2208,Field blank,2020-r20:2208,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2202,Sample,2020-r20:2202,Site 16,8/26/2020,DFO Gulf,46.56257,-66.832,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2203,Sample,2020-r20:2203,Site 16,8/26/2020,DFO Gulf,46.56257,-66.832,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2204,Sample,2020-r20:2204,Site 13,8/26/2020,DFO Gulf,46.53503,-66.88127,1000,0.8 ï¿½m Nylon,Inconclusive,No Ct,36.21,NA,0,3.64,NA
-2020,r20:2205,Sample,2020-r20:2205,Site 13,8/26/2020,DFO Gulf,46.53503,-66.88127,1000,0.8 ï¿½m Nylon,Inconclusive,38.4,No Ct,NA,0.84,0,NA
-2020,r20:2206,Sample,2020-r20:2206,Site 13,8/26/2020,DFO Gulf,46.53503,-66.88127,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2207,Sample,2020-r20:2207,Site 50,8/26/2020,DFO Gulf,46.52097,-67.33674,100,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2209,Sample,2020-r20:2209,Site 50,8/26/2020,DFO Gulf,46.52097,-67.33674,100,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2210,Sample,2020-r20:2210,Site 50,8/26/2020,DFO Gulf,46.52097,-67.33674,150,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2211,Sample,2020-r20:2211,Site 51,8/26/2020,DFO Gulf,46.52128,-67.33706,100,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2212,Sample,2020-r20:2212,Site 51,8/26/2020,DFO Gulf,46.52128,-67.33706,100,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2213,Sample,2020-r20:2213,Site 51,8/26/2020,DFO Gulf,46.52128,-67.33706,200,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2214,Sample,2020-r20:2214,Site 31,8/26/2020,DFO Gulf,46.51053,-67.1137,600,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2215,FB3,2020-r20:2215,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2216,Sample,2020-r20:2216,Site 31,8/26/2020,DFO Gulf,46.51053,-67.1137,700,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2217,Sample,2020-r20:2217,Site 31,8/26/2020,DFO Gulf,46.51053,-67.1137,700,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2218,Lab blank,2020-r20:2218,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2219,DNA extraction blank,2020-r20:2219,NA,NA,DFO Gulf,NA,NA,NA,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2398,Sample,2020-r20:2398,Site 25,8/19/2020,ARM,46.55011,-67.04399,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2399,Sample,2020-r20:2399,Site 25,8/19/2020,ARM,46.55011,-67.04399,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2400,Field blank,2020-r20:2400,NA,NA,ARM,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2401,Sample,2020-r20:2401,Site 26,8/19/2020,ARM,46.57771,-67.04132,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2402,Sample,2020-r20:2402,Site 26,8/19/2020,ARM,46.57771,-67.04132,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2403,Field blank,2020-r20:2403,NA,NA,ARM,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2404,Sample,2020-r20:2404,Site 27,8/19/2020,ARM,46.60062,-66.9858,250,0.8 ï¿½m Nylon,Inconclusive,No Ct,39.57,NA,0,0.38,NA
-2020,r20:2405,Field blank,2020-r20:2405,NA,NA,ARM,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2406,Sample,2020-r20:2406,Site 29,8/19/2020,ARM,46.49828,-67.0485,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2407,Sample,2020-r20:2407,Site 29,8/19/2020,ARM,46.49828,-67.0485,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2408,Sample,2020-r20:2408,Site 29,8/19/2020,ARM,46.49828,-67.0485,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2409,Field blank,2020-r20:2409,NA,NA,ARM,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2410,Sample,2020-r20:2410,Site 30,8/19/2020,ARM,46.51033,-67.08379,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2411,Sample,2020-r20:2411,Site 30,8/19/2020,ARM,46.51033,-67.08379,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2412,Sample,2020-r20:2412,Site 30,8/19/2020,ARM,46.51033,-67.08379,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2413,DNA extraction blank,2020-r20:2413,NA,NA,ARM,NA,NA,NA,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2414,Sample,2020-r20:2414,Site 31,8/19/2020,ARM,46.51054,-67.1137,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2415,Sample,2020-r20:2415,Site 31,8/19/2020,ARM,46.51054,-67.1137,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2416,Sample,2020-r20:2416,Site 31,8/19/2020,ARM,46.51054,-67.1137,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2417,Sample,2020-r20:2417,Site 32,8/19/2020,ARM,46.51984,-67.14979,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2418,Field blank,2020-r20:2418,NA,NA,ARM,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2419,Sample,2020-r20:2419,Site 32,8/19/2020,ARM,46.51984,-67.14979,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2420,Sample,2020-r20:2420,Site 32,8/19/2020,ARM,46.51984,-67.14979,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2421,Field blank,2020-r20:2421,NA,NA,ARM,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2422,Sample,2020-r20:2422,Site 1,8/20/2020,ARM,46.50335,-66.9651,150,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2423,Field blank,2020-r20:2423,NA,NA,ARM,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2424,Sample,2020-r20:2424,Site 33,8/20/2020,ARM,46.49801,-66.98654,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2425,Sample,2020-r20:2425,Site 33,8/20/2020,ARM,46.49801,-66.98654,1000,0.8 ï¿½m Nylon,Inconclusive,No Ct,36.53,NA,0,2.93,NA
-2020,r20:2426,Field blank,2020-r20:2426,NA,NA,ARM,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2427,Sample,2020-r20:2427,Site 2,8/20/2020,ARM,46.49891,-66.95677,1000,0.8 ï¿½m Nylon,Suspected,34.87,36.23,NA,8.89,3.57,NA
-2020,r20:2428,Sample,2020-r20:2428,Site 2,8/20/2020,ARM,46.49891,-66.95677,1000,0.8 ï¿½m Nylon,Suspected,33.55,34.31,NA,21.61,13.02,NA
-2020,r20:2429,DNA extraction blank,2020-r20:2429,NA,NA,ARM,NA,NA,NA,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2430,Sample,2020-r20:2430,Site 2,8/20/2020,ARM,46.49891,-66.95677,1000,0.8 ï¿½m Nylon,Suspected,34.49,33.98,NA,11.48,16.16,NA
-2020,r20:2431,Field blank,2020-r20:2431,NA,NA,ARM,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2432,Sample,2020-r20:2432,Site 3,8/20/2020,ARM,46.49565,-66.95817,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2433,Sample,2020-r20:2433,Site 3,8/20/2020,ARM,46.49565,-66.95817,1000,0.8 ï¿½m Nylon,Inconclusive,No Ct,37.61,NA,0,1.42,NA
-2020,r20:2434,Sample,2020-r20:2434,Site 3,8/20/2020,ARM,46.49565,-66.95817,1000,0.8 ï¿½m Nylon,Inconclusive,37.57,No Ct,NA,1.46,0,NA
-2020,r20:2435,Field blank,2020-r20:2435,NA,NA,ARM,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2436,Sample,2020-r20:2436,Site 4,8/20/2020,ARM,46.49565,-66.93987,1000,0.8 ï¿½m Nylon,Inconclusive,36.6,No Ct,NA,2.79,0,NA
-2020,r20:2437,Sample,2020-r20:2437,Site 4,8/20/2020,ARM,46.49565,-66.93987,1000,0.8 ï¿½m Nylon,Suspected,36.41,36.26,NA,3.17,3.52,NA
-2020,r20:2438,Sample,2020-r20:2438,Site 4,8/20/2020,ARM,46.49565,-66.93987,1000,0.8 ï¿½m Nylon,Suspected,36.22,36.62,NA,3.6,2.75,NA
-2020,r20:2439,Field Blank,2020-r20:2439,NA,NA,ARM,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2440,Sample,2020-r20:2440,Site 5,8/20/2020,ARM,46.50753,-66.94977,1000,0.8 ï¿½m Nylon,Suspected,35.48,36.22,NA,5.92,3.61,NA
-2020,r20:2441,Sample,2020-r20:2441,Site 5,8/20/2020,ARM,46.50753,-66.94977,750,0.8 ï¿½m Nylon,Suspected,34.6,35.9,NA,10.65,4.48,NA
-2020,r20:2442,DNA extraction blank,2020-r20:2442,NA,NA,ARM,NA,NA,NA,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2507,Sample,2020-r20:2507,Site 5,8/20/2020,ARM,46.50753,-66.94977,1000,0.8 ï¿½m Nylon,Suspected,37.53,35.56,NA,1.5,5.63,NA
-2020,r20:2508,Field blank,2020-r20:2508,NA,NA,ARM,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2509,Sample,2020-r20:2509,Site 10,8/20/2020,ARM,46.49411,-67.0101,1000,0.8 ï¿½m Nylon,Inconclusive,37.37,No Ct,NA,1.66,0,NA
-2020,r20:2510,Sample,2020-r20:2510,Site 10,8/20/2020,ARM,46.49411,-67.0101,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2511,Sample,2020-r20:2511,Site 10,8/20/2020,ARM,46.49411,-67.0101,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2512,Field blank,2020-r20:2512,NA,NA,ARM,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2513,Sample,2020-r20:2513,Site 18,9/1/2020,DFO Gulf,46.58102,-66.75007,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2514,Sample,2020-r20:2514,Site 18,9/1/2020,DFO Gulf,46.58102,-66.75007,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2515,Sample,2020-r20:2515,Site 18,9/1/2020,DFO Gulf,46.58102,-66.75007,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2516,Sample,2020-r20:2516,Site 17,9/1/2020,DFO Gulf,46.5737,-66.81342,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2517,Sample,2020-r20:2517,Site 17,9/1/2020,DFO Gulf,46.5737,-66.81342,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2518,Field blank,2020-r20:2518,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2519,Sample,2020-r20:2519,Site 17,9/1/2020,DFO Gulf,46.5737,-66.81342,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2521,Lab blank,2020-r20:2521,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2524,DNA extraction blank,2020-r20:2524,NA,NA,DFO Gulf,NA,NA,NA,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2525,Sample,2020-r20:2525,Site 5,9/1/2020,DFO Gulf,46.50753,-66.94977,1000,0.8 ï¿½m Nylon,Suspected,35.48,36.01,NA,5.91,4.15,NA
-2020,r20:2526,Sample,2020-r20:2526,Site 5,9/1/2020,DFO Gulf,46.50753,-66.94977,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2527,Sample,2020-r20:2527,Site 5,9/1/2020,DFO Gulf,46.50753,-66.94977,1000,0.8 ï¿½m Nylon,Suspected,36.55,35.94,NA,2.89,4.36,NA
-2020,r20:2528,Field blank,2020-r20:2528,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2529,Sample,2020-r20:2529,Site 31,9/1/2020,DFO Gulf,46.51053,-67.1137,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2530,Sample,2020-r20:2530,Site 31,9/1/2020,DFO Gulf,46.51053,-67.1137,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2531,Sample,2020-r20:2531,Site 31,9/1/2020,DFO Gulf,46.51053,-67.1137,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2535,Field blank,2020-r20:2535,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2536,LB2,2020-r20:2536,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2537,Sample,2020-r20:2537,Site 24,9/2/2020,DFO Gulf,46.45406,-66.42301,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2538,Sample,2020-r20:2538,Site 24,9/2/2020,DFO Gulf,46.45406,-66.42301,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2539,Sample,2020-r20:2539,Site 24,9/2/2020,DFO Gulf,46.45406,-66.42301,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2540,Sample,2020-r20:2540,Site 23,9/2/2020,DFO Gulf,46.48188,-66.47978,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2541,Sample,2020-r20:2541,Site 23,9/2/2020,DFO Gulf,46.48188,-66.47978,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2542,DNA extraction blank,2020-r20:2542,NA,NA,DFO Gulf,NA,NA,NA,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2574,Field blank,2020-r20:2574,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2575,Sample,2020-r20:2575,Site 23,9/2/2020,DFO Gulf,46.48188,-66.47978,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2576,Sample,2020-r20:2576,Site 22,9/2/2020,DFO Gulf,46.51649,-66.51611,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2577,Sample,2020-r20:2577,Site 22,9/2/2020,DFO Gulf,46.51649,-66.51611,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2578,Sample,2020-r20:2578,Site 22,9/2/2020,DFO Gulf,46.51649,-66.51611,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2579,Sample,2020-r20:2579,Site 21,9/2/2020,DFO Gulf,46.56006,-66.55818,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2580,Sample,2020-r20:2580,Site 21,9/2/2020,DFO Gulf,46.56006,-66.55818,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2581,Sample,2020-r20:2581,Site 21,9/2/2020,DFO Gulf,46.56006,-66.55818,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2582,Sample,2020-r20:2582,Site 20,9/2/2020,DFO Gulf,46.60063,-66.63863,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2583,Lab blank,2020-r20:2583,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2584,Sample,2020-r20:2584,Site 20,9/2/2020,DFO Gulf,46.60063,-66.63863,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2585,Sample,2020-r20:2585,Site 20,9/2/2020,DFO Gulf,46.60063,-66.63863,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2586,Sample,2020-r20:2586,Site 19,9/2/2020,DFO Gulf,46.58554,-66.70118,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2587,Sample,2020-r20:2587,Site 19,9/2/2020,DFO Gulf,46.58554,-66.70118,1000,0.8 ï¿½m Nylon,Inconclusive,No Ct,36.82,NA,0,2.41,NA
-2020,r20:2588,DNA extraction blank,2020-r20:2588,NA,NA,DFO Gulf,NA,NA,NA,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2589,Sample,2020-r20:2589,Site 19,9/2/2020,DFO Gulf,46.58554,-66.70118,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2590,Field blank,2020-r20:2590,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2591,Sample,2020-r20:2591,Site 37,9/2/2020,DFO Gulf,46.56064,-66.1221,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2592,Sample,2020-r20:2592,Site 37,9/2/2020,DFO Gulf,46.56064,-66.1221,1000,0.8 ï¿½m Nylon,Inconclusive,No Ct,37.87,NA,0,1.19,NA
-2020,r20:2593,Sample,2020-r20:2593,Site 37,9/2/2020,DFO Gulf,46.56064,-66.1221,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2594,Sample,2020-r20:2594,Site 38,9/2/2020,DFO Gulf,46.61789,-65.87861,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2595,Sample,2020-r20:2595,Site 38,9/2/2020,DFO Gulf,46.61789,-65.87861,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2596,Sample,2020-r20:2596,Site 38,9/2/2020,DFO Gulf,46.61789,-65.87861,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2597,Sample,2020-r20:2597,Site 39,9/2/2020,DFO Gulf,46.73431,-65.82416,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2598,Sample,2020-r20:2598,Site 39,9/2/2020,DFO Gulf,46.73431,-65.82416,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2599,Field blank,2020-r20:2599,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2600,Sample,2020-r20:2600,Site 39,9/2/2020,DFO Gulf,46.73431,-65.82416,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2601,Sample,2020-r20:2601,Site 40,9/2/2020,DFO Gulf,46.73844,-65.82952,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2602,Field blank,2020-r20:2602,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2603,DNA extraction blank,2020-r20:2603,NA,NA,DFO Gulf,NA,NA,NA,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2635,Sample,2020-r20:2635,Site 40,9/2/2020,DFO Gulf,46.73844,-65.82952,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2636,Sample,2020-r20:2636,Site 40,9/2/2020,DFO Gulf,46.73844,-65.82952,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2637,Lab blank,2020-r20:2637,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2638,Sample,2020-r20:2638,Site 13,9/10/2020,DFO Gulf,46.53503,-66.88127,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2639,Sample,2020-r20:2639,Site 13,9/10/2020,DFO Gulf,46.53503,-66.88127,1000,0.8 ï¿½m Nylon,Inconclusive,36.75,No Ct,NA,2.53,0,NA
-2020,r20:2640,Sample,2020-r20:2640,Site 13,9/10/2020,DFO Gulf,46.53503,-66.88127,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2641,Sample,2020-r20:2641,Site 11,9/10/2020,DFO Gulf,46.51838,-66.92639,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2642,Sample,2020-r20:2642,Site 11,9/10/2020,DFO Gulf,46.51838,-66.92639,1000,0.8 ï¿½m Nylon,Inconclusive,36.49,No Ct,NA,3,0,NA
-2020,r20:2643,Field blank,2020-r20:2643,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2644,Sample,2020-r20:2644,Site 11,9/10/2020,DFO Gulf,46.51838,-66.92639,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2645,Sample,2020-r20:2645,Site 7,9/10/2020,DFO Gulf,46.51664,-66.9504,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2646,Field blank,2020-r20:2646,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2647,Sample,2020-r20:2647,Site 7,9/10/2020,DFO Gulf,46.51664,-66.9504,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2648,Sample,2020-r20:2648,Site 7,9/10/2020,DFO Gulf,46.51664,-66.9504,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2649,Sample,2020-r20:2649,Site 9,9/10/2020,DFO Gulf,46.51906,-66.94672,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2650,DNA extraction blank,2020-r20:2650,NA,NA,DFO Gulf,NA,NA,NA,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2651,Sample,2020-r20:2651,Site 9,9/10/2020,DFO Gulf,46.51906,-66.94672,1000,0.8 ï¿½m Nylon,Suspected,35.61,36.36,NA,5.42,3.29,NA
-2020,r20:2652,Sample,2020-r20:2652,Site 9,9/10/2020,DFO Gulf,46.51906,-66.94672,1000,0.8 ï¿½m Nylon,Suspected,36.34,34.82,NA,3.33,9.22,NA
-2020,r20:2653,Sample,2020-r20:2653,Site 8,9/10/2020,DFO Gulf,46.5172,-66.94911,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2654,Sample,2020-r20:2654,Site 8,9/10/2020,DFO Gulf,46.5172,-66.94911,1000,0.8 ï¿½m Nylon,Suspected,36.67,35.45,NA,2.67,6.04,NA
-2020,r20:2655,Sample,2020-r20:2655,Site 8,9/10/2020,DFO Gulf,46.5172,-66.94911,1000,0.8 ï¿½m Nylon,Suspected,36.28,36.62,NA,3.46,2.75,NA
-2020,r20:2656,Lab blank,2020-r20:2656,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2657,Sample,2020-r20:2657,Site 6,9/10/2020,DFO Gulf,46.51599,-66.9491,1000,0.8 ï¿½m Nylon,Suspected,36.45,36.39,NA,3.09,3.21,NA
-2020,r20:2658,Sample,2020-r20:2658,Site 6,9/10/2020,DFO Gulf,46.51599,-66.9491,1000,0.8 ï¿½m Nylon,Suspected,34.29,33.67,NA,13.11,19.98,NA
-2020,r20:2659,Sample,2020-r20:2659,Site 6,9/10/2020,DFO Gulf,46.51599,-66.9491,1000,0.8 ï¿½m Nylon,Suspected,37.21,35.6,NA,1.85,5.46,NA
-2020,r20:2660,Sample,2020-r20:2660,Site 5,9/10/2020,DFO Gulf,46.50753,-66.94977,1000,0.8 ï¿½m Nylon,Suspected,33.97,35.26,NA,16.29,6.85,NA
-2020,r20:2661,Sample,2020-r20:2661,Site 5,9/10/2020,DFO Gulf,46.50753,-66.94977,1000,0.8 ï¿½m Nylon,Inconclusive,33.1,No Ct,NA,29.23,0,NA
-2020,r20:2662,Field blank,2020-r20:2662,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2663,Sample,2020-r20:2663,Site 5,9/10/2020,DFO Gulf,46.50753,-66.94977,1000,0.8 ï¿½m Nylon,Suspected,33.45,34.01,NA,23.16,15.85,NA
-2020,r20:2664,Lab blank,2020-r20:2664,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2665,DNA extraction blank,2020-r20:2665,NA,NA,DFO Gulf,NA,NA,NA,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2828,Sample,2020-r20:2828,Site 37,9/21/2020,DFO Gulf,46.56064,-66.1221,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2829,Sample,2020-r20:2829,Site 37,9/21/2020,DFO Gulf,46.56064,-66.1221,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2830,Field blank,2020-r20:2830,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2831,Sample,2020-r20:2831,Site 37,9/21/2020,DFO Gulf,46.56064,-66.1221,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2832,Sample,2020-r20:2832,Site 39,9/21/2020,DFO Gulf,46.73431,-65.82416,1000,0.8 ï¿½m Nylon,Inconclusive,37.27,No Ct,NA,1.78,0,NA
-2020,r20:2833,Sample,2020-r20:2833,Site 39,9/21/2020,DFO Gulf,46.73431,-65.82416,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2834,Sample,2020-r20:2834,Site 39,9/21/2020,DFO Gulf,46.73431,-65.82416,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2835,Sample,2020-r20:2835,Site 40,9/21/2020,DFO Gulf,46.73844,-65.82952,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2836,Sample,2020-r20:2836,Site 40,9/21/2020,DFO Gulf,46.73844,-65.82952,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2837,Sample,2020-r20:2837,Site 40,9/21/2020,DFO Gulf,46.73844,-65.82952,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2838,Sample,2020-r20:2838,Site 42,9/21/2020,DFO Gulf,46.81429,-65.91673,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2839,Lab blank,2020-r20:2839,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2840,Sample,2020-r20:2840,Site 42,9/21/2020,DFO Gulf,46.81429,-65.91673,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2841,Sample,2020-r20:2841,Site 42,9/21/2020,DFO Gulf,46.81429,-65.91673,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2842,Sample,2020-r20:2842,Site 41,9/21/2020,DFO Gulf,46.82914,-65.95141,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2843,Sample,2020-r20:2843,Site 41,9/21/2020,DFO Gulf,46.82914,-65.95141,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2844,Sample,2020-r20:2844,Site 41,9/21/2020,DFO Gulf,46.82914,-65.95141,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2845,DNA extraction blank,2020-r20:2845,NA,NA,DFO Gulf,NA,NA,NA,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2846,Field blank,2020-r20:2846,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2847,Sample,2020-r20:2847,Site 43,9/21/2020,DFO Gulf,46.81524,-65.79379,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2848,Sample,2020-r20:2848,Site 43,9/21/2020,DFO Gulf,46.81524,-65.79379,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2849,Lab blank,2020-r20:2849,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2850,Sample,2020-r20:2850,Site 43,9/21/2020,DFO Gulf,46.81524,-65.79379,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2851,Sample,2020-r20:2851,Site 44,9/21/2020,DFO Gulf,46.82956,-65.78744,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2852,Sample,2020-r20:2852,Site 44,9/21/2020,DFO Gulf,46.82956,-65.78744,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2853,Sample,2020-r20:2853,Site 44,9/21/2020,DFO Gulf,46.82956,-65.78744,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2854,Sample,2020-r20:2854,Site 47,9/21/2020,DFO Gulf,46.88523,-65.51533,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2855,Sample,2020-r20:2855,Site 47,9/21/2020,DFO Gulf,46.88523,-65.51533,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2856,Sample,2020-r20:2856,Site 47,9/21/2020,DFO Gulf,46.88523,-65.51533,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2857,Sample,2020-r20:2857,Site 46,9/21/2020,DFO Gulf,46.859,-65.44416,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2858,Field blank,2020-r20:2858,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2859,Sample,2020-r20:2859,Site 46,9/21/2020,DFO Gulf,46.859,-65.44416,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2860,Sample,2020-r20:2860,Site 46,9/21/2020,DFO Gulf,46.859,-65.44416,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2861,Field blank,2020-r20:2861,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2862,Sample,2020-r20:2862,Site 45,9/21/2020,DFO Gulf,46.80176,-65.45304,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2863,DNA extraction blank,2020-r20:2863,NA,NA,DFO Gulf,NA,NA,NA,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:2999,Sample,2020-r20:2999,Site 45,9/21/2020,DFO Gulf,46.80176,-65.45304,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:3000,Sample,2020-r20:3000,Site 45,9/21/2020,DFO Gulf,46.80176,-65.45304,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:3001,Sample,2020-r20:3001,Site 48,9/21/2020,DFO Gulf,46.87695,-65.66472,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:3002,Sample,2020-r20:3002,Site 48,9/21/2020,DFO Gulf,46.87695,-65.66472,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:3003,Sample,2020-r20:3003,Site 48,9/21/2020,DFO Gulf,46.87626,-65.66438,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:3004,Sample,2020-r20:3004,Site 48,9/21/2020,DFO Gulf,46.87626,-65.66438,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:3005,Sample,2020-r20:3005,Site 48,9/21/2020,DFO Gulf,46.87562,-65.66363,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:3006,Lab blank,2020-r20:3006,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:3007,Sample,2020-r20:3007,Site 48,9/21/2020,DFO Gulf,46.87562,-65.66363,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:3008,Sample,2020-r20:3008,Site 49,9/21/2020,DFO Gulf,46.93532,-65.78738,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:3009,Sample,2020-r20:3009,Site 49,9/21/2020,DFO Gulf,46.93532,-65.78738,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:3010,Sample,2020-r20:3010,Site 49,9/21/2020,DFO Gulf,46.9345,-65.78671,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:3011,Sample,2020-r20:3011,Site 49,9/21/2020,DFO Gulf,46.9345,-65.78671,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:3012,Field blank,2020-r20:3012,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:3013,Sample,2020-r20:3013,Site 49,9/21/2020,DFO Gulf,46.93371,-65.78579,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:3014,Sample,2020-r20:3014,Site 49,9/21/2020,DFO Gulf,46.93371,-65.78579,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:3015,Lab blank,2020-r20:3015,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2020,r20:3016,DNA extraction blank,2020-r20:3016,NA,NA,DFO Gulf,NA,NA,NA,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
-2021,r21:2827,Sample,2021-r21:2827,Site 52,6/22/2021,DFO Gulf,46.58815,-66.97387,375,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:2828,Sample,2021-r21:2828,Site 52,6/22/2021,DFO Gulf,46.58815,-66.97387,375,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:2829,Sample,2021-r21:2829,Site 52,6/22/2021,DFO Gulf,46.58815,-66.97387,400,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:2830,Field blank,2021-r21:2830,NA,6/22/2021,DFO Gulf,NA,NA,950,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:2831,Sample,2021-r21:2831,Site 27A,6/22/2021,DFO Gulf,46.60005,-66.98332,325,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:2832,Sample,2021-r21:2832,Site 27A,6/22/2021,DFO Gulf,46.60005,-66.98332,325,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:2833,Sample,2021-r21:2833,Site 27A,6/22/2021,DFO Gulf,46.60005,-66.98332,400,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:2834,Lab blank,2021-r21:2834,NA,6/23/2021,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:2835,Sample,2021-r21:2835,Site 53,6/22/2021,DFO Gulf,46.5957,-66.97599,450,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:2836,Sample,2021-r21:2836,Site 53,6/22/2021,DFO Gulf,46.5957,-66.97599,425,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:2837,Sample,2021-r21:2837,Site 53,6/22/2021,DFO Gulf,46.5957,-66.97599,425,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:2838,DNA extraction blank,2021-r21:2838,NA,NA,DFO Gulf,NA,NA,NA,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:2839,Sample,2021-r21:2839,Site 25,6/22/2021,DFO Gulf,46.55011,-67.04399,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:2840,Sample,2021-r21:2840,Site 25,6/22/2021,DFO Gulf,46.55011,-67.04399,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:2841,Sample,2021-r21:2841,Site 25,6/22/2021,DFO Gulf,46.55011,-67.04399,1075,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:2842,Field blank,2021-r21:2842,NA,6/22/2021,DFO Gulf,NA,NA,975,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:2843,Sample,2021-r21:2843,Site 26,6/22/2021,DFO Gulf,46.57771,-67.04132,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:2844,Sample,2021-r21:2844,Site 26,6/22/2021,DFO Gulf,46.57771,-67.04132,1025,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:2845,Sample,2021-r21:2845,Site 26,6/22/2021,DFO Gulf,46.57771,-67.04132,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:2846,Lab blank,2021-r21:2846,NA,6/23/2021,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:2847,Sample,2021-r21:2847,Site 5,6/22/2021,DFO Gulf,46.50753,-66.94977,1025,0.8 ï¿½m Nylon,Suspected,No Ct,35.68,36.45,0,5.18,3.09
-2021,r21:2848,Sample,2021-r21:2848,Site 5,6/22/2021,DFO Gulf,46.50753,-66.94977,1050,0.8 ï¿½m Nylon,Suspected,35.6,No Ct,37.78,5.46,0,1.27
-2021,r21:2849,Sample,2021-r21:2849,Site 5,6/22/2021,DFO Gulf,46.50753,-66.94977,1025,0.8 ï¿½m Nylon,Inconclusive,No Ct,38.18,No Ct,0,0.97,0
-2021,r21:2850,DNA extraction blank,2021-r21:2850,NA,NA,DFO Gulf,NA,NA,NA,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:2924,Sample,2021-r21:2924,Site 16,7/7/2021,DFO Gulf,46.56257,-66.832,1100,0.8 ï¿½m Nylon,Inconclusive,37.51,No Ct,No Ct,1.51,0,0
-2021,r21:2925,Sample,2021-r21:2925,Site 16,7/7/2021,DFO Gulf,46.56257,-66.832,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:2926,Sample,2021-r21:2926,Site 16,7/7/2021,DFO Gulf,46.56257,-66.832,1075,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:2927,Lab blank,2021-r21:2927,NA,7/8/2021,DFO Gulf,NA,NA,950 (full),0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:2928,Sample,2021-r21:2928,Site 15,7/7/2021,DFO Gulf,46.55547,-66.84771,1050,0.8 ï¿½m Nylon,Inconclusive,37.26,No Ct,No Ct,1.79,0,0
-2021,r21:2929,Sample,2021-r21:2929,Site 15,7/7/2021,DFO Gulf,46.55547,-66.84771,1075,0.8 ï¿½m Nylon,Inconclusive,No Ct,38.18,No Ct,0,0.97,0
-2021,r21:2930,Sample,2021-r21:2930,Site 15,7/7/2021,DFO Gulf,46.55547,-66.84771,1100,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:2931,Field blank,2021-r21:2931,NA,7/7/2021,DFO Gulf,NA,NA,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:2932,Sample,2021-r21:2932,Site 14,7/7/2021,DFO Gulf,46.54391,-66.85485,1100,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:2933,Sample,2021-r21:2933,Site 14,7/7/2021,DFO Gulf,46.54391,-66.85485,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:2934,Sample,2021-r21:2934,Site 14,7/7/2021,DFO Gulf,46.54391,-66.85485,1050,0.8 ï¿½m Nylon,Inconclusive,No Ct,No Ct,38.23,0,0,0.94
-2021,r21:2935,DNA extraction blank,2021-r21:2935,NA,NA,DFO Gulf,NA,NA,NA,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:2936,Sample,2021-r21:2936,Site 5,7/7/2021,DFO Gulf,46.50753,-66.94977,1075,0.8 ï¿½m Nylon,Suspected,38.21,No Ct,36.73,0.95,0,2.55
-2021,r21:2937,Sample,2021-r21:2937,Site 5,7/7/2021,DFO Gulf,46.50753,-66.94977,1000,0.8 ï¿½m Nylon,Suspected,37.22,38.26,No Ct,1.84,0.92,0
-2021,r21:2938,Sample,2021-r21:2938,Site 5,7/7/2021,DFO Gulf,46.50753,-66.94977,1050,0.8 ï¿½m Nylon,Suspected,37.38,35.73,36.18,1.65,5,3.71
-2021,r21:2939,Field blank,2021-r21:2939,NA,7/7/2021,DFO Gulf,NA,NA,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:2940,Sample,2021-r21:2940,Site 29,7/7/2021,DFO Gulf,46.49828,-67.0485,850,0.8 ï¿½m Nylon,Inconclusive,No Ct,No Ct,38.12,0,0,1.01
-2021,r21:2941,Sample,2021-r21:2941,Site 29,7/7/2021,DFO Gulf,46.49828,-67.0485,1025,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:2942,Sample,2021-r21:2942,Site 29,7/7/2021,DFO Gulf,46.49828,-67.0485,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:2943,Lab blank,2021-r21:2943,NA,7/8/2021,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:2944,Sample,2021-r21:2944,Site 31,7/7/2021,DFO Gulf,46.51053,-67.1137,1025,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:2945,Sample,2021-r21:2945,Site 31,7/7/2021,DFO Gulf,46.51053,-67.1137,1025,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:2946,Sample,2021-r21:2946,Site 31,7/7/2021,DFO Gulf,46.51053,-67.1137,1075,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:2947,DNA extraction blank,2021-r21:2947,NA,NA,DFO Gulf,NA,NA,NA,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3064,Sample,2021-r21:3064,Site 18,7/19/2021,DFO Gulf,46.58102,-66.75007,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3065,Sample,2021-r21:3065,Site 18,7/19/2021,DFO Gulf,46.58102,-66.75007,1100,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3066,Sample,2021-r21:3066,Site 18,7/19/2021,DFO Gulf,46.58102,-66.75007,1100,0.8 ï¿½m Nylon,Inconclusive,No Ct,No Ct,41.29,0,0,0.12
-2021,r21:3067,Field blank,2021-r21:3067,NA,7/19/2021,DFO Gulf,NA,NA,1025,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3068,Sample,2021-r21:3068,Site 18A,7/19/2021,DFO Gulf,46.5797,-66.75891,1075,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3069,Sample,2021-r21:3069,Site 18A,7/19/2021,DFO Gulf,46.5797,-66.75891,1025,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3070,Sample,2021-r21:3070,Site 18A,7/19/2021,DFO Gulf,46.5797,-66.75891,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3071,Lab blank,2021-r21:3071,NA,7/20/2021,DFO Gulf,NA,NA,1025,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3072,Sample,2021-r21:3072,Site 17,7/19/2021,DFO Gulf,46.5737,-66.81342,1025,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3073,Sample,2021-r21:3073,Site 17,7/19/2021,DFO Gulf,46.5737,-66.81342,1075,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3074,Sample,2021-r21:3074,Site 17,7/19/2021,DFO Gulf,46.5737,-66.81342,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3075,DNA extraction blank,2021-r21:3075,NA,NA,DFO Gulf,NA,NA,NA,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3076,Sample,2021-r21:3076,Site 29,7/19/2021,DFO Gulf,46.49828,-67.0485,1025,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3077,Sample,2021-r21:3077,Site 29,7/19/2021,DFO Gulf,46.49828,-67.0485,1075,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3078,Sample,2021-r21:3078,Site 29,7/19/2021,DFO Gulf,46.49828,-67.0485,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3079,Field blank,2021-r21:3079,NA,7/19/2021,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3080,Sample,2021-r21:3080,Site 30,7/19/2021,DFO Gulf,46.50981,-67.08282,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3081,Sample,2021-r21:3081,Site 30,7/19/2021,DFO Gulf,46.50981,-67.08282,1075,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3082,Sample,2021-r21:3082,Site 30,7/19/2021,DFO Gulf,46.50981,-67.08282,1075,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3083,Sample,2021-r21:3083,Site 5,7/19/2021,DFO Gulf,46.50753,-66.94977,1050,0.8 ï¿½m Nylon,Inconclusive,No Ct,34.73,No Ct,0,9.77,0
-2021,r21:3084,Sample,2021-r21:3084,Site 5,7/19/2021,DFO Gulf,46.50753,-66.94977,1050,0.8 ï¿½m Nylon,Suspected,35.31,No Ct,34.38,6.65,0,12.39
-2021,r21:3085,Sample,2021-r21:3085,Site 5,7/19/2021,DFO Gulf,46.50753,-66.94977,1075,0.8 ï¿½m Nylon,Suspected,No Ct,35.41,33.48,0,6.22,22.69
-2021,r21:3086,Lab blank,2021-r21:3086,NA,7/20/2021,DFO Gulf,NA,NA,1025,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3087,DNA extraction blank,2021-r21:3087,NA,NA,DFO Gulf,NA,NA,NA,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3088,Sample,2021-r21:3088,Site 2,7/19/2021,DFO Gulf,46.49976,-66.95794,550,0.8 ï¿½m Nylon,Inconclusive,37.25,No Ct,No Ct,1.81,0,0
-2021,r21:3089,Sample,2021-r21:3089,Site 2,7/19/2021,DFO Gulf,46.49976,-66.95794,550,0.8 ï¿½m Nylon,Inconclusive,No Ct,No Ct,36.28,0,0,3.47
-2021,r21:3090,Sample,2021-r21:3090,Site 2,7/19/2021,DFO Gulf,46.49976,-66.95794,550,0.8 ï¿½m Nylon,Suspected,34.33,36.12,No Ct,12.84,3.85,0
-2021,r21:3091,Field blank,2021-r21:3091,NA,7/19/2021,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3092,Sample,2021-r21:3092,Site 54,7/19/2021,DFO Gulf,46.50257,-66.96341,325,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3093,Sample,2021-r21:3093,Site 54,7/19/2021,DFO Gulf,46.50257,-66.96341,300,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3094,Sample,2021-r21:3094,Site 54,7/19/2021,DFO Gulf,46.50257,-66.96341,300,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3095,Lab blank,2021-r21:3095,NA,7/20/2021,DFO Gulf,NA,NA,1025,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3096,Sample,2021-r21:3096,Site 1,7/19/2021,DFO Gulf,46.50327,-66.96548,300,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3097,Sample,2021-r21:3097,Site 2,7/19/2021,DFO Gulf,46.50327,-66.96548,300,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3098,Sample,2021-r21:3098,Site 1,7/19/2021,DFO Gulf,46.50327,-66.96548,300,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3099,Sample,2021-r21:3099,Site 38,7/20/2021,DFO Gulf,46.61789,-65.87861,1100,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3100,Sample,2021-r21:3100,Site 38,7/20/2021,DFO Gulf,46.61789,-65.87861,1075,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3101,Sample,2021-r21:3101,Site 38,7/20/2021,DFO Gulf,46.61789,-65.87861,1075,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3102,Lab blank,2021-r21:3102,NA,NA,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3103,DNA extraction blank,2021-r21:3103,NA,NA,DFO Gulf,NA,NA,NA,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3104,Sample,2021-r21:3104,Site 55,7/20/2021,DFO Gulf,46.71168,-65.81432,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3105,Sample,2021-r21:3105,Site 55,7/20/2021,DFO Gulf,46.71168,-65.81432,1000,0.8 ï¿½m Nylon,Inconclusive,36.12,No Ct,No Ct,3.85,0,0
-2021,r21:3106,Sample,2021-r21:3106,Site 55,7/20/2021,DFO Gulf,46.71168,-65.81432,1025,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3107,Sample,2021-r21:3107,Site 56,7/20/2021,DFO Gulf,46.70361,-65.79745,1100,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3108,Sample,2021-r21:3108,Site 56,7/20/2021,DFO Gulf,46.70361,-65.79745,1075,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3109,Sample,2021-r21:3109,Site 56,7/20/2021,DFO Gulf,46.70361,-65.79745,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3110,Field blank,2021-r21:3110,NA,7/20/2021,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3111,Sample,2021-r21:3111,Site 39,7/20/2021,DFO Gulf,46.73431,-65.82416,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3112,Sample,2021-r21:3112,Site 39,7/20/2021,DFO Gulf,46.73431,-65.82416,1075,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3113,Sample,2021-r21:3113,Site 39,7/20/2021,DFO Gulf,46.73431,-65.82416,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3114,Lab blank,2021-r21:3114,NA,NA,DFO Gulf,NA,NA,1025,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3115,Sample,2021-r21:3115,Site 40,7/20/2021,DFO Gulf,46.73844,-65.82952,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3116,Sample,2021-r21:3116,Site 40,7/20/2021,DFO Gulf,46.73844,-65.82952,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3117,Sample,2021-r21:3117,Site 40,7/20/2021,DFO Gulf,46.73844,-65.82952,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3118,Sample,2021-r21:3118,Site 57,7/20/2021,DFO Gulf,46.75384,-65.81673,1075,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3119,DNA extraction blank,2021-r21:3119,NA,NA,DFO Gulf,NA,NA,NA,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3167,Sample,2021-r21:3167,Site 57,7/20/2021,DFO Gulf,46.75384,-65.81673,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3168,Sample,2021-r21:3168,Site 57,7/20/2021,DFO Gulf,46.75384,-65.81673,1025,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3169,Field blank,2021-r21:3169,NA,7/20/2021,DFO Gulf,NA,NA,975,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3170,Sample,2021-r21:3170,Site 41,7/20/2021,DFO Gulf,46.82914,-65.95141,1025,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3171,Sample,2021-r21:3171,Site 41,7/20/2021,DFO Gulf,46.82914,-65.95141,1025,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3172,Sample,2021-r21:3172,Site 41,7/20/2021,DFO Gulf,46.82914,-65.95141,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3173,Lab blank,2021-r21:3173,NA,NA,DFO Gulf,NA,NA,1075,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3174,Sample,2021-r21:3174,Site 42,7/20/2021,DFO Gulf,46.81429,-65.91673,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3175,Sample,2021-r21:3175,Site 42,7/20/2021,DFO Gulf,46.81429,-65.91673,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3176,Sample,2021-r21:3176,Site 42,7/20/2021,DFO Gulf,46.81429,-65.91673,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3177,Sample,2021-r21:3177,Site 43,7/20/2021,DFO Gulf,46.81524,-65.79379,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3178,Sample,2021-r21:3178,Site 43,7/20/2021,DFO Gulf,46.81524,-65.79379,1025,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3179,Sample,2021-r21:3179,Site 43,7/20/2021,DFO Gulf,46.81524,-65.79379,1075,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3180,Lab blank,2021-r21:3180,NA,NA,DFO Gulf,NA,NA,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3181,Sample,2021-r21:3181,Site 44,7/20/2021,DFO Gulf,46.82956,-65.78744,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3182,DNA extraction blank,2021-r21:3182,NA,NA,DFO Gulf,NA,NA,NA,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3183,Sample,2021-r21:3183,Site 44,7/20/2021,DFO Gulf,46.82956,-65.78744,1075,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3184,Sample,2021-r21:3184,Site 44,7/20/2021,DFO Gulf,46.82956,-65.78744,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3185,Sample,2021-r21:3185,Site 58,7/20/2021,DFO Gulf,46.83605,-65.76528,1075,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3186,Sample,2021-r21:3186,Site 58,7/20/2021,DFO Gulf,46.83605,-65.76528,1100,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3187,Sample,2021-r21:3187,Site 58,7/20/2021,DFO Gulf,46.83605,-65.76528,1075,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3188,Field blank,2021-r21:3188,NA,7/20/2021,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3189,Sample,2021-r21:3189,Site 59,7/20/2021,DFO Gulf,46.83822,-65.748,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3190,Sample,2021-r21:3190,Site 59,7/20/2021,DFO Gulf,46.83822,-65.748,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3191,Sample,2021-r21:3191,Site 59,7/20/2021,DFO Gulf,46.83822,-65.748,1100,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3192,Sample,2021-r21:3192,Site 47,7/20/2021,DFO Gulf,46.88523,-65.51533,350,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3194,Sample,2021-r21:3194,Site 47,7/20/2021,DFO Gulf,46.88523,-65.51533,350,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3196,Sample,2021-r21:3196,Site 47,7/20/2021,DFO Gulf,46.88523,-65.51533,350,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3198,DNA extraction blank,2021-r21:3198,NA,NA,DFO Gulf,NA,NA,NA,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3199,Field blank,2021-r21:3199,NA,7/20/2021,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3201,Sample,2021-r21:3201,Site 46,7/20/2021,DFO Gulf,46.859,-65.44416,750,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3202,Sample,2021-r21:3202,Site 46,7/20/2021,DFO Gulf,46.859,-65.44416,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3203,Sample,2021-r21:3203,Site 46,7/20/2021,DFO Gulf,46.859,-65.44416,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3204,Lab blank,2021-r21:3204,NA,NA,DFO Gulf,NA,NA,1025,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3205,Sample,2021-r21:3205,Site 45,7/20/2021,DFO Gulf,46.80176,-65.45304,775,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3206,Sample,2021-r21:3206,Site 45,7/20/2021,DFO Gulf,46.80176,-65.45304,900,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3207,Sample,2021-r21:3207,Site 45,7/20/2021,DFO Gulf,46.80176,-65.45304,900,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3208,Lab blank,2021-r21:3208,NA,NA,ASF,NA,NA,1025,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3209,Sample,2021-r21:3209,Site 64,7/20/2021,ASF,46.47623,-66.96195,1025,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3210,Sample,2021-r21:3210,Site 64,7/20/2021,ASF,46.47623,-66.96195,1025,0.8 ï¿½m Nylon,Suspected,36.3,No Ct,34.77,3.42,0,9.52
-2021,r21:3211,Sample,2021-r21:3211,Site 64,7/20/2021,ASF,46.47623,-66.96195,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3212,Field blank,2021-r21:3212,NA,NA,ASF,NA,NA,900,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3213,Sample,2021-r21:3213,Site 24,7/28/2021,DFO Gulf,46.45406,-66.42301,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3214,DNA extraction blank,2021-r21:3214,NA,NA,DFO Gulf,NA,NA,NA,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3215,Sample,2021-r21:3215,Site 24,7/28/2021,DFO Gulf,46.45406,-66.42301,1100,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3216,Sample,2021-r21:3216,Site 24,7/28/2021,DFO Gulf,46.45406,-66.42301,1100,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3217,Lab blank,2021-r21:3217,NA,NA,DFO Gulf,NA,NA,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3218,Sample,2021-r21:3218,Site 23,7/28/2021,DFO Gulf,46.48188,-66.47978,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3219,Sample,2021-r21:3219,Site 23,7/28/2021,DFO Gulf,46.48188,-66.47978,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3220,Sample,2021-r21:3220,Site 23,7/28/2021,DFO Gulf,46.48188,-66.47978,1100,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3221,Field blank,2021-r21:3221,NA,7/28/2021,DFO Gulf,NA,NA,1025,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3222,Sample,2021-r21:3222,Site 21,7/28/2021,DFO Gulf,46.56006,-66.55818,1075,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3223,Sample,2021-r21:3223,Site 21,7/28/2021,DFO Gulf,46.56006,-66.55818,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3224,Sample,2021-r21:3224,Site 21,7/28/2021,DFO Gulf,46.56006,-66.55818,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3225,Sample,2021-r21:3225,Site 20,7/28/2021,DFO Gulf,46.60063,-66.63863,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3226,Sample,2021-r21:3226,Site 20,7/28/2021,DFO Gulf,46.60063,-66.63863,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3227,Sample,2021-r21:3227,Site 20,7/28/2021,DFO Gulf,46.60063,-66.63863,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3228,Lab blank,2021-r21:3228,NA,NA,DFO Gulf,NA,NA,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3229,Sample,2021-r21:3229,Site 19,7/28/2021,DFO Gulf,46.58554,-66.70118,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3230,DNA extraction blank,2021-r21:3230,NA,NA,DFO Gulf,NA,NA,NA,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3231,Sample,2021-r21:3231,Site 19,7/28/2021,DFO Gulf,46.58554,-66.70118,1075,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3232,Sample,2021-r21:3232,Site 19,7/28/2021,DFO Gulf,46.58554,-66.70118,1075,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3233,Sample,2021-r21:3233,Site 19A,7/28/2021,DFO Gulf,46.58444,-66.71226,1075,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3234,Sample,2021-r21:3234,Site 19A,7/28/2021,DFO Gulf,46.58444,-66.71226,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3235,Sample,2021-r21:3235,Site 19A,7/28/2021,DFO Gulf,46.58444,-66.71226,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3236,Field blank,2021-r21:3236,NA,7/28/2021,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3237,Sample,2021-r21:3237,Site 22,7/28/2021,DFO Gulf,46.51649,-66.51611,1025,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3238,Sample,2021-r21:3238,Site 22,7/28/2021,DFO Gulf,46.51649,-66.51611,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3239,Sample,2021-r21:3239,Site 22,7/28/2021,DFO Gulf,46.51649,-66.51611,1075,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3240,Sample,2021-r21:3240,Site 60,7/28/2021,DFO Gulf,46.4573,-66.45112,1100,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3241,Sample,2021-r21:3241,Site 60,7/28/2021,DFO Gulf,46.4573,-66.45112,1075,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3242,Sample,2021-r21:3242,Site 60,7/28/2021,DFO Gulf,46.4573,-66.45112,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3243,Lab blank,2021-r21:3243,NA,NA,DFO Gulf,NA,NA,1025,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3244,Sample,2021-r21:3244,Site 61,7/28/2021,DFO Gulf,46.46809,-66.40372,1075,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3245,Sample,2021-r21:3245,Site 61,7/28/2021,DFO Gulf,46.46809,-66.40372,1075,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3246,DNA extraction blank,2021-r21:3246,NA,NA,DFO Gulf,NA,NA,NA,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3247,Sample,2021-r21:3247,Site 61,7/28/2021,DFO Gulf,46.46809,-66.40372,1100,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3248,Sample,2021-r21:3248,Site 62,7/28/2021,DFO Gulf,46.54727,-66.15685,1075,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3249,Sample,2021-r21:3249,Site 62,7/28/2021,DFO Gulf,46.54727,-66.15685,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3250,Sample,2021-r21:3250,Site 62,7/28/2021,DFO Gulf,46.54727,-66.15685,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3251,Field blank,2021-r21:3251,NA,7/28/2021,DFO Gulf,NA,NA,1025,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3252,Sample,2021-r21:3252,Site 63,7/28/2021,DFO Gulf,46.55625,-66.13745,1075,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3253,Sample,2021-r21:3253,Site 63,7/28/2021,DFO Gulf,46.55625,-66.13745,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3254,Sample,2021-r21:3254,Site 63,7/28/2021,DFO Gulf,46.55625,-66.13745,1075,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3255,Lab blank,2021-r21:3255,NA,NA,DFO Gulf,NA,NA,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3256,Sample,2021-r21:3256,Site 37,7/28/2021,DFO Gulf,46.56064,-66.1221,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3257,Sample,2021-r21:3257,Site 37,7/28/2021,DFO Gulf,46.56064,-66.1221,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3258,Sample,2021-r21:3258,Site 37,7/28/2021,DFO Gulf,46.56064,-66.1221,1050,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3259,Sample,2021-r21:3259,Site 37,7/28/2021,DFO Gulf,46.56064,-66.1221,1075,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3260,Field blank,2021-r21:3260,NA,7/28/2021,DFO Gulf,NA,NA,1075,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2021,r21:3261,DNA extraction blank,2021-r21:3261,NA,NA,DFO Gulf,NA,NA,NA,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2272,Sample,2022-r22:2272,Site 19,7/13/2022,DFO Gulf,46.58554,-66.70118,4730,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2273,Sample,2022-r22:2273,Site 19,7/13/2022,DFO Gulf,46.58554,-66.70118,3660,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2274,Sample,2022-r22:2274,Site 19,7/13/2022,DFO Gulf,46.58554,-66.70118,4860,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2275,Sample,2022-r22:2275,Site 19A,7/13/2022,DFO Gulf,46.58444,-66.71226,4940,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2276,Sample,2022-r22:2276,Site 19A,7/13/2022,DFO Gulf,46.58444,-66.71226,2910,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2277,Sample,2022-r22:2277,Site 19A,7/13/2022,DFO Gulf,46.58444,-66.71226,5290,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2278,Sample,2022-r22:2278,Site 20A,7/13/2022,DFO Gulf,46.59647,-66.65959,5030,1.2 ï¿½m Glass Fiber,Inconclusive,No Ct,39.32,No Ct,0,0.23,0
-2022,r22:2279,Sample,2022-r22:2279,Site 20A,7/13/2022,DFO Gulf,46.59647,-66.65959,5030,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2280,Sample,2022-r22:2280,Site 20A,7/13/2022,DFO Gulf,46.59647,-66.65959,5050,1.2 ï¿½m Glass Fiber,Inconclusive,37.23,No Ct,No Ct,0.86,0,0
-2022,r22:2281,Field blank,2022-r22:2281,NA,7/13/2022,DFO Gulf,NA,NA,1000,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2282,Sample,2022-r22:2282,Site 20,7/13/2022,DFO Gulf,46.60063,-66.63863,5040,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2283,Sample,2022-r22:2283,Site 20,7/13/2022,DFO Gulf,46.60063,-66.63863,5040,1.2 ï¿½m Glass Fiber,Inconclusive,No Ct,36.83,No Ct,0,1.11,0
-2022,r22:2284,Sample,2022-r22:2284,Site 20,7/13/2022,DFO Gulf,46.60063,-66.63863,5060,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2285,Sample,2022-r22:2285,Site 62,7/13/2022,DFO Gulf,46.54727,-66.15685,5050,1.2 ï¿½m Glass Fiber,Suspected,35.14,36.18,35.96,3.24,1.68,1.92
-2022,r22:2286,Sample,2022-r22:2286,Site 62,7/13/2022,DFO Gulf,46.54727,-66.15685,5040,1.2 ï¿½m Glass Fiber,Suspected,36,35.43,No Ct,1.88,2.71,0
-2022,r22:2287,DNA extraction blank,2022-r22:2287,NA,NA,DFO Gulf,NA,NA,NA,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2288,Sample,2022-r22:2288,Site 62,7/13/2022,DFO Gulf,46.54727,-66.15685,5050,1.2 ï¿½m Glass Fiber,Detected,33.29,33.77,34.5,10.37,7.69,4.85
-2022,r22:2289,Field blank,2022-r22:2289,NA,7/13/2022,DFO Gulf,NA,NA,1000,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2290,Sample,2022-r22:2290,Site 63,7/15/2022,DFO Gulf,46.55625,-66.13745,5020,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2291,Sample,2022-r22:2291,Site 63,7/15/2022,DFO Gulf,46.55625,-66.13745,5050,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2292,Sample,2022-r22:2292,Site 63,7/15/2022,DFO Gulf,46.55625,-66.13745,4950,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2293,Sample,2022-r22:2293,Site 37,7/15/2022,DFO Gulf,46.56064,-66.1221,4810,1.2 ï¿½m Glass Fiber,Suspected,34.89,No Ct,35.97,3.97,0,2.01
-2022,r22:2294,Sample,2022-r22:2294,Site 37,7/15/2022,DFO Gulf,46.56064,-66.1221,5020,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2295,Sample,2022-r22:2295,Site 37,7/15/2022,DFO Gulf,46.56064,-66.1221,5010,1.2 ï¿½m Glass Fiber,Suspected,34.12,34.27,No Ct,6.22,5.65,0
-2022,r22:2296,Sample,2022-r22:2296,Site 55,7/15/2022,DFO Gulf,46.71168,-65.81432,4990,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2297,Sample,2022-r22:2297,Site 55,7/15/2022,DFO Gulf,46.71168,-65.81432,4880,1.2 ï¿½m Glass Fiber,Inconclusive,No Ct,No Ct,36.16,0,0,1.76
-2022,r22:2298,Sample,2022-r22:2298,Site 55,7/15/2022,DFO Gulf,46.71168,-65.81432,5020,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2299,Sample,2022-r22:2299,Site 65,7/15/2022,DFO Gulf,46.72013,-65.81649,5000,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2300,Sample,2022-r22:2300,Site 65,7/15/2022,DFO Gulf,46.72013,-65.81649,4990,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2301,Sample,2022-r22:2301,Site 65,7/15/2022,DFO Gulf,46.72013,-65.81649,5060,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2302,DNA extraction blank,2022-r22:2302,NA,NA,DFO Gulf,NA,NA,NA,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2303,Sample,2022-r22:2303,Site 56,7/15/2022,DFO Gulf,46.70361,-65.79745,5010,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2304,Sample,2022-r22:2304,Site 56,7/15/2022,DFO Gulf,46.70361,-65.79745,5020,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2305,Sample,2022-r22:2305,Site 56,7/15/2022,DFO Gulf,46.70361,-65.79745,5000,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2306,Field blank,2022-r22:2306,NA,7/15/2022,DFO Gulf,NA,NA,1000,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2307,Sample,2022-r22:2307,Site 39,7/15/2022,DFO Gulf,46.73431,-65.82416,4980,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2308,Sample,2022-r22:2308,Site 39,7/15/2022,DFO Gulf,46.73431,-65.82416,5030,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2309,Sample,2022-r22:2309,Site 39,7/15/2022,DFO Gulf,46.73431,-65.82416,4590,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2310,Sample,2022-r22:2310,Site 40,7/15/2022,DFO Gulf,46.73844,-65.82952,5050,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2311,Sample,2022-r22:2311,Site 40,7/15/2022,DFO Gulf,46.73844,-65.82952,5020,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2312,Sample,2022-r22:2312,Site 40,7/15/2022,DFO Gulf,46.73844,-65.82952,4960,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2313,Sample,2022-r22:2313,Site 57,7/15/2022,DFO Gulf,46.75384,-65.81673,4960,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2314,Sample,2022-r22:2314,Site 57,7/15/2022,DFO Gulf,46.75384,-65.81673,2180,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2315,Sample,2022-r22:2315,Site 57,7/15/2022,DFO Gulf,46.75384,-65.81673,5020,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2316,Sample,2022-r22:2316,Site 57,7/15/2022,DFO Gulf,46.75384,-65.81673,4920,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2317,Field blank,2022-r22:2317,NA,7/15/2022,DFO Gulf,NA,NA,1140,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2318,DNA extraction blank,2022-r22:2318,NA,NA,DFO Gulf,NA,NA,NA,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2329,Sample,2022-r22:2329,Site 26,7/19/2022,DFO Gulf,46.57771,-67.04132,5030,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2330,Sample,2022-r22:2330,Site 26,7/19/2022,DFO Gulf,46.57771,-67.04132,4900,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2331,Sample,2022-r22:2331,Site 26,7/19/2022,DFO Gulf,46.57771,-67.04132,5050,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2332,Sample,2022-r22:2332,Site 25,7/19/2022,DFO Gulf,46.55011,-67.04399,1910,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2333,Sample,2022-r22:2333,Site 25,7/19/2022,DFO Gulf,46.55011,-67.04399,5040,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2334,Sample,2022-r22:2334,Site 25,7/19/2022,DFO Gulf,46.55011,-67.04399,5020,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2335,Sample,2022-r22:2335,Site 16,7/19/2022,DFO Gulf,46.56257,-66.832,5030,1.2 ï¿½m Glass Fiber,Inconclusive,35.88,No Ct,No Ct,2.04,0,0
-2022,r22:2336,Field blank,2022-r22:2336,NA,7/19/2022,DFO Gulf,NA,NA,1180,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2337,Sample,2022-r22:2337,Site 16,7/19/2022,DFO Gulf,46.56257,-66.832,5010,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2338,Sample,2022-r22:2338,Site 16,7/19/2022,DFO Gulf,46.56257,-66.832,5020,1.2 ï¿½m Glass Fiber,Inconclusive,No Ct,No Ct,35.85,0,0,2.08
-2022,r22:2339,Sample,2022-r22:2339,Site 15,7/19/2022,DFO Gulf,46.55547,-66.84771,3670,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2340,Sample,2022-r22:2340,Site 15,7/19/2022,DFO Gulf,46.55547,-66.84771,5030,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2341,Sample,2022-r22:2341,Site 15,7/19/2022,DFO Gulf,46.55547,-66.84771,5060,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2342,Sample,2022-r22:2342,Site 14,7/19/2022,DFO Gulf,46.54391,-66.85485,5020,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2343,Sample,2022-r22:2343,Site 14,7/19/2022,DFO Gulf,46.54391,-66.85485,4920,1.2 ï¿½m Glass Fiber,Inconclusive,35.32,No Ct,No Ct,2.95,0,0
-2022,r22:2344,Sample,2022-r22:2344,Site 14,7/19/2022,DFO Gulf,46.54391,-66.85485,5080,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2345,Sample,2022-r22:2345,Site 13,7/19/2022,DFO Gulf,46.53503,-66.88127,5050,1.2 ï¿½m Glass Fiber,Suspected,33.55,35.8,35.24,8.79,2.13,3.03
-2022,r22:2346,Sample,2022-r22:2346,Site 13,7/19/2022,DFO Gulf,46.53503,-66.88127,5070,1.2 ï¿½m Glass Fiber,Suspected,35.87,35.9,34.77,2.04,1.99,4.06
-2022,r22:2347,Sample,2022-r22:2347,Site 13,7/19/2022,DFO Gulf,46.53503,-66.88127,3360,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2348,Field blank,2022-r22:2348,NA,7/19/2022,DFO Gulf,NA,NA,1250,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2349,DNA extraction blank,2022-r22:2349,NA,NA,DFO Gulf,NA,NA,NA,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2350,Sample,2022-r22:2350,Site 5,7/19/2022,DFO Gulf,46.50753,-66.94977,5040,1.2 ï¿½m Glass Fiber,Detected,33.93,33.47,34.32,6.96,9.29,5.44
-2022,r22:2351,Sample,2022-r22:2351,Site 5,7/19/2022,DFO Gulf,46.50753,-66.94977,5050,1.2 ï¿½m Glass Fiber,Detected,32.53,32.55,32.72,16.82,16.55,14.84
-2022,r22:2352,Sample,2022-r22:2352,Site 5,7/19/2022,DFO Gulf,46.50753,-66.94977,5050,1.2 ï¿½m Glass Fiber,Detected,34.7,33.54,34.01,4.27,8.86,6.6
-2022,r22:2353,Field blank,2022-r22:2353,NA,7/19/2022,DFO Gulf,NA,NA,1210,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2354,Sample,2022-r22:2354,Site 18,7/20/2022,DFO Gulf,46.58102,-66.75007,5080,1.2 ï¿½m Glass Fiber,Suspected,35.03,34.76,No Ct,3.45,4.09,0
-2022,r22:2355,Sample,2022-r22:2355,Site 18,7/20/2022,DFO Gulf,46.58102,-66.75007,5310,1.2 ï¿½m Glass Fiber,Suspected,34.91,No Ct,34.85,3.55,0,3.68
-2022,r22:2356,Sample,2022-r22:2356,Site 18,7/20/2022,DFO Gulf,46.58102,-66.75007,5050,1.2 ï¿½m Glass Fiber,Suspected,No Ct,34.85,36.85,0,3.89,1.1
-2022,r22:2357,Sample,2022-r22:2357,Site 18A,7/20/2022,DFO Gulf,46.5797,-66.75891,5070,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2358,Sample,2022-r22:2358,Site 18A,7/20/2022,DFO Gulf,46.5797,-66.75891,5170,1.2 ï¿½m Glass Fiber,Suspected,36.19,34.07,No Ct,1.63,6.22,0
-2022,r22:2359,Sample,2022-r22:2359,Site 18A,7/20/2022,DFO Gulf,46.5797,-66.75891,5010,1.2 ï¿½m Glass Fiber,Suspected,35.86,34.97,33.86,2.07,3.63,7.31
-2022,r22:2360,Sample,2022-r22:2360,Site 17,7/20/2022,DFO Gulf,46.5737,-66.81342,2050,1.2 ï¿½m Glass Fiber,Suspected,37.01,34.51,No Ct,2.44,11.86,0
-2022,r22:2361,Sample,2022-r22:2361,Site 17,7/20/2022,DFO Gulf,46.5737,-66.81342,4940,1.2 ï¿½m Glass Fiber,Suspected,34.83,35.85,No Ct,4.03,2.12,0
-2022,r22:2362,Sample,2022-r22:2362,Site 17,7/20/2022,DFO Gulf,46.5737,-66.81342,990,1.2 ï¿½m Glass Fiber,Inconclusive,No Ct,35.97,No Ct,0,9.76,0
-2022,r22:2363,Field blank,2022-r22:2363,NA,7/20/2022,DFO Gulf,NA,NA,1190,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2364,Sample,2022-r22:2364,Site 31,7/20/2022,DFO Gulf,46.51053,-67.1137,5070,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2365,Sample,2022-r22:2365,Site 31,7/20/2022,DFO Gulf,46.51053,-67.1137,4970,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2366,DNA extraction blank,2022-r22:2366,NA,NA,DFO Gulf,NA,NA,NA,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2367,Sample,2022-r22:2367,Site 31,7/20/2022,DFO Gulf,46.51053,-67.1137,1650,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2368,Sample,2022-r22:2368,Site 31,7/20/2022,DFO Gulf,46.51053,-67.1137,3440,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2369,Sample,2022-r22:2369,Site 29,7/20/2022,DFO Gulf,46.49828,-67.0485,2330,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2370,Sample,2022-r22:2370,Site 29,7/20/2022,DFO Gulf,46.49828,-67.0485,5150,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2371,Sample,2022-r22:2371,Site 29,7/20/2022,DFO Gulf,46.49828,-67.0485,1050,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2372,Sample,2022-r22:2372,Site 10,7/20/2022,DFO Gulf,46.49411,-67.0101,5080,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2373,Sample,2022-r22:2373,Site 10,7/20/2022,DFO Gulf,46.49411,-67.0101,5080,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2374,Sample,2022-r22:2374,Site 10,7/20/2022,DFO Gulf,46.49411,-67.0101,510,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2375,Field blank,2022-r22:2375,NA,7/20/2022,DFO Gulf,NA,NA,1150,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2376,Sample,2022-r22:2376,Site 5,7/20/2022,DFO Gulf,46.50753,-66.94977,3930,1.2 ï¿½m Glass Fiber,Suspected,34.34,34.87,34.31,6.9,4.94,7.03
-2022,r22:2377,Sample,2022-r22:2377,Site 5,7/20/2022,DFO Gulf,46.50753,-66.94977,2350,1.2 ï¿½m Glass Fiber,Suspected,35.2,34.43,34.3,6.67,10.88,11.84
-2022,r22:2378,Sample,2022-r22:2378,Site 5,7/20/2022,DFO Gulf,46.50753,-66.94977,5030,1.2 ï¿½m Glass Fiber,Detected,32.9,33.52,32.81,13.32,9.02,14.11
-2022,r22:2379,Sample,2022-r22:2379,Site 5,7/20/2022,DFO Gulf,46.50753,-66.94977,3560,1.2 ï¿½m Glass Fiber,Suspected,34.42,35.65,33.88,7.25,3.33,10.15
-2022,r22:2380,Field blank,2022-r22:2380,NA,7/20/2022,DFO Gulf,NA,NA,NA,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2381,Sample,2022-r22:2381,Site 17,7/20/2022,DFO Gulf,46.5737,-66.81342,300,0.8 ï¿½m Nylon,Inconclusive,No Ct,No Ct,35.77,0,0,36.62
-2022,r22:2382,Sample,2022-r22:2382,Site 17,7/20/2022,DFO Gulf,46.5737,-66.81342,300,0.8 ï¿½m Nylon,Inconclusive,No Ct,35.84,No Ct,0,34.89,0
-2022,r22:2383,Sample,2022-r22:2383,Site 17,7/20/2022,DFO Gulf,46.5737,-66.81342,300,0.8 ï¿½m Nylon,Suspected,35.7,34.68,36.73,38.32,72.54,19.91
-2022,r22:2384,Field blank,2022-r22:2384,NA,7/20/2022,DFO Gulf,NA,NA,1000,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2385,Sample,2022-r22:2385,Site 29,7/20/2022,DFO Gulf,46.49828,-67.0485,300,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2386,Sample,2022-r22:2386,Site 29,7/20/2022,DFO Gulf,46.49828,-67.0485,300,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2387,DNA extraction blank,2022-r22:2387,NA,NA,DFO Gulf,NA,NA,NA,0.8 ï¿½m Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2388,Sample,2022-r22:2388,Site 17,7/20/2022,DFO Gulf,46.5737,-66.81342,700,1.2 ï¿½m Glass Fiber,Suspected,35.12,No Ct,35.45,23.62,0,19.13
-2022,r22:2389,Sample,2022-r22:2389,Site 17,7/20/2022,DFO Gulf,46.5737,-66.81342,700,1.2 ï¿½m Glass Fiber,Inconclusive,No Ct,No Ct,34.67,0,0,31.4
-2022,r22:2390,Sample,2022-r22:2390,Site 17,7/20/2022,DFO Gulf,46.5737,-66.81342,700,1.2 ï¿½m Glass Fiber,Suspected,34.67,No Ct,36.86,31.46,0,7.9
-2022,r22:2391,Sample,2022-r22:2391,Site 29,7/20/2022,DFO Gulf,46.49828,-67.0485,700,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2392,Sample,2022-r22:2392,Site 29,7/20/2022,DFO Gulf,46.49828,-67.0485,700,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2393,Lab blank,2022-r22:2393,NA,NA,DFO Gulf,NA,NA,1000,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2394,Sample,2022-r22:2394,Site 29,7/20/2022,DFO Gulf,46.49828,-67.0485,1000,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2395,Sample,2022-r22:2395,Site 10,7/20/2022,DFO Gulf,46.49411,-67.0101,1000,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2396,Sample,2022-r22:2396,Site 10,7/20/2022,DFO Gulf,46.49411,-67.0101,1000,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2397,Sample,2022-r22:2397,Site 10,7/20/2022,DFO Gulf,46.49411,-67.0101,1000,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2398,Sample,2022-r22:2398,Site 5,7/20/2022,DFO Gulf,46.50753,-66.94977,1000,1.2 ï¿½m Glass Fiber,Suspected,36.14,No Ct,35.02,8.7,0,17.59
-2022,r22:2399,Sample,2022-r22:2399,Site 5,7/20/2022,DFO Gulf,46.50753,-66.94977,1000,1.2 ï¿½m Glass Fiber,Suspected,37.11,34.62,33.08,4.71,22.64,59.79
-2022,r22:2400,Sample,2022-r22:2400,Site 5,7/20/2022,DFO Gulf,46.50753,-66.94977,1000,1.2 ï¿½m Glass Fiber,Suspected,36.1,34.39,34.97,8.92,26.2,18.14
-2022,r22:2401,Field blank,2022-r22:2401,NA,7/20/2022,DFO Gulf,NA,NA,1000,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
-2022,r22:2402,DNA extraction blank,2022-r22:2402,NA,NA,DFO Gulf,NA,NA,NA,1.2 ï¿½m Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:1915,Field blank,2019-r19D:1915,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:1916,Sample,2019-r19D:1916,Site 1,8/27/2019,DFO Gulf,46.50335,-66.9651,325,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:1917,Sample,2019-r19D:1917,Site 1,8/27/2019,DFO Gulf,46.50335,-66.9651,350,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:1918,Sample,2019-r19D:1918,Site 1,8/27/2019,DFO Gulf,46.50335,-66.9651,425,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:1919,Sample,2019-r19D:1919,Site 2,8/27/2019,DFO Gulf,46.49888,-66.95682,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:1920,Sample,2019-r19D:1920,Site 2,8/27/2019,DFO Gulf,46.49891,-66.95677,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:1921,Sample,2019-r19D:1921,Site 2,8/27/2019,DFO Gulf,46.49886,-66.95685,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:1922,Sample,2019-r19D:1922,Site 3,8/27/2019,DFO Gulf,46.49718,-66.95809,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:1923,Sample,2019-r19D:1923,Site 3,8/27/2019,DFO Gulf,46.49707,-66.95817,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:1924,Sample,2019-r19D:1924,Site 3,8/27/2019,DFO Gulf,46.49698,-66.95823,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:1925,Field blank,2019-r19D:1925,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:1926,Sample,2019-r19D:1926,Site 4,8/27/2019,DFO Gulf,46.49564,-66.93989,1000,0.8 µm Nylon,Suspected,35.24,No Ct,36.94,6.95,0,2.22
+2019,r19D:1927,Sample,2019-r19D:1927,Site 4,8/27/2019,DFO Gulf,46.49565,-66.93987,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:1928,Sample,2019-r19D:1928,Site 4,8/27/2019,DFO Gulf,46.49564,-66.93983,1000,0.8 µm Nylon,Suspected,35.29,35.77,36.74,6.73,4.88,2.54
+2019,r19D:1929,Sample,2019-r19D:1929,Site 5,8/27/2019,DFO Gulf,46.508,-66.94947,1000,0.8 µm Nylon,Suspected,35.44,34.8,34.02,6.09,9.35,15.8
+2019,r19D:1930,Sample,2019-r19D:1930,Site 5,8/27/2019,DFO Gulf,46.50799,-66.94947,1000,0.8 µm Nylon,Suspected,34.82,35.68,No Ct,9.21,5.18,0
+2019,r19D:1931,DNA extraction blank,2019-r19D:1931,NA,NA,DFO Gulf,NA,NA,NA,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:1932,Sample,2019-r19D:1932,Site 5,8/27/2019,DFO Gulf,46.50798,-66.94944,1000,0.8 µm Nylon,Suspected,No Ct,35.81,33.61,0,4.76,20.68
+2019,r19D:1933,Sample,2019-r19D:1933,Site 6,8/27/2019,DFO Gulf,46.51599,-66.94915,1000,0.8 µm Nylon,Suspected,34.27,34.93,35.35,13.3,8.54,6.45
+2019,r19D:1934,Sample,2019-r19D:1934,Site 6,8/27/2019,DFO Gulf,46.51599,-66.9491,1000,0.8 µm Nylon,Suspected,No Ct,34.33,34.95,0,12.83,8.47
+2019,r19D:1935,Sample,2019-r19D:1935,Site 6,8/27/2019,DFO Gulf,46.516,-66.94906,1000,0.8 µm Nylon,Suspected,35.18,No Ct,34.25,7.24,0,13.54
+2019,r19D:1936,Lab blank,2019-r19D:1936,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:1937,Sample,2019-r19D:1937,Site 7,8/27/2019,DFO Gulf,46.51666,-66.95041,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:1938,Sample,2019-r19D:1938,Site 7,8/27/2019,DFO Gulf,46.51664,-66.9504,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:1939,Sample,2019-r19D:1939,Site 7,8/27/2019,DFO Gulf,46.51661,-66.9504,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:1940,Sample,2019-r19D:1940,Site 8,8/27/2019,DFO Gulf,46.51831,-66.94831,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:1941,Sample,2019-r19D:1941,Site 8,8/27/2019,DFO Gulf,46.5183,-66.94826,1000,0.8 µm Nylon,Suspected,34.77,34.78,33.98,9.55,9.46,16.23
+2019,r19D:1942,Sample,2019-r19D:1942,Site 8,8/27/2019,DFO Gulf,46.51828,-66.9482,1000,0.8 µm Nylon,Inconclusive,35.76,No Ct,No Ct,4.9,0,0
+2019,r19D:1943,Sample,2019-r19D:1943,Site 9,8/27/2019,DFO Gulf,46.51916,-66.94681,1000,0.8 µm Nylon,Suspected,35.89,35.85,No Ct,4.49,4.63,0
+2019,r19D:1944,Sample,2019-r19D:1944,Site 9,8/27/2019,DFO Gulf,46.51906,-66.94672,1000,0.8 µm Nylon,Suspected,35.68,34.83,No Ct,5.17,9.13,0
+2019,r19D:1945,Sample,2019-r19D:1945,Site 9,8/27/2019,DFO Gulf,46.51896,-66.94663,1000,0.8 µm Nylon,Suspected,No Ct,35.18,35.25,0,7.25,6.92
+2019,r19D:1949,Lab blank,2019-r19D:1949,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:1950,Sample,2019-r19D:1950,Site 10,8/28/2019,DFO Gulf,46.49392,-67.01024,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:1951,Sample,2019-r19D:1951,Site 10,8/28/2019,DFO Gulf,46.49411,-67.0101,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:1952,Sample,2019-r19D:1952,Site 10,8/28/2019,DFO Gulf,46.49407,-67.01006,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:1953,Field blank,2019-r19D:1953,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:1954,Lab blank,2019-r19D:1954,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:1955,DNA extraction blank,2019-r19D:1955,NA,NA,DFO Gulf,NA,NA,NA,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:1990,Sample,2019-r19D:1990,Site 25,9/6/2019,DFO Gulf,46.55018,-67.04403,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:1991,Sample,2019-r19D:1991,Site 25,9/6/2019,DFO Gulf,46.55018,-67.04403,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:1992,Sample,2019-r19D:1992,Site 25,9/6/2019,DFO Gulf,46.55018,-67.04403,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:1993,Sample,2019-r19D:1993,Site 26,9/6/2019,DFO Gulf,46.57771,-67.04132,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:1994,Sample,2019-r19D:1994,Site 26,9/6/2019,DFO Gulf,46.57771,-67.04132,1000,0.8 µm Nylon,Inconclusive,No Ct,No Ct,37.88,0,0,1.19
+2019,r19D:1995,Sample,2019-r19D:1995,Site 27,9/6/2019,DFO Gulf,46.60067,-66.98572,550,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:1996,Sample,2019-r19D:1996,Site 26,9/6/2019,DFO Gulf,46.57771,-67.04132,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:1997,Sample,2019-r19D:1997,Site 27,9/6/2019,DFO Gulf,46.60067,-66.98572,525,0.8 µm Nylon,Inconclusive,No Ct,No Ct,37.35,0,0,0.85
+2019,r19D:1998,Sample,2019-r19D:1998,Site 27,9/6/2019,DFO Gulf,46.60067,-66.98572,500,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:1999,Field blank,2019-r19D:1999,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2003,Lab blank,2019-r19D:2003,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2004,Sample,2019-r19D:2004,Site 14,8/28/2019,ARM,46.54418,-66.85125,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2005,Field blank,2019-r19D:2005,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2018,Sample,2019-r19D:2018,Site 13,9/12/2019,DFO Gulf,46.53652,-66.87909,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2019,Sample,2019-r19D:2019,Site 13,9/12/2019,DFO Gulf,46.53652,-66.87909,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2020,Sample,2019-r19D:2020,Site 13,9/12/2019,DFO Gulf,46.53503,-66.88127,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2021,Sample,2019-r19D:2021,Site 13,9/12/2019,DFO Gulf,46.53508,-66.88129,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2022,Sample,2019-r19D:2022,Site 11,9/12/2019,DFO Gulf,46.51914,-66.92581,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2023,Sample,2019-r19D:2023,Site 11,9/12/2019,DFO Gulf,46.51838,-66.92639,1000,0.8 µm Nylon,Suspected,39.33,39.47,38.12,0.45,0.41,1.01
+2019,r19D:2024,Sample,2019-r19D:2024,Site 11,9/12/2019,DFO Gulf,46.51838,-66.92639,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2025,Sample,2019-r19D:2025,Site 8,9/12/2019,DFO Gulf,46.5172,-66.94911,1000,0.8 µm Nylon,Suspected,38.22,38.11,No Ct,0.94,1.02,0
+2019,r19D:2026,Sample,2019-r19D:2026,Site 11,9/12/2019,DFO Gulf,46.51914,-66.92581,1000,0.8 µm Nylon,Inconclusive,38.36,No Ct,No Ct,0.86,0,0
+2019,r19D:2027,Sample,2019-r19D:2027,Site 8,9/12/2019,DFO Gulf,46.5172,-66.94911,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2028,Sample,2019-r19D:2028,Site 8 ,9/12/2019,DFO Gulf,46.51639,-66.9497,1000,0.8 µm Nylon,Suspected,38.4,38.7,39.71,0.83,0.68,0.35
+2019,r19D:2029,Sample,2019-r19D:2029,Site 5,9/12/2019,DFO Gulf,46.50753,-66.94977,1000,0.8 µm Nylon,Suspected,38.38,39.12,37.83,0.85,0.52,1.22
+2019,r19D:2030,Sample,2019-r19D:2030,Site 25,9/12/2019,DFO Gulf,46.55011,-67.04399,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2031,Sample,2019-r19D:2031,Site 25,9/12/2019,DFO Gulf,46.55011,-67.04399,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2032,Sample,2019-r19D:2032,Site 5,9/12/2019,DFO Gulf,46.50753,-66.94977,1000,0.8 µm Nylon,Suspected,No Ct,37.22,37.76,0,1.85,1.28
+2019,r19D:2033,Sample,2019-r19D:2033,Site 5,9/12/2019,DFO Gulf,46.50809,-66.94965,1000,0.8 µm Nylon,Suspected,No Ct,38.58,38.38,0,0.74,0.85
+2019,r19D:2034,Lab blank,2019-r19D:2034,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2035,Sample,2019-r19D:2035,Site 24,9/12/2019,DFO Gulf,46.4541,-66.42307,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2036,Sample,2019-r19D:2036,Site 24,9/12/2019,DFO Gulf,46.45406,-66.42301,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2037,DNA extraction blank,2019-r19D:2037,NA,NA,DFO Gulf,NA,NA,NA,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2038,Sample,2019-r19D:2038,Site 24,9/12/2019,DFO Gulf,46.45404,-66.42295,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2039,Sample,2019-r19D:2039,Site 23,9/12/2019,DFO Gulf,46.48196,-66.4797,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2040,Sample,2019-r19D:2040,Site 23,9/12/2019,DFO Gulf,46.48188,-66.47978,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2041,Sample,2019-r19D:2041,Site 23,9/12/2019,DFO Gulf,46.48183,-66.47985,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2042,Sample,2019-r19D:2042,Site 22,9/12/2019,DFO Gulf,46.51649,-66.51611,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2043,Sample,2019-r19D:2043,Site 22,9/12/2019,DFO Gulf,46.51649,-66.51594,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2044,Sample,2019-r19D:2044,Site 22,9/12/2019,DFO Gulf,46.51649,-66.51587,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2045,Lab blank,2019-r19D:2045,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2046,Sample,2019-r19D:2046,Site 21,9/12/2019,DFO Gulf,46.56018,-66.55818,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2047,Sample,2019-r19D:2047,Site 21,9/12/2019,DFO Gulf,46.56006,-66.55818,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2048,Sample,2019-r19D:2048,Site 21,9/12/2019,DFO Gulf,46.55979,-66.5582,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2049,Sample,2019-r19D:2049,Site 20,9/12/2019,DFO Gulf,46.60068,-66.63867,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2050,Sample,2019-r19D:2050,Site 20,9/12/2019,DFO Gulf,46.60063,-66.63863,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2051,Sample,2019-r19D:2051,Site 20,9/12/2019,DFO Gulf,46.60059,-66.63861,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2052,Sample,2019-r19D:2052,Site 19,9/12/2019,DFO Gulf,46.58557,-66.70121,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2053,Sample,2019-r19D:2053,Site 19,9/12/2019,DFO Gulf,46.58554,-66.70118,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2054,Sample,2019-r19D:2054,Site 19,9/12/2019,DFO Gulf,46.58557,-66.70119,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2055,Lab blank,2019-r19D:2055,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2056,Field blank,2019-r19D:2056,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2057,DNA extraction blank,2019-r19D:2057,NA,NA,DFO Gulf,NA,NA,NA,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2240,Sample,2019-r19D:2240,Site 13,10/3/2019,DFO Gulf,46.53456,-66.88125,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2241,Sample,2019-r19D:2241,Site 13,10/3/2019,DFO Gulf,46.53477,-66.88146,1000,0.8 µm Nylon,Inconclusive,No Ct,35.82,No Ct,0,0.74,0
+2019,r19D:2242,Sample,2019-r19D:2242,Site 13,10/3/2019,DFO Gulf,46.53499,-66.88155,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2243,Sample,2019-r19D:2243,Site 26,10/3/2019,DFO Gulf,46.57803,-67.04152,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2244,Sample,2019-r19D:2244,Site 26,10/3/2019,DFO Gulf,46.57803,-67.04152,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2245,Sample,2019-r19D:2245,Site 5,10/3/2019,DFO Gulf,46.50642,-66.95071,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2246,Sample,2019-r19D:2246,Site 5,10/3/2019,DFO Gulf,46.50642,-66.95071,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2247,Sample,2019-r19D:2247,Site 5,10/3/2019,DFO Gulf,46.50642,-66.95071,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2248,Sample,2019-r19D:2248,Site 26,10/3/2019,DFO Gulf,46.57803,-67.04152,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2249,Lab blank,2019-r19D:2249,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2250,Field blank,2019-r19D:2250,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2251,DNA extraction blank,2019-r19D:2251,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2316,Sample,2019-r19D:2316,Site 5,10/10/2019,DFO Gulf,46.50754,-66.94977,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2317,Sample,2019-r19D:2317,Site 27,10/10/2019,DFO Gulf,46.60062,-66.9858,800,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2318,Sample,2019-r19D:2318,Site 27,10/10/2019,DFO Gulf,46.60062,-66.9858,775,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2319,Sample,2019-r19D:2319,Site 27,10/10/2019,DFO Gulf,46.60062,-66.9858,775,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2320,Sample,2019-r19D:2320,Site 26,10/10/2019,DFO Gulf,46.57803,-67.04152,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2321,Sample,2019-r19D:2321,Site 26,10/10/2019,DFO Gulf,46.57803,-67.04152,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2322,Sample,2019-r19D:2322,Site 15,10/10/2019,DFO Gulf,46.55547,-66.84771,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2323,Sample,2019-r19D:2323,Site 26,10/10/2019,DFO Gulf,46.57803,-67.04152,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2324,Sample,2019-r19D:2324,Site 15,10/10/2019,DFO Gulf,46.55547,-66.84771,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2325,Sample,2019-r19D:2325,Site 15,10/10/2019,DFO Gulf,46.55547,-66.84771,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2326,Sample,2019-r19D:2326,Site 14,10/10/2019,DFO Gulf,46.54391,-66.85485,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2327,Sample,2019-r19D:2327,Site 14,10/10/2019,DFO Gulf,46.54391,-66.85485,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2328,Sample,2019-r19D:2328,Site 14,10/10/2019,DFO Gulf,46.54391,-66.85485,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2329,Sample,2019-r19D:2329,Site 17,10/10/2019,DFO Gulf,46.5737,-66.81342,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2330,Sample,2019-r19D:2330,Site 17,10/10/2019,DFO Gulf,46.5737,-66.81342,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2331,DNA extraction blank,2019-r19D:2331,NA,NA,DFO Gulf,NA,NA,NA,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2332,Sample,2019-r19D:2332,Site 17,10/10/2019,DFO Gulf,46.5737,-66.81342,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2333,Sample,2019-r19D:2333,Site 29,10/10/2019,DFO Gulf,46.49828,-67.0485,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2334,Lab blank,2019-r19D:2334,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2335,Sample,2019-r19D:2335,Site 12,10/10/2019,DFO Gulf,46.52954,-66.90152,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2336,Sample,2019-r19D:2336,Site 29,10/10/2019,DFO Gulf,46.49828,-67.0485,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2337,Sample,2019-r19D:2337,Site 12,10/10/2019,DFO Gulf,46.52954,-66.90152,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2338,Sample,2019-r19D:2338,Site 12,10/10/2019,DFO Gulf,46.52954,-66.90152,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2339,Sample,2019-r19D:2339,Site 18,10/10/2019,DFO Gulf,46.58102,-66.75007,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2340,Sample,2019-r19D:2340,Site 5,10/10/2019,DFO Gulf,46.50754,-66.94977,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2341,Sample,2019-r19D:2341,Site 16,10/10/2019,DFO Gulf,46.56257,-66.832,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2342,Sample,2019-r19D:2342,Site 16,10/10/2019,DFO Gulf,46.56257,-66.832,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2343,Sample,2019-r19D:2343,Site 18,10/10/2019,DFO Gulf,46.58102,-66.75007,1000,0.8 µm Nylon,Inconclusive,No Ct,35.73,No Ct,0,0.74,0
+2019,r19D:2344,Lab blank,2019-r19D:2344,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2345,Sample,2019-r19D:2345,Site 16,10/10/2019,DFO Gulf,46.56257,-66.832,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2346,Sample,2019-r19D:2346,Site 18,10/10/2019,DFO Gulf,46.58142,-66.7502,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2347,Sample,2019-r19D:2347,Site 29,10/10/2019,DFO Gulf,46.49828,-67.0485,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2348,Sample,2019-r19D:2348,Site 5,10/10/2019,DFO Gulf,46.50754,-66.94977,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2019,r19D:2349,Field blank,2019-r19D:2349,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2020,r20:2187,Sample,2020-r20:2187,Site 5,8/26/2020,DFO Gulf,46.50753,-66.94977,1000,0.8 µm Nylon,Suspected,35.47,34.18,NA,5.96,14.15,NA
+2020,r20:2188,Sample,2020-r20:2188,Site 5,8/26/2020,DFO Gulf,46.50753,-66.94977,1000,0.8 µm Nylon,Suspected,35.97,35.36,NA,4.27,6.43,NA
+2020,r20:2189,Sample,2020-r20:2189,Site 5,8/26/2020,DFO Gulf,46.50753,-66.94977,1000,0.8 µm Nylon,Suspected,34.94,37.1,NA,8.49,2,NA
+2020,r20:2190,Sample,2020-r20:2190,Site 14,8/26/2020,DFO Gulf,46.54391,-66.85485,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2191,Sample,2020-r20:2191,Site 14,8/26/2020,DFO Gulf,46.54391,-66.85485,1000,0.8 µm Nylon,Inconclusive,No Ct,35.95,NA,0,4.33,NA
+2020,r20:2192,Field blank,2020-r20:2192,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Inconclusive,40.36,No Ct,NA,0.22,0,NA
+2020,r20:2193,Sample,2020-r20:2193,Site 14,8/26/2020,DFO Gulf,46.54391,-66.85485,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2194,Sample,2020-r20:2194,Site 15,8/26/2020,DFO Gulf,46.55547,-66.84771,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2196,Sample,2020-r20:2196,Site 15,8/26/2020,DFO Gulf,46.55547,-66.84771,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2198,Sample,2020-r20:2198,Site 16,8/26/2020,DFO Gulf,46.56257,-66.832,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2199,Lab blank,2020-r20:2199,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2200,Sample,2020-r20:2200,Site 15,8/26/2020,DFO Gulf,46.55547,-66.84771,750,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2201,DNA extraction blank,2020-r20:2201,NA,NA,DFO Gulf,NA,NA,NA,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2208,Field blank,2020-r20:2208,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2202,Sample,2020-r20:2202,Site 16,8/26/2020,DFO Gulf,46.56257,-66.832,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2203,Sample,2020-r20:2203,Site 16,8/26/2020,DFO Gulf,46.56257,-66.832,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2204,Sample,2020-r20:2204,Site 13,8/26/2020,DFO Gulf,46.53503,-66.88127,1000,0.8 µm Nylon,Inconclusive,No Ct,36.21,NA,0,3.64,NA
+2020,r20:2205,Sample,2020-r20:2205,Site 13,8/26/2020,DFO Gulf,46.53503,-66.88127,1000,0.8 µm Nylon,Inconclusive,38.4,No Ct,NA,0.84,0,NA
+2020,r20:2206,Sample,2020-r20:2206,Site 13,8/26/2020,DFO Gulf,46.53503,-66.88127,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2207,Sample,2020-r20:2207,Site 50,8/26/2020,DFO Gulf,46.52097,-67.33674,100,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2209,Sample,2020-r20:2209,Site 50,8/26/2020,DFO Gulf,46.52097,-67.33674,100,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2210,Sample,2020-r20:2210,Site 50,8/26/2020,DFO Gulf,46.52097,-67.33674,150,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2211,Sample,2020-r20:2211,Site 51,8/26/2020,DFO Gulf,46.52128,-67.33706,100,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2212,Sample,2020-r20:2212,Site 51,8/26/2020,DFO Gulf,46.52128,-67.33706,100,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2213,Sample,2020-r20:2213,Site 51,8/26/2020,DFO Gulf,46.52128,-67.33706,200,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2214,Sample,2020-r20:2214,Site 31,8/26/2020,DFO Gulf,46.51053,-67.1137,600,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2215,FB3,2020-r20:2215,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2216,Sample,2020-r20:2216,Site 31,8/26/2020,DFO Gulf,46.51053,-67.1137,700,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2217,Sample,2020-r20:2217,Site 31,8/26/2020,DFO Gulf,46.51053,-67.1137,700,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2218,Lab blank,2020-r20:2218,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2219,DNA extraction blank,2020-r20:2219,NA,NA,DFO Gulf,NA,NA,NA,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2398,Sample,2020-r20:2398,Site 25,8/19/2020,ARM,46.55011,-67.04399,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2399,Sample,2020-r20:2399,Site 25,8/19/2020,ARM,46.55011,-67.04399,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2400,Field blank,2020-r20:2400,NA,NA,ARM,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2401,Sample,2020-r20:2401,Site 26,8/19/2020,ARM,46.57771,-67.04132,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2402,Sample,2020-r20:2402,Site 26,8/19/2020,ARM,46.57771,-67.04132,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2403,Field blank,2020-r20:2403,NA,NA,ARM,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2404,Sample,2020-r20:2404,Site 27,8/19/2020,ARM,46.60062,-66.9858,250,0.8 µm Nylon,Inconclusive,No Ct,39.57,NA,0,0.38,NA
+2020,r20:2405,Field blank,2020-r20:2405,NA,NA,ARM,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2406,Sample,2020-r20:2406,Site 29,8/19/2020,ARM,46.49828,-67.0485,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2407,Sample,2020-r20:2407,Site 29,8/19/2020,ARM,46.49828,-67.0485,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2408,Sample,2020-r20:2408,Site 29,8/19/2020,ARM,46.49828,-67.0485,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2409,Field blank,2020-r20:2409,NA,NA,ARM,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2410,Sample,2020-r20:2410,Site 30,8/19/2020,ARM,46.51033,-67.08379,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2411,Sample,2020-r20:2411,Site 30,8/19/2020,ARM,46.51033,-67.08379,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2412,Sample,2020-r20:2412,Site 30,8/19/2020,ARM,46.51033,-67.08379,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2413,DNA extraction blank,2020-r20:2413,NA,NA,ARM,NA,NA,NA,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2414,Sample,2020-r20:2414,Site 31,8/19/2020,ARM,46.51054,-67.1137,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2415,Sample,2020-r20:2415,Site 31,8/19/2020,ARM,46.51054,-67.1137,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2416,Sample,2020-r20:2416,Site 31,8/19/2020,ARM,46.51054,-67.1137,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2417,Sample,2020-r20:2417,Site 32,8/19/2020,ARM,46.51984,-67.14979,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2418,Field blank,2020-r20:2418,NA,NA,ARM,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2419,Sample,2020-r20:2419,Site 32,8/19/2020,ARM,46.51984,-67.14979,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2420,Sample,2020-r20:2420,Site 32,8/19/2020,ARM,46.51984,-67.14979,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2421,Field blank,2020-r20:2421,NA,NA,ARM,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2422,Sample,2020-r20:2422,Site 1,8/20/2020,ARM,46.50335,-66.9651,150,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2423,Field blank,2020-r20:2423,NA,NA,ARM,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2424,Sample,2020-r20:2424,Site 33,8/20/2020,ARM,46.49801,-66.98654,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2425,Sample,2020-r20:2425,Site 33,8/20/2020,ARM,46.49801,-66.98654,1000,0.8 µm Nylon,Inconclusive,No Ct,36.53,NA,0,2.93,NA
+2020,r20:2426,Field blank,2020-r20:2426,NA,NA,ARM,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2427,Sample,2020-r20:2427,Site 2,8/20/2020,ARM,46.49891,-66.95677,1000,0.8 µm Nylon,Suspected,34.87,36.23,NA,8.89,3.57,NA
+2020,r20:2428,Sample,2020-r20:2428,Site 2,8/20/2020,ARM,46.49891,-66.95677,1000,0.8 µm Nylon,Suspected,33.55,34.31,NA,21.61,13.02,NA
+2020,r20:2429,DNA extraction blank,2020-r20:2429,NA,NA,ARM,NA,NA,NA,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2430,Sample,2020-r20:2430,Site 2,8/20/2020,ARM,46.49891,-66.95677,1000,0.8 µm Nylon,Suspected,34.49,33.98,NA,11.48,16.16,NA
+2020,r20:2431,Field blank,2020-r20:2431,NA,NA,ARM,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2432,Sample,2020-r20:2432,Site 3,8/20/2020,ARM,46.49565,-66.95817,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2433,Sample,2020-r20:2433,Site 3,8/20/2020,ARM,46.49565,-66.95817,1000,0.8 µm Nylon,Inconclusive,No Ct,37.61,NA,0,1.42,NA
+2020,r20:2434,Sample,2020-r20:2434,Site 3,8/20/2020,ARM,46.49565,-66.95817,1000,0.8 µm Nylon,Inconclusive,37.57,No Ct,NA,1.46,0,NA
+2020,r20:2435,Field blank,2020-r20:2435,NA,NA,ARM,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2436,Sample,2020-r20:2436,Site 4,8/20/2020,ARM,46.49565,-66.93987,1000,0.8 µm Nylon,Inconclusive,36.6,No Ct,NA,2.79,0,NA
+2020,r20:2437,Sample,2020-r20:2437,Site 4,8/20/2020,ARM,46.49565,-66.93987,1000,0.8 µm Nylon,Suspected,36.41,36.26,NA,3.17,3.52,NA
+2020,r20:2438,Sample,2020-r20:2438,Site 4,8/20/2020,ARM,46.49565,-66.93987,1000,0.8 µm Nylon,Suspected,36.22,36.62,NA,3.6,2.75,NA
+2020,r20:2439,Field Blank,2020-r20:2439,NA,NA,ARM,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2440,Sample,2020-r20:2440,Site 5,8/20/2020,ARM,46.50753,-66.94977,1000,0.8 µm Nylon,Suspected,35.48,36.22,NA,5.92,3.61,NA
+2020,r20:2441,Sample,2020-r20:2441,Site 5,8/20/2020,ARM,46.50753,-66.94977,750,0.8 µm Nylon,Suspected,34.6,35.9,NA,10.65,4.48,NA
+2020,r20:2442,DNA extraction blank,2020-r20:2442,NA,NA,ARM,NA,NA,NA,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2507,Sample,2020-r20:2507,Site 5,8/20/2020,ARM,46.50753,-66.94977,1000,0.8 µm Nylon,Suspected,37.53,35.56,NA,1.5,5.63,NA
+2020,r20:2508,Field blank,2020-r20:2508,NA,NA,ARM,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2509,Sample,2020-r20:2509,Site 10,8/20/2020,ARM,46.49411,-67.0101,1000,0.8 µm Nylon,Inconclusive,37.37,No Ct,NA,1.66,0,NA
+2020,r20:2510,Sample,2020-r20:2510,Site 10,8/20/2020,ARM,46.49411,-67.0101,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2511,Sample,2020-r20:2511,Site 10,8/20/2020,ARM,46.49411,-67.0101,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2512,Field blank,2020-r20:2512,NA,NA,ARM,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2513,Sample,2020-r20:2513,Site 18,9/1/2020,DFO Gulf,46.58102,-66.75007,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2514,Sample,2020-r20:2514,Site 18,9/1/2020,DFO Gulf,46.58102,-66.75007,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2515,Sample,2020-r20:2515,Site 18,9/1/2020,DFO Gulf,46.58102,-66.75007,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2516,Sample,2020-r20:2516,Site 17,9/1/2020,DFO Gulf,46.5737,-66.81342,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2517,Sample,2020-r20:2517,Site 17,9/1/2020,DFO Gulf,46.5737,-66.81342,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2518,Field blank,2020-r20:2518,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2519,Sample,2020-r20:2519,Site 17,9/1/2020,DFO Gulf,46.5737,-66.81342,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2521,Lab blank,2020-r20:2521,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2524,DNA extraction blank,2020-r20:2524,NA,NA,DFO Gulf,NA,NA,NA,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2525,Sample,2020-r20:2525,Site 5,9/1/2020,DFO Gulf,46.50753,-66.94977,1000,0.8 µm Nylon,Suspected,35.48,36.01,NA,5.91,4.15,NA
+2020,r20:2526,Sample,2020-r20:2526,Site 5,9/1/2020,DFO Gulf,46.50753,-66.94977,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2527,Sample,2020-r20:2527,Site 5,9/1/2020,DFO Gulf,46.50753,-66.94977,1000,0.8 µm Nylon,Suspected,36.55,35.94,NA,2.89,4.36,NA
+2020,r20:2528,Field blank,2020-r20:2528,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2529,Sample,2020-r20:2529,Site 31,9/1/2020,DFO Gulf,46.51053,-67.1137,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2530,Sample,2020-r20:2530,Site 31,9/1/2020,DFO Gulf,46.51053,-67.1137,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2531,Sample,2020-r20:2531,Site 31,9/1/2020,DFO Gulf,46.51053,-67.1137,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2535,Field blank,2020-r20:2535,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2536,LB2,2020-r20:2536,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2537,Sample,2020-r20:2537,Site 24,9/2/2020,DFO Gulf,46.45406,-66.42301,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2538,Sample,2020-r20:2538,Site 24,9/2/2020,DFO Gulf,46.45406,-66.42301,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2539,Sample,2020-r20:2539,Site 24,9/2/2020,DFO Gulf,46.45406,-66.42301,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2540,Sample,2020-r20:2540,Site 23,9/2/2020,DFO Gulf,46.48188,-66.47978,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2541,Sample,2020-r20:2541,Site 23,9/2/2020,DFO Gulf,46.48188,-66.47978,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2542,DNA extraction blank,2020-r20:2542,NA,NA,DFO Gulf,NA,NA,NA,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2574,Field blank,2020-r20:2574,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2575,Sample,2020-r20:2575,Site 23,9/2/2020,DFO Gulf,46.48188,-66.47978,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2576,Sample,2020-r20:2576,Site 22,9/2/2020,DFO Gulf,46.51649,-66.51611,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2577,Sample,2020-r20:2577,Site 22,9/2/2020,DFO Gulf,46.51649,-66.51611,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2578,Sample,2020-r20:2578,Site 22,9/2/2020,DFO Gulf,46.51649,-66.51611,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2579,Sample,2020-r20:2579,Site 21,9/2/2020,DFO Gulf,46.56006,-66.55818,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2580,Sample,2020-r20:2580,Site 21,9/2/2020,DFO Gulf,46.56006,-66.55818,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2581,Sample,2020-r20:2581,Site 21,9/2/2020,DFO Gulf,46.56006,-66.55818,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2582,Sample,2020-r20:2582,Site 20,9/2/2020,DFO Gulf,46.60063,-66.63863,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2583,Lab blank,2020-r20:2583,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2584,Sample,2020-r20:2584,Site 20,9/2/2020,DFO Gulf,46.60063,-66.63863,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2585,Sample,2020-r20:2585,Site 20,9/2/2020,DFO Gulf,46.60063,-66.63863,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2586,Sample,2020-r20:2586,Site 19,9/2/2020,DFO Gulf,46.58554,-66.70118,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2587,Sample,2020-r20:2587,Site 19,9/2/2020,DFO Gulf,46.58554,-66.70118,1000,0.8 µm Nylon,Inconclusive,No Ct,36.82,NA,0,2.41,NA
+2020,r20:2588,DNA extraction blank,2020-r20:2588,NA,NA,DFO Gulf,NA,NA,NA,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2589,Sample,2020-r20:2589,Site 19,9/2/2020,DFO Gulf,46.58554,-66.70118,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2590,Field blank,2020-r20:2590,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2591,Sample,2020-r20:2591,Site 37,9/2/2020,DFO Gulf,46.56064,-66.1221,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2592,Sample,2020-r20:2592,Site 37,9/2/2020,DFO Gulf,46.56064,-66.1221,1000,0.8 µm Nylon,Inconclusive,No Ct,37.87,NA,0,1.19,NA
+2020,r20:2593,Sample,2020-r20:2593,Site 37,9/2/2020,DFO Gulf,46.56064,-66.1221,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2594,Sample,2020-r20:2594,Site 38,9/2/2020,DFO Gulf,46.61789,-65.87861,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2595,Sample,2020-r20:2595,Site 38,9/2/2020,DFO Gulf,46.61789,-65.87861,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2596,Sample,2020-r20:2596,Site 38,9/2/2020,DFO Gulf,46.61789,-65.87861,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2597,Sample,2020-r20:2597,Site 39,9/2/2020,DFO Gulf,46.73431,-65.82416,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2598,Sample,2020-r20:2598,Site 39,9/2/2020,DFO Gulf,46.73431,-65.82416,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2599,Field blank,2020-r20:2599,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2600,Sample,2020-r20:2600,Site 39,9/2/2020,DFO Gulf,46.73431,-65.82416,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2601,Sample,2020-r20:2601,Site 40,9/2/2020,DFO Gulf,46.73844,-65.82952,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2602,Field blank,2020-r20:2602,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2603,DNA extraction blank,2020-r20:2603,NA,NA,DFO Gulf,NA,NA,NA,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2635,Sample,2020-r20:2635,Site 40,9/2/2020,DFO Gulf,46.73844,-65.82952,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2636,Sample,2020-r20:2636,Site 40,9/2/2020,DFO Gulf,46.73844,-65.82952,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2637,Lab blank,2020-r20:2637,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2638,Sample,2020-r20:2638,Site 13,9/10/2020,DFO Gulf,46.53503,-66.88127,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2639,Sample,2020-r20:2639,Site 13,9/10/2020,DFO Gulf,46.53503,-66.88127,1000,0.8 µm Nylon,Inconclusive,36.75,No Ct,NA,2.53,0,NA
+2020,r20:2640,Sample,2020-r20:2640,Site 13,9/10/2020,DFO Gulf,46.53503,-66.88127,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2641,Sample,2020-r20:2641,Site 11,9/10/2020,DFO Gulf,46.51838,-66.92639,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2642,Sample,2020-r20:2642,Site 11,9/10/2020,DFO Gulf,46.51838,-66.92639,1000,0.8 µm Nylon,Inconclusive,36.49,No Ct,NA,3,0,NA
+2020,r20:2643,Field blank,2020-r20:2643,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2644,Sample,2020-r20:2644,Site 11,9/10/2020,DFO Gulf,46.51838,-66.92639,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2645,Sample,2020-r20:2645,Site 7,9/10/2020,DFO Gulf,46.51664,-66.9504,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2646,Field blank,2020-r20:2646,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2647,Sample,2020-r20:2647,Site 7,9/10/2020,DFO Gulf,46.51664,-66.9504,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2648,Sample,2020-r20:2648,Site 7,9/10/2020,DFO Gulf,46.51664,-66.9504,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2649,Sample,2020-r20:2649,Site 9,9/10/2020,DFO Gulf,46.51906,-66.94672,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2650,DNA extraction blank,2020-r20:2650,NA,NA,DFO Gulf,NA,NA,NA,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2651,Sample,2020-r20:2651,Site 9,9/10/2020,DFO Gulf,46.51906,-66.94672,1000,0.8 µm Nylon,Suspected,35.61,36.36,NA,5.42,3.29,NA
+2020,r20:2652,Sample,2020-r20:2652,Site 9,9/10/2020,DFO Gulf,46.51906,-66.94672,1000,0.8 µm Nylon,Suspected,36.34,34.82,NA,3.33,9.22,NA
+2020,r20:2653,Sample,2020-r20:2653,Site 8,9/10/2020,DFO Gulf,46.5172,-66.94911,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2654,Sample,2020-r20:2654,Site 8,9/10/2020,DFO Gulf,46.5172,-66.94911,1000,0.8 µm Nylon,Suspected,36.67,35.45,NA,2.67,6.04,NA
+2020,r20:2655,Sample,2020-r20:2655,Site 8,9/10/2020,DFO Gulf,46.5172,-66.94911,1000,0.8 µm Nylon,Suspected,36.28,36.62,NA,3.46,2.75,NA
+2020,r20:2656,Lab blank,2020-r20:2656,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2657,Sample,2020-r20:2657,Site 6,9/10/2020,DFO Gulf,46.51599,-66.9491,1000,0.8 µm Nylon,Suspected,36.45,36.39,NA,3.09,3.21,NA
+2020,r20:2658,Sample,2020-r20:2658,Site 6,9/10/2020,DFO Gulf,46.51599,-66.9491,1000,0.8 µm Nylon,Suspected,34.29,33.67,NA,13.11,19.98,NA
+2020,r20:2659,Sample,2020-r20:2659,Site 6,9/10/2020,DFO Gulf,46.51599,-66.9491,1000,0.8 µm Nylon,Suspected,37.21,35.6,NA,1.85,5.46,NA
+2020,r20:2660,Sample,2020-r20:2660,Site 5,9/10/2020,DFO Gulf,46.50753,-66.94977,1000,0.8 µm Nylon,Suspected,33.97,35.26,NA,16.29,6.85,NA
+2020,r20:2661,Sample,2020-r20:2661,Site 5,9/10/2020,DFO Gulf,46.50753,-66.94977,1000,0.8 µm Nylon,Inconclusive,33.1,No Ct,NA,29.23,0,NA
+2020,r20:2662,Field blank,2020-r20:2662,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2663,Sample,2020-r20:2663,Site 5,9/10/2020,DFO Gulf,46.50753,-66.94977,1000,0.8 µm Nylon,Suspected,33.45,34.01,NA,23.16,15.85,NA
+2020,r20:2664,Lab blank,2020-r20:2664,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2665,DNA extraction blank,2020-r20:2665,NA,NA,DFO Gulf,NA,NA,NA,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2828,Sample,2020-r20:2828,Site 37,9/21/2020,DFO Gulf,46.56064,-66.1221,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2829,Sample,2020-r20:2829,Site 37,9/21/2020,DFO Gulf,46.56064,-66.1221,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2830,Field blank,2020-r20:2830,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2831,Sample,2020-r20:2831,Site 37,9/21/2020,DFO Gulf,46.56064,-66.1221,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2832,Sample,2020-r20:2832,Site 39,9/21/2020,DFO Gulf,46.73431,-65.82416,1000,0.8 µm Nylon,Inconclusive,37.27,No Ct,NA,1.78,0,NA
+2020,r20:2833,Sample,2020-r20:2833,Site 39,9/21/2020,DFO Gulf,46.73431,-65.82416,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2834,Sample,2020-r20:2834,Site 39,9/21/2020,DFO Gulf,46.73431,-65.82416,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2835,Sample,2020-r20:2835,Site 40,9/21/2020,DFO Gulf,46.73844,-65.82952,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2836,Sample,2020-r20:2836,Site 40,9/21/2020,DFO Gulf,46.73844,-65.82952,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2837,Sample,2020-r20:2837,Site 40,9/21/2020,DFO Gulf,46.73844,-65.82952,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2838,Sample,2020-r20:2838,Site 42,9/21/2020,DFO Gulf,46.81429,-65.91673,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2839,Lab blank,2020-r20:2839,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2840,Sample,2020-r20:2840,Site 42,9/21/2020,DFO Gulf,46.81429,-65.91673,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2841,Sample,2020-r20:2841,Site 42,9/21/2020,DFO Gulf,46.81429,-65.91673,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2842,Sample,2020-r20:2842,Site 41,9/21/2020,DFO Gulf,46.82914,-65.95141,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2843,Sample,2020-r20:2843,Site 41,9/21/2020,DFO Gulf,46.82914,-65.95141,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2844,Sample,2020-r20:2844,Site 41,9/21/2020,DFO Gulf,46.82914,-65.95141,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2845,DNA extraction blank,2020-r20:2845,NA,NA,DFO Gulf,NA,NA,NA,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2846,Field blank,2020-r20:2846,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2847,Sample,2020-r20:2847,Site 43,9/21/2020,DFO Gulf,46.81524,-65.79379,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2848,Sample,2020-r20:2848,Site 43,9/21/2020,DFO Gulf,46.81524,-65.79379,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2849,Lab blank,2020-r20:2849,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2850,Sample,2020-r20:2850,Site 43,9/21/2020,DFO Gulf,46.81524,-65.79379,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2851,Sample,2020-r20:2851,Site 44,9/21/2020,DFO Gulf,46.82956,-65.78744,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2852,Sample,2020-r20:2852,Site 44,9/21/2020,DFO Gulf,46.82956,-65.78744,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2853,Sample,2020-r20:2853,Site 44,9/21/2020,DFO Gulf,46.82956,-65.78744,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2854,Sample,2020-r20:2854,Site 47,9/21/2020,DFO Gulf,46.88523,-65.51533,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2855,Sample,2020-r20:2855,Site 47,9/21/2020,DFO Gulf,46.88523,-65.51533,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2856,Sample,2020-r20:2856,Site 47,9/21/2020,DFO Gulf,46.88523,-65.51533,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2857,Sample,2020-r20:2857,Site 46,9/21/2020,DFO Gulf,46.859,-65.44416,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2858,Field blank,2020-r20:2858,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2859,Sample,2020-r20:2859,Site 46,9/21/2020,DFO Gulf,46.859,-65.44416,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2860,Sample,2020-r20:2860,Site 46,9/21/2020,DFO Gulf,46.859,-65.44416,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2861,Field blank,2020-r20:2861,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2862,Sample,2020-r20:2862,Site 45,9/21/2020,DFO Gulf,46.80176,-65.45304,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2863,DNA extraction blank,2020-r20:2863,NA,NA,DFO Gulf,NA,NA,NA,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:2999,Sample,2020-r20:2999,Site 45,9/21/2020,DFO Gulf,46.80176,-65.45304,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:3000,Sample,2020-r20:3000,Site 45,9/21/2020,DFO Gulf,46.80176,-65.45304,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:3001,Sample,2020-r20:3001,Site 48,9/21/2020,DFO Gulf,46.87695,-65.66472,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:3002,Sample,2020-r20:3002,Site 48,9/21/2020,DFO Gulf,46.87695,-65.66472,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:3003,Sample,2020-r20:3003,Site 48,9/21/2020,DFO Gulf,46.87626,-65.66438,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:3004,Sample,2020-r20:3004,Site 48,9/21/2020,DFO Gulf,46.87626,-65.66438,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:3005,Sample,2020-r20:3005,Site 48,9/21/2020,DFO Gulf,46.87562,-65.66363,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:3006,Lab blank,2020-r20:3006,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:3007,Sample,2020-r20:3007,Site 48,9/21/2020,DFO Gulf,46.87562,-65.66363,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:3008,Sample,2020-r20:3008,Site 49,9/21/2020,DFO Gulf,46.93532,-65.78738,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:3009,Sample,2020-r20:3009,Site 49,9/21/2020,DFO Gulf,46.93532,-65.78738,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:3010,Sample,2020-r20:3010,Site 49,9/21/2020,DFO Gulf,46.9345,-65.78671,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:3011,Sample,2020-r20:3011,Site 49,9/21/2020,DFO Gulf,46.9345,-65.78671,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:3012,Field blank,2020-r20:3012,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:3013,Sample,2020-r20:3013,Site 49,9/21/2020,DFO Gulf,46.93371,-65.78579,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:3014,Sample,2020-r20:3014,Site 49,9/21/2020,DFO Gulf,46.93371,-65.78579,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:3015,Lab blank,2020-r20:3015,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2020,r20:3016,DNA extraction blank,2020-r20:3016,NA,NA,DFO Gulf,NA,NA,NA,0.8 µm Nylon,Not detected,No Ct,No Ct,NA,0,0,NA
+2021,r21:2827,Sample,2021-r21:2827,Site 52,6/22/2021,DFO Gulf,46.58815,-66.97387,375,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:2828,Sample,2021-r21:2828,Site 52,6/22/2021,DFO Gulf,46.58815,-66.97387,375,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:2829,Sample,2021-r21:2829,Site 52,6/22/2021,DFO Gulf,46.58815,-66.97387,400,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:2830,Field blank,2021-r21:2830,NA,6/22/2021,DFO Gulf,NA,NA,950,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:2831,Sample,2021-r21:2831,Site 27A,6/22/2021,DFO Gulf,46.60005,-66.98332,325,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:2832,Sample,2021-r21:2832,Site 27A,6/22/2021,DFO Gulf,46.60005,-66.98332,325,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:2833,Sample,2021-r21:2833,Site 27A,6/22/2021,DFO Gulf,46.60005,-66.98332,400,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:2834,Lab blank,2021-r21:2834,NA,6/23/2021,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:2835,Sample,2021-r21:2835,Site 53,6/22/2021,DFO Gulf,46.5957,-66.97599,450,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:2836,Sample,2021-r21:2836,Site 53,6/22/2021,DFO Gulf,46.5957,-66.97599,425,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:2837,Sample,2021-r21:2837,Site 53,6/22/2021,DFO Gulf,46.5957,-66.97599,425,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:2838,DNA extraction blank,2021-r21:2838,NA,NA,DFO Gulf,NA,NA,NA,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:2839,Sample,2021-r21:2839,Site 25,6/22/2021,DFO Gulf,46.55011,-67.04399,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:2840,Sample,2021-r21:2840,Site 25,6/22/2021,DFO Gulf,46.55011,-67.04399,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:2841,Sample,2021-r21:2841,Site 25,6/22/2021,DFO Gulf,46.55011,-67.04399,1075,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:2842,Field blank,2021-r21:2842,NA,6/22/2021,DFO Gulf,NA,NA,975,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:2843,Sample,2021-r21:2843,Site 26,6/22/2021,DFO Gulf,46.57771,-67.04132,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:2844,Sample,2021-r21:2844,Site 26,6/22/2021,DFO Gulf,46.57771,-67.04132,1025,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:2845,Sample,2021-r21:2845,Site 26,6/22/2021,DFO Gulf,46.57771,-67.04132,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:2846,Lab blank,2021-r21:2846,NA,6/23/2021,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:2847,Sample,2021-r21:2847,Site 5,6/22/2021,DFO Gulf,46.50753,-66.94977,1025,0.8 µm Nylon,Suspected,No Ct,35.68,36.45,0,5.18,3.09
+2021,r21:2848,Sample,2021-r21:2848,Site 5,6/22/2021,DFO Gulf,46.50753,-66.94977,1050,0.8 µm Nylon,Suspected,35.6,No Ct,37.78,5.46,0,1.27
+2021,r21:2849,Sample,2021-r21:2849,Site 5,6/22/2021,DFO Gulf,46.50753,-66.94977,1025,0.8 µm Nylon,Inconclusive,No Ct,38.18,No Ct,0,0.97,0
+2021,r21:2850,DNA extraction blank,2021-r21:2850,NA,NA,DFO Gulf,NA,NA,NA,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:2924,Sample,2021-r21:2924,Site 16,7/7/2021,DFO Gulf,46.56257,-66.832,1100,0.8 µm Nylon,Inconclusive,37.51,No Ct,No Ct,1.51,0,0
+2021,r21:2925,Sample,2021-r21:2925,Site 16,7/7/2021,DFO Gulf,46.56257,-66.832,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:2926,Sample,2021-r21:2926,Site 16,7/7/2021,DFO Gulf,46.56257,-66.832,1075,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:2927,Lab blank,2021-r21:2927,NA,7/8/2021,DFO Gulf,NA,NA,950 (full),0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:2928,Sample,2021-r21:2928,Site 15,7/7/2021,DFO Gulf,46.55547,-66.84771,1050,0.8 µm Nylon,Inconclusive,37.26,No Ct,No Ct,1.79,0,0
+2021,r21:2929,Sample,2021-r21:2929,Site 15,7/7/2021,DFO Gulf,46.55547,-66.84771,1075,0.8 µm Nylon,Inconclusive,No Ct,38.18,No Ct,0,0.97,0
+2021,r21:2930,Sample,2021-r21:2930,Site 15,7/7/2021,DFO Gulf,46.55547,-66.84771,1100,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:2931,Field blank,2021-r21:2931,NA,7/7/2021,DFO Gulf,NA,NA,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:2932,Sample,2021-r21:2932,Site 14,7/7/2021,DFO Gulf,46.54391,-66.85485,1100,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:2933,Sample,2021-r21:2933,Site 14,7/7/2021,DFO Gulf,46.54391,-66.85485,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:2934,Sample,2021-r21:2934,Site 14,7/7/2021,DFO Gulf,46.54391,-66.85485,1050,0.8 µm Nylon,Inconclusive,No Ct,No Ct,38.23,0,0,0.94
+2021,r21:2935,DNA extraction blank,2021-r21:2935,NA,NA,DFO Gulf,NA,NA,NA,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:2936,Sample,2021-r21:2936,Site 5,7/7/2021,DFO Gulf,46.50753,-66.94977,1075,0.8 µm Nylon,Suspected,38.21,No Ct,36.73,0.95,0,2.55
+2021,r21:2937,Sample,2021-r21:2937,Site 5,7/7/2021,DFO Gulf,46.50753,-66.94977,1000,0.8 µm Nylon,Suspected,37.22,38.26,No Ct,1.84,0.92,0
+2021,r21:2938,Sample,2021-r21:2938,Site 5,7/7/2021,DFO Gulf,46.50753,-66.94977,1050,0.8 µm Nylon,Suspected,37.38,35.73,36.18,1.65,5,3.71
+2021,r21:2939,Field blank,2021-r21:2939,NA,7/7/2021,DFO Gulf,NA,NA,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:2940,Sample,2021-r21:2940,Site 29,7/7/2021,DFO Gulf,46.49828,-67.0485,850,0.8 µm Nylon,Inconclusive,No Ct,No Ct,38.12,0,0,1.01
+2021,r21:2941,Sample,2021-r21:2941,Site 29,7/7/2021,DFO Gulf,46.49828,-67.0485,1025,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:2942,Sample,2021-r21:2942,Site 29,7/7/2021,DFO Gulf,46.49828,-67.0485,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:2943,Lab blank,2021-r21:2943,NA,7/8/2021,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:2944,Sample,2021-r21:2944,Site 31,7/7/2021,DFO Gulf,46.51053,-67.1137,1025,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:2945,Sample,2021-r21:2945,Site 31,7/7/2021,DFO Gulf,46.51053,-67.1137,1025,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:2946,Sample,2021-r21:2946,Site 31,7/7/2021,DFO Gulf,46.51053,-67.1137,1075,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:2947,DNA extraction blank,2021-r21:2947,NA,NA,DFO Gulf,NA,NA,NA,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3064,Sample,2021-r21:3064,Site 18,7/19/2021,DFO Gulf,46.58102,-66.75007,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3065,Sample,2021-r21:3065,Site 18,7/19/2021,DFO Gulf,46.58102,-66.75007,1100,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3066,Sample,2021-r21:3066,Site 18,7/19/2021,DFO Gulf,46.58102,-66.75007,1100,0.8 µm Nylon,Inconclusive,No Ct,No Ct,41.29,0,0,0.12
+2021,r21:3067,Field blank,2021-r21:3067,NA,7/19/2021,DFO Gulf,NA,NA,1025,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3068,Sample,2021-r21:3068,Site 18A,7/19/2021,DFO Gulf,46.5797,-66.75891,1075,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3069,Sample,2021-r21:3069,Site 18A,7/19/2021,DFO Gulf,46.5797,-66.75891,1025,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3070,Sample,2021-r21:3070,Site 18A,7/19/2021,DFO Gulf,46.5797,-66.75891,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3071,Lab blank,2021-r21:3071,NA,7/20/2021,DFO Gulf,NA,NA,1025,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3072,Sample,2021-r21:3072,Site 17,7/19/2021,DFO Gulf,46.5737,-66.81342,1025,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3073,Sample,2021-r21:3073,Site 17,7/19/2021,DFO Gulf,46.5737,-66.81342,1075,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3074,Sample,2021-r21:3074,Site 17,7/19/2021,DFO Gulf,46.5737,-66.81342,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3075,DNA extraction blank,2021-r21:3075,NA,NA,DFO Gulf,NA,NA,NA,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3076,Sample,2021-r21:3076,Site 29,7/19/2021,DFO Gulf,46.49828,-67.0485,1025,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3077,Sample,2021-r21:3077,Site 29,7/19/2021,DFO Gulf,46.49828,-67.0485,1075,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3078,Sample,2021-r21:3078,Site 29,7/19/2021,DFO Gulf,46.49828,-67.0485,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3079,Field blank,2021-r21:3079,NA,7/19/2021,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3080,Sample,2021-r21:3080,Site 30,7/19/2021,DFO Gulf,46.50981,-67.08282,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3081,Sample,2021-r21:3081,Site 30,7/19/2021,DFO Gulf,46.50981,-67.08282,1075,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3082,Sample,2021-r21:3082,Site 30,7/19/2021,DFO Gulf,46.50981,-67.08282,1075,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3083,Sample,2021-r21:3083,Site 5,7/19/2021,DFO Gulf,46.50753,-66.94977,1050,0.8 µm Nylon,Inconclusive,No Ct,34.73,No Ct,0,9.77,0
+2021,r21:3084,Sample,2021-r21:3084,Site 5,7/19/2021,DFO Gulf,46.50753,-66.94977,1050,0.8 µm Nylon,Suspected,35.31,No Ct,34.38,6.65,0,12.39
+2021,r21:3085,Sample,2021-r21:3085,Site 5,7/19/2021,DFO Gulf,46.50753,-66.94977,1075,0.8 µm Nylon,Suspected,No Ct,35.41,33.48,0,6.22,22.69
+2021,r21:3086,Lab blank,2021-r21:3086,NA,7/20/2021,DFO Gulf,NA,NA,1025,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3087,DNA extraction blank,2021-r21:3087,NA,NA,DFO Gulf,NA,NA,NA,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3088,Sample,2021-r21:3088,Site 2,7/19/2021,DFO Gulf,46.49976,-66.95794,550,0.8 µm Nylon,Inconclusive,37.25,No Ct,No Ct,1.81,0,0
+2021,r21:3089,Sample,2021-r21:3089,Site 2,7/19/2021,DFO Gulf,46.49976,-66.95794,550,0.8 µm Nylon,Inconclusive,No Ct,No Ct,36.28,0,0,3.47
+2021,r21:3090,Sample,2021-r21:3090,Site 2,7/19/2021,DFO Gulf,46.49976,-66.95794,550,0.8 µm Nylon,Suspected,34.33,36.12,No Ct,12.84,3.85,0
+2021,r21:3091,Field blank,2021-r21:3091,NA,7/19/2021,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3092,Sample,2021-r21:3092,Site 54,7/19/2021,DFO Gulf,46.50257,-66.96341,325,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3093,Sample,2021-r21:3093,Site 54,7/19/2021,DFO Gulf,46.50257,-66.96341,300,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3094,Sample,2021-r21:3094,Site 54,7/19/2021,DFO Gulf,46.50257,-66.96341,300,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3095,Lab blank,2021-r21:3095,NA,7/20/2021,DFO Gulf,NA,NA,1025,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3096,Sample,2021-r21:3096,Site 1,7/19/2021,DFO Gulf,46.50327,-66.96548,300,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3097,Sample,2021-r21:3097,Site 2,7/19/2021,DFO Gulf,46.50327,-66.96548,300,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3098,Sample,2021-r21:3098,Site 1,7/19/2021,DFO Gulf,46.50327,-66.96548,300,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3099,Sample,2021-r21:3099,Site 38,7/20/2021,DFO Gulf,46.61789,-65.87861,1100,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3100,Sample,2021-r21:3100,Site 38,7/20/2021,DFO Gulf,46.61789,-65.87861,1075,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3101,Sample,2021-r21:3101,Site 38,7/20/2021,DFO Gulf,46.61789,-65.87861,1075,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3102,Lab blank,2021-r21:3102,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3103,DNA extraction blank,2021-r21:3103,NA,NA,DFO Gulf,NA,NA,NA,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3104,Sample,2021-r21:3104,Site 55,7/20/2021,DFO Gulf,46.71168,-65.81432,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3105,Sample,2021-r21:3105,Site 55,7/20/2021,DFO Gulf,46.71168,-65.81432,1000,0.8 µm Nylon,Inconclusive,36.12,No Ct,No Ct,3.85,0,0
+2021,r21:3106,Sample,2021-r21:3106,Site 55,7/20/2021,DFO Gulf,46.71168,-65.81432,1025,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3107,Sample,2021-r21:3107,Site 56,7/20/2021,DFO Gulf,46.70361,-65.79745,1100,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3108,Sample,2021-r21:3108,Site 56,7/20/2021,DFO Gulf,46.70361,-65.79745,1075,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3109,Sample,2021-r21:3109,Site 56,7/20/2021,DFO Gulf,46.70361,-65.79745,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3110,Field blank,2021-r21:3110,NA,7/20/2021,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3111,Sample,2021-r21:3111,Site 39,7/20/2021,DFO Gulf,46.73431,-65.82416,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3112,Sample,2021-r21:3112,Site 39,7/20/2021,DFO Gulf,46.73431,-65.82416,1075,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3113,Sample,2021-r21:3113,Site 39,7/20/2021,DFO Gulf,46.73431,-65.82416,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3114,Lab blank,2021-r21:3114,NA,NA,DFO Gulf,NA,NA,1025,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3115,Sample,2021-r21:3115,Site 40,7/20/2021,DFO Gulf,46.73844,-65.82952,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3116,Sample,2021-r21:3116,Site 40,7/20/2021,DFO Gulf,46.73844,-65.82952,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3117,Sample,2021-r21:3117,Site 40,7/20/2021,DFO Gulf,46.73844,-65.82952,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3118,Sample,2021-r21:3118,Site 57,7/20/2021,DFO Gulf,46.75384,-65.81673,1075,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3119,DNA extraction blank,2021-r21:3119,NA,NA,DFO Gulf,NA,NA,NA,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3167,Sample,2021-r21:3167,Site 57,7/20/2021,DFO Gulf,46.75384,-65.81673,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3168,Sample,2021-r21:3168,Site 57,7/20/2021,DFO Gulf,46.75384,-65.81673,1025,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3169,Field blank,2021-r21:3169,NA,7/20/2021,DFO Gulf,NA,NA,975,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3170,Sample,2021-r21:3170,Site 41,7/20/2021,DFO Gulf,46.82914,-65.95141,1025,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3171,Sample,2021-r21:3171,Site 41,7/20/2021,DFO Gulf,46.82914,-65.95141,1025,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3172,Sample,2021-r21:3172,Site 41,7/20/2021,DFO Gulf,46.82914,-65.95141,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3173,Lab blank,2021-r21:3173,NA,NA,DFO Gulf,NA,NA,1075,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3174,Sample,2021-r21:3174,Site 42,7/20/2021,DFO Gulf,46.81429,-65.91673,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3175,Sample,2021-r21:3175,Site 42,7/20/2021,DFO Gulf,46.81429,-65.91673,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3176,Sample,2021-r21:3176,Site 42,7/20/2021,DFO Gulf,46.81429,-65.91673,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3177,Sample,2021-r21:3177,Site 43,7/20/2021,DFO Gulf,46.81524,-65.79379,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3178,Sample,2021-r21:3178,Site 43,7/20/2021,DFO Gulf,46.81524,-65.79379,1025,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3179,Sample,2021-r21:3179,Site 43,7/20/2021,DFO Gulf,46.81524,-65.79379,1075,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3180,Lab blank,2021-r21:3180,NA,NA,DFO Gulf,NA,NA,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3181,Sample,2021-r21:3181,Site 44,7/20/2021,DFO Gulf,46.82956,-65.78744,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3182,DNA extraction blank,2021-r21:3182,NA,NA,DFO Gulf,NA,NA,NA,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3183,Sample,2021-r21:3183,Site 44,7/20/2021,DFO Gulf,46.82956,-65.78744,1075,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3184,Sample,2021-r21:3184,Site 44,7/20/2021,DFO Gulf,46.82956,-65.78744,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3185,Sample,2021-r21:3185,Site 58,7/20/2021,DFO Gulf,46.83605,-65.76528,1075,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3186,Sample,2021-r21:3186,Site 58,7/20/2021,DFO Gulf,46.83605,-65.76528,1100,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3187,Sample,2021-r21:3187,Site 58,7/20/2021,DFO Gulf,46.83605,-65.76528,1075,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3188,Field blank,2021-r21:3188,NA,7/20/2021,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3189,Sample,2021-r21:3189,Site 59,7/20/2021,DFO Gulf,46.83822,-65.748,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3190,Sample,2021-r21:3190,Site 59,7/20/2021,DFO Gulf,46.83822,-65.748,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3191,Sample,2021-r21:3191,Site 59,7/20/2021,DFO Gulf,46.83822,-65.748,1100,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3192,Sample,2021-r21:3192,Site 47,7/20/2021,DFO Gulf,46.88523,-65.51533,350,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3194,Sample,2021-r21:3194,Site 47,7/20/2021,DFO Gulf,46.88523,-65.51533,350,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3196,Sample,2021-r21:3196,Site 47,7/20/2021,DFO Gulf,46.88523,-65.51533,350,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3198,DNA extraction blank,2021-r21:3198,NA,NA,DFO Gulf,NA,NA,NA,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3199,Field blank,2021-r21:3199,NA,7/20/2021,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3201,Sample,2021-r21:3201,Site 46,7/20/2021,DFO Gulf,46.859,-65.44416,750,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3202,Sample,2021-r21:3202,Site 46,7/20/2021,DFO Gulf,46.859,-65.44416,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3203,Sample,2021-r21:3203,Site 46,7/20/2021,DFO Gulf,46.859,-65.44416,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3204,Lab blank,2021-r21:3204,NA,NA,DFO Gulf,NA,NA,1025,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3205,Sample,2021-r21:3205,Site 45,7/20/2021,DFO Gulf,46.80176,-65.45304,775,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3206,Sample,2021-r21:3206,Site 45,7/20/2021,DFO Gulf,46.80176,-65.45304,900,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3207,Sample,2021-r21:3207,Site 45,7/20/2021,DFO Gulf,46.80176,-65.45304,900,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3208,Lab blank,2021-r21:3208,NA,NA,ASF,NA,NA,1025,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3209,Sample,2021-r21:3209,Site 64,7/20/2021,ASF,46.47623,-66.96195,1025,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3210,Sample,2021-r21:3210,Site 64,7/20/2021,ASF,46.47623,-66.96195,1025,0.8 µm Nylon,Suspected,36.3,No Ct,34.77,3.42,0,9.52
+2021,r21:3211,Sample,2021-r21:3211,Site 64,7/20/2021,ASF,46.47623,-66.96195,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3212,Field blank,2021-r21:3212,NA,NA,ASF,NA,NA,900,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3213,Sample,2021-r21:3213,Site 24,7/28/2021,DFO Gulf,46.45406,-66.42301,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3214,DNA extraction blank,2021-r21:3214,NA,NA,DFO Gulf,NA,NA,NA,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3215,Sample,2021-r21:3215,Site 24,7/28/2021,DFO Gulf,46.45406,-66.42301,1100,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3216,Sample,2021-r21:3216,Site 24,7/28/2021,DFO Gulf,46.45406,-66.42301,1100,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3217,Lab blank,2021-r21:3217,NA,NA,DFO Gulf,NA,NA,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3218,Sample,2021-r21:3218,Site 23,7/28/2021,DFO Gulf,46.48188,-66.47978,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3219,Sample,2021-r21:3219,Site 23,7/28/2021,DFO Gulf,46.48188,-66.47978,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3220,Sample,2021-r21:3220,Site 23,7/28/2021,DFO Gulf,46.48188,-66.47978,1100,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3221,Field blank,2021-r21:3221,NA,7/28/2021,DFO Gulf,NA,NA,1025,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3222,Sample,2021-r21:3222,Site 21,7/28/2021,DFO Gulf,46.56006,-66.55818,1075,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3223,Sample,2021-r21:3223,Site 21,7/28/2021,DFO Gulf,46.56006,-66.55818,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3224,Sample,2021-r21:3224,Site 21,7/28/2021,DFO Gulf,46.56006,-66.55818,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3225,Sample,2021-r21:3225,Site 20,7/28/2021,DFO Gulf,46.60063,-66.63863,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3226,Sample,2021-r21:3226,Site 20,7/28/2021,DFO Gulf,46.60063,-66.63863,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3227,Sample,2021-r21:3227,Site 20,7/28/2021,DFO Gulf,46.60063,-66.63863,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3228,Lab blank,2021-r21:3228,NA,NA,DFO Gulf,NA,NA,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3229,Sample,2021-r21:3229,Site 19,7/28/2021,DFO Gulf,46.58554,-66.70118,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3230,DNA extraction blank,2021-r21:3230,NA,NA,DFO Gulf,NA,NA,NA,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3231,Sample,2021-r21:3231,Site 19,7/28/2021,DFO Gulf,46.58554,-66.70118,1075,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3232,Sample,2021-r21:3232,Site 19,7/28/2021,DFO Gulf,46.58554,-66.70118,1075,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3233,Sample,2021-r21:3233,Site 19A,7/28/2021,DFO Gulf,46.58444,-66.71226,1075,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3234,Sample,2021-r21:3234,Site 19A,7/28/2021,DFO Gulf,46.58444,-66.71226,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3235,Sample,2021-r21:3235,Site 19A,7/28/2021,DFO Gulf,46.58444,-66.71226,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3236,Field blank,2021-r21:3236,NA,7/28/2021,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3237,Sample,2021-r21:3237,Site 22,7/28/2021,DFO Gulf,46.51649,-66.51611,1025,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3238,Sample,2021-r21:3238,Site 22,7/28/2021,DFO Gulf,46.51649,-66.51611,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3239,Sample,2021-r21:3239,Site 22,7/28/2021,DFO Gulf,46.51649,-66.51611,1075,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3240,Sample,2021-r21:3240,Site 60,7/28/2021,DFO Gulf,46.4573,-66.45112,1100,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3241,Sample,2021-r21:3241,Site 60,7/28/2021,DFO Gulf,46.4573,-66.45112,1075,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3242,Sample,2021-r21:3242,Site 60,7/28/2021,DFO Gulf,46.4573,-66.45112,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3243,Lab blank,2021-r21:3243,NA,NA,DFO Gulf,NA,NA,1025,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3244,Sample,2021-r21:3244,Site 61,7/28/2021,DFO Gulf,46.46809,-66.40372,1075,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3245,Sample,2021-r21:3245,Site 61,7/28/2021,DFO Gulf,46.46809,-66.40372,1075,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3246,DNA extraction blank,2021-r21:3246,NA,NA,DFO Gulf,NA,NA,NA,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3247,Sample,2021-r21:3247,Site 61,7/28/2021,DFO Gulf,46.46809,-66.40372,1100,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3248,Sample,2021-r21:3248,Site 62,7/28/2021,DFO Gulf,46.54727,-66.15685,1075,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3249,Sample,2021-r21:3249,Site 62,7/28/2021,DFO Gulf,46.54727,-66.15685,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3250,Sample,2021-r21:3250,Site 62,7/28/2021,DFO Gulf,46.54727,-66.15685,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3251,Field blank,2021-r21:3251,NA,7/28/2021,DFO Gulf,NA,NA,1025,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3252,Sample,2021-r21:3252,Site 63,7/28/2021,DFO Gulf,46.55625,-66.13745,1075,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3253,Sample,2021-r21:3253,Site 63,7/28/2021,DFO Gulf,46.55625,-66.13745,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3254,Sample,2021-r21:3254,Site 63,7/28/2021,DFO Gulf,46.55625,-66.13745,1075,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3255,Lab blank,2021-r21:3255,NA,NA,DFO Gulf,NA,NA,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3256,Sample,2021-r21:3256,Site 37,7/28/2021,DFO Gulf,46.56064,-66.1221,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3257,Sample,2021-r21:3257,Site 37,7/28/2021,DFO Gulf,46.56064,-66.1221,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3258,Sample,2021-r21:3258,Site 37,7/28/2021,DFO Gulf,46.56064,-66.1221,1050,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3259,Sample,2021-r21:3259,Site 37,7/28/2021,DFO Gulf,46.56064,-66.1221,1075,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3260,Field blank,2021-r21:3260,NA,7/28/2021,DFO Gulf,NA,NA,1075,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2021,r21:3261,DNA extraction blank,2021-r21:3261,NA,NA,DFO Gulf,NA,NA,NA,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2272,Sample,2022-r22:2272,Site 19,7/13/2022,DFO Gulf,46.58554,-66.70118,4730,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2273,Sample,2022-r22:2273,Site 19,7/13/2022,DFO Gulf,46.58554,-66.70118,3660,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2274,Sample,2022-r22:2274,Site 19,7/13/2022,DFO Gulf,46.58554,-66.70118,4860,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2275,Sample,2022-r22:2275,Site 19A,7/13/2022,DFO Gulf,46.58444,-66.71226,4940,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2276,Sample,2022-r22:2276,Site 19A,7/13/2022,DFO Gulf,46.58444,-66.71226,2910,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2277,Sample,2022-r22:2277,Site 19A,7/13/2022,DFO Gulf,46.58444,-66.71226,5290,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2278,Sample,2022-r22:2278,Site 20A,7/13/2022,DFO Gulf,46.59647,-66.65959,5030,1.2 µm Glass Fiber,Inconclusive,No Ct,39.32,No Ct,0,0.23,0
+2022,r22:2279,Sample,2022-r22:2279,Site 20A,7/13/2022,DFO Gulf,46.59647,-66.65959,5030,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2280,Sample,2022-r22:2280,Site 20A,7/13/2022,DFO Gulf,46.59647,-66.65959,5050,1.2 µm Glass Fiber,Inconclusive,37.23,No Ct,No Ct,0.86,0,0
+2022,r22:2281,Field blank,2022-r22:2281,NA,7/13/2022,DFO Gulf,NA,NA,1000,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2282,Sample,2022-r22:2282,Site 20,7/13/2022,DFO Gulf,46.60063,-66.63863,5040,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2283,Sample,2022-r22:2283,Site 20,7/13/2022,DFO Gulf,46.60063,-66.63863,5040,1.2 µm Glass Fiber,Inconclusive,No Ct,36.83,No Ct,0,1.11,0
+2022,r22:2284,Sample,2022-r22:2284,Site 20,7/13/2022,DFO Gulf,46.60063,-66.63863,5060,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2285,Sample,2022-r22:2285,Site 62,7/13/2022,DFO Gulf,46.54727,-66.15685,5050,1.2 µm Glass Fiber,Suspected,35.14,36.18,35.96,3.24,1.68,1.92
+2022,r22:2286,Sample,2022-r22:2286,Site 62,7/13/2022,DFO Gulf,46.54727,-66.15685,5040,1.2 µm Glass Fiber,Suspected,36,35.43,No Ct,1.88,2.71,0
+2022,r22:2287,DNA extraction blank,2022-r22:2287,NA,NA,DFO Gulf,NA,NA,NA,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2288,Sample,2022-r22:2288,Site 62,7/13/2022,DFO Gulf,46.54727,-66.15685,5050,1.2 µm Glass Fiber,Detected,33.29,33.77,34.5,10.37,7.69,4.85
+2022,r22:2289,Field blank,2022-r22:2289,NA,7/13/2022,DFO Gulf,NA,NA,1000,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2290,Sample,2022-r22:2290,Site 63,7/15/2022,DFO Gulf,46.55625,-66.13745,5020,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2291,Sample,2022-r22:2291,Site 63,7/15/2022,DFO Gulf,46.55625,-66.13745,5050,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2292,Sample,2022-r22:2292,Site 63,7/15/2022,DFO Gulf,46.55625,-66.13745,4950,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2293,Sample,2022-r22:2293,Site 37,7/15/2022,DFO Gulf,46.56064,-66.1221,4810,1.2 µm Glass Fiber,Suspected,34.89,No Ct,35.97,3.97,0,2.01
+2022,r22:2294,Sample,2022-r22:2294,Site 37,7/15/2022,DFO Gulf,46.56064,-66.1221,5020,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2295,Sample,2022-r22:2295,Site 37,7/15/2022,DFO Gulf,46.56064,-66.1221,5010,1.2 µm Glass Fiber,Suspected,34.12,34.27,No Ct,6.22,5.65,0
+2022,r22:2296,Sample,2022-r22:2296,Site 55,7/15/2022,DFO Gulf,46.71168,-65.81432,4990,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2297,Sample,2022-r22:2297,Site 55,7/15/2022,DFO Gulf,46.71168,-65.81432,4880,1.2 µm Glass Fiber,Inconclusive,No Ct,No Ct,36.16,0,0,1.76
+2022,r22:2298,Sample,2022-r22:2298,Site 55,7/15/2022,DFO Gulf,46.71168,-65.81432,5020,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2299,Sample,2022-r22:2299,Site 65,7/15/2022,DFO Gulf,46.72013,-65.81649,5000,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2300,Sample,2022-r22:2300,Site 65,7/15/2022,DFO Gulf,46.72013,-65.81649,4990,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2301,Sample,2022-r22:2301,Site 65,7/15/2022,DFO Gulf,46.72013,-65.81649,5060,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2302,DNA extraction blank,2022-r22:2302,NA,NA,DFO Gulf,NA,NA,NA,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2303,Sample,2022-r22:2303,Site 56,7/15/2022,DFO Gulf,46.70361,-65.79745,5010,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2304,Sample,2022-r22:2304,Site 56,7/15/2022,DFO Gulf,46.70361,-65.79745,5020,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2305,Sample,2022-r22:2305,Site 56,7/15/2022,DFO Gulf,46.70361,-65.79745,5000,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2306,Field blank,2022-r22:2306,NA,7/15/2022,DFO Gulf,NA,NA,1000,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2307,Sample,2022-r22:2307,Site 39,7/15/2022,DFO Gulf,46.73431,-65.82416,4980,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2308,Sample,2022-r22:2308,Site 39,7/15/2022,DFO Gulf,46.73431,-65.82416,5030,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2309,Sample,2022-r22:2309,Site 39,7/15/2022,DFO Gulf,46.73431,-65.82416,4590,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2310,Sample,2022-r22:2310,Site 40,7/15/2022,DFO Gulf,46.73844,-65.82952,5050,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2311,Sample,2022-r22:2311,Site 40,7/15/2022,DFO Gulf,46.73844,-65.82952,5020,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2312,Sample,2022-r22:2312,Site 40,7/15/2022,DFO Gulf,46.73844,-65.82952,4960,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2313,Sample,2022-r22:2313,Site 57,7/15/2022,DFO Gulf,46.75384,-65.81673,4960,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2314,Sample,2022-r22:2314,Site 57,7/15/2022,DFO Gulf,46.75384,-65.81673,2180,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2315,Sample,2022-r22:2315,Site 57,7/15/2022,DFO Gulf,46.75384,-65.81673,5020,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2316,Sample,2022-r22:2316,Site 57,7/15/2022,DFO Gulf,46.75384,-65.81673,4920,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2317,Field blank,2022-r22:2317,NA,7/15/2022,DFO Gulf,NA,NA,1140,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2318,DNA extraction blank,2022-r22:2318,NA,NA,DFO Gulf,NA,NA,NA,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2329,Sample,2022-r22:2329,Site 26,7/19/2022,DFO Gulf,46.57771,-67.04132,5030,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2330,Sample,2022-r22:2330,Site 26,7/19/2022,DFO Gulf,46.57771,-67.04132,4900,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2331,Sample,2022-r22:2331,Site 26,7/19/2022,DFO Gulf,46.57771,-67.04132,5050,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2332,Sample,2022-r22:2332,Site 25,7/19/2022,DFO Gulf,46.55011,-67.04399,1910,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2333,Sample,2022-r22:2333,Site 25,7/19/2022,DFO Gulf,46.55011,-67.04399,5040,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2334,Sample,2022-r22:2334,Site 25,7/19/2022,DFO Gulf,46.55011,-67.04399,5020,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2335,Sample,2022-r22:2335,Site 16,7/19/2022,DFO Gulf,46.56257,-66.832,5030,1.2 µm Glass Fiber,Inconclusive,35.88,No Ct,No Ct,2.04,0,0
+2022,r22:2336,Field blank,2022-r22:2336,NA,7/19/2022,DFO Gulf,NA,NA,1180,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2337,Sample,2022-r22:2337,Site 16,7/19/2022,DFO Gulf,46.56257,-66.832,5010,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2338,Sample,2022-r22:2338,Site 16,7/19/2022,DFO Gulf,46.56257,-66.832,5020,1.2 µm Glass Fiber,Inconclusive,No Ct,No Ct,35.85,0,0,2.08
+2022,r22:2339,Sample,2022-r22:2339,Site 15,7/19/2022,DFO Gulf,46.55547,-66.84771,3670,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2340,Sample,2022-r22:2340,Site 15,7/19/2022,DFO Gulf,46.55547,-66.84771,5030,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2341,Sample,2022-r22:2341,Site 15,7/19/2022,DFO Gulf,46.55547,-66.84771,5060,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2342,Sample,2022-r22:2342,Site 14,7/19/2022,DFO Gulf,46.54391,-66.85485,5020,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2343,Sample,2022-r22:2343,Site 14,7/19/2022,DFO Gulf,46.54391,-66.85485,4920,1.2 µm Glass Fiber,Inconclusive,35.32,No Ct,No Ct,2.95,0,0
+2022,r22:2344,Sample,2022-r22:2344,Site 14,7/19/2022,DFO Gulf,46.54391,-66.85485,5080,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2345,Sample,2022-r22:2345,Site 13,7/19/2022,DFO Gulf,46.53503,-66.88127,5050,1.2 µm Glass Fiber,Suspected,33.55,35.8,35.24,8.79,2.13,3.03
+2022,r22:2346,Sample,2022-r22:2346,Site 13,7/19/2022,DFO Gulf,46.53503,-66.88127,5070,1.2 µm Glass Fiber,Suspected,35.87,35.9,34.77,2.04,1.99,4.06
+2022,r22:2347,Sample,2022-r22:2347,Site 13,7/19/2022,DFO Gulf,46.53503,-66.88127,3360,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2348,Field blank,2022-r22:2348,NA,7/19/2022,DFO Gulf,NA,NA,1250,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2349,DNA extraction blank,2022-r22:2349,NA,NA,DFO Gulf,NA,NA,NA,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2350,Sample,2022-r22:2350,Site 5,7/19/2022,DFO Gulf,46.50753,-66.94977,5040,1.2 µm Glass Fiber,Detected,33.93,33.47,34.32,6.96,9.29,5.44
+2022,r22:2351,Sample,2022-r22:2351,Site 5,7/19/2022,DFO Gulf,46.50753,-66.94977,5050,1.2 µm Glass Fiber,Detected,32.53,32.55,32.72,16.82,16.55,14.84
+2022,r22:2352,Sample,2022-r22:2352,Site 5,7/19/2022,DFO Gulf,46.50753,-66.94977,5050,1.2 µm Glass Fiber,Detected,34.7,33.54,34.01,4.27,8.86,6.6
+2022,r22:2353,Field blank,2022-r22:2353,NA,7/19/2022,DFO Gulf,NA,NA,1210,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2354,Sample,2022-r22:2354,Site 18,7/20/2022,DFO Gulf,46.58102,-66.75007,5080,1.2 µm Glass Fiber,Suspected,35.03,34.76,No Ct,3.45,4.09,0
+2022,r22:2355,Sample,2022-r22:2355,Site 18,7/20/2022,DFO Gulf,46.58102,-66.75007,5310,1.2 µm Glass Fiber,Suspected,34.91,No Ct,34.85,3.55,0,3.68
+2022,r22:2356,Sample,2022-r22:2356,Site 18,7/20/2022,DFO Gulf,46.58102,-66.75007,5050,1.2 µm Glass Fiber,Suspected,No Ct,34.85,36.85,0,3.89,1.1
+2022,r22:2357,Sample,2022-r22:2357,Site 18A,7/20/2022,DFO Gulf,46.5797,-66.75891,5070,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2358,Sample,2022-r22:2358,Site 18A,7/20/2022,DFO Gulf,46.5797,-66.75891,5170,1.2 µm Glass Fiber,Suspected,36.19,34.07,No Ct,1.63,6.22,0
+2022,r22:2359,Sample,2022-r22:2359,Site 18A,7/20/2022,DFO Gulf,46.5797,-66.75891,5010,1.2 µm Glass Fiber,Suspected,35.86,34.97,33.86,2.07,3.63,7.31
+2022,r22:2360,Sample,2022-r22:2360,Site 17,7/20/2022,DFO Gulf,46.5737,-66.81342,2050,1.2 µm Glass Fiber,Suspected,37.01,34.51,No Ct,2.44,11.86,0
+2022,r22:2361,Sample,2022-r22:2361,Site 17,7/20/2022,DFO Gulf,46.5737,-66.81342,4940,1.2 µm Glass Fiber,Suspected,34.83,35.85,No Ct,4.03,2.12,0
+2022,r22:2362,Sample,2022-r22:2362,Site 17,7/20/2022,DFO Gulf,46.5737,-66.81342,990,1.2 µm Glass Fiber,Inconclusive,No Ct,35.97,No Ct,0,9.76,0
+2022,r22:2363,Field blank,2022-r22:2363,NA,7/20/2022,DFO Gulf,NA,NA,1190,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2364,Sample,2022-r22:2364,Site 31,7/20/2022,DFO Gulf,46.51053,-67.1137,5070,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2365,Sample,2022-r22:2365,Site 31,7/20/2022,DFO Gulf,46.51053,-67.1137,4970,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2366,DNA extraction blank,2022-r22:2366,NA,NA,DFO Gulf,NA,NA,NA,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2367,Sample,2022-r22:2367,Site 31,7/20/2022,DFO Gulf,46.51053,-67.1137,1650,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2368,Sample,2022-r22:2368,Site 31,7/20/2022,DFO Gulf,46.51053,-67.1137,3440,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2369,Sample,2022-r22:2369,Site 29,7/20/2022,DFO Gulf,46.49828,-67.0485,2330,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2370,Sample,2022-r22:2370,Site 29,7/20/2022,DFO Gulf,46.49828,-67.0485,5150,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2371,Sample,2022-r22:2371,Site 29,7/20/2022,DFO Gulf,46.49828,-67.0485,1050,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2372,Sample,2022-r22:2372,Site 10,7/20/2022,DFO Gulf,46.49411,-67.0101,5080,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2373,Sample,2022-r22:2373,Site 10,7/20/2022,DFO Gulf,46.49411,-67.0101,5080,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2374,Sample,2022-r22:2374,Site 10,7/20/2022,DFO Gulf,46.49411,-67.0101,510,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2375,Field blank,2022-r22:2375,NA,7/20/2022,DFO Gulf,NA,NA,1150,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2376,Sample,2022-r22:2376,Site 5,7/20/2022,DFO Gulf,46.50753,-66.94977,3930,1.2 µm Glass Fiber,Suspected,34.34,34.87,34.31,6.9,4.94,7.03
+2022,r22:2377,Sample,2022-r22:2377,Site 5,7/20/2022,DFO Gulf,46.50753,-66.94977,2350,1.2 µm Glass Fiber,Suspected,35.2,34.43,34.3,6.67,10.88,11.84
+2022,r22:2378,Sample,2022-r22:2378,Site 5,7/20/2022,DFO Gulf,46.50753,-66.94977,5030,1.2 µm Glass Fiber,Detected,32.9,33.52,32.81,13.32,9.02,14.11
+2022,r22:2379,Sample,2022-r22:2379,Site 5,7/20/2022,DFO Gulf,46.50753,-66.94977,3560,1.2 µm Glass Fiber,Suspected,34.42,35.65,33.88,7.25,3.33,10.15
+2022,r22:2380,Field blank,2022-r22:2380,NA,7/20/2022,DFO Gulf,NA,NA,NA,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2381,Sample,2022-r22:2381,Site 17,7/20/2022,DFO Gulf,46.5737,-66.81342,300,0.8 µm Nylon,Inconclusive,No Ct,No Ct,35.77,0,0,36.62
+2022,r22:2382,Sample,2022-r22:2382,Site 17,7/20/2022,DFO Gulf,46.5737,-66.81342,300,0.8 µm Nylon,Inconclusive,No Ct,35.84,No Ct,0,34.89,0
+2022,r22:2383,Sample,2022-r22:2383,Site 17,7/20/2022,DFO Gulf,46.5737,-66.81342,300,0.8 µm Nylon,Suspected,35.7,34.68,36.73,38.32,72.54,19.91
+2022,r22:2384,Field blank,2022-r22:2384,NA,7/20/2022,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2385,Sample,2022-r22:2385,Site 29,7/20/2022,DFO Gulf,46.49828,-67.0485,300,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2386,Sample,2022-r22:2386,Site 29,7/20/2022,DFO Gulf,46.49828,-67.0485,300,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2387,DNA extraction blank,2022-r22:2387,NA,NA,DFO Gulf,NA,NA,NA,0.8 µm Nylon,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2388,Sample,2022-r22:2388,Site 17,7/20/2022,DFO Gulf,46.5737,-66.81342,700,1.2 µm Glass Fiber,Suspected,35.12,No Ct,35.45,23.62,0,19.13
+2022,r22:2389,Sample,2022-r22:2389,Site 17,7/20/2022,DFO Gulf,46.5737,-66.81342,700,1.2 µm Glass Fiber,Inconclusive,No Ct,No Ct,34.67,0,0,31.4
+2022,r22:2390,Sample,2022-r22:2390,Site 17,7/20/2022,DFO Gulf,46.5737,-66.81342,700,1.2 µm Glass Fiber,Suspected,34.67,No Ct,36.86,31.46,0,7.9
+2022,r22:2391,Sample,2022-r22:2391,Site 29,7/20/2022,DFO Gulf,46.49828,-67.0485,700,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2392,Sample,2022-r22:2392,Site 29,7/20/2022,DFO Gulf,46.49828,-67.0485,700,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2393,Lab blank,2022-r22:2393,NA,NA,DFO Gulf,NA,NA,1000,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2394,Sample,2022-r22:2394,Site 29,7/20/2022,DFO Gulf,46.49828,-67.0485,1000,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2395,Sample,2022-r22:2395,Site 10,7/20/2022,DFO Gulf,46.49411,-67.0101,1000,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2396,Sample,2022-r22:2396,Site 10,7/20/2022,DFO Gulf,46.49411,-67.0101,1000,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2397,Sample,2022-r22:2397,Site 10,7/20/2022,DFO Gulf,46.49411,-67.0101,1000,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2398,Sample,2022-r22:2398,Site 5,7/20/2022,DFO Gulf,46.50753,-66.94977,1000,1.2 µm Glass Fiber,Suspected,36.14,No Ct,35.02,8.7,0,17.59
+2022,r22:2399,Sample,2022-r22:2399,Site 5,7/20/2022,DFO Gulf,46.50753,-66.94977,1000,1.2 µm Glass Fiber,Suspected,37.11,34.62,33.08,4.71,22.64,59.79
+2022,r22:2400,Sample,2022-r22:2400,Site 5,7/20/2022,DFO Gulf,46.50753,-66.94977,1000,1.2 µm Glass Fiber,Suspected,36.1,34.39,34.97,8.92,26.2,18.14
+2022,r22:2401,Field blank,2022-r22:2401,NA,7/20/2022,DFO Gulf,NA,NA,1000,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
+2022,r22:2402,DNA extraction blank,2022-r22:2402,NA,NA,DFO Gulf,NA,NA,NA,1.2 µm Glass Fiber,Not detected,No Ct,No Ct,No Ct,0,0,0
