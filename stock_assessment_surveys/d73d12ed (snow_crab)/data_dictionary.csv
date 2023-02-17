@@ -1,8 +1,8 @@
-name_nom,description_en,description_fr
+name__nom,description_en,description_fr
 year__annee,The year when the station was surveyed,L'année du chalutage
 month__mois,The month when the station was surveyed,Le mois du chalutage
 day__jour,The day when the station was surveyed,Le jour du chalutage
-tow_trait,Unique identifier for each tow,Identifiant unique
+tow__trait,Unique identifier for each tow,Identifiant unique
 longitude,start longitude of tow,la longitude de départ du trait
 latitude,start latitude of tow,la latitude de départ du trait
 start__depart,The time at start of tow,L'heure du début du chalutage
