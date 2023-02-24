@@ -1,0 +1,722 @@
+year,site_name,province,latitude,longitude,river_name,fishing_area,CGNDB,avg_air_temp_arrival,avg_water_temp_shore,avg_water_depth,species_eng,species_fra,species_latin,tsn,specimens_measured,avg_length_mm,length_type
+2002,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,9.237,8.663,,American eel,anguille d'Amérique,Anguilla rostrata,161127,72,299.722,total
+2002,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,9.237,8.663,,Atlantic salmon,saumon atlantique,Salmo salar,161996,2654,75.3,fork
+2002,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,9.237,8.663,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,64,59.333,fork
+2002,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,9.237,8.663,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,2,53.5,fork
+2002,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,9.237,8.663,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,13,,fork
+2002,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,9.237,8.663,,Lamprey (non specific),lamproies (non spécifique),,159697,15,,fork
+2002,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,9.237,8.663,,Round whitefish,ménomini rond,Prosopium cylindraceum,162008,2,275,fork
+2002,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,9.237,8.663,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,50,,fork
+2002,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,9.237,8.663,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,3,,fork
+2002,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,9.237,8.663,,Stickleback (non specific),épinoches (non spécifique),,166363,14,,fork
+2002,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,9.237,8.663,,Suckers (non specific),catostomes (non spécifique),,163892,6,37,fork
+2002,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,9.237,8.663,,White sucker,meunier noir,Catostomus commersoni,553273,2,,fork
+2002,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,16.702,16.806,,Alewife,gaspareau,Alosa pseudoharengus,161706,3,138.5,fork
+2002,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,16.702,16.806,,American eel,anguille d'Amérique,Anguilla rostrata,161127,429,263.368,total
+2002,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,16.702,16.806,,American Shad,alose savoureuse,Alosa sapidissima,161702,1,,fork
+2002,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,16.702,16.806,,Atlantic salmon,saumon atlantique,Salmo salar,161996,1012,126.946,fork
+2002,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,16.702,16.806,,Banded killifish,fondule barré,Fundulus diaphanus,165646,6,,fork
+2002,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,16.702,16.806,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,189,,fork
+2002,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,16.702,16.806,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,14,,fork
+2002,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,16.702,16.806,,Common shiner,méné à nageoires rouges,Notropis cornutus,163836,4,,fork
+2002,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,16.702,16.806,,Lamprey (non specific),lamproies (non spécifique),,159697,10,,fork
+2002,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,16.702,16.806,,Northern redbelly dace,ventre rouge du nord,Chrosomus eos,163592,730,,fork
+2002,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,16.702,16.806,,Rainbow smelt,éperlan arc-en-ciel,Osmerus mordax,162043,1183,,fork
+2002,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,16.702,16.806,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,1,,fork
+2002,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,16.702,16.806,,Stickleback (non specific),épinoches (non spécifique),,166363,1645,,fork
+2002,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,16.702,16.806,,Suckers (non specific),catostomes (non spécifique),,163892,12,,fork
+2002,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.905,15.81,,American eel,anguille d'Amérique,Anguilla rostrata,161127,32,250.938,total
+2002,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.905,15.81,,Atlantic salmon,saumon atlantique,Salmo salar,161996,179,119.905,fork
+2002,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.905,15.81,,Banded killifish,fondule barré,Fundulus diaphanus,165646,1,,fork
+2002,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.905,15.81,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,2,,fork
+2002,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.905,15.81,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,6,,fork
+2002,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.905,15.81,,Northern redbelly dace,ventre rouge du nord,Chrosomus eos,163592,107,,fork
+2002,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.905,15.81,,Rainbow smelt,éperlan arc-en-ciel,Osmerus mordax,162043,246,,fork
+2002,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.905,15.81,,Stickleback (non specific),épinoches (non spécifique),,166363,17,,fork
+2003,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.581,9.324,,Alewife,gaspareau,Alosa pseudoharengus,161706,7,87.5,fork
+2003,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.581,9.324,,American eel,anguille d'Amérique,Anguilla rostrata,161127,141,273.617,total
+2003,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.581,9.324,,Atlantic salmon,saumon atlantique,Salmo salar,161996,5088,72.435,fork
+2003,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.581,9.324,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,61,56,fork
+2003,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.581,9.324,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,7,60,fork
+2003,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.581,9.324,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,5,,fork
+2003,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.581,9.324,,Lamprey (non specific),lamproies (non spécifique),,159697,817,,fork
+2003,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.581,9.324,,Northern redbelly dace,ventre rouge du nord,Chrosomus eos,163592,1,80,fork
+2003,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.581,9.324,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,10,,fork
+2003,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.581,9.324,,Stickleback (non specific),épinoches (non spécifique),,166363,36,,fork
+2003,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.581,9.324,,Suckers (non specific),catostomes (non spécifique),,163892,4,50,fork
+2003,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.581,9.324,,White sucker,meunier noir,Catostomus commersoni,553273,13,120,fork
+2003,LittleMainRestigouche-RST,New Brunswick,47.5285,-67.6187,Little Main Restigouche River,SFA15,DAQCE,,,,American eel,anguille d'Amérique,Anguilla rostrata,161127,1,,total
+2003,LittleMainRestigouche-RST,New Brunswick,47.5285,-67.6187,Little Main Restigouche River,SFA15,DAQCE,,,,Atlantic salmon,saumon atlantique,Salmo salar,161996,2260,79.176,fork
+2003,LittleMainRestigouche-RST,New Brunswick,47.5285,-67.6187,Little Main Restigouche River,SFA15,DAQCE,,,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,120,,fork
+2003,LittleMainRestigouche-RST,New Brunswick,47.5285,-67.6187,Little Main Restigouche River,SFA15,DAQCE,,,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,249,159.368,fork
+2003,LittleMainRestigouche-RST,New Brunswick,47.5285,-67.6187,Little Main Restigouche River,SFA15,DAQCE,,,,Lamprey (non specific),lamproies (non spécifique),,159697,362,,fork
+2003,LittleMainRestigouche-RST,New Brunswick,47.5285,-67.6187,Little Main Restigouche River,SFA15,DAQCE,,,,Round whitefish,ménomini rond,Prosopium cylindraceum,162008,2,,fork
+2003,LittleMainRestigouche-RST,New Brunswick,47.5285,-67.6187,Little Main Restigouche River,SFA15,DAQCE,,,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,20,,fork
+2003,LittleMainRestigouche-RST,New Brunswick,47.5285,-67.6187,Little Main Restigouche River,SFA15,DAQCE,,,,Stickleback (non specific),épinoches (non spécifique),,166363,42,,fork
+2003,LittleMainRestigouche-RST,New Brunswick,47.5285,-67.6187,Little Main Restigouche River,SFA15,DAQCE,,,,Suckers (non specific),catostomes (non spécifique),,163892,55,234,fork
+2003,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.024,11.863,,Alewife,gaspareau,Alosa pseudoharengus,161706,1,,fork
+2003,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.024,11.863,,American eel,anguille d'Amérique,Anguilla rostrata,161127,184,280.272,total
+2003,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.024,11.863,,Atlantic salmon,saumon atlantique,Salmo salar,161996,1708,104.414,fork
+2003,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.024,11.863,,Banded killifish,fondule barré,Fundulus diaphanus,165646,9,,fork
+2003,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.024,11.863,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,66,,fork
+2003,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.024,11.863,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,1,180,fork
+2003,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.024,11.863,,Common shiner,méné à nageoires rouges,Notropis cornutus,163836,2,,fork
+2003,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.024,11.863,,Lamprey (non specific),lamproies (non spécifique),,159697,16,,fork
+2003,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.024,11.863,,Northern redbelly dace,ventre rouge du nord,Chrosomus eos,163592,963,,fork
+2003,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.024,11.863,,Rainbow smelt,éperlan arc-en-ciel,Osmerus mordax,162043,1018,,fork
+2003,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.024,11.863,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,1,,fork
+2003,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.024,11.863,,Stickleback (non specific),épinoches (non spécifique),,166363,1284,,fork
+2003,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.024,11.863,,Suckers (non specific),catostomes (non spécifique),,163892,743,,fork
+2003,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.359,11.876,,Alewife,gaspareau,Alosa pseudoharengus,161706,2,,fork
+2003,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.359,11.876,,American eel,anguille d'Amérique,Anguilla rostrata,161127,153,277.02,total
+2003,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.359,11.876,,Atlantic salmon,saumon atlantique,Salmo salar,161996,3892,71.499,fork
+2003,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.359,11.876,,Banded killifish,fondule barré,Fundulus diaphanus,165646,4,,fork
+2003,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.359,11.876,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,31,,fork
+2003,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.359,11.876,,Common shiner,méné à nageoires rouges,Notropis cornutus,163836,2,,fork
+2003,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.359,11.876,,Lamprey (non specific),lamproies (non spécifique),,159697,11,,fork
+2003,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.359,11.876,,Northern redbelly dace,ventre rouge du nord,Chrosomus eos,163592,137,,fork
+2003,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.359,11.876,,Rainbow smelt,éperlan arc-en-ciel,Osmerus mordax,162043,122,,fork
+2003,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.359,11.876,,Stickleback (non specific),épinoches (non spécifique),,166363,835,,fork
+2003,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.359,11.876,,Suckers (non specific),catostomes (non spécifique),,163892,858,,fork
+2004,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.583,8.533,,Alewife,gaspareau,Alosa pseudoharengus,161706,4,215.55,fork
+2004,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.583,8.533,,American eel,anguille d'Amérique,Anguilla rostrata,161127,163,305.119,total
+2004,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.583,8.533,,Atlantic salmon,saumon atlantique,Salmo salar,161996,6141,80.994,fork
+2004,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.583,8.533,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,245,,fork
+2004,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.583,8.533,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,15,101.6,fork
+2004,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.583,8.533,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,14,,fork
+2004,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.583,8.533,,Longnose sucker,meunier rouge,Catostomus catostomus,163894,1,155,fork
+2004,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.583,8.533,,Northern redbelly dace,ventre rouge du nord,Chrosomus eos,163592,3,,fork
+2004,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.583,8.533,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,892,,fork
+2004,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.583,8.533,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,12,,fork
+2004,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.583,8.533,,Stickleback (non specific),épinoches (non spécifique),,166363,13,,fork
+2004,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.583,8.533,,Suckers (non specific),catostomes (non spécifique),,163892,13,34.5,fork
+2004,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,8.917,11.106,,American eel,anguille d'Amérique,Anguilla rostrata,161127,537,260.276,total
+2004,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,8.917,11.106,,Atlantic salmon,saumon atlantique,Salmo salar,161996,2436,100.095,fork
+2004,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,8.917,11.106,,Banded killifish,fondule barré,Fundulus diaphanus,165646,2,,fork
+2004,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,8.917,11.106,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,53,,fork
+2004,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,8.917,11.106,,Northern redbelly dace,ventre rouge du nord,Chrosomus eos,163592,895,,fork
+2004,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,8.917,11.106,,Rainbow smelt,éperlan arc-en-ciel,Osmerus mordax,162043,3467,149.023,fork
+2004,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,8.917,11.106,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,25,,fork
+2004,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,8.917,11.106,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,2,,fork
+2004,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,8.917,11.106,,Stickleback (non specific),épinoches (non spécifique),,166363,824,,fork
+2004,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,8.917,11.106,,Suckers (non specific),catostomes (non spécifique),,163892,414,,fork
+2004,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,9.861,10.353,,American eel,anguille d'Amérique,Anguilla rostrata,161127,110,281.636,total
+2004,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,9.861,10.353,,Atlantic salmon,saumon atlantique,Salmo salar,161996,1869,114.224,fork
+2004,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,9.861,10.353,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,10,,fork
+2004,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,9.861,10.353,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,2,73,fork
+2004,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,9.861,10.353,,Northern redbelly dace,ventre rouge du nord,Chrosomus eos,163592,135,,fork
+2004,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,9.861,10.353,,Rainbow smelt,éperlan arc-en-ciel,Osmerus mordax,162043,204,138.326,fork
+2004,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,9.861,10.353,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,6,,fork
+2004,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,9.861,10.353,,Stickleback (non specific),épinoches (non spécifique),,166363,193,,fork
+2004,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,9.861,10.353,,Suckers (non specific),catostomes (non spécifique),,163892,476,,fork
+2004,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.925,11.953,,American eel,anguille d'Amérique,Anguilla rostrata,161127,156,321.923,total
+2004,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.925,11.953,,Atlantic salmon,saumon atlantique,Salmo salar,161996,1219,94.137,fork
+2004,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.925,11.953,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,153,,fork
+2004,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.925,11.953,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,3,115.333,fork
+2004,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.925,11.953,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,1,,fork
+2004,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.925,11.953,,Lamprey (non specific),lamproies (non spécifique),,159697,8,,fork
+2004,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.925,11.953,,Northern redbelly dace,ventre rouge du nord,Chrosomus eos,163592,65,,fork
+2004,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.925,11.953,,Rainbow trout,truite arc-en-ciel,Oncorhynchus mykiss,161989,2,105,fork
+2004,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.925,11.953,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,1,,fork
+2004,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.925,11.953,,Stickleback (non specific),épinoches (non spécifique),,166363,46,,fork
+2004,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.925,11.953,,Suckers (non specific),catostomes (non spécifique),,163892,52,135,fork
+2005,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.786,10.321,,American eel,anguille d'Amérique,Anguilla rostrata,161127,88,272.542,total
+2005,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.786,10.321,,Atlantic salmon,saumon atlantique,Salmo salar,161996,2242,93.503,fork
+2005,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.786,10.321,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,77,,fork
+2005,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.786,10.321,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,10,120.1,fork
+2005,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.786,10.321,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,27,,fork
+2005,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.786,10.321,,Northern redbelly dace,ventre rouge du nord,Chrosomus eos,163592,3,,fork
+2005,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.786,10.321,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,801,,fork
+2005,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.786,10.321,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,21,,fork
+2005,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.786,10.321,,Stickleback (non specific),épinoches (non spécifique),,166363,10,,fork
+2005,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.786,10.321,,Suckers (non specific),catostomes (non spécifique),,163892,17,,fork
+2005,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.497,11.57,,Alewife,gaspareau,Alosa pseudoharengus,161706,1,193,fork
+2005,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.497,11.57,,American eel,anguille d'Amérique,Anguilla rostrata,161127,349,261.067,total
+2005,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.497,11.57,,Atlantic salmon,saumon atlantique,Salmo salar,161996,3083,94.04,fork
+2005,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.497,11.57,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,34,,fork
+2005,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.497,11.57,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,1,223,fork
+2005,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.497,11.57,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,31,,fork
+2005,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.497,11.57,,Northern redbelly dace,ventre rouge du nord,Chrosomus eos,163592,219,,fork
+2005,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.497,11.57,,Rainbow smelt,éperlan arc-en-ciel,Osmerus mordax,162043,2703,142.896,fork
+2005,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.497,11.57,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,12,,fork
+2005,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.497,11.57,,Stickleback (non specific),épinoches (non spécifique),,166363,658,,fork
+2005,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.497,11.57,,Suckers (non specific),catostomes (non spécifique),,163892,48,44,fork
+2005,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.563,11.113,,Alewife,gaspareau,Alosa pseudoharengus,161706,1,268,fork
+2005,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.563,11.113,,American eel,anguille d'Amérique,Anguilla rostrata,161127,97,306.138,total
+2005,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.563,11.113,,American Shad,alose savoureuse,Alosa sapidissima,161702,1,285,fork
+2005,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.563,11.113,,Atlantic salmon,saumon atlantique,Salmo salar,161996,2416,100.947,fork
+2005,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.563,11.113,,Banded killifish,fondule barré,Fundulus diaphanus,165646,5,,fork
+2005,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.563,11.113,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,8,,fork
+2005,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.563,11.113,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,5,174.42,fork
+2005,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.563,11.113,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,3,,fork
+2005,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.563,11.113,,Northern redbelly dace,ventre rouge du nord,Chrosomus eos,163592,37,,fork
+2005,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.563,11.113,,Rainbow smelt,éperlan arc-en-ciel,Osmerus mordax,162043,135,107.286,fork
+2005,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.563,11.113,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,4,,fork
+2005,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.563,11.113,,Stickleback (non specific),épinoches (non spécifique),,166363,199,,fork
+2005,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.563,11.113,,Suckers (non specific),catostomes (non spécifique),,163892,43,,fork
+2005,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,15.214,13.114,,American eel,anguille d'Amérique,Anguilla rostrata,161127,154,359.221,total
+2005,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,15.214,13.114,,Atlantic salmon,saumon atlantique,Salmo salar,161996,7382,81.227,fork
+2005,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,15.214,13.114,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,113,,fork
+2005,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,15.214,13.114,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,4,136.75,fork
+2005,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,15.214,13.114,,Common shiner,méné à nageoires rouges,Notropis cornutus,163836,5,,fork
+2005,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,15.214,13.114,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,143,,fork
+2005,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,15.214,13.114,,Lamprey (non specific),lamproies (non spécifique),,159697,2,,fork
+2005,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,15.214,13.114,,Northern redbelly dace,ventre rouge du nord,Chrosomus eos,163592,1,,fork
+2005,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,15.214,13.114,,Rainbow trout,truite arc-en-ciel,Oncorhynchus mykiss,161989,2,109.5,fork
+2005,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,15.214,13.114,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,4,,fork
+2005,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,15.214,13.114,,Stickleback (non specific),épinoches (non spécifique),,166363,155,,fork
+2005,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,15.214,13.114,,Suckers (non specific),catostomes (non spécifique),,163892,45,,fork
+2006,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.986,9.88,,Alewife,gaspareau,Alosa pseudoharengus,161706,5,258.8,fork
+2006,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.986,9.88,,American eel,anguille d'Amérique,Anguilla rostrata,161127,58,305.818,total
+2006,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.986,9.88,,Atlantic salmon,saumon atlantique,Salmo salar,161996,4433,75.709,fork
+2006,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.986,9.88,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,164,,fork
+2006,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.986,9.88,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,50,45.7,fork
+2006,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.986,9.88,,Common shiner,méné à nageoires rouges,Notropis cornutus,163836,1,103,fork
+2006,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.986,9.88,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,27,,fork
+2006,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.986,9.88,,Northern redbelly dace,ventre rouge du nord,Chrosomus eos,163592,4,,fork
+2006,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.986,9.88,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,460,,fork
+2006,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.986,9.88,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,8,,fork
+2006,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.986,9.88,,Stickleback (non specific),épinoches (non spécifique),,166363,39,,fork
+2006,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.986,9.88,,Suckers (non specific),catostomes (non spécifique),,163892,48,38.7,fork
+2006,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.986,9.88,,Yellow perch,perchaude,Perca flavescens,168469,2,58,fork
+2006,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.949,11.954,,American eel,anguille d'Amérique,Anguilla rostrata,161127,223,284.233,total
+2006,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.949,11.954,,Atlantic salmon,saumon atlantique,Salmo salar,161996,1040,104.082,fork
+2006,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.949,11.954,,Banded killifish,fondule barré,Fundulus diaphanus,165646,4,,fork
+2006,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.949,11.954,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,19,,fork
+2006,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.949,11.954,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,1,47,fork
+2006,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.949,11.954,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,190,,fork
+2006,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.949,11.954,,Northern redbelly dace,ventre rouge du nord,Chrosomus eos,163592,523,,fork
+2006,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.949,11.954,,Rainbow smelt,éperlan arc-en-ciel,Osmerus mordax,162043,807,145.747,fork
+2006,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.949,11.954,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,7,,fork
+2006,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.949,11.954,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,5,,fork
+2006,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.949,11.954,,Stickleback (non specific),épinoches (non spécifique),,166363,751,,fork
+2006,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.949,11.954,,Suckers (non specific),catostomes (non spécifique),,163892,292,250,fork
+2006,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.049,11.457,,Alewife,gaspareau,Alosa pseudoharengus,161706,3,285,fork
+2006,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.049,11.457,,American eel,anguille d'Amérique,Anguilla rostrata,161127,45,308.089,total
+2006,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.049,11.457,,Atlantic salmon,saumon atlantique,Salmo salar,161996,1060,85.724,fork
+2006,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.049,11.457,,Banded killifish,fondule barré,Fundulus diaphanus,165646,2,,fork
+2006,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.049,11.457,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,7,,fork
+2006,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.049,11.457,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,2,239.5,fork
+2006,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.049,11.457,,Common shiner,méné à nageoires rouges,Notropis cornutus,163836,1,,fork
+2006,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.049,11.457,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,26,,fork
+2006,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.049,11.457,,Northern redbelly dace,ventre rouge du nord,Chrosomus eos,163592,97,,fork
+2006,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.049,11.457,,Rainbow smelt,éperlan arc-en-ciel,Osmerus mordax,162043,103,141.098,fork
+2006,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.049,11.457,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,23,,fork
+2006,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.049,11.457,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,4,,fork
+2006,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.049,11.457,,Stickleback (non specific),épinoches (non spécifique),,166363,225,,fork
+2006,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.049,11.457,,Suckers (non specific),catostomes (non spécifique),,163892,206,,fork
+2007,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.339,9.652,,American eel,anguille d'Amérique,Anguilla rostrata,161127,54,335.189,total
+2007,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.339,9.652,,Atlantic salmon,saumon atlantique,Salmo salar,161996,5035,84.3,fork
+2007,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.339,9.652,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,103,,fork
+2007,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.339,9.652,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,5,125.6,fork
+2007,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.339,9.652,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,11,,fork
+2007,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.339,9.652,,Lake chub,méné de lac,Couesius plumbeus,163535,4,,fork
+2007,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.339,9.652,,Longnose sucker,meunier rouge,Catostomus catostomus,163894,1,,fork
+2007,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.339,9.652,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,591,,fork
+2007,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.339,9.652,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,24,,fork
+2007,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.339,9.652,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,23,,fork
+2007,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.339,9.652,,White sucker,meunier noir,Catostomus commersoni,553273,33,,fork
+2007,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.347,11.669,,American eel,anguille d'Amérique,Anguilla rostrata,161127,209,282.301,total
+2007,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.347,11.669,,Atlantic salmon,saumon atlantique,Salmo salar,161996,2027,94.474,fork
+2007,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.347,11.669,,Banded killifish,fondule barré,Fundulus diaphanus,165646,2,,fork
+2007,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.347,11.669,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,14,,fork
+2007,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.347,11.669,,Common shiner,méné à nageoires rouges,Notropis cornutus,163836,2,,fork
+2007,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.347,11.669,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,679,,fork
+2007,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.347,11.669,,Lake chub,méné de lac,Couesius plumbeus,163535,166,,fork
+2007,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.347,11.669,,Rainbow smelt,éperlan arc-en-ciel,Osmerus mordax,162043,1593,152.222,fork
+2007,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.347,11.669,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,17,,fork
+2007,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.347,11.669,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,568,,fork
+2007,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.347,11.669,,White sucker,meunier noir,Catostomus commersoni,553273,116,,fork
+2007,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.05,11.197,,American eel,anguille d'Amérique,Anguilla rostrata,161127,70,292.1,total
+2007,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.05,11.197,,Atlantic salmon,saumon atlantique,Salmo salar,161996,2296,84.434,fork
+2007,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.05,11.197,,Banded killifish,fondule barré,Fundulus diaphanus,165646,6,,fork
+2007,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.05,11.197,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,16,,fork
+2007,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.05,11.197,,Common shiner,méné à nageoires rouges,Notropis cornutus,163836,1,,fork
+2007,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.05,11.197,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,133,,fork
+2007,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.05,11.197,,Lake chub,méné de lac,Couesius plumbeus,163535,36,,fork
+2007,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.05,11.197,,Mummichog,choquemort,Fundulus heteroclitus,165647,1,,fork
+2007,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.05,11.197,,nine-spined stickleback,épinoche à neuf épines,Pungitius pungitius,166387,1,,fork
+2007,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.05,11.197,,Rainbow smelt,éperlan arc-en-ciel,Osmerus mordax,162043,229,150.044,fork
+2007,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.05,11.197,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,34,,fork
+2007,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.05,11.197,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,1,,fork
+2007,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.05,11.197,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,416,,fork
+2007,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.05,11.197,,White sucker,meunier noir,Catostomus commersoni,553273,199,,fork
+2007,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.619,12.824,,American eel,anguille d'Amérique,Anguilla rostrata,161127,172,342.506,total
+2007,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.619,12.824,,Atlantic salmon,saumon atlantique,Salmo salar,161996,11935,93.96,fork
+2007,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.619,12.824,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,192,,fork
+2007,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.619,12.824,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,2,172,fork
+2007,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.619,12.824,,Common shiner,méné à nageoires rouges,Notropis cornutus,163836,1,,fork
+2007,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.619,12.824,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,126,,fork
+2007,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.619,12.824,,Gaspereau,gaspareau,Alosa pseudoharengus,161701,5,,fork
+2007,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.619,12.824,,Lake chub,méné de lac,Couesius plumbeus,163535,29,,fork
+2007,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.619,12.824,,Lamprey (non specific),lamproies (non spécifique),,159697,2,,fork
+2007,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.619,12.824,,Rainbow smelt,éperlan arc-en-ciel,Osmerus mordax,162043,910,,fork
+2007,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.619,12.824,,Rainbow trout,truite arc-en-ciel,Oncorhynchus mykiss,161989,1,75,fork
+2007,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.619,12.824,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,4,,fork
+2007,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.619,12.824,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,3,,fork
+2007,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.619,12.824,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,35,,fork
+2007,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.619,12.824,,White sucker,meunier noir,Catostomus commersoni,553273,89,,fork
+2008,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.129,9.626,,American eel,anguille d'Amérique,Anguilla rostrata,161127,104,332.442,total
+2008,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.129,9.626,,Atlantic salmon,saumon atlantique,Salmo salar,161996,2290,86.261,fork
+2008,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.129,9.626,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,40,,fork
+2008,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.129,9.626,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,10,100.7,fork
+2008,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.129,9.626,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,130,,fork
+2008,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.129,9.626,,Gaspereau,gaspareau,Alosa pseudoharengus,161701,5,243,fork
+2008,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.129,9.626,,Lake chub,méné de lac,Couesius plumbeus,163535,2,,fork
+2008,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.129,9.626,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,1307,,fork
+2008,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.129,9.626,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,52,,fork
+2008,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.129,9.626,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,14,,fork
+2008,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,11.129,9.626,,White sucker,meunier noir,Catostomus commersoni,553273,20,,fork
+2008,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.103,11.659,,American eel,anguille d'Amérique,Anguilla rostrata,161127,323,259.991,total
+2008,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.103,11.659,,Atlantic salmon,saumon atlantique,Salmo salar,161996,1590,83.607,fork
+2008,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.103,11.659,,Banded killifish,fondule barré,Fundulus diaphanus,165646,1,,fork
+2008,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.103,11.659,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,19,,fork
+2008,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.103,11.659,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,516,,fork
+2008,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.103,11.659,,Lake chub,méné de lac,Couesius plumbeus,163535,45,,fork
+2008,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.103,11.659,,nine-spined stickleback,épinoche à neuf épines,Pungitius pungitius,166387,4,,fork
+2008,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.103,11.659,,Rainbow smelt,éperlan arc-en-ciel,Osmerus mordax,162043,1983,144.652,fork
+2008,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.103,11.659,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,61,,fork
+2008,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.103,11.659,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,2,,fork
+2008,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.103,11.659,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,929,,fork
+2008,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.103,11.659,,White sucker,meunier noir,Catostomus commersoni,553273,69,450,fork
+2008,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.931,11.138,,American eel,anguille d'Amérique,Anguilla rostrata,161127,125,317.448,total
+2008,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.931,11.138,,Atlantic salmon,saumon atlantique,Salmo salar,161996,2731,105.568,fork
+2008,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.931,11.138,,Banded killifish,fondule barré,Fundulus diaphanus,165646,5,,fork
+2008,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.931,11.138,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,7,,fork
+2008,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.931,11.138,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,156,,fork
+2008,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.931,11.138,,Gaspereau,gaspareau,Alosa pseudoharengus,161701,6,280,fork
+2008,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.931,11.138,,Lake chub,méné de lac,Couesius plumbeus,163535,13,,fork
+2008,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.931,11.138,,Mummichog,choquemort,Fundulus heteroclitus,165647,1,,fork
+2008,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.931,11.138,,nine-spined stickleback,épinoche à neuf épines,Pungitius pungitius,166387,1,,fork
+2008,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.931,11.138,,Rainbow smelt,éperlan arc-en-ciel,Osmerus mordax,162043,305,149.448,fork
+2008,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.931,11.138,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,7,,fork
+2008,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.931,11.138,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,2,,fork
+2008,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.931,11.138,,Suckers (non specific),catostomes (non spécifique),,163892,4,,fork
+2008,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.931,11.138,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,511,,fork
+2008,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.931,11.138,,White sucker,meunier noir,Catostomus commersoni,553273,81,,fork
+2008,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.321,11.932,,American eel,anguille d'Amérique,Anguilla rostrata,161127,123,347.909,total
+2008,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.321,11.932,,Atlantic salmon,saumon atlantique,Salmo salar,161996,2320,89.789,fork
+2008,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.321,11.932,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,129,,fork
+2008,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.321,11.932,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,5,168,fork
+2008,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.321,11.932,,Common shiner,méné à nageoires rouges,Notropis cornutus,163836,4,,fork
+2008,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.321,11.932,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,59,,fork
+2008,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.321,11.932,,Gaspereau,gaspareau,Alosa pseudoharengus,161701,4,,fork
+2008,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.321,11.932,,Lake chub,méné de lac,Couesius plumbeus,163535,6,,fork
+2008,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.321,11.932,,Rainbow smelt,éperlan arc-en-ciel,Osmerus mordax,162043,2,,fork
+2008,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.321,11.932,,Rainbow trout,truite arc-en-ciel,Oncorhynchus mykiss,161989,3,125.667,fork
+2008,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.321,11.932,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,3,,fork
+2008,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.321,11.932,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,17,,fork
+2008,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.321,11.932,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,74,,fork
+2008,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.321,11.932,,White sucker,meunier noir,Catostomus commersoni,553273,77,,fork
+2009,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.879,8.503,,American eel,anguille d'Amérique,Anguilla rostrata,161127,31,397.207,total
+2009,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.879,8.503,,Atlantic salmon,saumon atlantique,Salmo salar,161996,3549,90.101,fork
+2009,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.879,8.503,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,52,,fork
+2009,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.879,8.503,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,13,126.833,fork
+2009,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.879,8.503,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,13,,fork
+2009,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.879,8.503,,Gaspereau,gaspareau,Alosa pseudoharengus,161701,14,282,fork
+2009,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.879,8.503,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,657,,fork
+2009,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.879,8.503,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,9,,fork
+2009,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.879,8.503,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,14,,fork
+2009,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.879,8.503,,White sucker,meunier noir,Catostomus commersoni,553273,18,218.5,fork
+2009,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,8.845,10.469,,American eel,anguille d'Amérique,Anguilla rostrata,161127,251,287.797,total
+2009,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,8.845,10.469,,Atlantic salmon,saumon atlantique,Salmo salar,161996,2244,107.819,fork
+2009,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,8.845,10.469,,Banded killifish,fondule barré,Fundulus diaphanus,165646,1,,fork
+2009,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,8.845,10.469,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,1,,fork
+2009,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,8.845,10.469,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,223,,fork
+2009,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,8.845,10.469,,Lake chub,méné de lac,Couesius plumbeus,163535,4,,fork
+2009,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,8.845,10.469,,nine-spined stickleback,épinoche à neuf épines,Pungitius pungitius,166387,2,,fork
+2009,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,8.845,10.469,,Rainbow smelt,éperlan arc-en-ciel,Osmerus mordax,162043,2291,148.596,fork
+2009,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,8.845,10.469,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,11,,fork
+2009,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,8.845,10.469,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,394,,fork
+2009,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,8.845,10.469,,White sucker,meunier noir,Catostomus commersoni,553273,64,,fork
+2009,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,9.976,9.793,,American eel,anguille d'Amérique,Anguilla rostrata,161127,70,290.938,total
+2009,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,9.976,9.793,,Atlantic salmon,saumon atlantique,Salmo salar,161996,1838,104.329,fork
+2009,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,9.976,9.793,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,4,,fork
+2009,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,9.976,9.793,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,18,,fork
+2009,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,9.976,9.793,,Lake chub,méné de lac,Couesius plumbeus,163535,3,,fork
+2009,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,9.976,9.793,,Rainbow smelt,éperlan arc-en-ciel,Osmerus mordax,162043,299,154.241,fork
+2009,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,9.976,9.793,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,19,,fork
+2009,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,9.976,9.793,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,104,,fork
+2009,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,9.976,9.793,,White sucker,meunier noir,Catostomus commersoni,553273,33,,fork
+2009,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,11.619,10.363,,American eel,anguille d'Amérique,Anguilla rostrata,161127,36,367.647,total
+2009,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,11.619,10.363,,Atlantic salmon,saumon atlantique,Salmo salar,161996,1506,90.091,fork
+2009,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,11.619,10.363,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,41,,fork
+2009,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,11.619,10.363,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,1,210,fork
+2009,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,11.619,10.363,,Common shiner,méné à nageoires rouges,Notropis cornutus,163836,2,,fork
+2009,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,11.619,10.363,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,25,,fork
+2009,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,11.619,10.363,,Gaspereau,gaspareau,Alosa pseudoharengus,161701,1,,fork
+2009,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,11.619,10.363,,Lake chub,méné de lac,Couesius plumbeus,163535,6,,fork
+2009,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,11.619,10.363,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,6,,fork
+2009,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,11.619,10.363,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,2,,fork
+2009,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,11.619,10.363,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,11,,fork
+2009,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,11.619,10.363,,White sucker,meunier noir,Catostomus commersoni,553273,19,,fork
+2010,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,12.272,11.541,,American eel,anguille d'Amérique,Anguilla rostrata,161127,7,346.571,total
+2010,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,12.272,11.541,,Atlantic salmon,saumon atlantique,Salmo salar,161996,3374,90.959,fork
+2010,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,12.272,11.541,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,55,,fork
+2010,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,12.272,11.541,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,24,43.25,fork
+2010,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,12.272,11.541,,Common shiner,méné à nageoires rouges,Notropis cornutus,163836,1,137,fork
+2010,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,12.272,11.541,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,16,,fork
+2010,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,12.272,11.541,,Gaspereau,gaspareau,Alosa pseudoharengus,161701,1,269,fork
+2010,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,12.272,11.541,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,159,,fork
+2010,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,12.272,11.541,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,55,,fork
+2010,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,12.272,11.541,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,3,,fork
+2010,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,12.272,11.541,,White sucker,meunier noir,Catostomus commersoni,553273,16,400.5,fork
+2010,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.246,12.562,,American eel,anguille d'Amérique,Anguilla rostrata,161127,237,259.215,total
+2010,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.246,12.562,,Atlantic salmon,saumon atlantique,Salmo salar,161996,1602,86.805,fork
+2010,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.246,12.562,,Banded killifish,fondule barré,Fundulus diaphanus,165646,1,,fork
+2010,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.246,12.562,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,6,,fork
+2010,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.246,12.562,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,1,245,fork
+2010,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.246,12.562,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,411,,fork
+2010,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.246,12.562,,Rainbow smelt,éperlan arc-en-ciel,Osmerus mordax,162043,2210,145.437,fork
+2010,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.246,12.562,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,21,,fork
+2010,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.246,12.562,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,1,,fork
+2010,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.246,12.562,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,451,,fork
+2010,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.246,12.562,,White sucker,meunier noir,Catostomus commersoni,553273,29,,fork
+2010,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.829,11.987,,American eel,anguille d'Amérique,Anguilla rostrata,161127,109,365.272,total
+2010,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.829,11.987,,Atlantic salmon,saumon atlantique,Salmo salar,161996,2005,111.145,fork
+2010,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.829,11.987,,Banded killifish,fondule barré,Fundulus diaphanus,165646,5,,fork
+2010,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.829,11.987,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,9,,fork
+2010,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.829,11.987,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,58,,fork
+2010,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.829,11.987,,nine-spined stickleback,épinoche à neuf épines,Pungitius pungitius,166387,2,,fork
+2010,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.829,11.987,,Rainbow smelt,éperlan arc-en-ciel,Osmerus mordax,162043,195,153.167,fork
+2010,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.829,11.987,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,12,,fork
+2010,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.829,11.987,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,1,,fork
+2010,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.829,11.987,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,187,,fork
+2010,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.829,11.987,,White sucker,meunier noir,Catostomus commersoni,553273,22,,fork
+2010,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,14.013,13.224,,American eel,anguille d'Amérique,Anguilla rostrata,161127,101,384.83,total
+2010,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,14.013,13.224,,Atlantic salmon,saumon atlantique,Salmo salar,161996,3120,101.103,fork
+2010,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,14.013,13.224,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,55,,fork
+2010,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,14.013,13.224,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,6,110.333,fork
+2010,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,14.013,13.224,,Brown bullhead,barbotte brune ,Ameiurus nebulosus,164043,1,,fork
+2010,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,14.013,13.224,,Common shiner,méné à nageoires rouges,Notropis cornutus,163836,4,,fork
+2010,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,14.013,13.224,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,21,,fork
+2010,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,14.013,13.224,,Gaspereau,gaspareau,Alosa pseudoharengus,161701,3,,fork
+2010,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,14.013,13.224,,Lake chub,méné de lac,Couesius plumbeus,163535,40,,fork
+2010,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,14.013,13.224,,Rainbow smelt,éperlan arc-en-ciel,Osmerus mordax,162043,6458,,fork
+2010,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,14.013,13.224,,Rainbow trout,truite arc-en-ciel,Oncorhynchus mykiss,161989,1,118,fork
+2010,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,14.013,13.224,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,7,,fork
+2010,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,14.013,13.224,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,8,,fork
+2010,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,14.013,13.224,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,39,,fork
+2010,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,14.013,13.224,,White sucker,meunier noir,Catostomus commersoni,553273,28,,fork
+2011,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.737,8.329,,American eel,anguille d'Amérique,Anguilla rostrata,161127,2,351,total
+2011,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.737,8.329,,Atlantic salmon,saumon atlantique,Salmo salar,161996,3514,88.48,fork
+2011,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.737,8.329,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,45,,fork
+2011,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.737,8.329,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,14,100.786,fork
+2011,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.737,8.329,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,8,,fork
+2011,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.737,8.329,,Gaspereau,gaspareau,Alosa pseudoharengus,161701,1,273,fork
+2011,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.737,8.329,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,590,,fork
+2011,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.737,8.329,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,1,,fork
+2011,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.737,8.329,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,10,,fork
+2011,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.737,8.329,,White sucker,meunier noir,Catostomus commersoni,553273,9,,fork
+2011,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,10.138,9.108,,American eel,anguille d'Amérique,Anguilla rostrata,161127,36,332.861,total
+2011,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,10.138,9.108,,American Shad,alose savoureuse,Alosa sapidissima,161702,1,,fork
+2011,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,10.138,9.108,,Atlantic salmon,saumon atlantique,Salmo salar,161996,1824,114.336,fork
+2011,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,10.138,9.108,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,1,,fork
+2011,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,10.138,9.108,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,18,,fork
+2011,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,10.138,9.108,,Rainbow smelt,éperlan arc-en-ciel,Osmerus mordax,162043,1050,145.405,fork
+2011,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,10.138,9.108,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,1,,fork
+2011,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,10.138,9.108,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,32,,fork
+2011,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,10.138,9.108,,White sucker,meunier noir,Catostomus commersoni,553273,475,,fork
+2012,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.629,10.262,,American eel,anguille d'Amérique,Anguilla rostrata,161127,13,428.385,total
+2012,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.629,10.262,,Atlantic salmon,saumon atlantique,Salmo salar,161996,3188,96.178,fork
+2012,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.629,10.262,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,17,,fork
+2012,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.629,10.262,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,14,40.143,fork
+2012,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.629,10.262,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,9,,fork
+2012,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.629,10.262,,Gaspereau,gaspareau,Alosa pseudoharengus,161701,2,251,fork
+2012,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.629,10.262,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,169,,fork
+2012,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.629,10.262,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,13,,fork
+2012,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.629,10.262,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,11,,fork
+2012,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.629,10.262,,White sucker,meunier noir,Catostomus commersoni,553273,9,,fork
+2012,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.304,11.983,,American eel,anguille d'Amérique,Anguilla rostrata,161127,225,282.16,total
+2012,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.304,11.983,,Atlantic salmon,saumon atlantique,Salmo salar,161996,2241,87.582,fork
+2012,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.304,11.983,,Banded killifish,fondule barré,Fundulus diaphanus,165646,2,,fork
+2012,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.304,11.983,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,7,,fork
+2012,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.304,11.983,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,221,,fork
+2012,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.304,11.983,,Gaspereau,gaspareau,Alosa pseudoharengus,161701,1,248,fork
+2012,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.304,11.983,,nine-spined stickleback,épinoche à neuf épines,Pungitius pungitius,166387,3,,fork
+2012,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.304,11.983,,Rainbow smelt,éperlan arc-en-ciel,Osmerus mordax,162043,1437,150.178,fork
+2012,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.304,11.983,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,14,,fork
+2012,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.304,11.983,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,3,,fork
+2012,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.304,11.983,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,154,,fork
+2012,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.304,11.983,,White sucker,meunier noir,Catostomus commersoni,553273,20,469,fork
+2012,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.629,11.379,,American eel,anguille d'Amérique,Anguilla rostrata,161127,68,311.406,total
+2012,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.629,11.379,,Atlantic salmon,saumon atlantique,Salmo salar,161996,1733,120.061,fork
+2012,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.629,11.379,,Banded killifish,fondule barré,Fundulus diaphanus,165646,2,,fork
+2012,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.629,11.379,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,6,,fork
+2012,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.629,11.379,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,1,301,fork
+2012,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.629,11.379,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,25,,fork
+2012,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.629,11.379,,nine-spined stickleback,épinoche à neuf épines,Pungitius pungitius,166387,2,,fork
+2012,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.629,11.379,,Rainbow smelt,éperlan arc-en-ciel,Osmerus mordax,162043,81,144.538,fork
+2012,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.629,11.379,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,2,,fork
+2012,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.629,11.379,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,1,,fork
+2012,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.629,11.379,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,115,,fork
+2012,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.629,11.379,,White sucker,meunier noir,Catostomus commersoni,553273,24,,fork
+2012,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,15.38,12.673,,American eel,anguille d'Amérique,Anguilla rostrata,161127,25,322.68,total
+2012,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,15.38,12.673,,Atlantic salmon,saumon atlantique,Salmo salar,161996,1720,93.495,fork
+2012,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,15.38,12.673,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,6,,fork
+2012,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,15.38,12.673,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,1,180,fork
+2012,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,15.38,12.673,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,3,,fork
+2012,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,15.38,12.673,,Lake chub,méné de lac,Couesius plumbeus,163535,1,,fork
+2012,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,15.38,12.673,,Rainbow trout,truite arc-en-ciel,Oncorhynchus mykiss,161989,1,115,fork
+2012,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,15.38,12.673,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,2,,fork
+2012,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,15.38,12.673,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,3,,fork
+2012,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,15.38,12.673,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,1,,fork
+2012,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,15.38,12.673,,White sucker,meunier noir,Catostomus commersoni,553273,7,,fork
+2013,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,8.828,7.574,,American eel,anguille d'Amérique,Anguilla rostrata,161127,4,553.333,total
+2013,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,8.828,7.574,,Atlantic salmon,saumon atlantique,Salmo salar,161996,4342,87.642,fork
+2013,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,8.828,7.574,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,16,,fork
+2013,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,8.828,7.574,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,3,136.333,fork
+2013,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,8.828,7.574,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,190,,fork
+2013,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,8.828,7.574,,White sucker,meunier noir,Catostomus commersoni,553273,1,,fork
+2013,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,12.9,13.175,,American eel,anguille d'Amérique,Anguilla rostrata,161127,24,341.375,total
+2013,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,12.9,13.175,,Atlantic salmon,saumon atlantique,Salmo salar,161996,21,75.048,fork
+2013,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,12.9,13.175,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,8,,fork
+2013,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,12.9,13.175,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,86,,fork
+2013,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,12.9,13.175,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,1,,fork
+2013,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,12.9,13.175,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,38,,fork
+2013,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,12.9,13.175,,White sucker,meunier noir,Catostomus commersoni,553273,37,,fork
+2013,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,13.55,12.675,,American eel,anguille d'Amérique,Anguilla rostrata,161127,11,316.909,total
+2013,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,13.55,12.675,,Atlantic salmon,saumon atlantique,Salmo salar,161996,15,72,fork
+2013,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,13.55,12.675,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,5,,fork
+2013,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,13.55,12.675,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,17,,fork
+2013,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,13.55,12.675,,Gaspereau,gaspareau,Alosa pseudoharengus,161701,1,315,fork
+2013,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,13.55,12.675,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,8,,fork
+2013,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,13.55,12.675,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,11,,fork
+2013,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,13.55,12.675,,White sucker,meunier noir,Catostomus commersoni,553273,17,,fork
+2013,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,6.667,7.981,,American eel,anguille d'Amérique,Anguilla rostrata,161127,1,510,total
+2013,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,6.667,7.981,,Atlantic salmon,saumon atlantique,Salmo salar,161996,2738,93.607,fork
+2013,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,6.667,7.981,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,5,,fork
+2013,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,6.667,7.981,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,1,158,fork
+2013,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,6.667,7.981,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,4,,fork
+2013,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,6.667,7.981,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,3,,fork
+2013,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,6.667,7.981,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,1,,fork
+2013,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,6.667,7.981,,White sucker,meunier noir,Catostomus commersoni,553273,7,480,fork
+2014,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.316,10.5,,American eel,anguille d'Amérique,Anguilla rostrata,161127,7,380.714,total
+2014,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.316,10.5,,Atlantic salmon,saumon atlantique,Salmo salar,161996,2032,82.666,fork
+2014,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.316,10.5,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,35,,fork
+2014,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.316,10.5,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,17,64.647,fork
+2014,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.316,10.5,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,68,,fork
+2014,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.316,10.5,,Gaspereau,gaspareau,Alosa pseudoharengus,161701,12,259.417,fork
+2014,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.316,10.5,,Lake chub,méné de lac,Couesius plumbeus,163535,2,,fork
+2014,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.316,10.5,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,261,,fork
+2014,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.316,10.5,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,7,,fork
+2014,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.316,10.5,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,9,,fork
+2014,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.316,10.5,,White sucker,meunier noir,Catostomus commersoni,553273,33,,fork
+2014,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,12.694,12.771,,American eel,anguille d'Amérique,Anguilla rostrata,161127,59,286.724,total
+2014,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,12.694,12.771,,Atlantic salmon,saumon atlantique,Salmo salar,161996,653,95.17,fork
+2014,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,12.694,12.771,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,8,,fork
+2014,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,12.694,12.771,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,168,,fork
+2014,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,12.694,12.771,,Gaspereau,gaspareau,Alosa pseudoharengus,161701,1,263,fork
+2014,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,12.694,12.771,,nine-spined stickleback,épinoche à neuf épines,Pungitius pungitius,166387,1,,fork
+2014,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,12.694,12.771,,Rainbow smelt,éperlan arc-en-ciel,Osmerus mordax,162043,410,135.269,fork
+2014,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,12.694,12.771,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,25,,fork
+2014,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,12.694,12.771,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,1,,fork
+2014,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,12.694,12.771,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,409,,fork
+2014,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,12.694,12.771,,White sucker,meunier noir,Catostomus commersoni,553273,18,440,fork
+2014,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,13.712,12.024,,American eel,anguille d'Amérique,Anguilla rostrata,161127,19,386.842,total
+2014,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,13.712,12.024,,Atlantic salmon,saumon atlantique,Salmo salar,161996,703,103.348,fork
+2014,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,13.712,12.024,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,2,,fork
+2014,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,13.712,12.024,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,1,115,fork
+2014,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,13.712,12.024,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,57,,fork
+2014,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,13.712,12.024,,Golden shiner,méné jaune,Notemigonus crysoleucas,163368,1,,fork
+2014,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,13.712,12.024,,Mummichog,choquemort,Fundulus heteroclitus,165647,1,,fork
+2014,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,13.712,12.024,,nine-spined stickleback,épinoche à neuf épines,Pungitius pungitius,166387,1,,fork
+2014,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,13.712,12.024,,Rainbow smelt,éperlan arc-en-ciel,Osmerus mordax,162043,52,135.5,fork
+2014,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,13.712,12.024,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,1,,fork
+2014,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,13.712,12.024,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,79,,fork
+2014,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,13.712,12.024,,White sucker,meunier noir,Catostomus commersoni,553273,45,,fork
+2014,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,15.211,,,American eel,anguille d'Amérique,Anguilla rostrata,161127,8,363.75,total
+2014,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,15.211,,,Atlantic salmon,saumon atlantique,Salmo salar,161996,109,96.065,fork
+2014,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,15.211,,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,1,,fork
+2014,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,15.211,,,Gaspereau,gaspareau,Alosa pseudoharengus,161701,2,,fork
+2014,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,15.211,,,Lake chub,méné de lac,Couesius plumbeus,163535,1,,fork
+2014,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,15.211,,,White sucker,meunier noir,Catostomus commersoni,553273,15,,fork
+2015,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.186,9.61,,American eel,anguille d'Amérique,Anguilla rostrata,161127,20,469.7,total
+2015,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.186,9.61,,Atlantic salmon,saumon atlantique,Salmo salar,161996,6811,87.193,fork
+2015,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.186,9.61,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,42,,fork
+2015,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.186,9.61,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,7,140.286,fork
+2015,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.186,9.61,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,19,,fork
+2015,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.186,9.61,,Gaspereau,gaspareau,Alosa pseudoharengus,161701,4,253.75,fork
+2015,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.186,9.61,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,259,,fork
+2015,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.186,9.61,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,8,434,fork
+2015,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.186,9.61,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,4,,fork
+2015,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.186,9.61,,White sucker,meunier noir,Catostomus commersoni,553273,16,420,fork
+2015,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.403,,,American eel,anguille d'Amérique,Anguilla rostrata,161127,157,293.363,total
+2015,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.403,,,Atlantic salmon,saumon atlantique,Salmo salar,161996,957,110.084,fork
+2015,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.403,,,Banded killifish,fondule barré,Fundulus diaphanus,165646,1,,fork
+2015,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.403,,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,13,,fork
+2015,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.403,,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,276,,fork
+2015,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.403,,,Lake chub,méné de lac,Couesius plumbeus,163535,3,,fork
+2015,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.403,,,nine-spined stickleback,épinoche à neuf épines,Pungitius pungitius,166387,2,,fork
+2015,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.403,,,Rainbow smelt,éperlan arc-en-ciel,Osmerus mordax,162043,860,136.127,fork
+2015,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.403,,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,4,,fork
+2015,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.403,,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,1,,fork
+2015,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.403,,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,544,,fork
+2015,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,11.403,,,White sucker,meunier noir,Catostomus commersoni,553273,76,,fork
+2015,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,17.978,11.163,,American eel,anguille d'Amérique,Anguilla rostrata,161127,31,359.968,total
+2015,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,17.978,11.163,,Atlantic salmon,saumon atlantique,Salmo salar,161996,1433,103.357,fork
+2015,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,17.978,11.163,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,4,,fork
+2015,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,17.978,11.163,,Common shiner,méné à nageoires rouges,Notropis cornutus,163836,1,,fork
+2015,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,17.978,11.163,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,3,,fork
+2015,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,17.978,11.163,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,2,,fork
+2015,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,17.978,11.163,,White sucker,meunier noir,Catostomus commersoni,553273,1,403,fork
+2016,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,17.9,,,American eel,anguille d'Amérique,Anguilla rostrata,161127,12,550.917,total
+2016,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,17.9,,,Atlantic salmon,saumon atlantique,Salmo salar,161996,2348,88.692,fork
+2016,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,17.9,,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,10,,fork
+2016,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,17.9,,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,6,79,fork
+2016,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,17.9,,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,7,,fork
+2016,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,17.9,,,Gaspereau,gaspareau,Alosa pseudoharengus,161701,2,276,fork
+2016,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,17.9,,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,152,,fork
+2016,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,17.9,,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,4,,fork
+2016,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,17.9,,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,5,,fork
+2016,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,17.9,,,White sucker,meunier noir,Catostomus commersoni,553273,5,,fork
+2016,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,12.743,,,American eel,anguille d'Amérique,Anguilla rostrata,161127,31,270.774,total
+2016,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,12.743,,,Atlantic salmon,saumon atlantique,Salmo salar,161996,772,108.917,fork
+2016,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,12.743,,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,61,,fork
+2016,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,12.743,,,Lake chub,méné de lac,Couesius plumbeus,163535,1,,fork
+2016,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,12.743,,,nine-spined stickleback,épinoche à neuf épines,Pungitius pungitius,166387,11,,fork
+2016,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,12.743,,,Rainbow smelt,éperlan arc-en-ciel,Osmerus mordax,162043,837,138.786,fork
+2016,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,12.743,,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,19,,fork
+2016,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,12.743,,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,288,,fork
+2016,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,12.743,,,White sucker,meunier noir,Catostomus commersoni,553273,17,,fork
+2016,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,13.774,,,American eel,anguille d'Amérique,Anguilla rostrata,161127,26,338.115,total
+2016,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,13.774,,,Atlantic salmon,saumon atlantique,Salmo salar,161996,517,107.872,fork
+2016,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,13.774,,,Banded killifish,fondule barré,Fundulus diaphanus,165646,3,,fork
+2016,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,13.774,,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,4,,fork
+2016,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,13.774,,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,51,,fork
+2016,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,13.774,,,Lake chub,méné de lac,Couesius plumbeus,163535,6,,fork
+2016,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,13.774,,,nine-spined stickleback,épinoche à neuf épines,Pungitius pungitius,166387,7,,fork
+2016,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,13.774,,,Rainbow smelt,éperlan arc-en-ciel,Osmerus mordax,162043,105,152.5,fork
+2016,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,13.774,,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,9,,fork
+2016,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,13.774,,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,144,,fork
+2016,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,13.774,,,White sucker,meunier noir,Catostomus commersoni,553273,48,,fork
+2017,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,15.05,,,American eel,anguille d'Amérique,Anguilla rostrata,161127,15,426.333,total
+2017,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,15.05,,,Atlantic salmon,saumon atlantique,Salmo salar,161996,2230,81.935,fork
+2017,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,15.05,,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,23,,fork
+2017,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,15.05,,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,13,93.538,fork
+2017,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,15.05,,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,16,,fork
+2017,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,15.05,,,Lake chub,méné de lac,Couesius plumbeus,163535,2,,fork
+2017,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,15.05,,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,285,,fork
+2017,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,15.05,,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,3,,fork
+2017,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,15.05,,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,4,,fork
+2017,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,15.05,,,White sucker,meunier noir,Catostomus commersoni,553273,7,,fork
+2017,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,12.047,,,American eel,anguille d'Amérique,Anguilla rostrata,161127,95,319.421,total
+2017,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,12.047,,,Atlantic salmon,saumon atlantique,Salmo salar,161996,676,111.647,fork
+2017,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,12.047,,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,5,,fork
+2017,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,12.047,,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,225,,fork
+2017,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,12.047,,,Rainbow smelt,éperlan arc-en-ciel,Osmerus mordax,162043,2075,135.739,fork
+2017,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,12.047,,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,2,,fork
+2017,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,12.047,,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,16,,fork
+2017,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,12.047,,,White sucker,meunier noir,Catostomus commersoni,553273,29,,fork
+2017,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.412,,,American eel,anguille d'Amérique,Anguilla rostrata,161127,20,372.75,total
+2017,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.412,,,Atlantic salmon,saumon atlantique,Salmo salar,161996,387,114.052,fork
+2017,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.412,,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,1,,fork
+2017,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.412,,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,26,,fork
+2017,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.412,,,Rainbow smelt,éperlan arc-en-ciel,Osmerus mordax,162043,85,,fork
+2017,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.412,,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,1,,fork
+2017,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.412,,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,17,,fork
+2017,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,12.412,,,White sucker,meunier noir,Catostomus commersoni,553273,38,,fork
+2018,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.604,,,American eel,anguille d'Amérique,Anguilla rostrata,161127,15,418.143,total
+2018,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.604,,,Atlantic salmon,saumon atlantique,Salmo salar,161996,1556,114.858,fork
+2018,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.604,,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,19,,fork
+2018,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.604,,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,3,140,fork
+2018,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.604,,,Creek chub,mulet à cornes,Semotilus atromaculatus,163376,2,,fork
+2018,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.604,,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,13,,fork
+2018,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.604,,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,1,,fork
+2018,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.604,,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,1,,fork
+2018,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,13.604,,,White sucker,meunier noir,Catostomus commersoni,553273,13,,fork
+2018,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.671,,,American eel,anguille d'Amérique,Anguilla rostrata,161127,38,385.162,total
+2018,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.671,,,American Shad,alose savoureuse,Alosa sapidissima,161702,1,230,fork
+2018,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.671,,,Atlantic salmon,saumon atlantique,Salmo salar,161996,424,113.316,fork
+2018,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.671,,,Banded killifish,fondule barré,Fundulus diaphanus,165646,1,,fork
+2018,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.671,,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,6,,fork
+2018,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.671,,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,1,95,fork
+2018,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.671,,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,275,,fork
+2018,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.671,,,Rainbow smelt,éperlan arc-en-ciel,Osmerus mordax,162043,2078,140.71,fork
+2018,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.671,,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,1,,fork
+2018,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.671,,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,1,,fork
+2018,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.671,,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,163,,fork
+2018,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,10.671,,,White sucker,meunier noir,Catostomus commersoni,553273,177,,fork
+2018,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.011,,,American eel,anguille d'Amérique,Anguilla rostrata,161127,12,348.833,total
+2018,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.011,,,Atlantic salmon,saumon atlantique,Salmo salar,161996,157,106.974,fork
+2018,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.011,,,Banded killifish,fondule barré,Fundulus diaphanus,165646,6,,fork
+2018,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.011,,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,9,,fork
+2018,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.011,,,Rainbow smelt,éperlan arc-en-ciel,Osmerus mordax,162043,20,160,fork
+2018,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.011,,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,42,,fork
+2018,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,11.011,,,White sucker,meunier noir,Catostomus commersoni,553273,88,,fork
+2018,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,12.825,,,American eel,anguille d'Amérique,Anguilla rostrata,161127,39,316.103,total
+2018,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,12.825,,,Atlantic salmon,saumon atlantique,Salmo salar,161996,2558,98.099,fork
+2018,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,12.825,,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,15,,fork
+2018,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,12.825,,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,1,135,fork
+2018,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,12.825,,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,7,,fork
+2018,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,12.825,,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,86,,fork
+2018,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,12.825,,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,1,,fork
+2018,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,12.825,,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,1,,fork
+2018,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,12.825,,,White sucker,meunier noir,Catostomus commersoni,553273,10,445,fork
+2019,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.333,,,American eel,anguille d'Amérique,Anguilla rostrata,161127,18,463.778,total
+2019,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.333,,,Atlantic salmon,saumon atlantique,Salmo salar,161996,1180,100.781,fork
+2019,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.333,,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,32,,fork
+2019,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.333,,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,1,275,fork
+2019,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.333,,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,4,,fork
+2019,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.333,,,Gaspereau,gaspareau,Alosa pseudoharengus,161701,2,267,fork
+2019,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.333,,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,11,,fork
+2019,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.333,,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,1,,fork
+2019,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,10.333,,,White sucker,meunier noir,Catostomus commersoni,553273,2,,fork
+2019,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,9.988,,,American eel,anguille d'Amérique,Anguilla rostrata,161127,105,345.2,total
+2019,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,9.988,,,Atlantic salmon,saumon atlantique,Salmo salar,161996,1051,111.446,fork
+2019,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,9.988,,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,2,,fork
+2019,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,9.988,,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,393,,fork
+2019,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,9.988,,,Rainbow smelt,éperlan arc-en-ciel,Osmerus mordax,162043,184,148.067,fork
+2019,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,9.988,,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,1,,fork
+2019,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,9.988,,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,209,,fork
+2019,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,9.988,,,White sucker,meunier noir,Catostomus commersoni,553273,72,,fork
+2019,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,10.577,,,American eel,anguille d'Amérique,Anguilla rostrata,161127,32,433.125,total
+2019,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,10.577,,,Atlantic salmon,saumon atlantique,Salmo salar,161996,1098,122.097,fork
+2019,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,10.577,,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,2,68,fork
+2019,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,10.577,,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,19,,fork
+2019,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,10.577,,,Rainbow smelt,éperlan arc-en-ciel,Osmerus mordax,162043,240,143.407,fork
+2019,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,10.577,,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,62,,fork
+2019,Moses-RST,New Brunswick,47.9971,-66.8159,Restigouche River,SFA15,DACGO,10.577,,,White sucker,meunier noir,Catostomus commersoni,553273,56,,fork
+2019,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,10.433,,,American eel,anguille d'Amérique,Anguilla rostrata,161127,65,351.462,total
+2019,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,10.433,,,Atlantic salmon,saumon atlantique,Salmo salar,161996,2661,98.113,fork
+2019,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,10.433,,,Banded killifish,fondule barré,Fundulus diaphanus,165646,2,,fork
+2019,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,10.433,,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,9,58.111,fork
+2019,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,10.433,,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,4,57.333,fork
+2019,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,10.433,,,Lake chub,méné de lac,Couesius plumbeus,163535,4,65.75,fork
+2019,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,10.433,,,Rainbow trout,truite arc-en-ciel,Oncorhynchus mykiss,161989,2,71.5,fork
+2019,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,10.433,,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,102,,fork
+2019,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,10.433,,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,1,57,fork
+2019,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,10.433,,,White sucker,meunier noir,Catostomus commersoni,553273,4,76.333,fork
+2021,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,14.072,,,American eel,anguille d'Amérique,Anguilla rostrata,161127,5,621,total
+2021,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,14.072,,,Atlantic salmon,saumon atlantique,Salmo salar,161996,1848,125.25,fork
+2021,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,14.072,,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,1,,fork
+2021,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,14.072,,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,1,,fork
+2021,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,14.072,,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,2,,fork
+2021,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,14.072,,,Gaspereau,gaspareau,Alosa pseudoharengus,161701,1,272,fork
+2021,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,14.072,,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,1,155,fork
+2021,Kedgwick-RST,New Brunswick,47.6711,-67.5098,Kedgwick River,SFA15,DALLK,14.072,,,White sucker,meunier noir,Catostomus commersoni,553273,4,,fork
+2021,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,13.188,9.974,,American eel,anguille d'Amérique,Anguilla rostrata,161127,50,411.609,total
+2021,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,13.188,9.974,,Atlantic salmon,saumon atlantique,Salmo salar,161996,912,120.914,fork
+2021,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,13.188,9.974,,Banded killifish,fondule barré,Fundulus diaphanus,165646,5,,fork
+2021,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,13.188,9.974,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,3,,fork
+2021,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,13.188,9.974,,Common shiner,méné à nageoires rouges,Notropis cornutus,163836,3,,fork
+2021,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,13.188,9.974,,four-spined stickleback,épinoche à quatre épines,Apeletes quadracus,166397,1,,fork
+2021,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,13.188,9.974,,Gaspereau,gaspareau,Alosa pseudoharengus,161701,1,242,fork
+2021,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,13.188,9.974,,Lake chub,méné de lac,Couesius plumbeus,163535,562,,fork
+2021,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,13.188,9.974,,Northern redbelly dace,ventre rouge du nord,Chrosomus eos,163592,2,,fork
+2021,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,13.188,9.974,,Rainbow smelt,éperlan arc-en-ciel,Osmerus mordax,162043,10376,143.16,fork
+2021,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,13.188,9.974,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,72,,fork
+2021,Butters-RST,New Brunswick,47.9867,-66.8023,Restigouche River,SFA15,DACGO,13.188,9.974,,White sucker,meunier noir,Catostomus commersoni,553273,122,,fork
+2021,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.611,,,American eel,anguille d'Amérique,Anguilla rostrata,161127,25,391.16,total
+2021,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.611,,,Atlantic salmon,saumon atlantique,Salmo salar,161996,3064,114.919,fork
+2021,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.611,,,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,27,,fork
+2021,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.611,,,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,1,100,fork
+2021,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.611,,,Common shiner,méné à nageoires rouges,Notropis cornutus,163836,7,,fork
+2021,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.611,,,Finescale dace,ventre citron,Chrosomus neogaeus,163594,5,,fork
+2021,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.611,,,Lake chub,méné de lac,Couesius plumbeus,163535,19,88,fork
+2021,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.611,,,Northern redbelly dace,ventre rouge du nord,Chrosomus eos,163592,2,,fork
+2021,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.611,,,Rainbow trout,truite arc-en-ciel,Oncorhynchus mykiss,161989,2,77,fork
+2021,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.611,,,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,53,150.25,fork
+2021,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.611,,,Slimy sculpin,chabot visqueux,Cottus cognatus,167232,4,,fork
+2021,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.611,,,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,9,,fork
+2021,Upsalquitch-RST,New Brunswick,47.8532,-66.9092,Upsalquitch River,SFA15,DAPWI,13.611,,,White sucker,meunier noir,Catostomus commersoni,553273,59,418.5,fork
