@@ -21,7 +21,7 @@ suppressPackageStartupMessages(library(gulf))
 Using the function "read.card" from the DFO Gulf Region's R package "gulf", read in the set cards and exclude hydrographic stations and null sets, so as to keep only representative tows in strata 401 to 403 and 415 to 439.
 
 ```{r sets}
-yrs <- 1970:2022
+yrs <- 1971:2022
 projectBase = here::here()
 # source('D:/SourceControl/Git Hub/gulf/R/rv.good.sets.R')
 # x <- read.card(card.type="set", year=yrs)
@@ -126,7 +126,7 @@ fvars2 <- c("year","month","day","start.hour","start.minute","latitude","longitu
 zz=  z[ooz,fvars2]
 
 #header for FGP must be in both languages
-names(zz) <- c("year__annee","month__mois","day__jour","start_hour__heure_de_depart","start_minute__minute_de_depart","latitude","longitude","gear__equipement","species__espece","french_name__nom_francais","english_name__nom_anglais","latin_name__nom_latin","weight_caught__poids_pris","number_caught__quantite__attrape")
+names(zz) <- c("year__annee","month__mois","day__jour","start_hour__heure_de_depart","start_minute__minute_de_depart","latitude","longitude","gear__equipement","species__espece","french_name__nom_francais","english_name__nom_anglais","latin_name__nom_latin","weight_caught__poids_pris","number_caught__quantite_attrape")
 
 #fixes encodig issue
 con<-file(csv.fn2,encoding="ISO-8859-1")
