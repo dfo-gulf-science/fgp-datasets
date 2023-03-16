@@ -21,8 +21,7 @@ Using the function "read.card" from the DFO Gulf Region's R package "gulf", read
 ```{r sets}
 survey = "sca"
 projectBase = here::here()
- # yrs <- c(2012, 2013, 2014, 2015, 2016,2018,2019,2020,2021,2022)
- yrs <- 2022
+ yrs <- c(2012, 2013, 2014, 2015, 2016,2018,2019,2020,2021, 2022)
 
 x <- read.card(card.type="set", year=yrs, survey = survey)
 ## we want to keep only representative tows, within the historical context that some tows were identified as "hydrography" before 1993 but were really fishing stations
@@ -60,6 +59,7 @@ x <- x[ox,] # reorder chronologically
 ```
 
 
+
 Catch cards contain the total catch information for the species of interest. Here they are adjusted for distance towed, estimated diurnal effects and estimated vessel-gear effects.
 ```{r catch2}
 ### Catch card for all years requesteed
@@ -69,7 +69,8 @@ y <- read.card(card.type="cat", year = yrs , survey=survey)
 
 ## CATCH
 ```{r adjust}
-y <- adjust(y, x)
+# y <- adjust(y, x)
+tmp <- adjust(y, x)
 y$unique.id <- paste(y$year, y$cruise.number, y$vessel.code, y$set.number, sep="-")
 y$english.name <- species.str(y$species, "english")
 y$latin.name <- species.str(y$species, "latin")
