@@ -95,5 +95,8 @@ zz=  z[ooz,fvars2]
  
 names(zz) <- c("year__annee","month__mois","day__jour","start_hour__heure_de_depart","start_minute__minute_de_depart","latitude","longitude","gear__equipement","species__espece","french_name__nom_francais","english_name__nom_anglais","latin_name__nom_latin","weight_caught__poids_pris","number_caught__quantite_attrape")
 
-write.csv(zz, file=csv.fn2, row.names=FALSE)
+con<-file(csv.fn2,encoding="ISO-8859-1")
+write.csv(zz, file=con, row.names=FALSE)
+
+# write.csv(zz, file=csv.fn2, row.names=FALSE ,fileEncoding = "UTF-8")
 ```
