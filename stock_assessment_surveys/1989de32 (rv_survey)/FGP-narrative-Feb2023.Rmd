@@ -22,6 +22,7 @@ Using the function "read.card" from the DFO Gulf Region's R package "gulf", read
 
 ```{r sets}
 yrs <- 1971:2022
+
 projectBase = here::here()
 # source('D:/SourceControl/Git Hub/gulf/R/rv.good.sets.R')
 # x <- read.card(card.type="set", year=yrs)
@@ -58,9 +59,9 @@ x <- x[logical4,]
 Add a few useful columns to the data frame containing the set card information (including depth and swept area as requested).
 ```{r sets2}
 ## add useful columns
+x[x$vessel.code=="T" & x$year==2003,"vessel.code"] <- "TE" ## CCGS Templeman used in 2003
 x$unique.id <- paste(x$year, x$cruise.number, x$vessel.code, x$set.number, sep="-")
 x$experiment.str <- experiment.str(x$experiment)
-x[x$vessel.code=="T" & x$year==2003,"vessel.code"] <- "TE" ## CCGS Templeman used in 2003
 x$vessel.str <- vessel.str(x$vessel.code)
 x$gear.str <- gear.str(x$gear)
 x$longitude <- longitude(x)
