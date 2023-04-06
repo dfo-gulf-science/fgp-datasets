@@ -90,26 +90,27 @@ y <- read.card(card.type="catch", year = yrs)
 
 ## CATCH
 ```{r adjust}
+
+y[y$vessel.code=="T" & y$year==2003,"vessel.code"] <- "TE" ## CCGS Templeman used in 2003
+
 y <- adjust(y, x)
 y$unique.id <- paste(y$year, y$cruise.number, y$vessel.code, y$set.number, sep="-")
-# hack for 2021.  it crashes.  seems to crash when more than 500 distinct entries.
 
- y1 = y[y$year < 2021,]
- y2 = y[y$year >  2021,]
-# 
- y1$english.name <- species.str(y1$species, "english")
- y1$latin.name <- species.str(y1$species, "latin")
- y1$french.name <- species.str(y1$species, "french")
-# 
- y2$english.name <- species.str(y2$species, "english")
- y2$latin.name <- species.str(y2$species, "latin")
- y2$french.name <- species.str(y2$species, "french")
- y=rbind(y1,y2)
+uni.spec = unique(y$species)
+columns = c("species","english.name", "french.name", "latin.name")
 
- # y$english.name <- species.str(y$species, "english")
- # y$latin.name <- species.str(y$species, "latin")
- # y$french.name <- species.str(y$species, "french")
+ 
+ 
+#Create a Empty DataFrame with length(uni.spec) rows and length(columns) columns
+df = data.frame(matrix(nrow = length(uni.spec), ncol = length(columns))) 
+colnames(df) = columns
+df$species = uni.spec
+df$english.name <- species.str( uni.spec, "english")
+df$latin.name   <- species.str( uni.spec, "latin")
+df$french.name  <- species.str( uni.spec, "french")
 
+
+y <- merge(y, df, by = "species", names = c("english.name","french.name", "latin.name"))
 z <- merge(y,x, all.x = TRUE, by = "unique.id", names = c("longitude","latitude", "gear.str"))
 
 ##  CSV
