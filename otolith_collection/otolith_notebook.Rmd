@@ -11,7 +11,7 @@ The purpose of this notebook is to facilitate the generation and update of the F
 
 ```{r loaddata}
 library(gulf)
-data(rv)
+#data(rv)
 ```
 
 ## Data dictionary
@@ -72,7 +72,7 @@ sent.df$source <- "SENT-4T"
 ## what years are available for commercial ages?
 ## com.files <- list.files(path="//ENT.dfo-mpo.ca/dfo-mpo/GROUP/GLF/Regional_Shares/Science/Hd2/commercial/age", pattern="codage")
 y.c <- gulf::read.card(year=1982, sampling="commercial", species=10, card.type="age") ## this loads all pre-1982 commercial ages
-for(yy in c(1983:2002,2004:2019,2021)){ ## loop over years 
+for(yy in c(1983:2002,2004:2021)){ ## loop over years 
 t.c <- gulf::read.card(year=yy, sampling="commercial", species=10, card.type="age")
 y.c <- rbind(y.c,t.c)
 }
@@ -562,7 +562,7 @@ write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE, fileEncoding = "UTF8"
 Vertebrae from the September RV survey.
 
 Outstanding issue:
-- there are no ages in the bio cards
+- there are no ages in the bio cards (ages were found on the science media drive under "Skate images", still to be integrated into Oracle)
 
 ```{r skates, cache=TRUE}
 ## RV data
@@ -610,3 +610,4 @@ write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE, fileEncoding = "UTF8"
 
 ## Atlantic Herring
 Still to be integrated.
+
