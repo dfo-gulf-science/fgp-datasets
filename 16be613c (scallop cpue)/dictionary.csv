@@ -6,6 +6,6 @@ boats__bateaux,number of distinct fishing boats where a boat corresponds to an a
 fishing.days__jours.de.pêche,number of fishing days,nombre de jours de pêche
 gear__engin,type of gear,type d'engin
 towed.hours__heures.remorquées,number of towed hours where towed.hours equals the number of tows by the duration in hours the gear is on the sea floor (missing  data were imputed with a random forest algorithm),nombre d'heures draguées où le nombre d'heures remorquées est égale au nombre de traits multiplié par la durée en heure où l'engin de pêche est sur le fond (les données manquantes sont imputées à l'aide d'un algorithme de forêt aléatoire)
-cpue.boats__cpue.bateaux,catch per unit effort in ton where catch is landings.t  and effort is boats,capture par unité d'effort en tonne où la capture est débarquements.t et l'effort est bateaux
-cpue.days__cpue.jours,catch per unit effort in kg where catch is landings.t*1000  and effort is fishing.days,capture par unité d'effort en kg où la capture est débarquements.t*1000 et l'effort est jours.de.pêche
-cpue.hours__cpue.heures,catch per unit effort in kg where catch is landings.t*1000  and effort is towed.hours,capture par unité d'effort en kg où la capture est débarquements.t*1000 et l'effort est heures.remorquées
+cpue.boats__cpue.bateaux,catch per unit effort in ton where catch is landings.t and effort is boats,capture par unité d'effort en tonne où la capture est débarquements.t et l'effort est bateaux
+cpue.days__cpue.jours,catch per unit effort in kg where catch is landings.t*1000 and effort is fishing.days,capture par unité d'effort en kg où la capture est débarquements.t*1000 et l'effort est jours.de.pêche
+cpue.hours__cpue.heures,catch per unit effort in kg where catch is landings.t*1000 and effort is towed.hours,capture par unité d'effort en kg où la capture est débarquements.t*1000 et l'effort est heures.remorquées
