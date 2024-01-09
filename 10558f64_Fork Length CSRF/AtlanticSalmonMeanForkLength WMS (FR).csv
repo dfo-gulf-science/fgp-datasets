@@ -1,4 +1,4 @@
-,nom de la rivière,latitude,longitude,"comptage annuel, moyenne","comptage annuel, écart-type","longueur de la fourche, moyenne","longueur de la fourche, écart type",nombre d'échantillons,"années échantillonnées, incluses",ventilation des pourcentages d'âge
+,nom de la rivière,latitude,longitude,"comptage annuel, moyenne","comptage annuel, écart-type","longueur de la fourche, moyenne","longueur de la fourche, écart type",nombre d'années d'échantillonnage,"années échantillonnées, incluses",ventilation des pourcentages d'âge
 0,Conne River,47.868005,-55.705978,184.44444444444446,154.61573463533844,512.0986832083333,7.39742559472512,36,"1980, 1986-2020",age 1: 100%
 1,English River,54.96288400000001,-59.762211,125.35,84.17605297670379,536.933995975,9.029696593913348,20,2000-2019,age 1: 100%
 2,Exploits River,49.088976,-55.354689,166.75862068965517,147.07302733492,533.9404812103448,10.668929387969822,29,"1983-1986, 1992, 1994-1996, 1998-2003, 2006-2020",age 1: 100%

@@ -1,22 +1,18 @@
-Atlantic Salmon Mean Fork Length Dataset_Ensemble de données sur la longueur moyenne à la fourche du saumon Atlantique,,
-name_nom,description_en,description_fr
-river_rivière,river where data was collected,rivière où les données ont été collectées
-age_âge,age of salmon: 1 = one winter in the marine environment; 2 = two winters in the marine environment,âge du saumon : 1 = un hiver en milieu marin ; 2 = deux hivers en milieu marin
-year_année,year when data was collected,année de collecte des données
-latitude_latitude,mean latitude where data was collected at river,latitude moyenne où les données ont été collectées de la rivière
-longitude_longitude,mean longitude where data was collected at river,longitude moyenne où les données ont été collectées de la rivière
-n_n,number of individuals included in mean,nombre d'individus inclus dans la moyenne
-mean fork length_longueur moyenne à la fourche,mean annual fork length (mm),longueur annuelle moyenne à la fourche (mm)
-,,
-Atlantic Salmon Mean Fork Length Web Map Service_Service de cartographie Web sur la longueur moyenne des fourches du saumon Atlantique,,
-name_nom,description_en,description_fr
-river_rivière,river where data was collected,rivière où les données ont été collectées
-latitude_latitude,mean latitude where data was collected at river,latitude moyenne où les données ont été collectées de la rivière
-longitude_longitude,mean longitude where data was collected at river,longitude moyenne où les données ont été collectées de la rivière
-,"annual count, mean","comptage annuel, moyenne"
-,"annual count, standard deviation","comptage annuel, écart-type"
-,"fork length, mean","longueur de la fourche, moyenne"
-,"fork length, standard deviation","longueur de la fourche, écart type"
-,number of samples,nombre d'échantillons
-,"years sampled, inclusive","années échantillonnées, incluses"
-,age percentage breakdown,ventilation des pourcentages d'âge
+name_nom,document,description_en,description_fr
+river_rivière,dataset,river where data was collected,rivière où les données ont été collectées
+age_âge,dataset,age of salmon: 1 = one winter in the marine environment; 2 = two winters in the marine environment,âge du saumon : 1 = un hiver en milieu marin ; 2 = deux hivers en milieu marin
+year_année,dataset,year when data was collected,année de collecte des données
+latitude_latitude,dataset,mean latitude where data was collected at river,latitude moyenne où les données ont été collectées de la rivière
+longitude_longitude,dataset,mean longitude where data was collected at river,longitude moyenne où les données ont été collectées de la rivière
+n_n,dataset,number of individuals included in mean,nombre d'individus inclus dans la moyenne
+mean fork length_longueur moyenne à la fourche,dataset,mean annual fork length (mm),longueur annuelle moyenne à la fourche (mm)
+river name / nom de la rivière,wms,river where data was collected,rivière où les données ont été collectées
+latitude,wms,mean latitude where data was collected at river,latitude moyenne où les données ont été collectées de la rivière
+longitude,wms,mean longitude where data was collected at river,longitude moyenne où les données ont été collectées de la rivière
+"annual count, mean / comptage annuel, moyenne",wms,average (mean) annual count of number of fish processed for a given river,nombre annuel moyen de poissons traités pour une rivière donnée
+"annual count, standard deviation / comptage annuel, écart-type",wms,standard deviation of the annual count of number of fish processed for a given river,l'écart-type du décompte annuel du nombre de poissons traités pour une rivière donnée
+"fork length, mean / longueur de la fourche, moyenne",wms,average (mean) fork length for a given river,longueur moyenne à la fourche pour une rivière donnée
+"fork length, standard deviation / longueur de la fourche, écart type",wms,standard deviation of fork length for a given river,l'écart-type de la longueur à la fourche pour une rivière donnée
+"number of years sampled / nombre d'années d'échantillonnage",wms,number of years a river has been sampled,nombre d'années d'échantillonnage d'une rivière
+"years sampled, inclusive / années échantillonnées, incluses",wms,enumeration of years sampled,dénombrement des années échantillonnées
+"age percentage breakdown / ventilation des pourcentages d'âge",wms,"a breakdown of specimen ages, by percentage","une ventilation de l'âge des spécimens, par pourcentage"
