@@ -1,0 +1,21 @@
+Atlantic Salmon Mean Fork Length Dataset_Ensemble de données sur la longueur moyenne à la fourche du saumon Atlantique,,
+name_nom,description_en,description_fr
+river_rivière,river where data was collected,rivière où les données ont été collectées
+age_âge,age of salmon: 1 = one winter in the marine environment; 2 = two winters in the marine environment,âge du saumon : 1 = un hiver en milieu marin ; 2 = deux hivers en milieu marin
+year_année,year when data was collected,année de collecte des données
+latitude_latitude,mean latitude where data was collected at river,latitude moyenne où les données ont été collectées de la rivière
+longitude_longitude,mean longitude where data was collected at river,longitude moyenne où les données ont été collectées de la rivière
+n_n,number of individuals included in mean,nombre d'individus inclus dans la moyenne
+mean fork length_longueur moyenne à la fourche,mean annual fork length (mm),longueur annuelle moyenne à la fourche (mm)
+,,
+Atlantic Salmon Mean Fork Length Web Map Service_Service de cartographie Web sur la longueur moyenne des fourches du saumon Atlantique,,
+river_rivière,river where data was collected,rivière où les données ont été collectées
+latitude_latitude,mean latitude where data was collected at river,latitude moyenne où les données ont été collectées de la rivière
+longitude_longitude,mean longitude where data was collected at river,longitude moyenne où les données ont été collectées de la rivière
+,"annual count, mean","comptage annuel, moyenne"
+,"annual count, standard deviation","comptage annuel, écart-type"
+,"fork length, mean","longueur de la fourche, moyenne"
+,"fork length, standard deviation","longueur de la fourche, écart type"
+,number of samples,nombre d'échantillons
+,"years sampled, inclusive","années échantillonnées, incluses"
+,age percentage breakdown,ventilation des pourcentages d'âge
