@@ -109,7 +109,7 @@ qu.b.fn <- file.path(fp, fn3) # file.exists(qu.p.fn)
 qu.b.t <- readLines(qu.b.fn)
 ## lines.i <- seq(1,length(qu.b.t)-1,2) ## every second line seems empty after reading it in
 
-qu.b.df <- process.que.file.fct(qu.b.t[lines.i], "bio")
+qu.b.df <- process.que.file.fct(qu.b.t, "bio") # [lines.i]
 # table(nchar(qu.b.df$date6), exclude=FALSE)
 ## wrangle the year out of that stupid date6
 qu.b.df$year.last2 <- ifelse(nchar(qu.b.df$date6)==5, substring(qu.b.df$date6,4,5), substring(qu.b.df$date6,5,6))
@@ -206,6 +206,7 @@ ned.agg$french.name_nom.français <- "Plie grise"
 
 
 ## Teleost
+qu.fp.tel <- file.path("//dcqcimlna01a/BD_Peches","/Releves_Poissons_de_Fond_et_Crevette/Extractions_Oracle/RelevésRecherche/Teleost/Version_Courante")
     fp <- qu.fp.tel
     fn1 <- "Te_set.dat"
     fn2 <- "Te_prélèvements.dat"
