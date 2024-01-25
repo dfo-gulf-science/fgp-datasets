@@ -1,41 +1,42 @@
-ï»¿name_nom,description_en,description_fr
-sample_id,unique identifier of sample,identifiant unique de l'Ã©chantillon
-year,year of observation,l'annÃ©e de lâ€™observation
-month,month of observation,le mois de lâ€™observation
-day,day of observation,le jour de lâ€™observation
-prov,province,province
-site,name of site and province,site de PSCA
-station,camp station,station de PSCA
-latitude,station latitude (decimal degrees),latitude de la station (degrÃ©s dÃ©cimaux)
-longitude,station longitude (decimal degrees),longitude de la station (degrÃ©s dÃ©cimaux)
-start_date,sample start date/time,date / heure de dÃ©but
-end_date,sample end date/time,date / heure de fin
-ammonia,ammonia,ammoniac
-do,dissolved oxygen,oxygÃ¨ne dissous
-nitrates,nitrates,nitrates
-nitrite,nitrite,nitrite
-phosphate,phosphate,phosphate
-sal,salinity,salinitÃ©
-silicate,silicate,silicate
-water_temp,water temperature (degrees C),tempÃ©rature de l'eau (degrÃ©s C)
-gravel,gravel (%),gravier (%)
-mud,mud (%),boue (%)
-rock,rock (%),roche (%)
-sand,sand (%),sable (%)
-species_code,species code,code de l'espÃ¨ce
-tsn,ITIS taxonomic serial number (TSN),numÃ©ro de sÃ©rie taxonomique ITIS (TSN)
-sav,Is the species submerged aquatic vegetation (SAV)?,l'espÃ¨ce est-elle une vÃ©gÃ©tation aquatique submergÃ©e (VAS)?
-sav_level,SAV level observed,VAS niveau observÃ©
-adults,count of adults,nombre dâ€™adultes
-yoy,count of young-of-the-year,nombre de jeunes de l'annÃ©e
-total_ind,total number of individuals observed,nombre total d'individus observÃ©s
-total_all,total (SAV and non-SAV),total (VAS et non-VAS)
-number_of_samples,number of samples collected at the station in that year,nombre d'Ã©chantillons recueillis Ã  la station pour cette annÃ©e
-avg_water_temp,average water temperature (degrees C) at station,tempÃ©rature moyenne de l'eau (degrÃ©s C) Ã  la station
-avg_sal,average salinity at station,salinitÃ© moyenne Ã  la station
-avg_do,average dissolved oxygen (mg/L) at station,oxygÃ¨ne dissous (mg / L) Ã  la station
-spp_count,number of species observed,nombre d'espÃ¨ces observÃ©es
-[SPECIES_CODE]_YOY,count of the young-of-the-year for a given species,nombre de jeunes de l'annÃ©e pour une espÃ¨ce donnÃ©e
-[SPECIES_CODE]_adults,count of the adults for a given species,nombre d'adultes pour une espÃ¨ce donnÃ©e
-[SPECIES_CODE]_total,count of all individuals for a given species,nombre total pour une espÃ¨ce donnÃ©e
-[SPECIES_CODE]_avg_total,average number of individuals (per sample) for a given species,nombre moyen d'individus (par Ã©chantillon) pour une espÃ¨ce donnÃ©e
+NAME__NOM,DESCRIPTION_EN,DESCRIPTION_FR
+adults__adultes,count of adults,nombre d'adultes
+ammonia__ammoniac,ammonia,ammoniac
+common_name_en__nom_commun_en,species English common name,Espèce Nom commun anglais
+common_name_en__nom_commun_fr,species French common name,espèce Nom commun français
+day__jour,day of observation,jour de l'observation
+dissolved_oxygen__oxygène dissous,dissolved oxygen,oxygène dissous
+end_date__date_fin,sample end date/time,date/heure de fin de l'échantillon
+gravel__gravier,gravel (%),gravier (%)
+ITIS_TSN,ITIS taxonomic serial number (TSN),Numéro de série taxonomique ITIS (TSN)
+latitude__latitude,station latitude (decimal degrees),latitude de la station (degrés décimaux)
+longitude__longitude,station longitude (decimal degrees),longitude de la station (degrés décimaux)
+mean dissolved oxygen / oxygène dissous moyen,average dissolved oxygen (mg/L) at station,oxygène dissous moyen (mg/L) à la station
+mean salinity / salinité moyenne,average salinity at station,salinité moyenne à la station
+mean water temperature / température moyenne de l'eau,average water temperature (degrees C) at station,température moyenne de l'eau (degrés C) à la station
+month__mois,month of observation,mois d'observation
+mud__boue,mud (%),boue (%)
+nitrates__nitrates,nitrates,nitrates
+nitrite__nitrite,nitrite,nitrite
+number of samples / nombre d'échantillons,number of samples collected at the station in that year,nombre d'échantillons prélevés à la station cette année-là
+phosphate__phosphate,phosphate,phosphate
+prov__prov,province where sample was collected,province où l'échantillon a été prélevé
+rock__roche,rock (%),roche (%)
+sal__sel,salinity,salinité
+sample_id__no_échantillon,unique identifier of sample,identifiant unique de l'échantillon
+sand__sable,sand (%),sable (%)
+SAV was reported / VAS a été rapporté,was the presence of submerged aquatic vegetation reported?,la présence de végétation aquatique submergée a-t-elle été signalée ?
+sav__vas,Is the species submerged aquatic vegetation (SAV)?,L'espèce est-elle une végétation aquatique submergée (VAS) ?
+sav_level__niveau_de_vas,SAV level observed,Niveau de végétation aquatique submergée observé
+scientific_name__nom_scientifique,scientific name,nom scientifique
+silicate__silicate,silicate,silicate
+site__site,CAMP site name and province,nom du site et province du PSCA
+species_code__code_espèce,CAMP species code,Code de l'espèce du PSCA
+start_date__date_début,sample start date/time,date/heure de début de l'échantillon
+station__station,CAMP station name,nom de la station du PSCA
+total adults measured / total des adultes mesurés,total adults count observed,nombre total d'adultes observés
+total species observed / total des espèces observées,distinct number of species observed,nombre unique d'espèces observées
+total yoy measured / total des jeunes mesurés,total young-of-the-year count observed,nombre total de jeunes de l'année observés
+total__total,total number of specimens observed,nombre total de spécimens observés
+water_temp__température_de_l'eau,water temperature (degrees C),température de l'eau (degrés C)
+year__année,year of observation,année d'observation
+yoy__jeunes,count of young-of-the-year,nombre de jeunes de l'année

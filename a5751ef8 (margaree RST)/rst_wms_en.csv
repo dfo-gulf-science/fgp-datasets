@@ -1,0 +1,32 @@
+Year,Site name,Province,Latitude,Longitude,River name,Fishing area,CGNDB,Avg. air temperature upon arrival,Avg. water temperature at shore,Avg. water depth (m),total operating time (h),English common name,French common name,Scientific name,ITIS TSN,Specimens measured,Avg. length (mm),Length type
+2022,Margaree-RST,Nova Scotia,46.3655,-61.07812,Margaree River,SFA18,CAXMI,11.583,9.107,,4770.0,American eel,anguille d'Amérique,Anguilla rostrata,161127,66,512.127,total
+2022,Margaree-RST,Nova Scotia,46.3655,-61.07812,Margaree River,SFA18,CAXMI,11.583,9.107,,4770.0,Atlantic salmon,saumon atlantique,Salmo salar,161996,7246,127.781,fork
+2022,Margaree-RST,Nova Scotia,46.3655,-61.07812,Margaree River,SFA18,CAXMI,11.583,9.107,,4770.0,Banded killifish,fondule barré,Fundulus diaphanus,165646,4,80.000,fork
+2022,Margaree-RST,Nova Scotia,46.3655,-61.07812,Margaree River,SFA18,CAXMI,11.583,9.107,,4770.0,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,1,,fork
+2022,Margaree-RST,Nova Scotia,46.3655,-61.07812,Margaree River,SFA18,CAXMI,11.583,9.107,,4770.0,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,20,269.750,fork
+2022,Margaree-RST,Nova Scotia,46.3655,-61.07812,Margaree River,SFA18,CAXMI,11.583,9.107,,4770.0,Brown trout,truite brune,Salmo trutta,161997,171,128.563,fork
+2022,Margaree-RST,Nova Scotia,46.3655,-61.07812,Margaree River,SFA18,CAXMI,11.583,9.107,,4770.0,Dace (non-specific),,,0,1,,fork
+2022,Margaree-RST,Nova Scotia,46.3655,-61.07812,Margaree River,SFA18,CAXMI,11.583,9.107,,4770.0,Gaspereau,gaspareau,Alosa pseudoharengus,161701,73,,fork
+2022,Margaree-RST,Nova Scotia,46.3655,-61.07812,Margaree River,SFA18,CAXMI,11.583,9.107,,4770.0,Lamprey (non specific),lamproies (non spécifique),,159697,3,,fork
+2022,Margaree-RST,Nova Scotia,46.3655,-61.07812,Margaree River,SFA18,CAXMI,11.583,9.107,,4770.0,Mummichog,choquemort,Fundulus heteroclitus,165647,1,,fork
+2022,Margaree-RST,Nova Scotia,46.3655,-61.07812,Margaree River,SFA18,CAXMI,11.583,9.107,,4770.0,Rainbow smelt,éperlan arc-en-ciel,Osmerus mordax,162043,4,149.000,fork
+2022,Margaree-RST,Nova Scotia,46.3655,-61.07812,Margaree River,SFA18,CAXMI,11.583,9.107,,4770.0,Smallmouth bass,,Micropterus dolomieu,168159,1,81.000,fork
+2022,Margaree-RST,Nova Scotia,46.3655,-61.07812,Margaree River,SFA18,CAXMI,11.583,9.107,,4770.0,Stickleback (non specific),épinoches (non spécifique),,166363,3,,fork
+2022,Margaree-RST,Nova Scotia,46.3655,-61.07812,Margaree River,SFA18,CAXMI,11.583,9.107,,4770.0,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,25,,fork
+2022,Margaree-RST,Nova Scotia,46.3655,-61.07812,Margaree River,SFA18,CAXMI,11.583,9.107,,4770.0,White perch,baret,Morone americana,167678,2,,fork
+2022,Margaree-RST,Nova Scotia,46.3655,-61.07812,Margaree River,SFA18,CAXMI,11.583,9.107,,4770.0,White sucker,meunier noir,Catostomus commersoni,553273,2,,fork
+2023,Margaree-RST,Nova Scotia,46.3655,-61.07812,Margaree River,SFA18,CAXMI,9.652,9.730,0.610,3222.0,Alewife,gaspareau,Alosa pseudoharengus,161706,1,156.000,fork
+2023,Margaree-RST,Nova Scotia,46.3655,-61.07812,Margaree River,SFA18,CAXMI,9.652,9.730,0.610,3222.0,American eel,anguille d'Amérique,Anguilla rostrata,161127,111,408.519,total
+2023,Margaree-RST,Nova Scotia,46.3655,-61.07812,Margaree River,SFA18,CAXMI,9.652,9.730,0.610,3222.0,Atlantic salmon,saumon atlantique,Salmo salar,161996,2753,133.709,fork
+2023,Margaree-RST,Nova Scotia,46.3655,-61.07812,Margaree River,SFA18,CAXMI,9.652,9.730,0.610,3222.0,Banded killifish,fondule barré,Fundulus diaphanus,165646,2,,fork
+2023,Margaree-RST,Nova Scotia,46.3655,-61.07812,Margaree River,SFA18,CAXMI,9.652,9.730,0.610,3222.0,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,1,,fork
+2023,Margaree-RST,Nova Scotia,46.3655,-61.07812,Margaree River,SFA18,CAXMI,9.652,9.730,0.610,3222.0,Brook trout,omble de fontaine,Salvelinus fontinalis,162003,4,,fork
+2023,Margaree-RST,Nova Scotia,46.3655,-61.07812,Margaree River,SFA18,CAXMI,9.652,9.730,0.610,3222.0,Brown trout,truite brune,Salmo trutta,161997,56,97.500,fork
+2023,Margaree-RST,Nova Scotia,46.3655,-61.07812,Margaree River,SFA18,CAXMI,9.652,9.730,0.610,3222.0,Gaspereau,gaspareau,Alosa pseudoharengus,161701,224,145.500,fork
+2023,Margaree-RST,Nova Scotia,46.3655,-61.07812,Margaree River,SFA18,CAXMI,9.652,9.730,0.610,3222.0,Northern redbelly dace,ventre rouge du nord,Chrosomus eos,163592,3,,fork
+2023,Margaree-RST,Nova Scotia,46.3655,-61.07812,Margaree River,SFA18,CAXMI,9.652,9.730,0.610,3222.0,Rainbow smelt,éperlan arc-en-ciel,Osmerus mordax,162043,7,,fork
+2023,Margaree-RST,Nova Scotia,46.3655,-61.07812,Margaree River,SFA18,CAXMI,9.652,9.730,0.610,3222.0,Sea Lamprey,lamproie marine,Petromyzon marinus,159722,6,,fork
+2023,Margaree-RST,Nova Scotia,46.3655,-61.07812,Margaree River,SFA18,CAXMI,9.652,9.730,0.610,3222.0,three-spined stickleback,épinoche à trois épines,Gasterosteus aculeatus,166365,1,,fork
+2023,Margaree-RST,Nova Scotia,46.3655,-61.07812,Margaree River,SFA18,CAXMI,9.652,9.730,0.610,3222.0,two-spined stickleback,épinoche tachetée,Gasterosteus wheatlandi,166385,2,,fork
+2023,Margaree-RST,Nova Scotia,46.3655,-61.07812,Margaree River,SFA18,CAXMI,9.652,9.730,0.610,3222.0,White perch,baret,Morone americana,167678,1,,fork
+2023,Margaree-RST,Nova Scotia,46.3655,-61.07812,Margaree River,SFA18,CAXMI,9.652,9.730,0.610,3222.0,White sucker,meunier noir,Catostomus commersoni,553273,4,44.000,fork
