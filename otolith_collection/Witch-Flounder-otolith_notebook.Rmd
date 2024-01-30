@@ -11,10 +11,17 @@ TO DO 2023
 library(gulf)
 ```
 
+Remaining issues:
+
+- otoliths from the Quebec survey, as detailed on the shared drive from Quebec, suggests that no otoliths were collected since 2017, but we physically have them
+
+<!-- 
+\Releves_Poissons_de_Fond_et_Crevette\Extractions_Oracle\RelevésRecherche
+-->
+
 ## Witch Flounder
 Otoliths from the September RV survey, from other surveys, from sentinel programs and from port sampling of commercial fisheries and from at-sea observers. Otoliths collected in the Quebec August survey in 4RS.
 
-WHERE ARE THE COMMERCIAL SAMPLES FOR 2022 AND 2023?
 
 ```{r witch, cache=TRUE}
 ## RV data
@@ -29,7 +36,7 @@ rv.df$source <- "RV-4T"
 ## what years are available for commercial ages?
 ## com.files <- list.files(path="//ENT.dfo-mpo.ca/dfo-mpo/GROUP/GLF/Regional_Shares/Science/Hd2/commercial/age", pattern="witage")
 y.c <- read.card(year=1982, sampling="commercial", species=41, card.type="age") ## this loads all pre-1982 commercial ages
-for(yy in c(1998:2019,2021)){ ## loop over years
+for(yy in c(1998:2019,2021:2023)){ ## loop over years
   print(paste0("Year ",yy))
 t.c <- read.card(year=yy, sampling="commercial", species=41, card.type="age")
 y.c <- rbind(y.c,t.c)
@@ -41,7 +48,7 @@ names(comm.df) <- c("year_année", "month_mois", "number.otoliths_nombre.otolith
 comm.df$source <- "Commercial"
 
 ## observers data
-y.o <- read.card(sampling = "obs", year = 1999:2020, card = "age", species = 41)
+y.o <- read.card(sampling = "obs", year = 1999:2023, card = "age", species = 41)
 obs.df <- aggregate(fish.number~year+month, data=y.o, length)
 names(obs.df) <- c("year_année", "month_mois", "number.otoliths_nombre.otolithes")
 obs.df$source <- "Observers"
@@ -326,15 +333,27 @@ l.4tvn <- which(y.o$age %in% c(0:25))
 m.obs.df <- obs.df
 m.obs.df$number.otoliths.aged_nombre.otolithes.agées <- 0
   
+
+## do the same from Quebec otoliths
+out.4rs$number.otoliths.aged_nombre.otolithes.agées <- 0
+
+
 out.df <- rbind(m.rv.df, m.comm.df, m.obs.df)
 out.df$latin.name_nom.latin <- "Glyptocephalus cynoglossus"
 out.df$english.name_nom.anglais <- "Witch Flounder"
 out.df$french.name_nom.français <- "Plie grise"
 
+
 vars <- c("source", "latin.name_nom.latin", "english.name_nom.anglais", "french.name_nom.français", "year_année","month_mois","number.otoliths_nombre.otolithes","number.otoliths.aged_nombre.otolithes.agées")
-o1 <- order(out.df$source, out.df$year_année, out.df$month_mois)
+
+all.out.df <- rbind(out.df, out.4rs[vars])
+all.out.df$year_année <- as.numeric(all.out.df$year_année)
+all.out.df$month_mois <- as.numeric(all.out.df$month_mois)
+
+o1 <- order(all.out.df$source, all.out.df$year_année, all.out.df$month_mois)
+
 
 out.fn <- "./NAFO-4RST-Witch-Flounder-ages.csv"
-write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE, fileEncoding = "UTF8")
+write.csv(all.out.df[o1,vars], file=out.fn, row.names = FALSE, fileEncoding = "UTF8")
 ```
 

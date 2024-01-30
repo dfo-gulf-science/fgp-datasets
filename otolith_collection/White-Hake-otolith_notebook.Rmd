@@ -17,9 +17,6 @@ library(gulf)
 ## White Hake
 Otoliths from the September RV survey, from other surveys, from sentinel programs, from port sampling of commercial fisheries and from at-sea observers.
 
-Unresolved issues: 
-- observers 2016, 2018 and 2019 are still not on Hd2
-
 ```{r hake, cache=TRUE}
 ## RV data
 y <- read.card(species=12, card.type="bio") #rv$bio[which(rv$bio$species==12),]
@@ -42,7 +39,7 @@ names(comm.df) <- c("year_année", "month_mois", "number.otoliths_nombre.otolith
 comm.df$source <- "Commercial"
 
 ## observers
-y.o <- read.card(sampling = "obs", year = 2000:2020, card = "age", species = 12)
+y.o <- read.card(sampling = "obs", year = 2000:2023, card = "age", species = 12)
 obs.df <- aggregate(fish.number~year+month, data=y.o, length)
 names(obs.df) <- c("year_année", "month_mois", "number.otoliths_nombre.otolithes")
 obs.df$source <- "Observers"

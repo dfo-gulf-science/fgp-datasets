@@ -30,7 +30,7 @@ rv.df$source <- "RV-4T"
 ## what years are available for commercial ages?
 ## com.files <- list.files(path="//ENT.dfo-mpo.ca/dfo-mpo/GROUP/GLF/Regional_Shares/Science/Hd2/commercial/age", pattern="yelage")
 y.c <- gulf::read.card(year=1982, sampling="commercial", species=42, card.type="age") ## this loads all pre-1982 commercial ages
-for(yy in 2018:2021){ ## loop over years
+for(yy in 2018:2022){ ## loop over years
   print(paste0("Year ",yy))
 t.c <- gulf::read.card(year=yy, sampling="commercial", species=42, card.type="age")
 y.c <- rbind(y.c,t.c)

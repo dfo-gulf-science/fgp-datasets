@@ -14,8 +14,6 @@ library(gulf)
 ## Winter Flounder
 Otoliths from the September RV survey, from other surveys, from sentinel programs, from port sampling of commercial fisheries and from at-sea observers.
 
-WHERE ARE THE COMMERCIAL SAMPLES FOR YEARS AFTER 2016?
-
 ```{r winter, cache=TRUE}
 ## RV data
 y <- read.card(species=43, card.type="bio", env="dev")#rv$bio[which(rv$bio$species ==43),]

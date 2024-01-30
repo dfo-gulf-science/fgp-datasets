@@ -18,7 +18,7 @@ Outstanding issue:
 
 ```{r skates, cache=TRUE}
 ## RV data
-y <- read.card(species=c(200:204), card.type="bio", env="dev") #rv$bio[which(rv$bio$species %in% c(200:204)),]
+y <- read.card(species=c(200:204), card.type="bio") #rv$bio[which(rv$bio$species %in% c(200:204)),]
 rv.df <- aggregate(fish.number~year+month+species, data=y[which(y$age.material %in% c(1,4)),], length)
 names(rv.df) <- c("year_année", "month_mois", "species", "number.vertebrae_nombre.vertèbres")
 rv.df$source <- "RV-4T"

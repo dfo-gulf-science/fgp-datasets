@@ -5,9 +5,11 @@ date: '`r paste0("Last modified timestap: ", format(Sys.time(), "%Y-%m-%d %H:%M:
 output: html_notebook
 ---
 
-TO DO 2023
-commercial 2022 and 2023
-observers 2022 and 2023
+STILL TO DO:
+
+- check commercial 2022 and 2023
+
+- check observers 2021, 2022 and 2023
 
 ```{r loaddata}
 library(gulf)
@@ -16,11 +18,11 @@ library(gulf)
 ## American Plaice
 Otoliths from the September RV survey, from other surveys, from sentinel programs, from port sampling of commercial fisheries and from at-sea observers.
 
-WHERE ARE THE COMMERCIAL SAMPLES FOR 2020, 2021 AND 2022?
+WHERE ARE THE COMMERCIAL SAMPLES FOR 2022 AND 2023?
 
 ```{r plaice, cache=TRUE}
 ## RV data
-y <- read.card(species=40, card.type="bio", env="dev") #rv$bio[which(rv$bio$species==40),]
+y <- read.card(species=40, card.type="bio") #rv$bio[which(rv$bio$species==40),]
 rv.df <- aggregate(fish.number~year+month, data=y[which(y$age.material==1),], length)
 names(rv.df) <- c("year_année", "month_mois", "number.otoliths_nombre.otolithes")
 rv.df$source <- "RV-4T"
