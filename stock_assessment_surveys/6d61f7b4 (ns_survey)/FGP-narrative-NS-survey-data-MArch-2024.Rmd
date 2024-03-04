@@ -72,6 +72,7 @@ y$unique.id <- paste(y$year, y$cruise.number, y$vessel.code, y$set.number, sep="
 y$english.name <- species.str(y$species, "english")
 y$latin.name <- species.str(y$species, "latin")
 y$french.name <- species.str(y$species, "french")
+y[y$number.caught == 0,]$number.caught = NA # as per request by Natalie
 
 z <- merge(y,x, all.x = TRUE, by = "unique.id",
            names = c("longitude","latitude", "gear.str"))
