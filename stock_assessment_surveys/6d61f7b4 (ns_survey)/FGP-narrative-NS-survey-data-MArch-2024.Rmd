@@ -72,7 +72,13 @@ y$unique.id <- paste(y$year, y$cruise.number, y$vessel.code, y$set.number, sep="
 y$english.name <- species.str(y$species, "english")
 y$latin.name <- species.str(y$species, "latin")
 y$french.name <- species.str(y$species, "french")
-y[y$number.caught == 0,]$number.caught = NA # as per request by Natalie
+
+
+# as per request by Natalie
+index = y$number.caught == 0
+if(length(which(index)) > 0)
+y[index,]$number.caught = NA
+
 
 z <- merge(y,x, all.x = TRUE, by = "unique.id",
            names = c("longitude","latitude", "gear.str"))
@@ -91,6 +97,15 @@ fvars2 <- c("cruise.number","year","month","day","start.hour","start.minute",
             "latitude","longitude", "gear.str","species","french.name","english.name",
             "latin.name","weight.caught","number.caught")
 
+#remove any NA's in "weight.caught","number.caught"  as per CADI request :)
+index = is.na(z$weight.caught)
+if(length(which(index)) > 0){              
+  z[index,]$weight.caught = ""
+}
+index = is.na(z$number.caught)
+if(length(which(index)) > 0){              
+  z[index,]$number.caught = ""
+}
 zz=  z[ooz,fvars2]
 
 #proper headers for FGP

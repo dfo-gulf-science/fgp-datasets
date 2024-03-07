@@ -89,6 +89,15 @@ ooz <- order(z$year, z$month, z$day, z$start.hour, z$start.minute, z$species)
 #columns to keep
 fvars2 <- c("year","month","day","start.hour","start.minute","latitude","longitude","gear.str","species","french.name","english.name","latin.name","weight.caught","number.caught")
 
+#remove any NA's in "weight.caught","number.caught"  as per CADI request :)
+index = is.na(z$weight.caught)
+if(length(which(index)) > 0){              
+  z[index,]$weight.caught = ""
+}
+index = is.na(z$number.caught)
+if(length(which(index)) > 0){              
+  z[index,]$number.caught = ""
+}
 
 zz=  z[ooz,fvars2]
 #rename header for FGP
