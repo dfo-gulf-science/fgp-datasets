@@ -9,8 +9,8 @@ latitude,Average latitude taken from start and end positions of the station surv
 longitude,Average longitude taken from start and end positions of the station surveyed (in decimal degrees),Longitude moyenne prise à partir des positions de départ et d'arrivée de la station chalutée (en degrés décimales)
 gear__équipement,The fishing gear used in a set,L'engin de pêche utilisé lors du trait
 species__espèce,Gulf region species code,Code des espèces de la région du Golfe
+french_name__nom_français,French name of the species identified in station being surveyed,Nom français de l'espèce identifiée dans la station étudiée
 english_name__nom_anglais,English name of the species identified in station being surveyed,Nom anglais de l'espèce identifiée dans la station étudiée
 latin_name__nom_latin,Latin name of the species identified in station being surveyed,Nom latin de l'espèce identifiée dans la station étudiée
-french_name__nom_français,French name of the species identified in station being surveyed,Nom français de l'espèce identifiée dans la station étudiée
 weight_caught__poids_pris,The total weight in kilograms of a specific species caught in the set,Le poids total en kilogrammes d'une espèce spécifique capturée lors d'un trait
 number_caught__quantité__attrapé,The estimated total number of specimens of a specific species which was caught in a set,Le nombre total estimé de spécimens d'une espèce spécifique capturés lors d'un trait
