@@ -1,16 +1,16 @@
 name_nom,description_en,description_fr
-cruise_number__numero_de_criosiere,The unique identifier of cruise,L'identifiant unique de croisière
-year__annee,The year when the station was surveyed,L'année où la station a été chalutée
-month__mois,The month when the station was surveyed,Le mois où la station a été chalutée
-day__jour,The day when the station was surveyed,Le jour où la station a été chalutée
-start_hour__heure_de_depart,The hour when the station was surveyed (start of tow),L'heure où la station a été chalutée (début du trait)
-start_minute__minute_de_depart,The minute when the station was surveyed (start of tow),La minute où la station a été chalutée (début du trait)
-latitude,Average latitude taken from start and end positions of the station surveyed (in decimal degrees),Latitude moyenne prise à partir des positions de départ et d'arrivée de la station chalutée (en degrés décimales)
-longitude,Average longitude taken from start and end positions of the station surveyed (in decimal degrees),Longitude moyenne prise à partir des positions de départ et d'arrivée de la station chalutée (en degrés décimales)
-gear__equipement,The fishing gear used in a set,L'engin de pêche utilisé lors du trait
-species__espece,Gulf region species code,Code des espèces de la région du Golfe
-english_name__nom_anglais,English name of the species identified in station being surveyed,Nom anglais de l'espèce identifiée dans la station étudiée
-latin_name__nom_latin,Latin name of the species identified in station being surveyed,Nom latin de l'espèce identifiée dans la station étudiée
-french_name__nom_francais,French name of the species identified in station being surveyed,Nom français de l'espèce identifiée dans la station étudiée
-weight_caught__poids_pris,The total weight in kilograms of a specific species caught in the set,Le poids total en kilogrammes d'une espèce spécifique capturée lors d'un trait
-number_caught__quantite__attrape,The estimated total number of specimens of a specific species which was caught in a set,Le nombre total estimé de spécimens d'une espèce spécifique capturés lors d'un trait
+cruise_number__numÃ©ro_de_criosiÃ¨re,The unique identifier of cruise,L'identifiant unique de croisiÃ¨re
+year__annÃ©e,The year when the station was surveyed,L'annÃ©e oÃ¹ la station a Ã©tÃ© chalutÃ©e
+month__mois,The month when the station was surveyed,Le mois oÃ¹ la station a Ã©tÃ© chalutÃ©e
+day__jour,The day when the station was surveyed,Le jour oÃ¹ la station a Ã©tÃ© chalutÃ©e
+start_hour__heure_de_dÃ©part,The hour when the station was surveyed (start of tow),L'heure oÃ¹ la station a Ã©tÃ© chalutÃ©e (dÃ©but du trait)
+start_minute__minute_de_dÃ©part,The minute when the station was surveyed (start of tow),La minute oÃ¹ la station a Ã©tÃ© chalutÃ©e (dÃ©but du trait)
+latitude,Average latitude taken from start and end positions of the station surveyed (in decimal degrees),Latitude moyenne prise Ã  partir des positions de dÃ©part et d'arrivÃ©e de la station chalutÃ©e (en degrÃ©s dÃ©cimales)
+longitude,Average longitude taken from start and end positions of the station surveyed (in decimal degrees),Longitude moyenne prise Ã  partir des positions de dÃ©part et d'arrivÃ©e de la station chalutÃ©e (en degrÃ©s dÃ©cimales)
+gear__Ã©quipement,The fishing gear used in a set,L'engin de pÃªche utilisÃ© lors du trait
+species__espÃ¨ce,Gulf region species code,Code des espÃ¨ces de la rÃ©gion du Golfe
+english_name__nom_anglais,English name of the species identified in station being surveyed,Nom anglais de l'espÃ¨ce identifiÃ©e dans la station Ã©tudiÃ©e
+latin_name__nom_latin,Latin name of the species identified in station being surveyed,Nom latin de l'espÃ¨ce identifiÃ©e dans la station Ã©tudiÃ©e
+french_name__nom_franÃ§ais,French name of the species identified in station being surveyed,Nom franÃ§ais de l'espÃ¨ce identifiÃ©e dans la station Ã©tudiÃ©e
+weight_caught__poids_pris,The total weight in kilograms of a specific species caught in the set,Le poids total en kilogrammes d'une espÃ¨ce spÃ©cifique capturÃ©e lors d'un trait
+number_caught__quantitÃ©__attrapÃ©,The estimated total number of specimens of a specific species which was caught in a set,Le nombre total estimÃ© de spÃ©cimens d'une espÃ¨ce spÃ©cifique capturÃ©s lors d'un trait
