@@ -112,7 +112,7 @@ df$french.name  <- species.str( uni.spec, "french")
 
 
 y <- merge(y, df, by = "species", names = c("english.name","french.name", "latin.name"))
-z <- merge(y,x, all.x = TRUE, by = "unique.id", names = c("longitude","latitude", "gear.str"))
+z <- merge(y,x, by = "unique.id", names = c("longitude","latitude", "gear.str"))
 
 ##  CSV
 ## write catch cards to file
