@@ -5,7 +5,7 @@ import fiona
 
 def xy2line(df):
     # get a distinct list of years
-    years = sorted(df["year__annee"].unique().tolist())
+    years = sorted(df["year__année"].unique().tolist())
 
     schema = {
         'geometry': 'LineString',
@@ -17,7 +17,7 @@ def xy2line(df):
     shapefile_dir = os.path.join(wms_dir, shapefile)
     with fiona.open(shapefile_dir, mode='w', driver='ESRI Shapefile', schema=schema, crs="EPSG:4326") as lineShp:
         for year in years:
-            mask = df["year__annee"] == year
+            mask = df["year__année"] == year
             yearly_df = df[mask]
             coords = list()
             for index, row in yearly_df.iterrows():
