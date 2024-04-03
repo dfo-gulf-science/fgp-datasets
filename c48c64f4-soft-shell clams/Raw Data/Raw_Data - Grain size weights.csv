@@ -1,0 +1,27 @@
+Sample,Site,Weight type,2mm wgt,1mm wgt,600um wgt,250um wgt,125um wgt,63um wgt,<63um wgt
+DISH,DISH,DISH,1.5475,1.5025,1.4214,1.5521,1.4564,1.3781,1.5846
+1,Shemogue,Weights with dish,1.6350,1.5947,1.6919,15.2341,9.8269,3.8897,4.0297
+2,Shemogue,Weights with dish,2.2148,1.7198,1.7354,13.8738,8.8248,3.4115,2.9496
+3,Shemogue,Weights with dish,1.7370,2.3598,2.3056,11.8895,8.3024,4.1412,4.5383
+4,Powell's Cove,Weights with dish,1.9588,2.2132,2.7723,10.8605,8.1698,4.0240,3.7718
+5,Powell's Cove,Weights with dish,2.5331,1.9483,2.2844,8.5068,7.4080,4.2203,4.1223
+6,Powell's Cove,Weights with dish,3.6632,2.6735,3.0151,12.0481,9.1820,4.1556,3.5189
+7,Maisonette,Weights with dish,1.6109,1.6841,1.8257,26.0691,5.3980,3.2376,3.6691
+8,Maisonette,Weights with dish,1.5475,1.6447,1.7058,21.9005,4.6628,2.6739,3.0975
+9,Maisonette,Weights with dish,1.5666,1.6063,1.7532,24.9043,5.0669,2.8434,3.4303
+10,Kouchibouguac,Weights with dish,1.8477,3.9145,7.2412,15.4441,4.6422,2.3993,1.6944
+11,Kouchibouguac,Weights with dish,1.9787,4.6180,9.6567,19.4433,5.9858,2.2116,1.7545
+12,Kouchibouguac,Weights with dish,1.8819,3.6325,6.0696,16.7771,6.3132,2.4341,1.9022
+1,Shemogue,Weights without dish,0.0875,0.0922,0.2705,13.682,8.3705,2.5116,2.4451
+2,Shemogue,Weights without dish,0.6673,0.2173,0.314,12.3217,7.3684,2.0334,1.365
+3,Shemogue,Weights without dish,0.1895,0.8573,0.8842,10.3374,6.846,2.7631,2.9537
+4,Powell's Cove,Weights without dish,0.4113,0.7107,1.3509,9.3084,6.7134,2.6459,2.1872
+5,Powell's Cove,Weights without dish,0.9856,0.4458,0.863,6.9547,5.9516,2.8422,2.5377
+6,Powell's Cove,Weights without dish,2.1157,1.171,1.5937,10.496,7.7256,2.7775,1.9343
+7,Maisonette,Weights without dish,0.0634,0.1816,0.4043,24.517,3.9416,1.8595,2.0845
+8,Maisonette,Weights without dish,0,0.1422,0.2844,20.3484,3.2064,1.2958,1.5129
+9,Maisonette,Weights without dish,0.0191,0.1038,0.3318,23.3522,3.6105,1.4653,1.8457
+10,Kouchibouguac,Weights without dish,0.3002,2.412,5.8198,13.892,3.1858,1.0212,0.1098
+11,Kouchibouguac,Weights without dish,0.4312,3.1155,8.2353,17.8912,4.5294,0.8335,0.1699
+12,Kouchibouguac,Weights without dish,0.3344,2.13,4.6482,15.225,4.8568,1.056,0.3176
+,,,,,,,,,
