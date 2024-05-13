@@ -1,4 +1,4 @@
-Latitude,Longitude,StationName,StationID,,,,,,
+decimalLatitude,decimalLongitude,Station,StationID,,,,,,
 47.86077,-65.76231,Pointe-Verte,1,,,,,,
 47.79725,-64.92735,Caraquet,2,,,,,,
 47.80309,-64.87321,Bas-Caraquet,3,,, , ,,
