@@ -1,0 +1,27 @@
+name__nom,datafile__fiche de données,description_en,description_fr
+net/trap_type__type_filet/piège,dataset_fish data; dataset_effort and catch,The type of net or trap used to collect the sample,Le type de filet ou de piège utilisé pour collecter l'échantillon
+waterbody_name__nom_masse_d'eau,dataset_fish data; dataset_effort and catch,The name of the lake where samples were taken ,Le nom du lac où les échantillons ont été prélevés 
+scientific_name__nom_scientifique,dataset_fish data; dataset_effort and catch,The scientific name for the fish sample,Nom scientifique de l'échantillon de poisson
+common_name__nom_commun,dataset_fish data; dataset_effort and catch,The common name for the species of fish,Nom commun de l'espèce de poisson
+abbreviated_name__nom_abrégé,dataset_fish data; dataset_effort and catch,The abbreviated code used for the common name of the sample,Code abrégé utilisé pour le nom commun de l'échantillon
+project_code__code_du_projet,dataset_fish data,The code given to the project for internal organizing of data ,Code attribué au projet pour l'organisation interne des données 
+sample_number__numéro_d'échantillon,dataset_fish data,The number given to an individual sample during the dissection process,Le numéro attribué à un échantillon individuel au cours de la dissection
+collection_date__date_de_collecte,dataset_fish data,The date when the sample was collected,La date à laquelle l'échantillon a été prélevé
+dissection_date__date_dissection,dataset_fish data,The date the dissection was performed,La date de la dissection
+fork_length__longueur_fourche,dataset_fish data,The length measured in centimeters from the tip of the jaw or tip of the snout with closed mouth to the center of the fork in the tail,"Longueur mesurée en centimètres de l'extrémité de la mâchoire ou de l'extrémité du museau, bouche fermée, au centre de la fourche de la queue."
+total_length__longueur_totale,dataset_fish data,The length measured in centimeters from the tip of the jaw or tip of the snout with closed mouth to the end of the caudal fin tip,"Longueur mesurée en centimètres de l'extrémité de la mâchoire ou de l'extrémité du museau, bouche fermée, à l'extrémité de la nageoire caudale."
+total_mass__masse_totale,dataset_fish data,The mass of the sample measured in grams at time of dissection,Masse de l'échantillon mesurée en grammes au moment de la dissection
+dna_tube_size__taille_tube_adn,dataset_fish data,The size of tube used to collect stomach contents ,La taille du tube utilisé pour recueillir le contenu de l'estomac 
+notes__notes,dataset_fish data,Any comments about the samples during the dissection process,Commentaires concernant les échantillons au cours de la dissection
+survey_start_date__date_début_enquête,dataset_effort and catch,The start date of the lake sampling period (yyyy-mm-dd),Date de début de la période d'échantillonnage du lac (aaaa-mm-jj)
+survey_end_date__date_fin_enquête,dataset_effort and catch,The end date of the lake sampling period (yyyy-mm-dd),Date de fin de la période d'échantillonnage du lac (aaaa-mm-jj)
+net/trap_number__numéro du filet/piège,dataset_effort and catch,The number assigned to each individual net or trap placed in the lake.,Numéro attribué à chaque filet ou piège placé dans le lac.
+dd_lat__lat_dd,dataset_effort and catch,The latitudinal coordinate of the trap or net in degree decimal format,Coordonnées latitudinales du piège ou du filet en degrés décimaux.
+dd_long__long_dd,dataset_effort and catch,The longitudinal coordinate of the trap or net in degree decimal format,Coordonnées longitudinales du piège ou du filet en degrés décimaux.
+date_set__date_placé,dataset_effort and catch,The date when the trap or net was placed in the lake (yyyy-mm-dd),Date à laquelle le piège ou le filet a été placé dans le lac (aaaa-mm-jj)
+set_time__heure_placé,dataset_effort and catch,"The time of day when the trap or net was placed in the lake (hh:mm:ss), ADT (UTC-03:00)","Heure à laquelle le piège ou le filet a été placé dans le lac (hh:mm:ss), HAA (UTC-03:00)"
+date_lift__date_sorti,dataset_effort and catch,The date when the trap or net was lifted out of water to check for samples,La date à laquelle le piège ou le filet a été sorti de l'eau pour vérifier la présence d'échantillons.
+lift_time__heure_sorti,dataset_effort and catch,"Time of day when the net or trap was lifted out of water to check for samples (hh:mm:ss), ADT (UTC-03:00)","Heure à laquelle le filet ou le piège a été sorti de l'eau pour vérifier la présence d'échantillons (hh:mm:ss), HAA (UTC-03:00)"
+fish_caught__nombre_de_poissons,dataset_effort and catch,The number of fish that were caught in the net or trap,Nombre de poissons capturés dans le filet ou la trappe
+catch_wet_weight__poids_humide_capturé,dataset_effort and catch,The approximated wet weight in kilograms of fish that were caught in the net or trap,Le poids humide approximatif en kilogrammes des poissons qui ont été capturés dans le filet ou la trappe.
+comments__commentaires,dataset_effort and catch,Any comments about the samples that were caught ,Commentaires sur les échantillons prélevés 
