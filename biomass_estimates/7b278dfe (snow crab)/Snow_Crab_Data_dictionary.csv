@@ -1,0 +1,11 @@
+name_nom,Units,Unités,description_en,description_fr
+year__année,n/a,n/a,Sampling year,Année d'échantillonnage
+biomass commercial__biomasse commerciale,Tonnes - metric,Tonnes - métrique,Mean Biomass Commercial,Moyenne de la biomasse commerciale
+biomass commercial_low_conf_int_ (95%)__biomasse commercial_int_conf_inf_ (95%),Tonnes - metric,Tonnes - métrique,Biomass Commercial Lower Confidence Interval  (95%),Biomasse commerciale - Intervalle de confiance inférieure  (95%) 
+biomass commercial_up_conf_int (95%)__biomasse commercial_int_conf_sup_ (95%),Tonnes - metric,Tonnes - métrique,Biomass Commercial Upper Confidence Interval  (95%),Biomasse commerciale - Intervalle de confiance supérieure (95%) 
+abundance commerical__abondance commerical,Numbers,Nombres,Mean Abundance Commerical,Abondance commerciale
+abundance commerical_low_conf_int_ (95%)__abondance commerical_int_conf_inf_ (95%),Numbers,Nombres,Abundance Commerical Lower Confidence Interval  (95%),Abondance commerciale - Intervalle de confiance inférieure  (95%) 
+abundance commerical_up_conf_int_ (95%)__abondance commerical_int_conf_sup_ (95%),Numbers,Nombres,Abundance Commerical Upper Confidence Interval  (95%),Abondance commerciale - Intervalle de confiance supérieure (95%) 
+abundance mature female__abondance femelle mature,Numbers,Nombres,Mean Abundance of Mature Female,Abondance des femelles pubères et mature
+abundance mature female_low_conf_int_ (95%)__abondance femelle mature_int_conf_inf_ (95%),Numbers,Nombres,Abundance Mature Female Lower Confidence interval (95%),Abondance des femelles pubères et mature - Intervalle de confiance inférieure  (95%) 
+abundance mature female_up_conf_int_ (95%)__abondance femelle mature_int_conf_sup_ (95%),Numbers,Nombres,Abundance Mature Female Upper Confidence interval (95%),Abondance des femelles pubères et mature - Intervalle de confiance supérieure (95%) 
