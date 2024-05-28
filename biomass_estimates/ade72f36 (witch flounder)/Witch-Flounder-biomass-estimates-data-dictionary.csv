@@ -1,5 +1,5 @@
 "name_nom","unit_of_measure","unité_de_mesure","description_en","description_fr"
-"year_année","Thousands of tons of 30+ cm biomass","Milliers de tonnes de biomasse 30+ cm","Year","Année"
+"year_année","Year","Year","Year","Année"
 "biomass.median_biomasse.médiane","Thousands of tons of 30+ cm biomass","Milliers de tonnes de biomasse 30+ cm","Median biomass","Biomasse médiane"
 "biomass.025_biomasse.025","Thousands of tons of 30+ cm biomass","Milliers de tonnes de biomasse 30+ cm","2.5th percentile","2.5e centile"
 "biomass.25_biomasse.25","Thousands of tons of 30+ cm biomass","Milliers de tonnes de biomasse 30+ cm","25th percentile","25e centile"
