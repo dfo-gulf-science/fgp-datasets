@@ -1,0 +1,7 @@
+"name_nom","unit_of_measure","unité_de_mesure","description_en","description_fr"
+"year_année","Year","Year","Year","Année"
+"biomass.median_biomasse.médiane","Thousands of tons of spawning stock biomass","Milliers de tonnes de biomasse du stock reproducteur","Median biomass","Biomasse médiane"
+"biomass.025_biomasse.025","Thousands of tons of spawning stock biomass","Milliers de tonnes de biomasse du stock reproducteur","2.5th percentile","2.5e centile"
+"biomass.25_biomasse.25","Thousands of tons of spawning stock biomass","Milliers de tonnes de biomasse du stock reproducteur","25th percentile","25e centile"
+"biomass.75_biomasse.75","Thousands of tons of spawning stock biomass","Milliers de tonnes de biomasse du stock reproducteur","75th percentile","75e centile"
+"biomass.975_biomasse.975","Thousands of tons of spawning stock biomass","Milliers de tonnes de biomasse du stock reproducteur","97.5th percentile","97.5e centile"
