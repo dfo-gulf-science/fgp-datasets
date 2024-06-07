@@ -3,8 +3,8 @@ river_name__nom_de_la_rivière,site data__données des sites; specimen data__don
 site_code__numéro_du_site,site data__données des sites; specimen data__données sur les échantillons,Code used to identify a site. Can be numeric or alphanumeric. ,Code utilisé pour identifier un site. Il peut être numérique ou alphanumérique.
 latitude,site data__données des sites,Most recent documented site coordinate in decimal degrees,Coordonnées documentées les plus récentes du site en degrés décimaux
 longitude,site data__données des sites,Most recent documented site coordinate in decimal degrees,Coordonnées documentées les plus récentes du site en degrés décimaux
-date__date,site data__données des sites; specimen data__données sur les échantillons,Format YYYY-MM-DD.,Format AAAA-MM-JJ
-site_type,site data__données des sites,"For assessment data, options are:
+date,site data__données des sites; specimen data__données sur les échantillons,Format YYYY-MM-DD.,Format AAAA-MM-JJ
+site_type__type_de_site,site data__données des sites,"For assessment data, options are:
 Open; single pass Catch Per Unit Effort (CPUE) site
 Closed; multi pass depletion site","Pour les données d'évaluation, les options sont les suivantes :
 Ouvert ; site de capture par unité d'effort (CPUE) à passage unique
@@ -20,7 +20,7 @@ electrofisher__électropêcheur,site data__données des sites,"Brand, type, and 
 electrofisher_pulse_type__type_d'impulsion_du_électropêcheur,site data__données des sites,Type of electrical pulse applied when sampling,Type d'impulsion électrique appliquée lors de l'échantillonnage
 electrofisher_frequency__fréquence_du_électropêcheur,site data__données des sites,Frequency (Hz) of electrical pulse applied when sampling,Fréquence (Hz) de l'impulsion électrique appliquée lors de l'échantillonnage
 duty_cycle__facteur d'utilisation,site data__données des sites,Duty cycle (%) of electrical pulse applied when sampling,Coefficient d'utilisation (%) de l'impulsion électrique appliquée lors de l'échantillonnage
-electrofisher_voltage__tension_électropêcheur,site data__données des sites,Voltage (V) applied when sampling,Tension (V) appliquée lors de l'échantillonnage
+electrofisher_voltage__tension_du_électropêcheur,site data__données des sites,Voltage (V) applied when sampling,Tension (V) appliquée lors de l'échantillonnage
 electrofisher_output_low__sortie_faible_du_électropêcheur,site data__données des sites,Lowest current (A) recorded when sampling; current is inversely related to distance between anode and cathode,Courant le plus faible (A) enregistré lors de l'échantillonnage ; le courant est inversement proportionnel à la distance entre l'anode et la cathode.
 electrofisher_output_high__sortie_élevé_du_électropêcheur,site data__données des sites,Highest current (A) recorded when sampling; current is inversely related to distance between anode and cathode,Courant le plus élevé (A) enregistré lors de l'échantillonnage ; le courant est inversement proportionnel à la distance entre l'anode et la cathode.
 bank_length_left__longueur_de_la_banque_à_gauche,site data__données des sites,Left bank length (m); determined by looking downstream,Longueur de la rive gauche (m) ; déterminée en regardant vers l'aval
@@ -41,7 +41,7 @@ depth_3_middle__profondeur_3_moyenne,site data__données des sites,Depths are me
 depth_1_upper__profondeur_1_supérieur,site data__données des sites,Depths are measured where site widths are taken; depth (cm) at 25% out from the left bank at the upper width,Les profondeurs sont mesurées là où les largeurs de site sont prises ; profondeur (cm) à 25% de la rive gauche à la largeur supérieure.
 depth_2_upper__profondeur_2_supérieur,site data__données des sites,Depths are measured where site widths are taken; depth (cm) at 50% out from the left bank at the upper width,Les profondeurs sont mesurées là où les largeurs de site sont prises ; profondeur (cm) à 50% de la rive gauche à la largeur supérieure.
 depth_3_upper__profondeur_3_supérieur,site data__données des sites,Depths are measured where site widths are taken; depth (cm) at 75% out from the left bank at the upper width,Les profondeurs sont mesurées là où les largeurs de site sont prises ; profondeur (cm) à 75% de la rive gauche à la largeur supérieure.
-max_depth__max_profondeur,site data__données des sites,Maximum depth (cm) located at the site,Profondeur maximale (cm) localisée sur le site
+max_depth__profondeur_max,site data__données des sites,Maximum depth (cm) located at the site,Profondeur maximale (cm) localisée sur le site
 percent_fine__pourcentage_fin,site data__données des sites,Percentage of visible area in the site covered by fine silt or clay,Pourcentage de la surface visible du site recouverte de limon fin ou d'argile
 percent_sand__pourcentage_sable,site data__données des sites,Percentage of visible area in the site covered by sand (<2mm),Pourcentage de la surface visible du site recouverte de sable (<2mm)
 percent_gravel__pourcentage_gravier,site data__données des sites,Percentage of visible area in the site covered by gravel (2mm to 16mm),Pourcentage de la surface visible du site couverte par des graviers (2 mm à 16 mm)
@@ -50,10 +50,10 @@ percent_cobble__pourcentage_pierre,site data__données des sites,Percentage of v
 percent_rocks__pourcentage_roches,site data__données des sites,Percentage of visible area in the site covered by rocks (250mm to 500mm),Pourcentage de la surface visible du site couverte par des rochers (250 mm à 500 mm)
 percent_boulder__pourcentage_rocher,site data__données des sites,Percentage of visible area in the site covered by boulders (>500mm),Pourcentage de la surface visible du site couverte par des blocs rocheux (>500mm)
 percent_bedrock__pourcentage_roche-mère,site data__données des sites,Percentage of visible area in the site covered by bedrock,Pourcentage de la surface visible du site couverte par la roche mère
-percent_riffle,site data__données des sites,"Percentage of site that is riffle; fast current, shallow depth (<23cm), turbulent (usually) broken flow","Pourcentage du site qui est un radier ; courant rapide, faible profondeur (<23cm), écoulement turbulent (généralement) brisé."
-percent_run,site data__données des sites,"Percentage of site that is run; fast current, depth >23cm, turbulent and sometimes broken flow","Pourcentage du site qui est parcouru ; courant rapide, profondeur >23cm, turbulent et parfois brisé."
-percent_flat,site data__données des sites,"Percentage of site that is flats; slow current, depth <46cm, smooth surface","Pourcentage du site qui est plat ; courant lent, profondeur <46cm, surface lisse"
-percent_pool,site data__données des sites,"Percentage of site that is pool; slow current, depth >46cm, smooth surface","Pourcentage du site qui est une piscine ; courant lent, profondeur >46cm, surface lisse"
+percent_riffle__pourcentage_radier,site data__données des sites,"Percentage of site that is riffle; fast current, shallow depth (<23cm), turbulent (usually) broken flow","Pourcentage du site qui est un radier ; courant rapide, faible profondeur (<23cm), écoulement turbulent (généralement) brisé."
+percent_run__pourcentage_parcouru,site data__données des sites,"Percentage of site that is run; fast current, depth >23cm, turbulent and sometimes broken flow","Pourcentage du site qui est parcouru ; courant rapide, profondeur >23cm, turbulent et parfois brisé."
+percent_flat__pourcentage_plat,site data__données des sites,"Percentage of site that is flats; slow current, depth <46cm, smooth surface","Pourcentage du site qui est plat ; courant lent, profondeur <46cm, surface lisse"
+percent_pool__pourcentage_piscine,site data__données des sites,"Percentage of site that is pool; slow current, depth >46cm, smooth surface","Pourcentage du site qui est une piscine ; courant lent, profondeur >46cm, surface lisse"
 age_thresh_0_1__seuil d'âge_0_1,site data__données des sites,Length (mm) selected to separate salmon fry (age 0+) from 1+ parr,Longueur (mm) choisie pour séparer les alevins de saumon (âge 0+) des tacons 1+.
 age_thresh_1_2__seuil d'âge_1_2,site data__données des sites,Length (mm) selected to separate salmon 1+ parr from 2+ parr,Longueur (mm) choisie pour séparer les tacons de saumon 1+ des tacons 2+.
 age_thresh_2_3__seuil d'âge_2_3,site data__données des sites,Length (mm) selected to separate salmon 2+ parr from 3+ parr,Longueur (mm) choisie pour séparer les tacons de saumon 2+ des tacons 3+.
@@ -102,11 +102,11 @@ Non coché : indique que la détermination du sexe n'a pas été tentée.
 Blanc : signifie souvent que la case n'a pas été cochée, en particulier lorsqu'il s'agit d'espèces autres que le saumon atlantique."
 scale_id_number__numéro_id_écaille,specimen data__données sur les échantillons,"Scale ID number, when combined with date, provides a unique identifier for scales collected from a specific individual. Scales are later aged.","Le numéro d'identification des écailles, associé à la date, fournit un indice unique pour les écailles prélevées sur un individu spécifique. Les écailles sont ensuite agées."
 ager_id__id_de_l'analyste,specimen data__données sur les échantillons,Unique ID used to differentiate people who age scales.,Identifiant unique utilisé pour différencier les personnes qui vieillissent les écailles.
-smart_river_age__âge_de_la_rivière,specimen data__données sur les échantillons,"River age, in years. ","L'âge de la rivière, en années."
-smart_river_age_type__type_de_rivière,specimen data__données sur les échantillons,"If a smart_river_age has been assigned, the smart_river_age_type indicates how that age was determined. Options are:
+river_age__âge_de_la_rivière,specimen data__données sur les échantillons,"River age, in years. ","L'âge de la rivière, en années."
+river_age_type__type_de_rivière,specimen data__données sur les échantillons,"If a river_age__âge_de_la_rivière has been assigned, the river_age_type__type_de_rivière indicates how that age was determined. Options are:
 Scale: interpretation of a fish scale collected from the individual has informed age.
 Length-frequency, auto: the individual has been automatically assigned an age based on age-at-length thresholds applied to the dataset.
-Length-frequency, manual: the individual has been manually assigned an age based on criteria other than the age-at-length threshold.","Si un smart_river_age a été attribué, le smart_river_age_type indique comment cet âge a été déterminé. Les options sont les suivantes :
+Length-frequency, manual: the individual has been manually assigned an age based on criteria other than the age-at-length threshold.","Si un river_age__âge_de_la_rivière a été attribué, le river_age_type__type_de_rivière indique comment cet âge a été déterminé. Les options sont les suivantes :
 Écaille : l'interprétation d'une écaille de poisson prélevée sur l'individu a permis de déterminer l'âge.
 Fréquence de longueur, auto : un âge a été automatiquement attribué à l'individu sur la base des seuils d'âge à la longueur appliqués au jeu de données.
 Fréquence de longueur, manuel : l'âge de l'individu a été attribué manuellement sur la base de critères autres que le seuil d'âge en fonction de la longueur."
