@@ -1,0 +1,11 @@
+name__nom,description_en,description_fr
+site,site name,nom du site
+site_depth__profondeur_site,site depth in meters,profondeur du site en mètre
+log_position__position_sonde,"log position in water, B = bottom, S = surface, M = between B and S ","position de la sonde dans l'eau, B = fond, S = surface, M = entre B et S"
+log_depth__profondeur_sonde,log depth in meters,profondeur de la sonde en mètre
+latitude,latitude of site in decimal degrees,latitude du site en degrés décimaux
+longitude,longitude of site in decimal degrees,longitude du site en degrés décimaux
+year__année,year the temperature was recorded,année de l'enregistrement de la température
+month__mois,month the temperature was recorded,mois de l'enregistrement de la température
+day__jour,day the temperature was recorded,jour de l'enregistrement de la température
+daily_average_temperature__temperature_moyenne_journalière,daily average temperature in Celsius,température moyenne journalière en Celsius
