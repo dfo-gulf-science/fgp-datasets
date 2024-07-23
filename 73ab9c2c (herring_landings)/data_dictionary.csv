@@ -1,5 +1,5 @@
 name_nom,description_en,description_fr
-year_annee,year,année
+year__année,year,année
 stock,ss = spring spawners; fs = fall spawners; total = total,ss = reproducteurs de printemps; fs = reproducteurs d'automne; total = total
 4t_fixed_spring,landings (in metric tons) from the spring season caught with fixed gear in NAFO Zone 4T,débarquements (en tonnes métriques) de printemps pris avec engins fixes dans la zone 4T de l'OPANO
 4t_mobile_spring,landings (in metric tons) from the spring season caught with mobile gear in NAFO Zone 4T,débarquements (en tonnes métriques) de printemps pris avec engins mobiles dans la zone 4T de l'OPANO
