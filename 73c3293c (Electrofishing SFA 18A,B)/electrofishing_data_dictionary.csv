@@ -1,4 +1,4 @@
-﻿name_nom,datafile__fichier de données,description_en,description_fr
+﻿NAME__NOM,DOCUMENT,DESCRIPTION_EN,DESCRIPTION_FR
 river_name__nom_de_la_rivière,site data__données des sites; specimen data__données sur les échantillons,"Name of the river that the site is located on. Or, if the site is on a tributary,  name of the river that the tributary connects to.","Nom de la rivière sur laquelle le site est situé. Ou, si le site est situé sur un affluent, nom de la rivière dans laquelle l'affluent se déverse."
 site_code__numéro_du_site,site data__données des sites; specimen data__données sur les échantillons,Code used to identify a site. Can be numeric or alphanumeric. ,Code utilisé pour identifier un site. Il peut être numérique ou alphanumérique.
 latitude,site data__données des sites,Most recent documented site coordinate in decimal degrees,Coordonnées documentées les plus récentes du site en degrés décimaux
