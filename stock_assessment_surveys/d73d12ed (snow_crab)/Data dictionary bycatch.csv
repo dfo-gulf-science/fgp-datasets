@@ -1,0 +1,9 @@
+﻿name__nom,description_en,description_fr
+date,Tow date,Date du chalutage
+set__trait,Unique identifier for each tow,Identifiant unique pour chaque trait
+set_number__numero_trait,Tow numbering used on survey,Numéro du trait de chalut utilisé sur le relevé
+species__especes,Species code,Code de l'espece
+species_name__nom_espece,Species common name,Nom commun de l'espèce
+number_caught__quantite_capture,The count of the species caught in the set,Le compte de l'espece capture dans le trait
+weight_caught__poids_capture,The weight in kg of the species caught in the set,Le poids en kg de l'espece capture dans le trait
+comment__commentaire,Comments,Commentaires

@@ -1,0 +1,17 @@
+﻿name__nom,description_en,description_fr
+date,Tow date,Date du chalutage
+set_trait,Unique identifier for each tow,Identifiant unique pour chaque trait
+set_number__numero_trait,Tow numbering used on survey,Numéro du trait de chalut utilisé sur le relevé
+species_name__nom_especes,Species common name,Nom commun de l'espèce
+crab_number__numero_crabe,Crab numbering used on board the fishing vessel,Numéro de crabe utilisée à bord du navire de recherche
+sex__sexe,Sex of the crab,Sexe du crabe
+carapace_width__largeur_carapace,Width of the crab carapace in millimeters,Largeur de la carapace du crabe en millimetre
+chela_height__hauteur_pince,Height of male crab claw in millimeters,Hauteur de la pince du crabe mâle en millimetre
+abdomen_width__largeur_abdomen,Width of 5th abdominal segment in millimeters,Largeur du 5e segment de l'abdomen en millimetre
+durometer__durometre,Crab hardness,Dureté de la carapace
+shell_condition__condition_carapace,Crab shell or carapace condition; 1 = new soft; 2 = new hard; 3 = intermediate; 4 = old; 5 = very old ,Condition de carapace; 1 = nouvelle molle ; 2 = nouvelle dure; 3 = intermédiaire; 4 = vieille; 5 = très vieille 
+missing_legs__pattes_manquantes,Missing leg indicator string (10 characters-one for each leg),Code de pattes manquantes de crabe (10 caractères-une pour chacune des pattes)
+gonad_colour__couleur_gonades,Colour of gonads for immature or pubescent females; 1 = white; 2 = beige; 3 = orange; 4 = light orange ,Couleur de gonades pour femelles immatures ou pubescentes; 1 = blanc; 2 = beige; 3 = orange; 4 = orange clair 
+egg_colour__couleur_oeufs,Colour of eggs; 1 = light orange; 2 = dark orange; 3 = black; 4 = coccoon; 5 = orange ,Couleur des œufs; 1 = orange clair; 2 = orange fonce; 3 = noir; 4 = coccon; 5 = orange 
+eggs_remaining__oeufs_restants,Percentage of eggs remaining; 0 = no eggs; 1 = 1 – 49%; 2 = 50 – 74%; 3 = 75 – 99%; 4 = 100% ,Pourcentage des œufs restants; 0 = pas d'oeufs; 1 = 1 – 49%; 2 = 50 – 74%; 3 = 75 – 99%; 4 = 100% 
+comment__commentaire,Comments,Commentaires

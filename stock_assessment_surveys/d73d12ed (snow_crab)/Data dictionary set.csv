@@ -1,0 +1,10 @@
+﻿name__nom,description_en,description_fr
+date,Tow date,Date du chalutage
+set_trait,Unique identifier for each tow,Identifiant unique pour chaque trait
+set_number__numero_trait,Tow numbering used on survey,Numéro du trait de chalut utilisé sur le relevé
+bottom_temperature__temperature_fond,Bottom temperature in Celsius during towing,Température du fond en Celsius pendant le chalutage
+longitude,Longitude of tow,La longitude du trait
+latitude,Latitude of tow,La latitude du trait
+start__depart,The time at start of tow,L'heure du début du chalutage
+depth__profondeur,Depth in fathoms,Profondeur en brasses
+swept_area__aire_balayee,Swept area in square meters ,Aire balayée en mètres carrés
