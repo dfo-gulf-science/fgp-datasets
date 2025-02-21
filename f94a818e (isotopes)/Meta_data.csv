@@ -1,0 +1,3 @@
+Code for Lipid Correction Formula in R: 
+"Muscle$d13CcorrM <-round(Muscle$d13C+7.018*(0.048+3.9/(1+287/(93/(1+(0.246*Muscle$C.N_ratio-0.775) ^-1)))), digits=1)"
+"Liver$d13CcorrL <-round(Liver$d13C+(((6.059*Liver$C.N_ratio)-20.025)/(Liver$C.N_ratio+0.678)),digits=1)"
