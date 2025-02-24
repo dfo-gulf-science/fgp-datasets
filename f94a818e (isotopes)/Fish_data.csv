@@ -1,4 +1,4 @@
-Sample_ID,Species,Location,Catch_Method_Notes,Tissue,Year,Date_Collected,Date_Dissected,Date_Analyzed,Fork_Length ,Unit_FLength,Weight,Unit_weight,ë13C,ë15N,ë34S,X.C,X.N,C.N_ratio,X.S ,d13C_Lipid_Corr,Notes
+Sample_ID,Species,Location,Catch_Method_Notes,Tissue,Year,Date_Collected,Date_Dissected,Date_Analyzed,Fork_Length ,Unit_FLength,Weight,Unit_weight,Ã«13C,Ã«15N,Ã«34S,X.C,X.N,C.N_ratio,X.S ,d13C_Lipid_Corr,Notes
 2019-SIM-002,Rainbow Smelt,Bass Trap,Fyke Net,Muscle,2019,10-06-2019,03-07-2019,20-2-2020,12.8,Centimeters,15.3,Grams,-19.8,13.77,17.49,41.76,12.4,3.37,1.11,-19,
 2019-SIM-003,Yellow Perch,Cassilis,Fyke Net,Muscle,2019,03-06-2019,03-07-2019,27-11-2020,19.6,Centimeters,79.768,Grams,-21.22,12.18,12.32,45.01,14,3.22,1.06,-20.7,
 2019-SIM-004,White Sucker,Cassilis,Fyke Net,Muscle,2019,03-06-2019,03-07-2019,08-09-2022,9.7,Centimeters,9.777,Grams,-22.57,10.35,14.76,48.93,12.56,3.89,0.77,-20.9,
