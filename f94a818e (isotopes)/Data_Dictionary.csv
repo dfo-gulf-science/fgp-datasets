@@ -1,28 +1,28 @@
-﻿name__nom;description_en;description_fr;Location where used__Lieu de l'utilisation
-Sample_ID;Unique ID code given to each sample;Code d'identification unique attribué à chaque échantillon;Fish Data, Invert Data
-Species;Common name of each species sampled;Nom commun de chaque espèce échantillonnée;Fish Data, Invert Data
-Location;Name of the site where the specimen was collected;Nom du site où le spécimen a été collecté;Fish Data, Invert Data
-Catch_Method_Notes;The type of net that was used to sample the specimen;Le type de filet utilisé pour échantillonner le spécimen;Fish Data, Invert Data
-Tissue;What type of tissue is the sample made up of;De quel type de tissu l'échantillon est-il constitué;Fish Data, Invert Data
-Year;The year the specimen was sampled;L'année où le spécimen a été échantillonné;Fish Data
-Date_Collected;The date the specimen was sampled;La date à laquelle le spécimen a été prélevé;Fish Data, Invert Data
-Date_Dissected;the date the specimen was dissected;la date à laquelle le spécimen a été prélevé;Fish Data
-Date_Analyzed;the date the specimen's stable isotope ratios were flash combusted in the elemental analyzer;la date à laquelle les rapports d'isotopes stables de l'échantillon ont été soumis à une combustion éclair dans l'analyseur élémentaire;Fish Data
-Fork_Length;Fork length of the specimen (only applies to fishes);Longueur de la fourche du spécimen (ne s'applique qu'aux poissons);Fish Data
-Unit_Flength;Unit of measurement used to mesaure fork length;Unité de mesure utilisée pour mesurer la longueur de la fourche;Fish Data
-Weight;Weight of the specimen (only applied to fish);Poids du spécimen (uniquement pour les poissons);Fish Data
-Unit_Weight;Unit of measurement used to weigh the fish;Unité de mesure utilisée pour peser le poisson;Fish Data
-ë13C;Carbon-13 stable isotope ratios of the sample;Rapports isotopiques stables du carbone-13 de l'échantillon;Fish Data
-ë15N;Nitrogen-15 stable isotope ratios of the sample;Rapports isotopiques stables de l'azote-15 de l'échantillon;Fish Data
-ë34S;Sulfur-34 stable isotope ratios of the sample;Rapports des isotopes stables du soufre-34 de l'échantillon;Fish Data
-X.C;Percent of carbon in the sample;Pourcentage de carbone dans l'échantillon;Fish Data
-X.N;Percent of nitrogen in the sample;Pourcentage d'azote dans l'échantillon;Fish Data
-X.S;Percent of sulfur in the sample;Pourcentage de soufre dans l'échantillon,  utilisé pour donner une idée de la teneur en lipides. ;Fish Data
-CN_Ratio;Ratio of carbon to nitrogen in the sample, used to provide insight on lipid content. ;Rapport entre le carbone et l'azote dans l'échantillon,  utilisé pour donner une idée de la teneur en lipides. ;Fish Data
-ë13C_Lipid Corr;"All fish samples must be ""corrected"" for bias that arrises from lipids using an arithmetic correction formula. The formula differs based on tissue sampled with the muscle formula being from Kiljunen et al. 2006 and the liver formula being from Logan et al. 2008";Tous les échantillons de poissons doivent être « corrigés » pour tenir compte du biais dû aux lipides à l'aide d'une formule de correction arithmétique. La formule diffère selon le tissu échantillonné,  la formule pour les muscles étant celle de Kiljunen et al. 2006 et celle pour le foie celle de Logan et al. 2008.;Fish Data
-Notes;Any notes collected during sampling and processing samples;Toutes les notes recueillies lors de l'échantillonnage et du traitement des échantillons;Fish Data
-number of individuals per sample;Total number of individuals per sample collected;Nombre total d'individus par échantillon collecté;Invert Data
-Habitat;Type of water habitat the samples where samples were collected;Type d'eau de l'habitat des échantillons où les échantillons ont été prélevés;Invert Data
-Fish;Fish sample collected at specified geographic point;Échantillon de poisson prélevé à un point géographique donné;Catch Location Data
-Invertebrate;Invertebrate sample collected at specific geographic point;Échantillon d'invertébrés prélevé en un point géographique spécifique;Catch Location Data
-Code_for_Lipid_Correction_Formula_in_R: ;Code used in R to correct for lipids;Code utilisé dans R pour corriger les lipides;Metadata
+﻿name__nom,description_en,description_fr,Location where used__Lieu de l'utilisation
+Sample_ID,Unique ID code given to each sample,Code d'identification unique attribué à chaque échantillon,"Fish Data, Invert Data"
+Species,Common name of each species sampled,Nom commun de chaque espèce échantillonnée,"Fish Data, Invert Data"
+Location,Name of the site where the specimen was collected,Nom du site où le spécimen a été collecté,"Fish Data, Invert Data"
+Catch_Method_Notes,The type of net that was used to sample the specimen,Le type de filet utilisé pour échantillonner le spécimen,"Fish Data, Invert Data"
+Tissue,What type of tissue is the sample made up of,De quel type de tissu l'échantillon est-il constitué,"Fish Data, Invert Data"
+Year,The year the specimen was sampled,L'année où le spécimen a été échantillonné,Fish Data
+Date_Collected,The date the specimen was sampled,La date à laquelle le spécimen a été prélevé,"Fish Data, Invert Data"
+Date_Dissected,the date the specimen was dissected,la date à laquelle le spécimen a été prélevé,Fish Data
+Date_Analyzed,the date the specimen's stable isotope ratios were flash combusted in the elemental analyzer,la date à laquelle les rapports d'isotopes stables de l'échantillon ont été soumis à une combustion éclair dans l'analyseur élémentaire,Fish Data
+Fork_Length,Fork length of the specimen (only applies to fishes),Longueur de la fourche du spécimen (ne s'applique qu'aux poissons),Fish Data
+Unit_Flength,Unit of measurement used to mesaure fork length,Unité de mesure utilisée pour mesurer la longueur de la fourche,Fish Data
+Weight,Weight of the specimen (only applied to fish),Poids du spécimen (uniquement pour les poissons),Fish Data
+Unit_Weight,Unit of measurement used to weigh the fish,Unité de mesure utilisée pour peser le poisson,Fish Data
+ë13C,Carbon-13 stable isotope ratios of the sample,Rapports isotopiques stables du carbone-13 de l'échantillon,Fish Data
+ë15N,Nitrogen-15 stable isotope ratios of the sample,Rapports isotopiques stables de l'azote-15 de l'échantillon,Fish Data
+ë34S,Sulfur-34 stable isotope ratios of the sample,Rapports des isotopes stables du soufre-34 de l'échantillon,Fish Data
+X.C,Percent of carbon in the sample,Pourcentage de carbone dans l'échantillon,Fish Data
+X.N,Percent of nitrogen in the sample,Pourcentage d'azote dans l'échantillon,Fish Data
+X.S,Percent of sulfur in the sample,"Pourcentage de soufre dans l'échantillon, utilisé pour donner une idée de la teneur en lipides.",Fish Data
+CN_Ratio,"Ratio of carbon to nitrogen in the sample, used to provide insight on lipid content.","Rapport entre le carbone et l'azote dans l'échantillon, utilisé pour donner une idée de la teneur en lipides. ",Fish Data
+ë13C_Lipid Corr,"All fish samples must be ""corrected"" for bias that arrises from lipids using an arithmetic correction formula. The formula differs based on tissue sampled with the muscle formula being from Kiljunen et al. 2006 and the liver formula being from Logan et al. 2008","Tous les échantillons de poissons doivent être « corrigés » pour tenir compte du biais dû aux lipides à l'aide d'une formule de correction arithmétique. La formule diffère selon le tissu échantillonné,  la formule pour les muscles étant celle de Kiljunen et al. 2006 et celle pour le foie celle de Logan et al. 2008.",Fish Data
+Notes,Any notes collected during sampling and processing samples,Toutes les notes recueillies lors de l'échantillonnage et du traitement des échantillons,Fish Data
+number of individuals per sample,Total number of individuals per sample collected,Nombre total d'individus par échantillon collecté,Invert Data
+Habitat,Type of water habitat the samples where samples were collected,Type d'eau de l'habitat des échantillons où les échantillons ont été prélevés,Invert Data
+Fish,Fish sample collected at specified geographic point,Échantillon de poisson prélevé à un point géographique donné,Catch Location Data
+Invertebrate,Invertebrate sample collected at specific geographic point,Échantillon d'invertébrés prélevé en un point géographique spécifique,Catch Location Data
+Code_for_Lipid_Correction_Formula_in_R: ,Code used in R to correct for lipids,Code utilisé dans R pour corriger les lipides,Metadata
