@@ -1,4 +1,4 @@
-name__nom;description_en;description_fr;Location where used__Lieu de l'utilisation
+﻿name__nom;description_en;description_fr;Location where used__Lieu de l'utilisation
 Sample_ID;Unique ID code given to each sample;Code d'identification unique attribué à chaque échantillon;Fish Data, Invert Data
 Species;Common name of each species sampled;Nom commun de chaque espèce échantillonnée;Fish Data, Invert Data
 Location;Name of the site where the specimen was collected;Nom du site où le spécimen a été collecté;Fish Data, Invert Data
