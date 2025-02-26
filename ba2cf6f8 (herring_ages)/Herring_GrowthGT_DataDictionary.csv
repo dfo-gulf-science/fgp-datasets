@@ -1,0 +1,13 @@
+﻿name__nom,description_en,description_fr
+Sample_ID__Numéro_Échantillon,The sample ID provided for the sample in the year it was taken. The IDS are sequential based on processing time,Le numéro de l'échantillon est fourni pour l'échantillon dans l'année où il a été prélevé. Les numéros sont séquentiels en fonction du temps de traitement
+Day__Jour,Day of the month fish was captured,Jour du mois où le poisson a été capturé
+Month__Mois,Month the fish was captured,Mois de capture du poisson
+Year__Année,Year fish was sampled,Année où le poisson a été échantillonné
+Fish_Number__Numéro_du_poisson,"Number of fish within the samples, sequential based on proccessing","Numéro du poisson dans l'échantillon, séquentiel basé sur le traitement"
+Length_(mm)__Longueur_(mm),"Length of the fish from snout to tip of pinched tail measured in mm","Longueur du poisson, du bec jusqu'à l'extrémité de la queue pincée, mesurée en mm"
+Weight_(g)__Poids_(g),Weight of fish in grams,Poids du poisson en grammes
+Sex__Sexe,Sex of fish,Sexe du poisson
+Maturity__Maturité,Maturity of fish on scale from 1-8,Maturité du poisson sur une échelle de 1 à 8
+Gonad_Weight_(g)__Poids_du_gonade_(g),Weight of the gonad of the fish in grams,Poids du gonade du poisson en grammes
+Spawning_Component__Composante_de_frai,Whether the individual spawns in the spring (April-June) or Fall (July-October),Si l'individu se reproduit au printemps (avril-juin) ou à l'automne (juillet-octobre)
+Age__Âge,Age of the fish in years,L'âge du poisson en années
