@@ -1,0 +1,6 @@
+﻿name__nom,description_en,description_fr
+year_année,year of fishing events,année des l'événements de  pêche
+no.licenses_no.permis,number of licenses,nombre de permis
+no.days_no.jours,number of days with recorded landings,nombre de jours avec débarquements enregistrés
+active.licenses_permis.active,total landings divided by the number of licenses,total des débarquements divisé par le nombre de permis
+landings.by.day_débarquement.par.jour,total landings divided by the number of days with recorded landings,total des débarquements divisé par le nombre de jours où les débarquements ont été enregistrés
