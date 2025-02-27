@@ -1,0 +1,18 @@
+﻿name__nom,description_en,description_fr
+abft_thon,Atlantic bluefin tuna unique identifier,Identifiant unique thon rouge
+region_région,Catch region,Région de capture
+year_année,Catch year,Année de capture
+month_mois,Catch month,Mois de capture
+day_jour,Catch day,Jour de capture
+latitude_latitude,Catch latitude (decimal degrees),Latitude de capture (degrés décimales)
+longitude_longitude,Catch longitude (decimal degrees),Longitude de capture (degrés décimales)
+fkl_lf,Catch fork length (cm),Longueur a la fourche de la capture (cm)
+rw_pt,Catch round weight (kg),Poids total de la capture (kg)
+dw_pé,Catch dressed weight (kg),Poids éviscéré de la capture (kg)
+preyw_pproie,Prey weight (g),Poids de la proie (g)
+preyl_lproie,Prey length (cm),Longueur de la proie (cm)
+digestion_digestion,Prey digestion level (0 = not digested),Niveau de digestion de la proie (0 = non-digéré)
+quantity_quantitée,Prey item quantity,Quantité de proie
+prey_proie_fr,French prey name,Nom français de la proie
+prey_proie_en,English prey name,Nom anglais de la proie
+prey_proie_latin,Latin prey name,Nom latin de la proie
