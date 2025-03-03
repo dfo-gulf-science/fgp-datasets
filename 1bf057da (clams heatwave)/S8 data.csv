@@ -1,4 +1,4 @@
-date,month,day.in.month,julian.date,precip.mm,trial
+﻿date,month,day.in.month,julian.date,precip.mm,trial
 1-May-24,May,1,122,0,N
 2-May-24,May,2,123,0,N
 3-May-24,May,3,124,4.2,N

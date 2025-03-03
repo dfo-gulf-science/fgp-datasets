@@ -1,4 +1,4 @@
-month,julian.date,avg.temp,avg.humidex,time.since.deploy,tide.level,plot.glob,pred.treat,initial,burrowed,dead,prop.burrowed,prop.dead
+﻿month,julian.date,avg.temp,avg.humidex,time.since.deploy,tide.level,plot.glob,pred.treat,initial,burrowed,dead,prop.burrowed,prop.dead
 Aug,232,27.4,35,24 h,IN,1,PI,5,5,0,1,0
 Aug,232,27.4,35,24 h,IN,2,PE,5,5,0,1,0
 Aug,232,27.4,35,24 h,IN,3,PI,5,4,1,0.8,0.2

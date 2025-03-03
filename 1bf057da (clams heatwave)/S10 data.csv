@@ -1,4 +1,4 @@
-month,time.since.deploy,tide.level,plot.glob,pred.treat,initial,burrowed,prop.burrowed
+﻿month,time.since.deploy,tide.level,plot.glob,pred.treat,initial,burrowed,prop.burrowed
 May,15 min,IN,1,PE,5,0,0
 May,15 min,IN,2,PE,5,0,0
 May,15 min,IN,3,PE,5,0,0
