@@ -1,10 +1,10 @@
-name_nom,description_en,description_fr
-year__année,year,année
+ï»¿name_nom,description_en,description_fr
+year__annÃ©e,year,annÃ©e
 stock,ss = spring spawners; fs = fall spawners; total = total,ss = reproducteurs de printemps; fs = reproducteurs d'automne; total = total
-4t_fixed_spring,landings (in metric tons) from the spring season caught with fixed gear in NAFO Zone 4T,débarquements (en tonnes métriques) de printemps pris avec engins fixes dans la zone 4T de l'OPANO
-4t_mobile_spring,landings (in metric tons) from the spring season caught with mobile gear in NAFO Zone 4T,débarquements (en tonnes métriques) de printemps pris avec engins mobiles dans la zone 4T de l'OPANO
-4t_fixed_fall,landings (in metric tons) from the fall season caught with fixed gear in NAFO Zone 4T,débarquements (en tonnes métriques) d'automne pris avec engins fixes dans la zone 4T de l'OPANO
-4t_mobile_fall,landings (in metric tons) from the fall season caught with mobile gear in NAFO Zone 4T,débarquements (en tonnes métriques) d'automne pris avec engins mobiles dans la zone 4T de l'OPANO
-4t_total,total landings (in metric tons) from NAFO Zone 4T,débarquements totals (en tonnes métriques) dans la zone 4T de l'OPANO
-4vn_total,total landings (in metric tons) from NAFO Zone 4Vn,débarquements totals (en tonnes métriques) dans la zone 4Vn de l'OPANO
-4tvn_total,total landings (in metric tons) from NAFO Zone 4T and 4Vn,débarquements totals (en tonnes métriques) dans la zone 4T et 4Vn de l'OPANO
+4t_fixed_spring,landings (in metric tons) from the spring season caught with fixed gear in NAFO Zone 4T,dÃ©barquements (en tonnes mÃ©triques) de printemps pris avec engins fixes dans la zone 4T de l'OPANO
+4t_mobile_spring,landings (in metric tons) from the spring season caught with mobile gear in NAFO Zone 4T,dÃ©barquements (en tonnes mÃ©triques) de printemps pris avec engins mobiles dans la zone 4T de l'OPANO
+4t_fixed_fall,landings (in metric tons) from the fall season caught with fixed gear in NAFO Zone 4T,dÃ©barquements (en tonnes mÃ©triques) d'automne pris avec engins fixes dans la zone 4T de l'OPANO
+4t_mobile_fall,landings (in metric tons) from the fall season caught with mobile gear in NAFO Zone 4T,dÃ©barquements (en tonnes mÃ©triques) d'automne pris avec engins mobiles dans la zone 4T de l'OPANO
+4t_total,total landings (in metric tons) from NAFO Zone 4T,dÃ©barquements totals (en tonnes mÃ©triques) dans la zone 4T de l'OPANO
+4vn_total,total landings (in metric tons) from NAFO Zone 4Vn,dÃ©barquements totals (en tonnes mÃ©triques) dans la zone 4Vn de l'OPANO
+4tvn_total,total landings (in metric tons) from NAFO Zone 4T and 4Vn,dÃ©barquements totals (en tonnes mÃ©triques) dans la zone 4T et 4Vn de l'OPANO
