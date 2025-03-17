@@ -1,0 +1,24 @@
+﻿name_nom,description_en,description_fr
+Year,Sampling year,Année d'échantillonnage
+SampleID,Sample Identification number,Numéro d'identification de l'échantillon
+SampleType,Type of sample ,Type d'échantillon
+EventID,Identification number of the sampling event,Numéro d'identification de l'évènement d'échantillonnage
+SamplingLocation,,
+SamplingSite,Site Identification number,Numéro d'identification du site
+EventDate,Sampling date,Date d'échantillonnage
+RecordedBy,Sampling organization,Organisation qui a fait l'échantillonnage
+DecimalLatitude,Latitude in decimal degree,Latitude en degré décimal
+DecimalLongitude,Longitude in decimal degree,Longitude en degré décimal
+VolumeFiltered (mL),Volume in milliliter (mL),Volume en millilitre (mL)
+FilterType,Type of filter,Type de filtre
+OccurrenceStatus,"Detection status based on the decision framework found in LeBlanc et al., 2021, Scoping the distribution of Smallmouth Bass (Micropterus dolomieu) in the Miramichi River Watershed in 2019 and 2020 using environmental DNA. Can. Manusc. Rep. Fish. Aquat. Sci. 3222:v + 22 p.","Statut de détection basé sur le cadre décisonnel trouvé dans LeBlanc et al., 2021, Scoping the distribution of Smallmouth Bass (Micropterus dolomieu) in the Miramichi River Watershed in 2019 and 2020 using environmental DNA. Can. Manusc. Rep. Fish. Aquat. Sci. 3222:v + 22 p."
+New_OccurenceStatus,"Detection status based on the decision framework found in Shaw-McDonald et al., 2025, Scoping the distribution of Smallmouth Bass (Micropterus dolomieu) in the Miramichi River Watershed using environmental DNA, 2022-2024 (in prep)","Statut de détection basé sur le cadre décisonnel trouvé dans Shaw-McDonald et al., 2025, Scoping the distribution of Smallmouth Bass (Micropterus dolomieu) in the Miramichi River Watershed using environmental DNA, 2022-2024 (in prep)"
+SMB Ct_1,Ct value of qPCR technical replicate 1,Valeur Ct du réplicat technique 1 du PCR en temps réel 
+SMB Ct_2,Ct value of qPCR technical replicate 2,Valeur Ct du réplicat technique 2 du PCR en temps réel 
+SMB Ct_3,Ct value of qPCR technical replicate 3,Valeur Ct du réplicat technique 3 du PCR en temps réel 
+SMB Pg/L_1 ,DNA concentration in picogram per liter for qPCR technical replicate 1,Concentration d'ADN en picogramme par litre du réplicat technique 1 du PCR en temps réel 
+SMB Pg/L_2,DNA concentration in picogram per liter for qPCR technical replicate 2,Concentration d'ADN en picogramme par litre du réplicat technique 2 du PCR en temps réel 
+SMB Pg/L_3,DNA concentration in picogram per liter for qPCR technical replicate 2,Concentration d'ADN en picogramme par litre du réplicat technique 3 du PCR en temps réel 
+SMB Copies/L_1 ,DNA concentration in copies per liter for qPCR technical replicate 1,Concentration d'ADN en copies par litre du réplicat technique 1 du PCR en temps réel 
+SMB Copies/L_2,DNA concentration in copies per liter for qPCR technical replicate 2,Concentration d'ADN en copies par litre du réplicat technique 2 du PCR en temps réel 
+SMB Copies/L_3,DNA concentration in copies per liter for qPCR technical replicate 3,Concentration d'ADN en copies par litre du réplicat technique 3 du PCR en temps réel
