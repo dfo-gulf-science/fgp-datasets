@@ -3,7 +3,7 @@ Year,Sampling year,Année d'échantillonnage
 SampleID,Sample Identification number,Numéro d'identification de l'échantillon
 SampleType,Type of sample ,Type d'échantillon
 EventID,Identification number of the sampling event,Numéro d'identification de l'évènement d'échantillonnage
-SamplingLocation,,
+SamplingLocation,Geographic area where the sampling occurred,Endroit géographique où l'échantillonnage a eu lieu
 SamplingSite,Site Identification number,Numéro d'identification du site
 EventDate,Sampling date,Date d'échantillonnage
 RecordedBy,Sampling organization,Organisation qui a fait l'échantillonnage
