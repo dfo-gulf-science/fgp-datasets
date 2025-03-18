@@ -1,12 +1,13 @@
-######################################################################################################################################################
-######################################################################################################################################################
-------------------------------------------------------------------------------------------------------------------------------------------------------
-------------------------------------------------------- SUPPLEMENTARY CODE FOR CLEMENTS ET AL. -------------------------------------------------------
------- EXTREME SUMMER HEATWAVES DRAMATICALLY INCREASE INDIRECT FISHING MORTALITY AT THE LAND-SEA INTERFACE VIA SHIFTS IN PREDATOR-PREY DYNAMICS ------
--------------------------------------------------------- SUBMISSION TO NATURE CLIMATE CHNAGE ---------------------------------------------------------
-------------------------------------------------------------------------------------------------------------------------------------------------------
-######################################################################################################################################################
-######################################################################################################################################################
+﻿#########################################################################################################################################################
+#########################################################################################################################################################
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------- SUPPLEMENTARY CODE FOR CLEMENTS ET AL. ---------------------------------------------------------
+------- FISHING DURING EXTREME HEATWAVES ALTERS ECOLOGICAL INTERACTIONS AND INCREASES INDIRECT FISHING MORTALITY IN A UBIQUITOUS NEARSHORE SYSTEM -------
+---------------------------------------------------------------- COMMUNICATIONS BIOLOGY -----------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+#########################################################################################################################################################
+#########################################################################################################################################################
 
 #### PACKAGES ####
 library(devtools)
@@ -29,25 +30,33 @@ library(logistf)
 library(jpeg)
 library(RCurl)
 library(grid)
-
+library(Rmisc)
+library(mgcv)
 
 #### STATISTICAL ANALYSIS: EFFECTS OF EXPERIMENT (MONTH), TIME SINCE RELEASE, TIDE LEVEL, AND PREDATOR TREATMENT ON BURROWING AND MORTALITY####
 #Upload datafile for burrowing and mortality after 24 and 48 hours
-burrowing.mortality<-read.csv(file.choose()) #datafile = 'S1 data.csv'
+burrowing.mortality<-read.csv(file.choose()) #datafile = 'S-01 data.csv'
 attach(burrowing.mortality)
 summary(burrowing.mortality)
 burrowing.mortality$plot.glob<-as.factor(burrowing.mortality$plot.glob)
 burrowing.mortality$month<-as.factor(burrowing.mortality$month)
 burrowing.mortality$time.since.deploy<-as.factor(burrowing.mortality$time.since.deploy)
 burrowing.mortality$tide.level<-as.factor(burrowing.mortality$tide.level)
+burrowing.mortality$pred.treat<-as.factor(burrowing.mortality$pred.treat)
+burrowing.mortality$avg.temp<-as.numeric(burrowing.mortality$avg.temp)
+burrowing.mortality$julian.date<-as.numeric(burrowing.mortality$julian.date)
 
-#Build BGLMER models for burrowing and mortality at 24 and 48 hours at each tide level, for each predator treatment, in each experiment (month). Include plot to account for repeated measures over two time points. Note that there is complete separation in the data because some treatment levels have all 0 values. As such, use Bayesian GLMER approach [bglmer() as per Bolker (2018)), specifying zero-mean normal priors to account for separation.
-bglmer_burrowmod<-bglmer(prop.burrowed~month*pred.treat*time.since.deploy*tide.level+(1|plot.glob),family=binomial,data=burrowing.mortality, fixef.prior = normal(cov = diag(10,60))) #Ignore convergence warnings; model estimates still OK
-bglmer_mortalitymod<-bglmer(prop.dead~month*pred.treat*time.since.deploy*tide.level+(1|plot.glob),family=binomial,data=burrowing.mortality, fixef.prior = normal(cov = diag(10,60))) #Ignore convergence warnings; model estimates still OK
+#Build BGLMER models for burrowing and mortality at 24 and 48 hours at each tide level, for each predator treatment, in each experiment (month). Include plot to account for repeated measures over two time points. Note that there is complete separation in the data because some treatment levels have all 0 values. As such, use Bayesian GLMER approach [bglmer() as per Bolker (2018)), specifying zero-mean normal priors to account for separation. 
+#We initially tried variance prior of 9 but this resulted in an error for the mortalitymod, most likely due to quasi-complete separation. We thus used a slightly larger variance prior, which resolved the issue with reasonable model estimates. Diagonal matrix value of 60 was chosen to match the number of terms in the models. 
+bglmer_burrowmod<-bglmer(prop.burrowed~month*pred.treat*time.since.deploy*tide.level+(1|plot.glob),family=binomial,data=burrowing.mortality, fixef.prior = normal(cov = diag(9,60))) #Ignore convergence warnings; model estimates still OK
+bglmer_mortalitymod<-bglmer(prop.dead~month*pred.treat*time.since.deploy*tide.level+(1|plot.glob),family=binomial,data=burrowing.mortality, fixef.prior = normal(cov = diag(9,60))) #Error; slightly increase variance prior value
 
- #Get results
-Anova(bglmer_burrowmod,type=3)#significant effect of experiment (month) on proportion of clams burrowed
-Anova(bglmer_mortalitymod,type=3) #Marginally non-significant experiment x predator treatment x time effect. Interpret 3-way interactive effect
+bglmer_burrowmod2<-bglmer(prop.burrowed~month*pred.treat*time.since.deploy*tide.level+(1|plot.glob),family=binomial,data=burrowing.mortality, fixef.prior = normal(cov = diag(10,60))) #Ignore convergence warnings; model estimates still OK
+bglmer_mortalitymod2<-bglmer(prop.dead~month*pred.treat*time.since.deploy*tide.level+(1|plot.glob),family=binomial,data=burrowing.mortality, fixef.prior = normal(cov = diag(10,60))) #Error; slightly increase variance prior value
+
+#Get results
+Anova(bglmer_burrowmod2,type=3)#significant effect of experiment (month) on proportion of clams burrowed
+Anova(bglmer_mortalitymod2,type=3) #Marginally non-significant experiment x predator treatment x time effect. Interpret 3-way interactive effect
 
 #Get pairwise results
 #Burrowing model
@@ -64,23 +73,32 @@ pairs(mortality.pairwise2)
 mortality.pairwise3<-emmeans(bglmer_mortalitymod,~time.since.deploy|month|pred.treat,data=burrowing.mortality,adjustment="Holm") #differences between times for each experiment and pred treat ; pooled across tide levels
 pairs(mortality.pairwise3)
 
+## GAM analysis for robustness
+#Build GAMMs and get output for reburrowing and mortality to look at effects of average temperature (i.e., heatwave effect), time since deployment for each predator treatment (to determine if burrowing/mortality within each predator treatment differed between 24 and 48h), predator treatment
+burrow.gam <- gamm(prop.burrowed~s(avg.temp,k=3)+pred.treat*time.since.deploy*tide.level+s(julian.date,bs='re'),data=burrowing.mortality, family=nb, method="REML")
+anova(burrow.gam$gam)
+
+mort.gam <- gamm(prop.dead~s(avg.temp,k=3)+pred.treat*time.since.deploy*tide.level+s(julian.date,bs='re'),data=burrowing.mortality, family=nb, method="REML")
+anova(mort.gam$gam)
+
+
 #### MAIN FIGURES ####
 #### Figure 1 ####
 #### Air temp time series
 #Upload datafile 
-temp.ts<-read.csv(file.choose()) #datafile = 'S2 data.csv'
+temp.ts<-read.csv(file.choose()) #datafile = 'S-02 data.csv'
 attach(temp.ts)
 summary(temp.ts)
 
-#Max temp
-temp.ts1<-ggplot(data=temp.ts,aes(x=julian.date, y=max.temp)) + geom_line(aes(color=max.temp)) + geom_point(aes(fill=max.temp,color=max.temp), size=2)+  scale_color_gradient(low = "gray", high = "#ff4500",name="Max temp (°C)")+  scale_fill_gradient(low = "gray", high = "#ff4500",name="Max temp (°C)")+theme_bw(7) + theme(panel.grid.minor = element_blank(),panel.grid.major = element_blank(),legend.position = "none",axis.title.x=element_blank(),axis.text.x = element_blank())+scale_y_continuous(limits=c(0,40),breaks=seq(0, 40, 5))+scale_x_continuous(limits=c(122,263),breaks=seq(122,263, 5))+ labs(x = "Julian date", y="Max air temp (°C)")+annotate(geom = "rect", xmin = 142, xmax = 146,ymin = -Inf, ymax = Inf, fill = "grey", alpha = 0.4)+annotate(geom = "rect", xmin = 171, xmax = 175,ymin = -Inf, ymax = Inf, fill = "red", alpha = 0.2)+annotate(geom = "rect", xmin = 184, xmax = 188,ymin = -Inf, ymax = Inf, fill = "grey", alpha = 0.4)+annotate(geom = "rect", xmin = 231, xmax = 235,ymin = -Inf, ymax = Inf, fill = "grey", alpha = 0.4)+annotate(geom = "rect", xmin = 259, xmax = 263,ymin = -Inf, ymax = Inf, fill = "grey", alpha = 0.4)+annotate(geom = "text", x = 144, y = 0, label = "May", color = "black",angle = 90,hjust=0,size=2)+annotate(geom = "text", x = 173, y = 0, label = "June", color = "black",angle = 90,hjust=0,size=2)+annotate(geom = "text", x = 186, y = 0, label = "July", color = "black",angle = 90,hjust=0,size=2)+annotate(geom = "text", x = 233, y = 0, label = "Aug", color = "black",angle = 90,hjust=0,size=2)+annotate(geom = "text", x = 261, y = 0, label = "Sept", color = "black",angle = 90,hjust=0,size=2)
+#Max air temp
+temp.ts1<-ggplot(data=temp.ts,aes(x=julian.date, y=max.temp)) + geom_line(aes(color=max.temp)) + geom_point(aes(fill=max.temp,color=max.temp), size=2)+  scale_color_gradient(low = "gray", high = "#ff4500",name="Max temp (°C)")+  scale_fill_gradient(low = "gray", high = "#ff4500",name="Max temp (°C)")+theme_bw(7) + theme(legend.position="none",panel.grid.minor = element_blank(),panel.grid.major = element_blank(),axis.title.x=element_blank(),axis.text.x = element_blank())+scale_y_continuous(limits=c(0,40),breaks=seq(0, 40, 5))+scale_x_continuous(limits=c(122,263),breaks=seq(122,263, 5))+ labs(x = "Julian date", y="Max air temp (°C)")+annotate(geom = "rect", xmin = 142, xmax = 146,ymin = -Inf, ymax = Inf, fill = "grey", alpha = 0.4)+annotate(geom = "rect", xmin = 171, xmax = 175,ymin = -Inf, ymax = Inf, fill = "red", alpha = 0.2)+annotate(geom = "rect", xmin = 184, xmax = 188,ymin = -Inf, ymax = Inf, fill = "grey", alpha = 0.4)+annotate(geom = "rect", xmin = 231, xmax = 235,ymin = -Inf, ymax = Inf, fill = "grey", alpha = 0.4)+annotate(geom = "rect", xmin = 259, xmax = 263,ymin = -Inf, ymax = Inf, fill = "grey", alpha = 0.4)+annotate(geom = "text", x = 144, y = 0, label = "May", color = "black",angle = 90,hjust=0,size=2)+annotate(geom = "text", x = 173, y = 0, label = "June", color = "black",angle = 90,hjust=0,size=2)+annotate(geom = "text", x = 186, y = 0, label = "July", color = "black",angle = 90,hjust=0,size=2)+annotate(geom = "text", x = 233, y = 0, label = "Aug", color = "black",angle = 90,hjust=0,size=2)+annotate(geom = "text", x = 261, y = 0, label = "Sept", color = "black",angle = 90,hjust=0,size=2)
 
-#Mean temp
+#Mean air temp
 temp.ts2<-ggplot(data=temp.ts,aes(x=julian.date, y=mean.temp)) + geom_line(aes(color=mean.temp)) + geom_point(aes(fill=mean.temp,color=mean.temp), size=2)+  scale_color_gradient(low = "lightgray", high = "#ff4500",name="Mean temp (°C)")+  scale_fill_gradient(low = "lightgray", high = "#ff4500",name="Mean temp (°C)")+theme_bw(7) + theme(panel.grid.minor = element_blank(),panel.grid.major = element_blank(),legend.position = "none")+scale_y_continuous(limits=c(0,30),breaks=seq(0, 30, 5))+scale_x_continuous(limits=c(122,263),breaks=seq(122,263, 5))+ labs(x = "Julian date", y="Mean air temp (°C)")+annotate(geom = "rect", xmin = 142, xmax = 146,ymin = -Inf, ymax = Inf, fill = "grey", alpha = 0.4)+annotate(geom = "rect", xmin = 171, xmax = 175,ymin = -Inf, ymax = Inf, fill = "red", alpha = 0.2)+annotate(geom = "rect", xmin = 184, xmax = 188,ymin = -Inf, ymax = Inf, fill = "grey", alpha = 0.4)+annotate(geom = "rect", xmin = 231, xmax = 235,ymin = -Inf, ymax = Inf, fill = "grey", alpha = 0.4)+annotate(geom = "rect", xmin = 259, xmax = 263,ymin = -Inf, ymax = Inf, fill = "grey", alpha = 0.4)+annotate(geom = "text", x = 144, y = 0, label = "May", color = "black",angle = 90,hjust=0,size=2)+annotate(geom = "text", x = 173, y = 0, label = "June", color = "black",angle = 90,hjust=0,size=2)+annotate(geom = "text", x = 186, y = 0, label = "July", color = "black",angle = 90,hjust=0,size=2)+annotate(geom = "text", x = 233, y = 0, label = "Aug", color = "black",angle = 90,hjust=0,size=2)+annotate(geom = "text", x = 261, y = 0, label = "Sept", color = "black",angle = 90,hjust=0,size=2)
 
 #### Temp during clam digging
 #Upload datafile 
-temp.dig<-read.csv(file.choose()) #datafile = 'S3 data.csv'
+temp.dig<-read.csv(file.choose()) #datafile = 'S-03 data.csv'
 attach(temp.dig)
 summary(temp.dig)
 
@@ -91,33 +109,38 @@ temp.dig$month<-factor(temp.dig$month,levels=c("May","June","July","Aug","Sept")
 temp.month <- summarySE(temp.dig, measurevar="temp", groupvars=c("month"))
 humidex.month <- summarySE(temp.dig, measurevar="humidex", groupvars=c("month"))
 
+#Create avg. temp and humidex data columns for each month to colour geom_jitter and geom_points properly
+temp.dig$avg.temp <- c(25.025,25.025,25.025,25.025,32.575,32.575,32.575,32.575,28.825,28.825,28.825,28.825,27.375,27.375,27.375,27.375,28.625,28.625,28.625,28.625)
+temp.dig$avg.humidex <- c(28.5,28.5,28.5,28.5,39.75,39.75,39.75,39.75,30.25,30.25,30.25,30.25,35,35,35,35,33.75,33.75,33.75,33.75)
+
 #Temp
-temp.plot<-ggplot(temp.month,aes(x=month, y=temp))+geom_errorbar(aes(ymin=temp-sd, ymax=temp+sd,color=temp),width=.2)+ geom_point(aes(fill=temp,color=temp),size=2)+  scale_color_gradient(low = "lightgray", high = "#ff4500",name="Temp (°C)")+  scale_fill_gradient(low = "lightgray", high = "#ff4500",name="Temp (°C)")+scale_y_continuous(limits=c(18,42),breaks=seq(20,40,5))+ labs(x = "Experiment", y="Air temperature (°C)")+ theme_bw(7)+ theme(legend.position="none")+ theme(panel.grid.minor = element_blank(),panel.grid.major = element_blank())
+temp.plot<-ggplot(temp.dig,aes(x=month, y=temp))+geom_jitter(aes(color=avg.temp,fill=avg.temp),position = position_jitter(width=0.2,height=0),alpha=0.3,size=1)+geom_errorbar(data=temp.month,aes(ymin=temp-sd, ymax=temp+sd,color=temp),width=.2)+ geom_point(data=temp.month,aes(fill=temp,color=temp),size=2)+  scale_color_gradient(low = "gray", high = "#ff4500",name="Temp (°C)")+  scale_fill_gradient(low = "gray", high = "#ff4500",name="Temp (°C)")+scale_y_continuous(limits=c(18,42),breaks=seq(20,40,5))+ labs(x = "Trial", y="Air temperature (°C)")+ theme_bw(7)+ theme(legend.position="none")+ theme(panel.grid.minor = element_blank(),panel.grid.major = element_blank())
 
 #Humidex
-humidex.plot<-ggplot(humidex.month,aes(x=month, y=humidex))+geom_errorbar(aes(ymin=humidex-sd, ymax=humidex+sd,color=humidex),width=.2)+ geom_point(aes(fill=humidex,color=humidex),size=2)+  scale_color_gradient(low = "lightgray", high = "#ff4500",name="Humidex (°C)")+  scale_fill_gradient(low = "lightgray", high = "#ff4500",name="Humidex (°C)")+scale_y_continuous(limits=c(18,42),breaks=seq(20,40,5))+ labs(x = "Experiment", y="Humidex (°C)")+ theme_bw(7)+ theme(legend.position="none")+ theme(panel.grid.minor = element_blank(),panel.grid.major = element_blank())
+humidex.plot<-ggplot(temp.dig,aes(x=month, y=humidex))+geom_jitter(aes(color=avg.humidex,fill=avg.humidex),position = position_jitter(width=0.3,height=0),alpha=0.2,size=1)+geom_errorbar(data=humidex.month,aes(ymin=humidex-sd, ymax=humidex+sd,color=humidex),width=.2)+ geom_point(data=humidex.month,aes(fill=humidex,color=humidex),size=2)+  scale_color_gradient(low = "gray", high = "#ff4500",name="Humidex (°C)")+  scale_fill_gradient(low = "gray", high = "#ff4500",name="Humidex (°C)")+scale_y_continuous(limits=c(18,42),breaks=seq(20,40,5))+ labs(x = "Trial", y="Humidex (°C)")+ theme_bw(7)+ theme(legend.position="none")+ theme(panel.grid.minor = element_blank(),panel.grid.major = element_blank())
 
 #Combine time series and experiment plots
 temp.ts.full<-temp.ts1/temp.ts2/(temp.plot+humidex.plot)
 temp.ts.full
 
 #Export full figure
-tiff("FSCP Fig 1.tiff", width = 180, height = 180, units = "mm", res = 800)
+tiff("R2_FSCP Fig 1.tiff", width = 180, height = 200, units = "mm", res = 800)
 temp.ts.full
 dev.off()
 
 #### Figure 2 ####
-#Use same dataset as used in the statistical analyses above ("burrowing.mortality"; from datafile 'S1 data.csv')
+#Use same dataset as used in the statistical analyses above ("burrowing.mortality"; from datafile 'S-01 data.csv')
 #Create plots
 #First, reorder "month" variable so that months are ordered chronologically
 burrowing.mortality$month<-factor(burrowing.mortality$month,levels=c("May","June","July","Aug","Sept"))
 
 #Next, generate summary statistic values to apply in plots. NOTE: need to run base code at the bottom of this .R file prior to running summarySE() commands below.
-burrow.sum <- summarySE(burrowing.mortality, measurevar="prop.burrowed", groupvars=c("month","time.since.deploy","pred.treat"))
-mort.sum <- summarySE(burrowing.mortality, measurevar="prop.dead", groupvars=c("month","time.since.deploy","pred.treat"))
+burrow.sum <- summarySE(burrowing.mortality, measurevar="prop.burrowed", groupvars=c("month","time.since.deploy","pred.treat","avg.temp"))
+mort.sum <- summarySE(burrowing.mortality, measurevar="prop.dead", groupvars=c("month","time.since.deploy","pred.treat","avg.temp"))
 
 #Generate and view base plot for proportion reburrowed
-burrow.plot<-ggplot(burrow.sum,aes(x=month, y=prop.burrowed))+geom_errorbar(aes(ymin=prop.burrowed-sd, ymax=prop.burrowed+sd,color=month),width=.2)+ geom_point(aes(fill=month,color=month),size=2)+ scale_fill_manual(values = c("#D3D3D3", "#FF4500", "#F79470", "#EEAD95","#F69775"))+ scale_color_manual(values = c("#D3D3D3", "#FF4500", "#F79470", "#EEAD95","#F69775"))+scale_y_continuous(limits=c(-0.15,1.15),breaks=seq(0, 1, 0.2))+ facet_grid(~pred.treat~time.since.deploy) + labs(x = "Experiment", y="Proportion burrowed")+ theme_bw(7)+ theme(legend.position="none")+ theme(panel.grid = element_blank())
+burrow.plot<-ggplot(burrowing.mortality,aes(x=month, y=prop.burrowed))+geom_jitter(aes(color=avg.temp,fill=avg.temp),position = position_jitter(width=0.2,height=0),alpha=0.2,size=0.5)+geom_errorbar(data=burrow.sum,aes(ymin=prop.burrowed-sd, ymax=prop.burrowed+sd,color=avg.temp),width=.2) + geom_point(data=burrow.sum,aes(fill=avg.temp,color=avg.temp),size=2) +  scale_color_gradient(low = "gray", high = "#ff4500",name="Mean air temp (°C)")+  scale_fill_gradient(low = "gray", high = "#ff4500",name="Mean air (°C)")+scale_y_continuous(limits=c(-0.15,1.15),breaks=seq(0, 1, 0.2))+ facet_grid(~pred.treat~time.since.deploy) + labs(x = "Trial", y="Proportion burrowed")+ theme_bw(7)+ theme(legend.position="none")+ theme(panel.grid = element_blank())
+burrow.plot
 
 #Create data frames for adding text for pairwise results
 b.may.pe.24 <- data.frame(prop.burrowed = 1.03,month = "May",lab = "Text", time.since.deploy = factor("24 h",levels = c("24 h","48 h")), pred.treat = factor("PE",levels = c("PE","PI")))
@@ -145,11 +168,8 @@ b.sept.pi.48 <- data.frame(prop.burrowed = 1.11,month = "Sept",lab = "Text", tim
 burrow.plot.pairwise<-burrow.plot+geom_text(data = b.may.pe.24,label = "A",size=2)+geom_text(data = b.june.pe.24,label = "B",size=2)+geom_text(data = b.july.pe.24,label = "A",size=2)+geom_text(data = b.aug.pe.24,label = "A",size=2)+geom_text(data = b.sept.pe.24,label = "A",size=2)+geom_text(data = b.may.pi.24,label = "A",size=2)+geom_text(data = b.june.pi.24,label = "B",size=2)+geom_text(data = b.july.pi.24,label = "A",size=2)+geom_text(data = b.aug.pi.24,label = "A",size=2)+geom_text(data = b.sept.pi.24,label = "A",size=2)+geom_text(data = b.may.pe.48,label = "A",size=2)+geom_text(data = b.june.pe.48,label = "B",size=2)+geom_text(data = b.july.pe.48,label = "A",size=2)+geom_text(data = b.aug.pe.48,label = "A",size=2)+geom_text(data = b.sept.pe.48,label = "A",size=2)+geom_text(data = b.may.pi.48,label = "A",size=2)+geom_text(data = b.june.pi.48,label = "B",size=2)+geom_text(data = b.july.pi.48,label = "A",size=2)+geom_text(data = b.aug.pi.48,label = "A",size=2)+geom_text(data = b.sept.pi.48,label = "A",size=2)
 burrow.plot.pairwise
 
-#Add image of burrowing clam to first panel
-
-
 #Generate and view base plot for proportion dead
-mort.plot<-ggplot(mort.sum,aes(x=month, y=prop.dead))+geom_errorbar(aes(ymin=prop.dead-sd, ymax=prop.dead+sd,color=month),width=.2)+ geom_point(aes(fill=month,color=month),size=2) +scale_fill_manual(values = c("#D3D3D3", "#FF4500", "#F79470", "#EEAD95","#F69775"))+ scale_color_manual(values = c("#D3D3D3", "#FF4500", "#F79470", "#EEAD95","#F69775"))+scale_y_continuous(limits=c(-0.15,1.15),breaks=seq(0, 1, 0.2))+ facet_grid(~pred.treat~time.since.deploy) + labs(x = "Experiment", y="Proportion dead")+ theme_bw(7)+ theme(legend.position="none")+ theme(panel.grid = element_blank())
+mort.plot<-ggplot(data=burrowing.mortality,aes(x=month, y=prop.dead))+geom_jitter(aes(color=avg.temp,fill=avg.temp),position = position_jitter(width=0.2,height=0),alpha=0.2,size=0.5)+geom_errorbar(data=mort.sum,aes(ymin=prop.dead-sd, ymax=prop.dead+sd,color=avg.temp),width=.2) + geom_point(data=mort.sum,aes(fill=avg.temp,color=avg.temp),size=2)  +  scale_color_gradient(low = "gray", high = "#ff4500",name="Mean air temp (°C)")+  scale_fill_gradient(low = "gray", high = "#ff4500",name="Mean air (°C)")+scale_y_continuous(limits=c(-0.15,1.15),breaks=seq(0, 1, 0.2))+ facet_grid(~pred.treat~time.since.deploy) + labs(x = "Trial", y="Proportion dead")+ theme_bw(7)+ theme(legend.position="top")+ theme(panel.grid = element_blank())+guides(fill="none")+  theme(legend.key.size = unit(4, 'mm'),legend.text=element_text(size=4),legend.title=element_text(size=5))
 mort.plot
 
 #Create data frames for adding text for pairwise results
@@ -198,12 +218,14 @@ fscp.burrowing.mort.combo.horiz<-burrow.plot.pairwise+mort.plot.pairwise
 fscp.burrowing.mort.combo.horiz
 
 #Export final plot
-tiff("FSCP Fig 2.tiff", width = 180, height = 100, units = "mm", res = 800)
+tiff("R1_FSCP Fig 2_jitter.tiff", width = 180, height = 90, units = "mm", res = 800)
 fscp.burrowing.mort.combo.horiz
 dev.off()
 
+#NOTE: Clam images added in Powerpoint and final figure exported as high res TIF file
+
 #### Figure 3 ####
-pred<-read.csv(file.choose()) #datafile = 'S4 data.csv'
+pred<-read.csv(file.choose()) #datafile = 'S-04 data.csv'
 attach(pred)
 summary(pred)
 
@@ -214,15 +236,15 @@ pred$month<-factor(pred$month,levels=c("May","June","July","Aug","Sept"))
 pred$pred.index<-pred$crab.count+pred$mudsnail.buckets.count
 
 #Create crab plot
-crab.barplot<-ggplot(data=pred, aes(x=month, y=crab.count)) + geom_bar(stat="identity", aes(fill=month),color="black",size=0.2) +scale_fill_manual(values = c("#D3D3D3", "#FF4500", "#F79470", "#EEAD95","#F69775"))+theme_bw(5)+scale_y_continuous(limits=c(0,16),breaks=seq(0, 16, 2))+ theme(panel.grid.minor = element_blank(),legend.position = "none",axis.title.x=element_blank(),axis.text.x=element_blank(),panel.grid=element_blank())+ labs(x = "Experiment", y="Number of crabs in mesocosms")
+crab.barplot<-ggplot(data=pred, aes(x=month, y=crab.count)) + geom_bar(stat="identity", aes(fill=avg.air.temp),color="black",size=0.2) +  scale_fill_gradient(low = "gray", high = "#ff4500",name="Mean air temp (°C)")+theme_bw(5)+scale_y_continuous(limits=c(0,16),breaks=seq(0, 16, 2))+ theme(panel.grid.minor = element_blank(),legend.position = "top",axis.title.x=element_blank(),axis.text.x=element_blank(),panel.grid=element_blank())+ labs(x = "Trial", y="Number of crabs in mesocosms")+  theme(legend.key.size = unit(4, 'mm'),legend.text=element_text(size=4),legend.title=element_text(size=5))
 crab.barplot
 
 #Create mudsnail plot
-mudsnail.barplot<-ggplot(data=pred, aes(x=month, y=mudsnail.buckets.count)) + geom_bar(stat="identity", aes(fill=month),color="black",size=0.2) +scale_fill_manual(values = c("#D3D3D3", "#FF4500", "#F79470", "#EEAD95","#F69775"))+theme_bw(5)+scale_y_continuous(limits=c(0,26),breaks=seq(0, 24, 4))+ theme(panel.grid.minor = element_blank(),legend.position = "none",axis.title.x=element_blank(),axis.text.x=element_blank(),panel.grid = element_blank())+ labs(x = "Experiment", y="Number of mesocosms with mudsnails")
+mudsnail.barplot<-ggplot(data=pred, aes(x=month, y=mudsnail.buckets.count)) + geom_bar(stat="identity", aes(fill=avg.air.temp),color="black",size=0.2) +  scale_fill_gradient(low = "gray", high = "#ff4500",name="Mean air temp (°C)")+theme_bw(5)+scale_y_continuous(limits=c(0,26),breaks=seq(0, 24, 4))+ theme(panel.grid.minor = element_blank(),legend.position = "none",axis.title.x=element_blank(),axis.text.x=element_blank(),panel.grid = element_blank())+ labs(x = "Trial", y="Number of mesocosms with mudsnails")+  theme(legend.key.size = unit(4, 'mm'),legend.text=element_text(size=4),legend.title=element_text(size=5))
 mudsnail.barplot
 
 #Create predator activity index plot (# crabs + number mesocosms with mudsnails)
-index.barplot<-ggplot(data=pred, aes(x=month, y=pred.index)) + geom_bar(stat="identity", aes(fill=month),color="black",size=0.2) +scale_fill_manual(values = c("#D3D3D3", "#FF4500", "#F79470", "#EEAD95","#F69775"))+theme_bw(5)+scale_y_continuous(limits=c(0,42),breaks=seq(0, 40, 5))+ theme(panel.grid.minor = element_blank(),legend.position = "none",panel.grid = element_blank())+ labs(x = "Experiment", y="Predator activity index")
+index.barplot<-ggplot(data=pred, aes(x=month, y=pred.index)) + geom_bar(stat="identity", aes(fill=avg.air.temp),color="black",size=0.2) +  scale_fill_gradient(low = "gray", high = "#ff4500",name="Mean air temp (°C)")+theme_bw(5)+scale_y_continuous(limits=c(0,42),breaks=seq(0, 40, 5))+ theme(panel.grid.minor = element_blank(),legend.position = "none",panel.grid = element_blank())+ labs(x = "Trial", y="Predator activity index")+  theme(legend.key.size = unit(4, 'mm'),legend.text=element_text(size=4),legend.title=element_text(size=5))
 index.barplot
 
 #Combine predatpr activity plots
@@ -230,15 +252,15 @@ pred.plot<-crab.barplot/mudsnail.barplot/index.barplot
 pred.plot
 
 #Export plot
-tiff("FSCP Fig 3.tiff", width = 58, height = 120, units = "mm", res = 800)
+tiff("R1_FSCP Fig 3.tiff", width = 58, height = 130, units = "mm", res = 800)
 pred.plot
 dev.off()
 
-#Add images to exported figure using Adobe Photoshop
+#NOTE: Crab and mudsnail images added in Powerpoint and final figure exported as high res TIF file
 
 #### Figure 4 ####
 #Upload datafile for burrowing and mortality
-temp.curve<-read.csv(file.choose()) #datafile = 'S5 data.csv'
+temp.curve<-read.csv(file.choose()) #datafile = 'S-05 data.csv'
 attach(temp.curve)
 summary(temp.curve)
 
@@ -258,8 +280,80 @@ dev.off()
 
 #### SUPPLEMENTARY FIGURES ####
 #### Figure S1 ####
+#Upload datafile for 2021 and 2024 reburrowing proportions
+crab.trapping<-read.csv(file.choose()) #datafile = 'S-06 data.csv'
+attach(crab.trapping)
+summary(crab.trapping)
+crab.trapping$julian.date<-as.numeric(crab.trapping$julian.date)
+crab.trapping$year<-as.factor(crab.trapping$year)
+
+#Generate and view base plot for proportion reburrowed
+crab.cpue.plot<-ggplot(crab.trapping,aes(x=julian.date, y=avg.cpue))+annotate(geom = "rect", xmin = 142, xmax = 146,ymin = -Inf, ymax = Inf, fill = "grey", alpha = 0.4)+annotate(geom = "rect", xmin = 171, xmax = 175,ymin = -Inf, ymax = Inf, fill = "red", alpha = 0.2)+annotate(geom = "rect", xmin = 184, xmax = 188,ymin = -Inf, ymax = Inf, fill = "grey", alpha = 0.4)+annotate(geom = "rect", xmin = 231, xmax = 235,ymin = -Inf, ymax = Inf, fill = "grey", alpha = 0.4)+annotate(geom = "rect", xmin = 259, xmax = 263,ymin = -Inf, ymax = Inf, fill = "grey", alpha = 0.4)+annotate(geom = "text", x = 144, y = 3, label = "May", color = "black",angle = 90,hjust=1,vjust=0.5,size=3.5)+annotate(geom = "text", x = 173, y = 3, label = "June", color = "black",angle = 90,hjust=1,vjust=0.5,size=3.5)+annotate(geom = "text", x = 186, y = 3, label = "July", color = "black",angle = 90,hjust=1,vjust=0.5,size=3.5)+annotate(geom = "text", x = 233, y = 3, label = "Aug", color = "black",angle = 90,hjust=1,vjust=0.5,size=3.5)+annotate(geom = "text", x = 261, y = 3, label = "Sept", color = "black",angle = 90,hjust=1,vjust=0.5,size=3.5)+ geom_line(aes(x=julian.date,y=avg.cpue,group=year,color=year),size=0.75)+ geom_point(aes(x=julian.date,y=avg.cpue,group=year,fill=year,shape=year),size=5,color="black")+ scale_fill_manual(values = c("lightgrey","lightgrey","lightgrey","lightgrey","lightgrey","#FF4500"))+ scale_color_manual(values = c("lightgrey","lightgrey","lightgrey","lightgrey","lightgrey","#FF4500"))+scale_shape_manual(values=c(22,23,24,25,21,21))+scale_y_continuous(limits=c(0,3),breaks=seq(0, 3, 0.5))+scale_x_continuous(limits=c(155,270),breaks=seq(155, 270, 5)) + labs(x = "Julian date", y="Crabs per day (all species)")+ theme_bw(12)+ theme(legend.position=c(0.08,0.75))+ theme(panel.grid = element_blank())+ guides(fill=guide_legend(title="Year"),color=guide_legend(title="Year"),shape=guide_legend(title="Year"))
+
+#Export plot
+tiff("R1_FSCP Fig S1.tiff", width = 10, height = 5, units = "in", res = 800)
+crab.cpue.plot
+dev.off()
+
+#### Figure S2 ####
+#Upload datafile for 2021 and 2024 reburrowing proportions
+burrow.compare<-read.csv(file.choose()) #datafile = 'S-07 data.csv'
+attach(burrow.compare)
+summary(burrow.compare)
+burrow.compare$day<-as.numeric(burrow.compare$day)
+burrow.compare$year<-as.factor(burrow.compare$year)
+burrow.compare$site<-as.factor(burrow.compare$site)
+burrow.compare$bucket<-as.factor(burrow.compare$bucket)
+
+#Next, generate summary statistic values to apply in plots. NOTE: need to run base code at the bottom of this .R file prior to running summarySE() commands below.
+burrow.comp.sum <- summarySE(burrow.compare, measurevar="prop.burrowed", groupvars=c("day","year"))
+
+#Generate and view base plot for proportion reburrowed
+burrow.comp.plot<-ggplot(burrow.comp.sum,aes(x=day, y=prop.burrowed))+geom_errorbar(aes(ymin=prop.burrowed-se, ymax=prop.burrowed+se,color=year),width=2)+annotate(geom = "rect", xmin = 170, xmax = 175,ymin = -Inf, ymax = Inf, fill = "lightgrey", alpha = 0.4)+ geom_point(aes(fill=year,color=year),size=5)+ geom_smooth(aes(x=day,y=prop.burrowed,group=year,color=year),se=FALSE,method='loess',span=0.5,size=0.75,linetype = "dashed")+scale_fill_manual(values = c("darkgrey", "#ff4500"))+ scale_color_manual(values = c("darkgrey", "#ff4500"))+scale_y_continuous(limits=c(0,1),breaks=seq(0, 1, 0.2))+scale_x_continuous(limits=c(135,280),breaks=seq(135, 280, 5)) + labs(x = "Julian Date", y="Proportion burrowed")+ theme_bw(12)+ theme(legend.position=c(0.9,0.14))+ theme(panel.grid = element_blank())+ guides(fill=guide_legend(title="Year"),color=guide_legend(title="Year"))+annotate(geom = "text", x = 170, y = 0.089, label = "June 21", color = "#FF4500",hjust=1,size=4,fontface=2)+annotate(geom = "text", x = 171, y = 0.79, label = "June 22", color = "black",hjust=1,size=4,,fontface=2)+annotate(geom = "text", x = 174, y = 0.08, label = "Heatwave", color = "#FF4500",hjust=0,size=4,fontface=3)+annotate(geom = "text", x = 269, y = 0.45, label = "Low salinity", color = "black",hjust=1,size=4,fontface=3)
+burrow.comp.plot
+
+#Export plot
+tiff("R1_FSCP Fig S2.tiff", width = 10, height = 6, units = "in", res = 800)
+burrow.comp.plot
+dev.off()
+
+#### Figure S3 ####
+#Upload datafile for June precipitation
+precipitation<-read.csv(file.choose()) #datafile = 'S-08 data.csv'
+attach(precipitation)
+summary(precipitation)
+precipitation$trial<-as.factor(precipitation$trial)
+
+#Next, create separate datasets for each month
+may <- filter(precipitation, month == "May")[,match(c("date","day.in.month","julian.date","precip.mm","trial"), colnames (precipitation))]
+june <- filter(precipitation, month == "June")[,match(c("date","day.in.month","julian.date","precip.mm","trial"), colnames (precipitation))]
+july <- filter(precipitation, month == "July")[,match(c("date","day.in.month","julian.date","precip.mm","trial"), colnames (precipitation))]
+august <- filter(precipitation, month == "August")[,match(c("date","day.in.month","julian.date","precip.mm","trial"), colnames (precipitation))]
+september <- filter(precipitation, month == "September")[,match(c("date","day.in.month","julian.date","precip.mm","trial"), colnames (precipitation))]
+
+#Create precipitation plots for each month
+precip.may.plot<-ggplot(data=may, aes(x=day.in.month, y=precip.mm))+geom_line()+ geom_point(aes(fill=trial,color=trial),size=4) + scale_fill_manual(values = c("#FF4500","grey"))+ scale_color_manual(values = c("#FF4500","grey"))+theme_bw(12)+scale_y_continuous(limits=c(0,60),breaks=seq(0, 60, 10))+scale_x_continuous(limits=c(1,31),breaks=seq(1, 31, 1))+ theme(panel.grid.minor = element_blank(),legend.position = "none",panel.grid=element_blank(),axis.title.x=element_blank(),axis.title.y=element_blank(),axis.text.x=element_blank())+ labs(x = "Day of month", y="Total precipitation (mm)")+annotate(geom = "text", x = 1, y = 60, label = "May", color = "black",hjust=0,vjust=1.2,size=5)
+
+precip.june.plot<-ggplot(data=june, aes(x=day.in.month, y=precip.mm))+geom_line()+ geom_point(aes(fill=trial,color=trial),size=4) + scale_fill_manual(values = c("#FF4500","grey"))+ scale_color_manual(values = c("#FF4500","grey"))+theme_bw(12)+scale_y_continuous(limits=c(0,60),breaks=seq(0, 60, 10))+scale_x_continuous(limits=c(1,31),breaks=seq(1, 31, 1))+ theme(panel.grid.minor = element_blank(),legend.position = "none",panel.grid=element_blank(),axis.title.x=element_blank(),axis.title.y=element_blank(),axis.text.x=element_blank())+ labs(x = "Day of month", y="Total precipitation (mm)")+annotate(geom = "text", x = 1, y = 60, label = "June", color = "black",hjust=0,vjust=1.2,size=5)
+
+precip.july.plot<-ggplot(data=july, aes(x=day.in.month, y=precip.mm))+geom_line()+ geom_point(aes(fill=trial,color=trial),size=4) + scale_fill_manual(values = c("#FF4500","grey"))+ scale_color_manual(values = c("#FF4500","grey"))+theme_bw(12)+scale_y_continuous(limits=c(0,60),breaks=seq(0, 60, 10))+scale_x_continuous(limits=c(1,31),breaks=seq(1, 31, 1))+ theme(panel.grid.minor = element_blank(),legend.position = "none",panel.grid=element_blank(),axis.title.x=element_blank(),axis.text.x=element_blank())+ labs(x = "Day of month", y="Total precipitation (mm)")+annotate(geom = "text", x = 1, y = 60, label = "July", color = "black",hjust=0,vjust=1.2,size=5)
+
+precip.aug.plot<-ggplot(data=august, aes(x=day.in.month, y=precip.mm))+geom_line()+ geom_point(aes(fill=trial,color=trial),size=4) + scale_fill_manual(values = c("#FF4500","grey"))+ scale_color_manual(values = c("#FF4500","grey"))+theme_bw(12)+scale_y_continuous(limits=c(0,60),breaks=seq(0, 60, 10))+scale_x_continuous(limits=c(1,31),breaks=seq(1, 31, 1))+ theme(panel.grid.minor = element_blank(),legend.position = "none",panel.grid=element_blank(),axis.title.x=element_blank(),axis.title.y=element_blank(),axis.text.x=element_blank())+ labs(x = "Day of month", y="Total precipitation (mm)")+annotate(geom = "text", x = 1, y = 60, label = "August", color = "black",hjust=0,vjust=1.2,size=5)
+
+precip.sept.plot<-ggplot(data=september, aes(x=day.in.month, y=precip.mm))+geom_line()+ geom_point(aes(fill=trial,color=trial),size=4) + scale_fill_manual(values = c("#FF4500","grey"))+ scale_color_manual(values = c("#FF4500","grey"))+theme_bw(12)+scale_y_continuous(limits=c(0,60),breaks=seq(0, 60, 10))+scale_x_continuous(limits=c(1,31),breaks=seq(1, 31, 1))+ theme(panel.grid.minor = element_blank(),legend.position = "none",panel.grid=element_blank(),axis.title.y=element_blank())+ labs(x = "Day of month", y="Total precipitation (mm)")+annotate(geom = "text", x = 1, y = 60, label = "September", color = "black",hjust=0,vjust=1.2,size=5)
+
+#Combine plots
+precip.plot<-precip.may.plot/precip.june.plot/precip.july.plot/precip.aug.plot/precip.sept.plot
+
+#Export plot
+tiff("R1_FSCP Fig S3.tiff", width = 10, height = 12, units = "in", res = 800)
+precip.plot
+dev.off()
+
+
+#### Figure S4 ####
 #Upload datafile for clam shell length
-size<-read.csv(file.choose()) #datafile = 'S6 data.csv'
+size<-read.csv(file.choose()) #datafile = 'S-09 data.csv'
 attach(size)
 summary(size)
 
@@ -267,25 +361,24 @@ summary(size)
 size$experiment<-factor(size$experiment,levels=c("May","June","July","August","September"))
 
 #Generate and view boxplot for size (shell length) distributions for each experiment
-size.plot<-ggplot(size,aes(x=experiment, y=shell.length))+stat_boxplot(geom ='errorbar',width=0.4)+ geom_boxplot(aes(fill=experiment),color="black",outlier.shape = NA) + geom_jitter(aes(fill=experiment, size=0.01,alpha=0.2),color="black",width=0.3,shape=21)+ scale_color_manual(values = c("#D3D3D3", "#FF4500", "#F79470", "#EEAD95","#F69775"))+scale_y_continuous(limits=c(25,55),breaks=seq(25, 55, 5))+ scale_fill_manual(values = c("#D3D3D3", "#FF4500", "#F79470", "#EEAD95","#F69775")) + labs(x = "Experiment", y="Shell length (mm)")+ theme_bw(12)+ theme(legend.position="none")+ theme(panel.grid.minor = element_blank()) +theme(panel.grid.major = element_blank(),legend.title = element_blank())
+size.plot<-ggplot(size,aes(x=experiment, y=shell.length))+stat_boxplot(geom ='errorbar',width=0.4)+ geom_boxplot(aes(fill=experiment),color="black",outlier.shape = NA) + geom_jitter(aes(fill=experiment, size=0.01,alpha=0.2),color="black",width=0.3,shape=21)+ scale_color_manual(values = c("#D3D3D3", "#FF4500", "#F79470", "#EEAD95","#F69775"))+scale_y_continuous(limits=c(25,55),breaks=seq(25, 55, 5))+ scale_fill_manual(values = c("#D3D3D3", "#FF4500", "#F79470", "#EEAD95","#F69775")) + labs(x = "Trial", y="Shell length (mm)")+ theme_bw(12)+ theme(legend.position="none")+ theme(panel.grid.minor = element_blank()) +theme(panel.grid.major = element_blank(),legend.title = element_blank())
 size.plot
 
 #Export plot
-tiff("FSCP Fig S2.tiff", width = 6, height = 6, units = "in", res = 800)
+tiff("R1_FSCP Fig S4.tiff", width = 6, height = 6, units = "in", res = 800)
 size.plot
 dev.off()
 
-#Add image to exported figure using Adobe Photoshop
+#Add image to exported figure using Adobe Photoshop; also add colour gradient from previosu Figure (Fig 2,3)
 
-#### Figure S2 ####
-Not generated using code (Fig. S3 is an image)
-
+#### Figure S5 ####
+Not generated using code (image)
 
 #### SUPPLEMENTARY ANALYSIS: DAY 1 REBURROWING ####
 #This analysis pertains to the results provided in the supplementary file "Supplementary analysis"
 
 #Upload datafile for burrowing and mortality after 24 and 48 hours
-burrowing.day1<-read.csv(file.choose()) #datafile = 'S7.csv'
+burrowing.day1<-read.csv(file.choose()) #datafile = 'S-10.csv'
 attach(burrowing.day1)
 summary(burrowing.day1)
 burrowing.day1$plot.glob<-as.factor(burrowing.day1$plot.glob)
@@ -296,6 +389,7 @@ burrowing.day1$tide.level<-as.factor(burrowing.day1$tide.level)
 #Build BGLMER models for reburrowing at each 15-min observation interval (2 hours total) at each tide level, in each experiment (month) on Day 1. Include plot to account for repeated measures over two time points. Note that there is complete separation in the data because some treatment levels have all 0 values. As such, use Bayesian GLMER approach [bglmer() as per Bolker (2018)), specifying zero-mean normal priors to account for separation. Did not include predator treatment in Day 1 burrowing because no predation or mortality was observed during this time and we would not expect predator treatment to affect burrowing.
 
 #Construct model
+#The lower variance prior was chosen due to the removal of predator treatment as a fixed factor and the increased number of replicates for each fixed factor combination level. Diagonal matrix value of 120 was chosen to match the number of terms in the models.
 bglmer_burrowmod_full<-bglmer(prop.burrowed~month*time.since.deploy*tide.level+(1|plot.glob),family=binomial,data=burrowing.day1, fixef.prior = normal(cov = diag(6,120))) #Ignore convergence warnings; model estimates still OK
 
 #Get results
@@ -307,9 +401,8 @@ burrow.full.pairwise1<-emmeans(bglmer_burrowmod_full,~time.since.deploy|tide.lev
 pairs(burrow.full.pairwise1)
 
 
-#### SUPPLEMENTARY ANALYSIS FIGURE ####
 #### Figure SA1 ####
-#Use data file from abopve statistical analysis (data frame "burrowing.day1", from datafile 'S7 data')
+#Use data file from above statistical analysis (data frame "burrowing.day1", from datafile 'S-07 data')
 
 #First, reorder "month" variable so that months are ordered chronologically
 burrowing.day1$month<-factor(burrowing.day1$month,levels=c("May","June","July","Aug","Sept"))
