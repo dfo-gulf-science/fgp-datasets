@@ -1,4 +1,4 @@
-Year,Site name,Province,Latitude,Longitude,River name,Fishing area,CGNDB,Avg. water temperature at shore,English common name,French common name,Scientific name,ITIS TSN,Specimens measured,Avg. length (mm),Length type
+﻿Year,Site name,Province,Latitude,Longitude,River name,Fishing area,CGNDB,Avg. water temperature at shore,English common name,French common name,Scientific name,ITIS TSN,Specimens measured,Avg. length (mm),Length type
 2021,1,New Brunswick,47.993183,-66.870617,Restigouche River,SFA15,DACGO,20.300,American eel,anguille d'Amérique,Anguilla rostrata,161127,1,,total
 2021,1,New Brunswick,47.993183,-66.870617,Restigouche River,SFA15,DACGO,20.300,Atlantic salmon,saumon atlantique,Salmo salar,161996,16,79.625,fork
 2021,1,New Brunswick,47.993183,-66.870617,Restigouche River,SFA15,DACGO,20.300,Blacknose dace,naseux noir,Rhinichthys atratulus,163382,10,54.600,fork
