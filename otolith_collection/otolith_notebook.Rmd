@@ -5,55 +5,39 @@ date: '`r paste0("Last modified timestap: ", format(Sys.time(), "%Y-%m-%d %H:%M:
 output: html_notebook
 ---
 
-The [Ageing Structures collection held at the Gulf Fisheries Centre](https://dmapps/en/inventory/resources/8cc8a924-1dbf-11ea-9bf1-1860247f53e3/) consists in *Teleost* saggital otoliths and *Chondrichthyan* vertebrae. For certain species, the physical specimens held in the collection are often accompanied with digital images. The individual details associated with each structure consists in capture date and location, length of individual and usually includes additional variables such as weight and maturity status.
+The [Ageing Structures collection held at the Gulf Fisheries Centre](https://dmapps/en/inventory/resources/a7faa746-f39e-11ef-88e3-5d0a2a9fd0c5/) consists in *Teleost* saggital otoliths and *Chondrichthyan* vertebrae. For certain species, the physical specimens held in the collection are often accompanied with digital images. The individual details associated with each structure consists in capture date and location, length of individual and usually includes additional variables such as weight and maturity status.
 
 The purpose of this notebook is to facilitate the generation and update of the FGP datasets associated with the Ageing Structure collection. Links below are to each species' notebook and to their metadata record on the Science Data Inventory app.
 
 ## Atlantic Cod
 
-[Link to the metadata entry in the Science Data Inventory app](https://dmapps/en/inventory/resources/505/view/).
-
 [Link to the notebook for Atlantic Cod](./Atlantic-Cod-otolith_notebook.nb.html),
 
 ## White Hake
-
-[Link to the metadata entry in the Science Data Inventory app](https://dmapps/en/inventory/resources/506/view/).
 
 [Link to the notebook for White Hake](./White-Hake-otolith_notebook.nb.html),
 
 ## American Plaice
 
-[Link to the metadata entry in the Science Data Inventory app](https://dmapps/en/inventory/resources/420/view/).
-
 [Link to the notebook for American Plaice](./American-Plaice-otolith_notebook.nb.html),
 
 ## Yellowtail Flounder
-
-[Link to the metadata entry in the Science Data Inventory app](https://dmapps/en/inventory/resources/418/view/).
 
 [Link to the notebook for Yellowtail Flounder](./Yellowtail-Flounder-otolith_notebook.nb.html),
 
 ## Winter Flounder
 
-[Link to the metadata entry in the Science Data Inventory app](https://dmapps/en/inventory/resources/520/view/).
-
 [Link to the notebook for Winter Flounder](./Winter-Flounder-otolith_notebook.nb.html),
 
 ## Witch Flounder
-
-[Link to the metadata entry in the Science Data Inventory app](https://dmapps/en/inventory/resources/507/view/).
 
 [Link to the notebook for Witch Flounder](./Witch-Flounder-otolith_notebook.nb.html),
 
 ## Chondrichthyan vertabrae
 
-[Link to the metadata entry in the Science Data Inventory app](https://dmapps/en/inventory/resources/1483/view/).
-
 [Link to the notebook for Chondrichthyan](./Skates-otolith_notebook.nb.html),
 
 ## Atlantic Herring
-
-[Link to the metadata entry in the Science Data Inventory app](https://dmapps/en/inventory/resources/522/view/).
 
 [Link to the notebook for Atlantic Herring](./Atlantic-Herring-otolith_notebook.nb.html),
 
