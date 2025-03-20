@@ -1,9 +1,9 @@
-name__nom,description_en,description_fr
-year,Sampling year,Année d'échantillonnage
+ï»¿name__nom,description_en,description_fr
+year,Sampling year,AnnÃ©e d'Ã©chantillonnage
 site_name,Name of site,Nom du site
 site_lat,Latitude of site,Latitude du site
 site_lng,Longitude of site,Longitude du site
-start_date,First day of any sampling at site that year,Premier jour d'échantillonnage au site pour cette année
-end_date,Last day of any sampling at site that year,Dernier jour d'échantillonnage au site pour cette année
-n_transects,Total number of transects completed at site for that year,Nombre total de transects réalisés au site pour cette année
-n_lobsters,Total number of lobsters measured at site that year,Nombre total de homards mesurés au site pour cette année
+start_date,First day of any sampling at site that year,Premier jour d'Ã©chantillonnage au site pour cette annÃ©e
+end_date,Last day of any sampling at site that year,Dernier jour d'Ã©chantillonnage au site pour cette annÃ©e
+n_transects,Total number of transects completed at site for that year,Nombre total de transects rÃ©alisÃ©s au site pour cette annÃ©e
+n_lobsters,Total number of lobsters measured at site that year,Nombre total de homards mesurÃ©s au site pour cette annÃ©e
