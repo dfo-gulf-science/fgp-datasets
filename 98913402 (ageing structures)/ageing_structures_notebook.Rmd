@@ -55,7 +55,7 @@ data.dic$description_en <- c(
   "Number that was aged"
 )
 
-data.dic.fn <- "./open_data_files/data-dictionary.csv"
+data.dic.fn <- "./output/data-dictionary.csv"
 write.csv(data.dic, file = data.dic.fn, row.names = FALSE, fileEncoding = "UTF8")
 
 ```
@@ -313,18 +313,6 @@ obs.df <- aggregate(fish.number~year+month, data=y.o, length)
 names(obs.df) <- c("year_année", "month_mois", "total.number_nombre.total")
 obs.df$source <- "Observers"
 
-
-out.df <- rbind(rv.df, comm.df,obs.df)
-out.df$latin.name_nom.latin <- "Urophycis tenuis"
-out.df$english.name_nom.anglais <- "White Hake"
-out.df$french.name_nom.français <- "Merluche blanche"
-
-vars <- c("source", "latin.name_nom.latin", "english.name_nom.anglais", "french.name_nom.français", "year_année","month_mois","total.number_nombre.total")
-o1 <- order(out.df$source, out.df$year_année, out.df$month_mois)
-
-out.fn <- "./data/NAFO-4T-White-Hake-otoliths.csv"
-write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE, fileEncoding = "UTF8")
-
 ## how many were actually aged?
 y <- read.card(species=12, card.type="bio") #rv$bio[which(rv$bio$species==12),]
 rv.df <- aggregate(fish.number~year+month, data=y[which(y$age.material==1),], length)
@@ -351,7 +339,6 @@ m.obs.df <- merge(obs.df, obs.df2, all.x=TRUE, by=c("year_année","month_mois"))
 m.obs.df$source <- "Observers"
 m.obs.df[is.na(m.obs.df$number.aged_nombre.agées),"number.aged_nombre.agées"] <- 0
 
-
 out.df <- rbind(m.rv.df, m.comm.df, m.obs.df)
 out.df$latin.name_nom.latin <- "Urophycis tenuis"
 out.df$english.name_nom.anglais <- "White Hake"
@@ -359,7 +346,7 @@ out.df$french.name_nom.français <- "Merluche blanche"
 out.df$structure.type__type.de.structures <- "otolith"
 
 o1 <- order(out.df$source, out.df$year_année, out.df$month_mois)
-rbind(payload, out.df[o1,vars.bilingual])
+payload <- rbind(payload, out.df[o1,vars.bilingual])
 
 ```
 
@@ -368,7 +355,7 @@ Otoliths from the September RV survey, from other surveys, from sentinel program
 
 ```{r winter, cache=TRUE}
 ## RV data
-y <- read.card(species=43, card.type="bio", env="dev")#rv$bio[which(rv$bio$species ==43),]
+y <- read.card(species=43, card.type="bio")#rv$bio[which(rv$bio$species ==43),]
 rv.df <- aggregate(fish.number~year+month, data=y[which(y$age.material==1),], length)
 names(rv.df) <- c("year_année", "month_mois", "total.number_nombre.total")
 rv.df$source <- "RV-4T"
@@ -392,18 +379,6 @@ y.o <- read.card(sampling = "obs", year = 2000:2020, card = "age", species = 43)
 obs.df <- aggregate(fish.number~year+month, data=y.o, length)
 names(obs.df) <- c("year_année", "month_mois", "total.number_nombre.total")
 obs.df$source <- "Observers"
-
-
-out.df <- rbind(rv.df, comm.df, obs.df)
-out.df$latin.name_nom.latin <- "Pseudopleuronectes americanus"
-out.df$english.name_nom.anglais <- "Winter Flounder"
-out.df$french.name_nom.français <- "Plie rouge"
-
-vars <- c("source", "latin.name_nom.latin", "english.name_nom.anglais", "french.name_nom.français", "year_année","month_mois","total.number_nombre.total")
-o1 <- order(out.df$source, out.df$year_année, out.df$month_mois)
-
-out.fn <- "./data/NAFO-4T-Winter-Flounder-otoliths.csv"
-write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE, fileEncoding = "UTF8")
 
 ## how many were actually aged?
 # y <- read.card(species=43, card.type="bio", env="dev")#rv$bio[which(rv$bio$species==43),]
@@ -437,7 +412,7 @@ out.df$french.name_nom.français <- "Plie rouge"
 out.df$structure.type__type.de.structures <- "otolith"
 
 o1 <- order(out.df$source, out.df$year_année, out.df$month_mois)
-rbind(payload, out.df[o1,vars.bilingual])
+payload <- rbind(payload, out.df[o1,vars.bilingual])
 
 ```
 
@@ -457,7 +432,7 @@ Remaining issues:
 
 ```{r witch, cache=TRUE}
 ## RV data
-y <- read.card(species=41, card.type="bio", env="dev")#rv$bio[which(rv$bio$species ==41),]
+y <- read.card(species=41, card.type="bio")#rv$bio[which(rv$bio$species ==41),]
 rv.df <- aggregate(fish.number~year+month, data=y[which(y$age.material==1),], length)
 names(rv.df) <- c("year_année", "month_mois", "total.number_nombre.total")
 rv.df$source <- "RV-4T"
@@ -809,13 +784,13 @@ cab.agg$french.name_nom.français <- "Plie grise"
 vars <- c("source", "latin.name_nom.latin", "english.name_nom.anglais", "french.name_nom.français", "year_année","month_mois","total.number_nombre.total")
 out.4rs <- rbind(ned.agg[vars], tel.agg[vars], cab.agg[vars])
 
-
-
-out.fn <- "./NAFO-4RST-Witch-Flounder-otoliths.csv"
-all.4rst <- rbind(out.4rs, out.4t)
-oo <- order(all.4rst$source, as.numeric(all.4rst$year_année), as.numeric(all.4rst$month_mois))
-
-write.csv(all.4rst[oo,], file=out.fn, row.names = FALSE, fileEncoding = "UTF8")
+#
+#
+# out.fn <- "./NAFO-4RST-Witch-Flounder-otoliths.csv"
+# all.4rst <- rbind(out.4rs, out.4t)
+# oo <- order(all.4rst$source, as.numeric(all.4rst$year_année), as.numeric(all.4rst$month_mois))
+#
+# write.csv(all.4rst[oo,], file=out.fn, row.names = FALSE, fileEncoding = "UTF8")
 
 
 
@@ -860,7 +835,7 @@ all.out.df$year_année <- as.numeric(all.out.df$year_année)
 all.out.df$month_mois <- as.numeric(all.out.df$month_mois)
 
 o1 <- order(all.out.df$source, all.out.df$year_année, all.out.df$month_mois)
-rbind(payload, all.out.df[o1,vars.bilingual])
+payload <- rbind(payload, all.out.df[o1,vars.bilingual])
 
 
 ```
@@ -874,7 +849,7 @@ Remaining issues:
 
 ```{r yellowtail, cache=TRUE}
 ## RV data
-y <- read.card(species=42, card.type="bio", env="dev")#rv$bio[which(rv$bio$species ==42),]
+y <- read.card(species=42, card.type="bio")#rv$bio[which(rv$bio$species ==42),]
 rv.df <- aggregate(fish.number~year+month, data=y[which(y$age.material==1),], length)
 names(rv.df) <- c("year_année", "month_mois", "total.number_nombre.total")
 rv.df$source <- "RV-4T"
@@ -895,17 +870,6 @@ names(comm.df) <- c("year_année", "month_mois", "total.number_nombre.total")
 comm.df$source <- "Commercial"
 
 ## there is no observers otoliths for yellowtail
-
-out.df <- rbind(rv.df, comm.df)
-out.df$latin.name_nom.latin <- "Limanda ferruginea"
-out.df$english.name_nom.anglais <- "Yellowtail Flounder"
-out.df$french.name_nom.français <- "Limande à queue jaune"
-
-vars <- c("source", "latin.name_nom.latin", "english.name_nom.anglais", "french.name_nom.français", "year_année","month_mois","total.number_nombre.total")
-o1 <- order(out.df$source, out.df$year_année, out.df$month_mois)
-
-out.fn <- "./data/NAFO-4T-Yellowtail-Flounder-otoliths.csv"
-write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE, fileEncoding = "UTF8")
 
 ## how many were actually aged?
 #y <- read.card(species=42, card.type="bio", env="dev") #rv$bio[which(rv$bio$species==42),]
@@ -931,14 +895,26 @@ out.df$english.name_nom.anglais <- "Yellowtail Flounder"
 out.df$french.name_nom.français <- "Limande à queue jaune"
 out.df$structure.type__type.de.structures <- "otolith"
 
-vars <- c("source", "latin.name_nom.latin", "english.name_nom.anglais", "french.name_nom.français", "year_année","month_mois","total.number_nombre.total","number.aged_nombre.agées")
 o1 <- order(out.df$source, out.df$year_année, out.df$month_mois)
-rbind(payload, all.out.df[o1,vars.bilingual])
+payload <- rbind(payload, out.df[o1,vars.bilingual])
 
-out.fn <- "./data/data_w_ages.csv"
-write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE, fileEncoding = "UTF8")
 
 ```
 
 
 
+Finally, let's write the full and partial dataframe to CSV
+
+
+```{r yellowtail, cache=TRUE}
+
+out.fn <- "./output/NAFO-4T-ageing-structures-with-ages.csv"
+write.csv(payload, file=out.fn, row.names = FALSE, fileEncoding = "UTF8")
+
+# now without ages
+out.fn <- "./output/NAFO-4T-ageing-structures.csv"
+idx = length(vars.bilingual)-1
+new.cols <- vars.bilingual[0:idx]
+write.csv(payload[new.cols], file=out.fn, row.names = FALSE, fileEncoding = "UTF8")
+
+```
