@@ -51,12 +51,13 @@ data.dic$description_en <- c(
   "Year when ageing structures were collected",
   "Month when ageing structures were collected",
   "Type of ageing structure",
-  "Total number in collection",
+  "Total number in the collection",
   "Number that was aged"
 )
-
 data.dic.fn <- "./output/data-dictionary.csv"
-write.csv(data.dic, file = data.dic.fn, row.names = FALSE, fileEncoding = "UTF8")
+idx <- length(vars.bilingual)-1
+new.cols <- vars.bilingual[0:idx]
+write.csv(data.dic[0:8,], file = data.dic.fn, row.names = FALSE, fileEncoding = "UTF8")
 
 ```
 
