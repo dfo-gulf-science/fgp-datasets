@@ -909,11 +909,11 @@ Finally, let's write the full and partial dataframe to CSV
 
 ```{r final, include=TRUE, cache=TRUE}
 
-out.fn <- "./output/NAFO-4T-ageing-structures-with-ages.csv"
+out.fn <- "./output/NAFO-4T-age-estimate-structures-with-ages.csv"
 write.csv(payload, file=out.fn, row.names = FALSE, fileEncoding = "UTF8")
 
 # now without ages
-out.fn <- "./output/NAFO-4T-ageing-structures.csv"
+out.fn <- "./output/NAFO-4T-age-estimate-structures.csv"
 idx <- length(vars.bilingual)-1
 new.cols <- vars.bilingual[0:idx]
 write.csv(payload[new.cols], file=out.fn, row.names = FALSE, fileEncoding = "UTF8")
