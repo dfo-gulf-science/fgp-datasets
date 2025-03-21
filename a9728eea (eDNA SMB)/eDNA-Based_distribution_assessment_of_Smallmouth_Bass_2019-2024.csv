@@ -1,8 +1,8 @@
 ﻿Year,SampleID,SampleType,EventID,SamplingLocation,SamplingSite,EventDate,RecordedBy,DecimalLatitude,DecimalLongitude,VolumeFiltered (mL),FilterType,OccurrenceStatus,New_OccurrenceStatus,SMB Ct_1,SMB Ct_2,SMB Ct_3,SMB Pg/L_1 ,SMB Pg/L_2,SMB Pg/L_3,SMB Copies/L_1 ,SMB Copies/L_2,SMB Copies/L_3
 2019,r19D:1915,Field blank,2019-r19D:1915,NA,NA,NA,DFO Gulf,NA,NA,1000,0.8 µm Nylon,Not detected,Not detected,No Ct,No Ct,No Ct,0,0,0,NA,NA,NA
-2019,r19D:1916,Sample,2019-r19D:1916,McKiel Bogan,Site 1,8/27/2019,DFO Gulf,46.50335,-66.96510,325,0.8 µm Nylon,Not detected,Not detected,No Ct,No Ct,No Ct,0,0,0,NA,NA,NA
-2019,r19D:1917,Sample,2019-r19D:1917,McKiel Bogan,Site 1,8/27/2019,DFO Gulf,46.50335,-66.96510,350,0.8 µm Nylon,Not detected,Not detected,No Ct,No Ct,No Ct,0,0,0,NA,NA,NA
-2019,r19D:1918,Sample,2019-r19D:1918,McKiel Bogan,Site 1,8/27/2019,DFO Gulf,46.50335,-66.96510,425,0.8 µm Nylon,Not detected,Not detected,No Ct,No Ct,No Ct,0,0,0,NA,NA,NA
+2019,r19D:1916,Sample,2019-r19D:1916,McKiel Bogan,Site 1,8/27/2019,DFO Gulf,46.50335,-66.9651,325,0.8 µm Nylon,Not detected,Not detected,No Ct,No Ct,No Ct,0,0,0,NA,NA,NA
+2019,r19D:1917,Sample,2019-r19D:1917,McKiel Bogan,Site 1,8/27/2019,DFO Gulf,46.50335,-66.9651,350,0.8 µm Nylon,Not detected,Not detected,No Ct,No Ct,No Ct,0,0,0,NA,NA,NA
+2019,r19D:1918,Sample,2019-r19D:1918,McKiel Bogan,Site 1,8/27/2019,DFO Gulf,46.50335,-66.9651,425,0.8 µm Nylon,Not detected,Not detected,No Ct,No Ct,No Ct,0,0,0,NA,NA,NA
 2019,r19D:1919,Sample,2019-r19D:1919,McKiel Bogan,Site 2,8/27/2019,DFO Gulf,46.49888,-66.95682,1000,0.8 µm Nylon,Not detected,Not detected,No Ct,No Ct,No Ct,0,0,0,NA,NA,NA
 2019,r19D:1920,Sample,2019-r19D:1920,McKiel Bogan,Site 2,8/27/2019,DFO Gulf,46.49891,-66.95677,1000,0.8 µm Nylon,Not detected,Not detected,No Ct,No Ct,No Ct,0,0,0,NA,NA,NA
 2019,r19D:1921,Sample,2019-r19D:1921,McKiel Bogan,Site 2,8/27/2019,DFO Gulf,46.49886,-66.95685,1000,0.8 µm Nylon,Not detected,Not detected,No Ct,No Ct,No Ct,0,0,0,NA,NA,NA
@@ -13,7 +13,7 @@
 2019,r19D:1926,Sample,2019-r19D:1926,SWM River,Site 4,8/27/2019,DFO Gulf,46.49564,-66.93989,1000,0.8 µm Nylon,Suspected,Inconclusive,35.24,No Ct,36.94,6.95,0,2.22,NA,NA,NA
 2019,r19D:1927,Sample,2019-r19D:1927,SWM River,Site 4,8/27/2019,DFO Gulf,46.49565,-66.93987,1000,0.8 µm Nylon,Not detected,Not detected,No Ct,No Ct,No Ct,0,0,0,NA,NA,NA
 2019,r19D:1928,Sample,2019-r19D:1928,SWM River,Site 4,8/27/2019,DFO Gulf,46.49564,-66.93983,1000,0.8 µm Nylon,Suspected,Detected,35.29,35.77,36.74,6.73,4.88,2.54,NA,NA,NA
-2019,r19D:1929,Sample,2019-r19D:1929,SWM River,Site 5,8/28/2019,DFO Gulf,46.50800,-66.94947,1000,0.8 µm Nylon,Suspected,Detected,35.44,34.80,34.02,6.09,9.35,15.80,NA,NA,NA
+2019,r19D:1929,Sample,2019-r19D:1929,SWM River,Site 5,8/28/2019,DFO Gulf,46.508,-66.94947,1000,0.8 µm Nylon,Suspected,Detected,35.44,34.8,34.02,6.09,9.35,15.8,NA,NA,NA
 2019,r19D:1930,Sample,2019-r19D:1930,SWM River,Site 5,8/27/2019,DFO Gulf,46.50799,-66.94947,1000,0.8 µm Nylon,Suspected,Inconclusive,34.82,35.68,No Ct,9.21,5.18,0,NA,NA,NA
 2019,r19D:1932,Sample,2019-r19D:1932,SWM River,Site 5,8/27/2019,DFO Gulf,46.50798,-66.94944,1000,0.8 µm Nylon,Suspected,Inconclusive,No Ct,35.81,33.61,0,4.76,20.68,NA,NA,NA
 2019,r19D:1933,Sample,2019-r19D:1933,SWM River,Site 6,8/27/2019,DFO Gulf,46.51599,-66.94915,1000,0.8 µm Nylon,Suspected,Detected,34.27,34.93,35.35,13.3,8.54,6.45,NA,NA,NA
@@ -593,111 +593,111 @@
 2022,r22:2399,Sample,2022-r22:2399,SWM River,Site 5,7/20/2022,DFO Gulf,46.50753,-66.94977,1000,1.2 µm Glass Fiber,Suspected,Detected,37.11,34.62,33.08,4.71,22.64,59.79,NA,NA,NA
 2022,r22:2400,Sample,2022-r22:2400,SWM River,Site 5,7/20/2022,DFO Gulf,46.50753,-66.94977,1000,1.2 µm Glass Fiber,Suspected,Detected,36.1,34.39,34.97,8.92,26.2,18.14,NA,NA,NA
 2022,r22:2401,Field blank,2022-r22:2401,,NA,7/20/2022,DFO Gulf,NA,NA,1000,1.2 µm Glass Fiber,Not detected,Not detected,No Ct,No Ct,No Ct,0,0,0,NA,NA,NA
-2023,23F-0526,Sample,2023-23F-0526,SWM River,Site 18,7/18/2023,DFO Gulf,46.58102,-66.75007,5000,1.2 µm Glass Fiber,NA,Inconclusive,36.13,No Ct,35.66,NA,NA,NA,15.46,0.00,21.35
-2023,23F-0527,Sample,2023-23F-0527,SWM River,Site 18,7/18/2023,DFO Gulf,46.58102,-66.75007,5000,1.2 µm Glass Fiber,NA,Inconclusive,36.17,No Ct,No Ct,NA,NA,NA,15.11,0.00,0.00
-2023,23F-0528,Sample,2023-23F-0528,SWM River,Site 18,7/18/2023,DFO Gulf,46.58102,-66.75007,5000,1.2 µm Glass Fiber,NA,Inconclusive,36.11,No Ct,No Ct,NA,NA,NA,15.70,0.00,0.00
-2023,23F-0529,Sample,2023-23F-0529,SWM River,Site 18A,7/18/2023,DFO Gulf,46.579474,-66.758832,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0530,Sample,2023-23F-0530,SWM River,Site 18A,7/18/2023,DFO Gulf,46.579474,-66.758832,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0531,Sample,2023-23F-0531,SWM River,Site 18A,7/18/2023,DFO Gulf,46.579474,-66.758832,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0532,Sample,2023-23F-0532,SWM River,Site 17,7/18/2023,DFO Gulf,46.573364,-66.812947,5000,1.2 µm Glass Fiber,NA,Detected,35.92,34.94,34.47,NA,NA,NA,17.86,34.85,48.20
-2023,23F-0533,Sample,2023-23F-0533,SWM River,Site 17,7/18/2023,DFO Gulf,46.573364,-66.812947,5000,1.2 µm Glass Fiber,NA,Inconclusive,No Ct,36.1,No Ct,NA,NA,NA,0.00,15.79,0.00
-2023,23F-0534,Sample,2023-23F-0534,SWM River,Site 17,7/18/2023,DFO Gulf,46.573364,-66.812947,5000,1.2 µm Glass Fiber,NA,Inconclusive,No Ct,No Ct,36.19,NA,NA,NA,0.00,0.00,14.84
-2023,23F-0535,Field blank,2023-23F-0535,,NA,7/18/2023,DFO Gulf,NA,NA,920,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0536,Sample,2023-23F-0536,SWM River,Site 19,7/19/2023,DFO Gulf,46.5844,-66.711993,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0537,Sample,2023-23F-0537,SWM River,Site 19,7/19/2023,DFO Gulf,46.5844,-66.711993,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0538,Sample,2023-23F-0538,SWM River,Site 19,7/19/2023,DFO Gulf,46.5844,-66.711993,3130,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0539,Sample,2023-23F-0539,SWM River,Site 19A,7/19/2023,DFO Gulf,46.58566,-66.701176,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0540,Sample,2023-23F-0540,SWM River,Site 19A,7/19/2023,DFO Gulf,46.58566,-66.701176,2710,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0541,Sample,2023-23F-0541,SWM River,Site 19A,7/19/2023,DFO Gulf,46.58566,-66.701176,2170,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0542,Sample,2023-23F-0542,SWM River,Site 20A,7/19/2023,DFO Gulf,46.595409,-66.668123,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0543,Sample,2023-23F-0543,SWM River,Site 20A,7/19/2023,DFO Gulf,46.595409,-66.668123,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0544,Sample,2023-23F-0544,SWM River,Site 20A,7/19/2023,DFO Gulf,46.595409,-66.668123,5000,1.2 µm Glass Fiber,NA,Inconclusive,No Ct,36.23,No Ct,NA,NA,NA,0.00,14.50,0.00
-2023,23F-0545,Field blank,2023-23F-0545,,NA,7/19/2023,DFO Gulf,NA,NA,1000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0546,Sample,2023-23F-0546,SWM River,Site 20,7/19/2023,DFO Gulf,46.600539,-66.638587,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0547,Sample,2023-23F-0547,SWM River,Site 20,7/19/2023,DFO Gulf,46.600539,-66.638587,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0548,Sample,2023-23F-0548,SWM River,Site 20,7/19/2023,DFO Gulf,46.600539,-66.638587,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0549,Field blank,2023-23F-0549,,NA,7/19/2023,DFO Gulf,NA,NA,1000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0582,Sample,2023-23F-0582,SWM River,Site 16,7/18/2023,DFO Gulf,46.56257,-66.832,5000,1.2 µm Glass Fiber,NA,Inconclusive,36.1,No Ct,No Ct,NA,NA,NA,15.86,0.00,0.00
-2023,23F-0583,Sample,2023-23F-0583,SWM River,Site 16,7/18/2023,DFO Gulf,46.56257,-66.832,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0584,Sample,2023-23F-0584,SWM River,Site 16,7/18/2023,DFO Gulf,46.56257,-66.832,2000,1.2 µm Glass Fiber,NA,Detected,35.56,36.42,36.25,NA,NA,NA,57.01,31.79,35.70
-2023,23F-0585,Sample,2023-23F-0585,SWM River,Site 15,7/18/2023,DFO Gulf,46.55547,-66.84771,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0586,Sample,2023-23F-0586,SWM River,Site 15,7/18/2023,DFO Gulf,46.55547,-66.84771,3000,1.2 µm Glass Fiber,NA,Inconclusive,36.23,No Ct,No Ct,NA,NA,NA,24.08,0.00,0.00
-2023,23F-0587,Sample,2023-23F-0587,SWM River,Site 15,7/18/2023,DFO Gulf,46.55547,-66.84771,5000,1.2 µm Glass Fiber,NA,Inconclusive,No Ct,No Ct,37.22,NA,NA,NA,0.00,0.00,7.36
+2023,23F-0526,Sample,2023-23F-0526,SWM River,Site 18,7/18/2023,DFO Gulf,46.58102,-66.75007,5000,1.2 µm Glass Fiber,NA,Inconclusive,36.13,No Ct,35.66,NA,NA,NA,15.46,0,21.35
+2023,23F-0527,Sample,2023-23F-0527,SWM River,Site 18,7/18/2023,DFO Gulf,46.58102,-66.75007,5000,1.2 µm Glass Fiber,NA,Inconclusive,36.17,No Ct,No Ct,NA,NA,NA,15.11,0,0
+2023,23F-0528,Sample,2023-23F-0528,SWM River,Site 18,7/18/2023,DFO Gulf,46.58102,-66.75007,5000,1.2 µm Glass Fiber,NA,Inconclusive,36.11,No Ct,No Ct,NA,NA,NA,15.7,0,0
+2023,23F-0529,Sample,2023-23F-0529,SWM River,Site 18A,7/18/2023,DFO Gulf,46.579474,-66.758832,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0530,Sample,2023-23F-0530,SWM River,Site 18A,7/18/2023,DFO Gulf,46.579474,-66.758832,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0531,Sample,2023-23F-0531,SWM River,Site 18A,7/18/2023,DFO Gulf,46.579474,-66.758832,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0532,Sample,2023-23F-0532,SWM River,Site 17,7/18/2023,DFO Gulf,46.573364,-66.812947,5000,1.2 µm Glass Fiber,NA,Detected,35.92,34.94,34.47,NA,NA,NA,17.86,34.85,48.2
+2023,23F-0533,Sample,2023-23F-0533,SWM River,Site 17,7/18/2023,DFO Gulf,46.573364,-66.812947,5000,1.2 µm Glass Fiber,NA,Inconclusive,No Ct,36.1,No Ct,NA,NA,NA,0,15.79,0
+2023,23F-0534,Sample,2023-23F-0534,SWM River,Site 17,7/18/2023,DFO Gulf,46.573364,-66.812947,5000,1.2 µm Glass Fiber,NA,Inconclusive,No Ct,No Ct,36.19,NA,NA,NA,0,0,14.84
+2023,23F-0535,Field blank,2023-23F-0535,,NA,7/18/2023,DFO Gulf,NA,NA,920,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0536,Sample,2023-23F-0536,SWM River,Site 19,7/19/2023,DFO Gulf,46.5844,-66.711993,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0537,Sample,2023-23F-0537,SWM River,Site 19,7/19/2023,DFO Gulf,46.5844,-66.711993,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0538,Sample,2023-23F-0538,SWM River,Site 19,7/19/2023,DFO Gulf,46.5844,-66.711993,3130,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0539,Sample,2023-23F-0539,SWM River,Site 19A,7/19/2023,DFO Gulf,46.58566,-66.701176,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0540,Sample,2023-23F-0540,SWM River,Site 19A,7/19/2023,DFO Gulf,46.58566,-66.701176,2710,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0541,Sample,2023-23F-0541,SWM River,Site 19A,7/19/2023,DFO Gulf,46.58566,-66.701176,2170,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0542,Sample,2023-23F-0542,SWM River,Site 20A,7/19/2023,DFO Gulf,46.595409,-66.668123,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0543,Sample,2023-23F-0543,SWM River,Site 20A,7/19/2023,DFO Gulf,46.595409,-66.668123,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0544,Sample,2023-23F-0544,SWM River,Site 20A,7/19/2023,DFO Gulf,46.595409,-66.668123,5000,1.2 µm Glass Fiber,NA,Inconclusive,No Ct,36.23,No Ct,NA,NA,NA,0,14.5,0
+2023,23F-0545,Field blank,2023-23F-0545,,NA,7/19/2023,DFO Gulf,NA,NA,1000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0546,Sample,2023-23F-0546,SWM River,Site 20,7/19/2023,DFO Gulf,46.600539,-66.638587,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0547,Sample,2023-23F-0547,SWM River,Site 20,7/19/2023,DFO Gulf,46.600539,-66.638587,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0548,Sample,2023-23F-0548,SWM River,Site 20,7/19/2023,DFO Gulf,46.600539,-66.638587,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0549,Field blank,2023-23F-0549,,NA,7/19/2023,DFO Gulf,NA,NA,1000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0582,Sample,2023-23F-0582,SWM River,Site 16,7/18/2023,DFO Gulf,46.56257,-66.832,5000,1.2 µm Glass Fiber,NA,Inconclusive,36.1,No Ct,No Ct,NA,NA,NA,15.86,0,0
+2023,23F-0583,Sample,2023-23F-0583,SWM River,Site 16,7/18/2023,DFO Gulf,46.56257,-66.832,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0584,Sample,2023-23F-0584,SWM River,Site 16,7/18/2023,DFO Gulf,46.56257,-66.832,2000,1.2 µm Glass Fiber,NA,Detected,35.56,36.42,36.25,NA,NA,NA,57.01,31.79,35.7
+2023,23F-0585,Sample,2023-23F-0585,SWM River,Site 15,7/18/2023,DFO Gulf,46.55547,-66.84771,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0586,Sample,2023-23F-0586,SWM River,Site 15,7/18/2023,DFO Gulf,46.55547,-66.84771,3000,1.2 µm Glass Fiber,NA,Inconclusive,36.23,No Ct,No Ct,NA,NA,NA,24.08,0,0
+2023,23F-0587,Sample,2023-23F-0587,SWM River,Site 15,7/18/2023,DFO Gulf,46.55547,-66.84771,5000,1.2 µm Glass Fiber,NA,Inconclusive,No Ct,No Ct,37.22,NA,NA,NA,0,0,7.36
 2023,23F-0588,Sample,2023-23F-0588,SWM River,Site 14,7/18/2023,DFO Gulf,46.54391,-66.85485,2500,1.2 µm Glass Fiber,NA,Detected,36.3,36.23,35.56,NA,NA,NA,27.61,29.02,45.73
-2023,23F-0589,Sample,2023-23F-0589,SWM River,Site 14,7/18/2023,DFO Gulf,46.54391,-66.85485,5000,1.2 µm Glass Fiber,NA,Inconclusive,No Ct,No Ct,37.21,NA,NA,NA,0.00,0.00,7.42
-2023,23F-0590,Sample,2023-23F-0590,SWM River,Site 14,7/18/2023,DFO Gulf,46.54391,-66.85485,5000,1.2 µm Glass Fiber,NA,Inconclusive,No Ct,No Ct,37.23,NA,NA,NA,0.00,0.00,7.33
-2023,23F-0591,Field blank,2023-23F-0591,,NA,7/18/2023,DFO Gulf,NA,NA,1000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0592,Sample,2023-23F-0592,SWM River,Site 13,7/18/2023,DFO Gulf,46.53503,-66.88127,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0593,Sample,2023-23F-0593,SWM River,Site 13,7/18/2023,DFO Gulf,46.53503,-66.88127,4500,1.2 µm Glass Fiber,NA,Inconclusive,35.27,No Ct,No Ct,NA,NA,NA,30.98,0.00,0.00
-2023,23F-0594,Sample,2023-23F-0594,SWM River,Site 13,7/18/2023,DFO Gulf,46.53503,-66.88127,3000,1.2 µm Glass Fiber,NA,Inconclusive,No Ct,35.29,No Ct,NA,NA,NA,0.00,45.95,0.00
-2023,23F-0595,Field blank,2023-23F-0595,,NA,7/18/2023,DFO Gulf,NA,NA,1000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0596,Sample,2023-23F-0596,SWM River,Site 31,7/19/2023,DFO Gulf,46.51053,-67.1137,1300,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0597,Sample,2023-23F-0597,SWM River,Site 31,7/19/2023,DFO Gulf,46.51053,-67.1137,1000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0598,Sample,2023-23F-0598,SWM River,Site 31,7/19/2023,DFO Gulf,46.51053,-67.1137,740,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0599,Sample,2023-23F-0599,SWM River,Site 31,7/19/2023,DFO Gulf,46.51053,-67.1137,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0600,Sample,2023-23F-0600,SWM River,Site 29,7/19/2023,DFO Gulf,46.49828,-67.0485,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0601,Sample,2023-23F-0601,SWM River,Site 29,7/19/2023,DFO Gulf,46.49828,-67.0485,1060,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0602,Sample,2023-23F-0602,SWM River,Site 29,7/19/2023,DFO Gulf,46.49828,-67.0485,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0603,Sample,2023-23F-0603,SWM River,Site 10,7/19/2023,DFO Gulf,46.49392,-67.01024,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0604,Sample,2023-23F-0604,SWM River,Site 10,7/19/2023,DFO Gulf,46.49392,-67.01024,1500,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0605,Sample,2023-23F-0605,SWM River,Site 10,7/19/2023,DFO Gulf,46.49392,-67.01024,700,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0606,Sample,2023-23F-0606,SWM River,Site 5,7/19/2023,DFO Gulf,46.50753,-66.94977,5000,1.2 µm Glass Fiber,NA,Inconclusive,34.88,No Ct,34.09,NA,NA,NA,36.46,0.00,62.50
+2023,23F-0589,Sample,2023-23F-0589,SWM River,Site 14,7/18/2023,DFO Gulf,46.54391,-66.85485,5000,1.2 µm Glass Fiber,NA,Inconclusive,No Ct,No Ct,37.21,NA,NA,NA,0,0,7.42
+2023,23F-0590,Sample,2023-23F-0590,SWM River,Site 14,7/18/2023,DFO Gulf,46.54391,-66.85485,5000,1.2 µm Glass Fiber,NA,Inconclusive,No Ct,No Ct,37.23,NA,NA,NA,0,0,7.33
+2023,23F-0591,Field blank,2023-23F-0591,,NA,7/18/2023,DFO Gulf,NA,NA,1000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0592,Sample,2023-23F-0592,SWM River,Site 13,7/18/2023,DFO Gulf,46.53503,-66.88127,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0593,Sample,2023-23F-0593,SWM River,Site 13,7/18/2023,DFO Gulf,46.53503,-66.88127,4500,1.2 µm Glass Fiber,NA,Inconclusive,35.27,No Ct,No Ct,NA,NA,NA,30.98,0,0
+2023,23F-0594,Sample,2023-23F-0594,SWM River,Site 13,7/18/2023,DFO Gulf,46.53503,-66.88127,3000,1.2 µm Glass Fiber,NA,Inconclusive,No Ct,35.29,No Ct,NA,NA,NA,0,45.95,0
+2023,23F-0595,Field blank,2023-23F-0595,,NA,7/18/2023,DFO Gulf,NA,NA,1000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0596,Sample,2023-23F-0596,SWM River,Site 31,7/19/2023,DFO Gulf,46.51053,-67.1137,1300,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0597,Sample,2023-23F-0597,SWM River,Site 31,7/19/2023,DFO Gulf,46.51053,-67.1137,1000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0598,Sample,2023-23F-0598,SWM River,Site 31,7/19/2023,DFO Gulf,46.51053,-67.1137,740,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0599,Sample,2023-23F-0599,SWM River,Site 31,7/19/2023,DFO Gulf,46.51053,-67.1137,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0600,Sample,2023-23F-0600,SWM River,Site 29,7/19/2023,DFO Gulf,46.49828,-67.0485,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0601,Sample,2023-23F-0601,SWM River,Site 29,7/19/2023,DFO Gulf,46.49828,-67.0485,1060,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0602,Sample,2023-23F-0602,SWM River,Site 29,7/19/2023,DFO Gulf,46.49828,-67.0485,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0603,Sample,2023-23F-0603,SWM River,Site 10,7/19/2023,DFO Gulf,46.49392,-67.01024,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0604,Sample,2023-23F-0604,SWM River,Site 10,7/19/2023,DFO Gulf,46.49392,-67.01024,1500,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0605,Sample,2023-23F-0605,SWM River,Site 10,7/19/2023,DFO Gulf,46.49392,-67.01024,700,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0606,Sample,2023-23F-0606,SWM River,Site 5,7/19/2023,DFO Gulf,46.50753,-66.94977,5000,1.2 µm Glass Fiber,NA,Inconclusive,34.88,No Ct,34.09,NA,NA,NA,36.46,0,62.5
 2023,23F-0607,Sample,2023-23F-0607,SWM River,Site 5,7/19/2023,DFO Gulf,46.50753,-66.94977,5000,1.2 µm Glass Fiber,NA,Detected,35.32,35.63,35.31,NA,NA,NA,27.01,21.83,27.08
-2023,23F-0608,Sample,2023-23F-0608,SWM River,Site 5,7/19/2023,DFO Gulf,46.50753,-66.94977,5000,1.2 µm Glass Fiber,NA,Detected,35.23,34.88,34.19,NA,NA,NA,28.60,36.44,58.14
-2023,23F-0609,Field blank,2023-23F-0609,,NA,7/19/2023,DFO Gulf,NA,NA,1000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0550,Sample,2023-23F-0550,SWM River,Site 60,7/25/2023,DFO Gulf,46.457414,-66.449737,5000,1.2 µm Glass Fiber,NA,Inconclusive,No Ct,No Ct,35.4,NA,NA,NA,0.00,0.00,25.45
+2023,23F-0608,Sample,2023-23F-0608,SWM River,Site 5,7/19/2023,DFO Gulf,46.50753,-66.94977,5000,1.2 µm Glass Fiber,NA,Detected,35.23,34.88,34.19,NA,NA,NA,28.6,36.44,58.14
+2023,23F-0609,Field blank,2023-23F-0609,,NA,7/19/2023,DFO Gulf,NA,NA,1000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0550,Sample,2023-23F-0550,SWM River,Site 60,7/25/2023,DFO Gulf,46.457414,-66.449737,5000,1.2 µm Glass Fiber,NA,Inconclusive,No Ct,No Ct,35.4,NA,NA,NA,0,0,25.45
 2023,23F-0551,Sample,2023-23F-0551,SWM River,Site 60,7/25/2023,DFO Gulf,46.457414,-66.449737,5000,1.2 µm Glass Fiber,NA,Detected,32.73,35.04,34.81,NA,NA,NA,157.76,32.57,38.22
-2023,23F-0552,Sample,2023-23F-0552,SWM River,Site 60,7/25/2023,DFO Gulf,46.457414,-66.449737,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0553,Sample,2023-23F-0553,SWM River,Site 62A,7/25/2023,DFO Gulf,46.544083,-66.171835,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0554,Sample,2023-23F-0554,SWM River,Site 62A,7/25/2023,DFO Gulf,46.544083,-66.171835,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0555,Sample,2023-23F-0555,SWM River,Site 62A,7/25/2023,DFO Gulf,46.544083,-66.171835,3000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0556,Sample,2023-23F-0556,SWM River,Site 61A,7/26/2023,DFO Gulf,46.494856,-66.352052,5000,1.2 µm Glass Fiber,NA,Inconclusive,No Ct,37.77,No Ct,NA,NA,NA,0.00,5.05,0.00
-2023,23F-0557,Sample,2023-23F-0557,SWM River,Site 61A,7/26/2023,DFO Gulf,46.494856,-66.352052,5000,1.2 µm Glass Fiber,NA,Inconclusive,No Ct,No Ct,36.74,NA,NA,NA,0.00,0.00,10.19
+2023,23F-0552,Sample,2023-23F-0552,SWM River,Site 60,7/25/2023,DFO Gulf,46.457414,-66.449737,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0553,Sample,2023-23F-0553,SWM River,Site 62A,7/25/2023,DFO Gulf,46.544083,-66.171835,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0554,Sample,2023-23F-0554,SWM River,Site 62A,7/25/2023,DFO Gulf,46.544083,-66.171835,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0555,Sample,2023-23F-0555,SWM River,Site 62A,7/25/2023,DFO Gulf,46.544083,-66.171835,3000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0556,Sample,2023-23F-0556,SWM River,Site 61A,7/26/2023,DFO Gulf,46.494856,-66.352052,5000,1.2 µm Glass Fiber,NA,Inconclusive,No Ct,37.77,No Ct,NA,NA,NA,0,5.05,0
+2023,23F-0557,Sample,2023-23F-0557,SWM River,Site 61A,7/26/2023,DFO Gulf,46.494856,-66.352052,5000,1.2 µm Glass Fiber,NA,Inconclusive,No Ct,No Ct,36.74,NA,NA,NA,0,0,10.19
 2023,23F-0558,Sample,2023-23F-0558,SWM River,Site 61A,7/26/2023,DFO Gulf,46.494856,-66.352052,3740,1.2 µm Glass Fiber,NA,Detected,35.87,36.82,36.2,NA,NA,NA,24.73,12.94,19.81
-2023,23F-0559,Field blank,2023-23F-0559,,NA,7/26/2023,DFO Gulf,NA,NA,1060,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0560,Field blank,2023-23F-0560,,NA,7/26/2023,DFO Gulf,NA,NA,1180,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0561,Sample,2023-23F-0561,SWM River,Site 62,7/26/2023,DFO Gulf,46.54727,-66.15685,5000,1.2 µm Glass Fiber,NA,Inconclusive,34.61,No Ct,34.97,NA,NA,NA,43.69,0.00,34.26
-2023,23F-0562,Sample,2023-23F-0562,SWM River,Site 62,7/26/2023,DFO Gulf,46.54727,-66.15685,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0563,Sample,2023-23F-0563,SWM River,Site 62,7/26/2023,DFO Gulf,46.54727,-66.15685,5000,1.2 µm Glass Fiber,NA,Inconclusive,No Ct,36.75,36.68,NA,NA,NA,0.00,10.17,10.66
-2023,23F-0564,Sample,2023-23F-0564,SWM River,Site 63,7/26/2023,DFO Gulf,46.55625,-66.13745,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
+2023,23F-0559,Field blank,2023-23F-0559,,NA,7/26/2023,DFO Gulf,NA,NA,1060,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0560,Field blank,2023-23F-0560,,NA,7/26/2023,DFO Gulf,NA,NA,1180,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0561,Sample,2023-23F-0561,SWM River,Site 62,7/26/2023,DFO Gulf,46.54727,-66.15685,5000,1.2 µm Glass Fiber,NA,Inconclusive,34.61,No Ct,34.97,NA,NA,NA,43.69,0,34.26
+2023,23F-0562,Sample,2023-23F-0562,SWM River,Site 62,7/26/2023,DFO Gulf,46.54727,-66.15685,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0563,Sample,2023-23F-0563,SWM River,Site 62,7/26/2023,DFO Gulf,46.54727,-66.15685,5000,1.2 µm Glass Fiber,NA,Inconclusive,No Ct,36.75,36.68,NA,NA,NA,0,10.17,10.66
+2023,23F-0564,Sample,2023-23F-0564,SWM River,Site 63,7/26/2023,DFO Gulf,46.55625,-66.13745,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
 2023,23F-0565,Sample,2023-23F-0565,SWM River,Site 63,7/26/2023,DFO Gulf,46.55625,-66.13745,5000,1.2 µm Glass Fiber,NA,Detected,35.39,36.1,37.89,NA,NA,NA,25.66,15.85,4.65
 2023,23F-0566,Sample,2023-23F-0566,SWM River,Site 63,7/26/2023,DFO Gulf,46.55625,-66.13745,5000,1.2 µm Glass Fiber,NA,Detected,36.93,38.09,35.91,NA,NA,NA,8.96,4.05,18.03
 2023,23F-0567,Sample,2023-23F-0567,SWM River,Site 37,7/26/2023,DFO Gulf,46.56064,-66.1221,2600,1.2 µm Glass Fiber,NA,Detected,33.95,34.9,34.24,NA,NA,NA,131.74,69.26,108.75
 2023,23F-0568,Sample,2023-23F-0568,SWM River,Site 37,7/26/2023,DFO Gulf,46.56064,-66.1221,5000,1.2 µm Glass Fiber,NA,Detected,35.15,34.97,36.74,NA,NA,NA,30.22,34.12,10.24
 2023,23F-0569,Sample,2023-23F-0569,SWM River,Site 37,7/26/2023,DFO Gulf,46.56064,-66.1221,2800,1.2 µm Glass Fiber,NA,Detected,35.19,34.21,34.13,NA,NA,NA,52.76,102.55,108.41
-2023,23F-0570,Field blank,2023-23F-0570,,NA,7/26/2023,DFO Gulf,NA,NA,1000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0571,Field blank,2023-23F-0571,,NA,7/26/2023,DFO Gulf,NA,NA,1000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0572,Sample,2023-23F-0572,Bartholomew River,Site 40,7/26/2023,DFO Gulf,46.73844,-65.82952,,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0573,Sample,2023-23F-0573,Bartholomew River,Site 40,7/26/2023,DFO Gulf,46.73844,-65.82952,1580,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0574,Sample,2023-23F-0574,Bartholomew River,Site 40,7/26/2023,DFO Gulf,46.73844,-65.82952,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0575,Sample,2023-23F-0575,SWM River,Site 39,7/26/2023,DFO Gulf,46.73431,-65.82416,500,1.2 µm Glass Fiber,NA,Inconclusive,36.68,36.75,No Ct,NA,NA,NA,106.62,101.39,0.00
-2023,23F-0576,Sample,2023-23F-0576,SWM River,Site 39,7/26/2023,DFO Gulf,46.73431,-65.82416,1055,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0577,Sample,2023-23F-0577,SWM River,Site 39,7/26/2023,DFO Gulf,46.73431,-65.82416,5000,1.2 µm Glass Fiber,NA,Inconclusive,No Ct,36.99,37.13,NA,NA,NA,0.00,8.60,7.83
-2023,23F-0578,Field blank,2023-23F-0578,,NA,7/26/2023,DFO Gulf,NA,NA,1000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0579,Field blank,2023-23F-0579,,NA,7/27/2023,DFO Gulf,NA,NA,1000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0580,Sample,2023-23F-0580,SWM River,Site 55,7/27/2023,DFO Gulf,46.71168,-65.81432,5000,1.2 µm Glass Fiber,NA,Inconclusive,No Ct,36.8,36.88,NA,NA,NA,0.00,9.79,9.29
+2023,23F-0570,Field blank,2023-23F-0570,,NA,7/26/2023,DFO Gulf,NA,NA,1000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0571,Field blank,2023-23F-0571,,NA,7/26/2023,DFO Gulf,NA,NA,1000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0572,Sample,2023-23F-0572,Bartholomew River,Site 40,7/26/2023,DFO Gulf,46.73844,-65.82952,,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0573,Sample,2023-23F-0573,Bartholomew River,Site 40,7/26/2023,DFO Gulf,46.73844,-65.82952,1580,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0574,Sample,2023-23F-0574,Bartholomew River,Site 40,7/26/2023,DFO Gulf,46.73844,-65.82952,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0575,Sample,2023-23F-0575,SWM River,Site 39,7/26/2023,DFO Gulf,46.73431,-65.82416,500,1.2 µm Glass Fiber,NA,Inconclusive,36.68,36.75,No Ct,NA,NA,NA,106.62,101.39,0
+2023,23F-0576,Sample,2023-23F-0576,SWM River,Site 39,7/26/2023,DFO Gulf,46.73431,-65.82416,1055,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0577,Sample,2023-23F-0577,SWM River,Site 39,7/26/2023,DFO Gulf,46.73431,-65.82416,5000,1.2 µm Glass Fiber,NA,Inconclusive,No Ct,36.99,37.13,NA,NA,NA,0,8.6,7.83
+2023,23F-0578,Field blank,2023-23F-0578,,NA,7/26/2023,DFO Gulf,NA,NA,1000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0579,Field blank,2023-23F-0579,,NA,7/27/2023,DFO Gulf,NA,NA,1000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0580,Sample,2023-23F-0580,SWM River,Site 55,7/27/2023,DFO Gulf,46.71168,-65.81432,5000,1.2 µm Glass Fiber,NA,Inconclusive,No Ct,36.8,36.88,NA,NA,NA,0,9.79,9.29
 2023,23F-0581,Sample,2023-23F-0581,SWM River,Site 55,7/27/2023,DFO Gulf,46.71168,-65.81432,5000,1.2 µm Glass Fiber,NA,Detected,36.89,36.08,36.78,NA,NA,NA,9.21,16.08,9.94
-2023,23F-0610,Sample,2023-23F-0610,SWM River,Site 55,7/27/2023,DFO Gulf,46.71168,-65.81432,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0611,Sample,2023-23F-0611,SWM River,Site 56,7/27/2023,DFO Gulf,46.70361,-65.79745,5000,1.2 µm Glass Fiber,NA,Inconclusive,47.84,No Ct,36.86,NA,NA,NA,0.01,0.00,9.40
-2023,23F-0612,Sample,2023-23F-0612,SWM River,Site 56,7/27/2023,DFO Gulf,46.70361,-65.79745,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0613,Sample,2023-23F-0613,SWM River,Site 56,7/27/2023,DFO Gulf,46.70361,-65.79745,5000,1.2 µm Glass Fiber,NA,Inconclusive,No Ct,No Ct,37.35,NA,NA,NA,0.00,0.00,6.75
-2023,23F-0614,Sample,2023-23F-0614,SWM River,Site 57,7/27/2023,DFO Gulf,46.75384,-65.81673,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0615,Sample,2023-23F-0615,SWM River,Site 57,7/27/2023,DFO Gulf,46.75384,-65.81673,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0616,Sample,2023-23F-0616,SWM River,Site 57,7/27/2023,DFO Gulf,46.75384,-65.81673,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0617,Field blank,2023-23F-0617,,NA,7/27/2023,DFO Gulf,NA,NA,1000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0618,Sample,2023-23F-0618,SWM River,Site 58,7/27/2023,DFO Gulf,46.83605,-65.76528,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0619,Sample,2023-23F-0619,SWM River,Site 58,7/27/2023,DFO Gulf,46.83605,-65.76528,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0620,Sample,2023-23F-0620,SWM River,Site 58,7/27/2023,DFO Gulf,46.83605,-65.76528,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0621,Sample,2023-23F-0621,SWM River,Site 59,7/27/2023,DFO Gulf,46.83822,-65.748,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0622,Sample,2023-23F-0622,SWM River,Site 59,7/27/2023,DFO Gulf,46.83822,-65.748,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0623,Sample,2023-23F-0623,SWM River,Site 59,7/27/2023,DFO Gulf,46.83822,-65.748,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0624,Field blank,2023-23F-0624,,NA,7/27/2023,DFO Gulf,NA,NA,1000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0635,Sample,2023-23F-0635,McKiel Brook,Site 26,8/30/2023,DFO Gulf,46.5501,-67.044,1560,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0636,Sample,2023-23F-0636,McKiel Brook,Site 26,8/30/2023,DFO Gulf,46.5501,-67.044,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0637,Sample,2023-23F-0637,McKiel Brook,Site 26,8/30/2023,DFO Gulf,46.5501,-67.044,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0638,Sample,2023-23F-0638,McKiel Brook,Site 25,8/30/2023,DFO Gulf,46.5777,-67.0413,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0639,Sample,2023-23F-0639,McKiel Brook,Site 25,8/30/2023,DFO Gulf,46.5777,-67.0413,1320,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
-2023,23F-0851,Sample,2023-23F-0851,McKiel Brook,Site 25,8/30/2023,DFO Gulf,46.5777,-67.0413,1650,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0.00,0.00,0.00
+2023,23F-0610,Sample,2023-23F-0610,SWM River,Site 55,7/27/2023,DFO Gulf,46.71168,-65.81432,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0611,Sample,2023-23F-0611,SWM River,Site 56,7/27/2023,DFO Gulf,46.70361,-65.79745,5000,1.2 µm Glass Fiber,NA,Inconclusive,47.84,No Ct,36.86,NA,NA,NA,0.01,0,9.4
+2023,23F-0612,Sample,2023-23F-0612,SWM River,Site 56,7/27/2023,DFO Gulf,46.70361,-65.79745,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0613,Sample,2023-23F-0613,SWM River,Site 56,7/27/2023,DFO Gulf,46.70361,-65.79745,5000,1.2 µm Glass Fiber,NA,Inconclusive,No Ct,No Ct,37.35,NA,NA,NA,0,0,6.75
+2023,23F-0614,Sample,2023-23F-0614,SWM River,Site 57,7/27/2023,DFO Gulf,46.75384,-65.81673,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0615,Sample,2023-23F-0615,SWM River,Site 57,7/27/2023,DFO Gulf,46.75384,-65.81673,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0616,Sample,2023-23F-0616,SWM River,Site 57,7/27/2023,DFO Gulf,46.75384,-65.81673,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0617,Field blank,2023-23F-0617,,NA,7/27/2023,DFO Gulf,NA,NA,1000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0618,Sample,2023-23F-0618,SWM River,Site 58,7/27/2023,DFO Gulf,46.83605,-65.76528,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0619,Sample,2023-23F-0619,SWM River,Site 58,7/27/2023,DFO Gulf,46.83605,-65.76528,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0620,Sample,2023-23F-0620,SWM River,Site 58,7/27/2023,DFO Gulf,46.83605,-65.76528,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0621,Sample,2023-23F-0621,SWM River,Site 59,7/27/2023,DFO Gulf,46.83822,-65.748,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0622,Sample,2023-23F-0622,SWM River,Site 59,7/27/2023,DFO Gulf,46.83822,-65.748,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0623,Sample,2023-23F-0623,SWM River,Site 59,7/27/2023,DFO Gulf,46.83822,-65.748,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0624,Field blank,2023-23F-0624,,NA,7/27/2023,DFO Gulf,NA,NA,1000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0635,Sample,2023-23F-0635,McKiel Brook,Site 26,8/30/2023,DFO Gulf,46.5501,-67.044,1560,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0636,Sample,2023-23F-0636,McKiel Brook,Site 26,8/30/2023,DFO Gulf,46.5501,-67.044,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0637,Sample,2023-23F-0637,McKiel Brook,Site 26,8/30/2023,DFO Gulf,46.5501,-67.044,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0638,Sample,2023-23F-0638,McKiel Brook,Site 25,8/30/2023,DFO Gulf,46.5777,-67.0413,5000,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0639,Sample,2023-23F-0639,McKiel Brook,Site 25,8/30/2023,DFO Gulf,46.5777,-67.0413,1320,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2023,23F-0851,Sample,2023-23F-0851,McKiel Brook,Site 25,8/30/2023,DFO Gulf,46.5777,-67.0413,1650,1.2 µm Glass Fiber,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
 2023,23F-0852,Sample,2023-23F-0852,Miramichi Lake,Site 66,8/30/2023,DFO Gulf,46.4507,-66.96,2270,1.2 µm Glass Fiber,NA,Detected,32.22,32.92,32.92,NA,NA,NA,494.42,306.06,305.05
 2023,23F-0853,Sample,2023-23F-0853,Miramichi Lake,Site 66,8/30/2023,DFO Gulf,46.4507,-66.96,5000,1.2 µm Glass Fiber,NA,Detected,33.38,34.49,34.15,NA,NA,NA,101.51,47.58,59.74
 2023,23F-0854,Sample,2023-23F-0854,Miramichi Lake,Site 66,8/30/2023,DFO Gulf,46.4507,-66.96,5000,1.2 µm Glass Fiber,NA,Detected,33.36,33.34,32.62,NA,NA,NA,102.83,104.57,170.93
@@ -758,9 +758,9 @@
 2024,24F-0891,Sample,2024-24F-0891,McKiel Brook,Site 25,8/8/2024,DFO Gulf,46.5501,-67.044,3550,1.2 uM GF,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
 2024,24F-0892,Sample,2024-24F-0892,McKiel Brook,Site 25,8/8/2024,DFO Gulf,46.5501,-67.044,3350,1.2 uM GF,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
 2024,24F-0893,Field blank,2024-24F-0893,,N/A,8/8/2024,DFO Gulf,NA,NA,1000,1.2 uM GF,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
-2024,24F-0878,Sample,2024-24F-0878,Nashwaak Lake,Site 73,9/20/2024,DFO Gulf,46.468,-66.116,1320,1.2 uM GF,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
-2024,24F-0879,Sample,2024-24F-0879,Nashwaak Lake,Site 73,9/20/2024,DFO Gulf,46.468,-66.116,480,1.2 uM GF,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
-2024,24F-0880,Sample,2024-24F-0880,Nashwaak Lake,Site 73,9/20/2024,DFO Gulf,46.468,-66.116,1230,1.2 uM GF,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2024,24F-0878,Sample,2024-24F-0878,Nashwaak Lake,Site 73,9/20/2024,DFO Gulf,46.468,-67.116,1320,1.2 uM GF,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2024,24F-0879,Sample,2024-24F-0879,Nashwaak Lake,Site 73,9/20/2024,DFO Gulf,46.468,-67.116,480,1.2 uM GF,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
+2024,24F-0880,Sample,2024-24F-0880,Nashwaak Lake,Site 73,9/20/2024,DFO Gulf,46.468,-67.116,1230,1.2 uM GF,NA,Not detected,No Ct,No Ct,No Ct,NA,NA,NA,0,0,0
 2024,24F-0881,Sample,2024-24F-0881,Miramichi Lake,Site 66,9/20/2024,DFO Gulf,46.4507,-66.9598,5000,1.2 uM GF,NA,Detected,32.58,33.98,33.08,NA,NA,NA,176.83,67.71,125.08
 2024,24F-0882,Sample,2024-24F-0882,Miramichi Lake,Site 66,9/20/2024,DFO Gulf,46.4507,-66.9598,5000,1.2 uM GF,NA,Detected,32.95,34.32,34.28,NA,NA,NA,136.8,53.59,55.04
 2024,24F-0883,Sample,2024-24F-0883,Miramichi Lake,Site 66,9/20/2024,DFO Gulf,46.4507,-66.9598,5000,1.2 uM GF,NA,Detected,36.49,34.57,34.86,NA,NA,NA,12.16,45.38,37.06
