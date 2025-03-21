@@ -1,8 +1,0 @@
-"name_nom","description_fr","description_en"
-"source","Source des vertèbres, le relevé par navire de recherche (Research Vessel (RV))","Source of vertebrae, the Research Vessel (RV) survey"
-"latin.name_nom.latin","Nom latin de l'espèce","Latin name of the species"
-"english.name_nom.anglais","Nom anglais de l'espèce","English name of the species"
-"french.name_nom.français","Nom français de l'espèce","French name of the species"
-"year_année","Année d'échantillonnage des vertèbres","Year when vertebrae were collected"
-"month_mois","Mois d'échantillonnage des vertèbres","Month when vertebrae were collected"
-"number.vertebrae_nombre.vertèbres","Nombre de vertèbres dans la collection","Number of vertebrae in collection"

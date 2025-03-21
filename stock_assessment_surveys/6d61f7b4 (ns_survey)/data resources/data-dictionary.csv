@@ -1,4 +1,4 @@
-name_nom,description_en,description_fr
+﻿name_nom,description_en,description_fr
 cruise_number__numéro_de_criosière,The unique identifier of cruise,L'identifiant unique de croisière
 year__année,The year when the station was surveyed,L'année où la station a été chalutée
 month__mois,The month when the station was surveyed,Le mois où la station a été chalutée

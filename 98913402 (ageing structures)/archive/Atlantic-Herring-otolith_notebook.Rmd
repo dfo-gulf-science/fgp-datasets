@@ -1,0 +1,14 @@
+---
+title: "Gulf Fisheries Centre Ageing Structures collection - Atlantic Herring"
+author: "Daniel Ricard"
+date: '`r paste0("Last modified timestap: ", format(Sys.time(), "%Y-%m-%d %H:%M:%S"))`'
+output: html_notebook
+---
+
+```{r loaddata}
+library(gulf)
+```
+
+## Atlantic Herring
+Still to be integrated. To discuss with Jacob.
+

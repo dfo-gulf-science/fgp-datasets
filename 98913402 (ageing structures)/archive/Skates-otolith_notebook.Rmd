@@ -1,0 +1,62 @@
+---
+title: "Gulf Fisheries Centre Ageing Structures collection - Skates"
+author: "Daniel Ricard"
+date: '`r paste0("Last modified timestap: ", format(Sys.time(), "%Y-%m-%d %H:%M:%S"))`'
+output: html_notebook
+---
+
+```{r loaddata}
+library(gulf)
+```
+
+
+## Chondrichthyan vertabrae
+Vertebrae from the September RV survey.
+
+Outstanding issue:
+- there are no ages in the bio cards (ages were found on the science media drive under "Skate images", still to be integrated into Oracle)
+
+```{r skates, cache=TRUE}
+## RV data
+y <- read.card(species=c(200:204), card.type="bio") #rv$bio[which(rv$bio$species %in% c(200:204)),]
+rv.df <- aggregate(fish.number~year+month+species, data=y[which(y$age.material %in% c(1,4)),], length)
+names(rv.df) <- c("year_année", "month_mois", "species", "number.vertebrae_nombre.vertèbres")
+rv.df$source <- "RV-4T"
+rv.df$latin.name_nom.latin <- stringr::str_to_lower(gulf::species.str(rv.df$species, "latin"))
+rv.df$english.name_nom.anglais <- stringr::str_to_title(gulf::species.str(rv.df$species, "english"))
+rv.df$french.name_nom.français <- gulf::species.str(rv.df$species, "french")
+
+firstup <- function(x) {
+  x <- tolower(x)
+  substr(x, 1, 1) <- toupper(substr(x, 1, 1))
+  x
+}
+
+rv.df$latin.name_nom.latin <- firstup(rv.df$latin.name_nom.latin)
+
+out.df <- rbind(rv.df)
+
+vars <- c("source", "latin.name_nom.latin", "english.name_nom.anglais", "french.name_nom.français", "year_année","month_mois","number.vertebrae_nombre.vertèbres")
+o1 <- order(out.df$source, out.df$year_année, out.df$month_mois)
+
+out.fn <- "./data/NAFO-4T-Chondrichthyan-vertebrae.csv"
+write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE, fileEncoding = "UTF8")
+
+## how many were actually aged?
+#y <- rv$bio[which(rv$bio$species %in% c(200:204)),]
+#rv.df <- aggregate(fish.number~year+month, data=y[which(y$age.material %in% c(1,4)),], length)
+#names(rv.df) <- c("year_année", "month_mois", "number.otoliths_nombre.otolithes")
+#rv.df2 <- aggregate(fish.number~year+month, data=y[which(y$age.material %in% c(1,4) & y$age %in% c(0:30)),], length)
+#names(rv.df2) <- c("year_année", "month_mois", "number.otoliths.aged_nombre.otolithes.agées")
+#m.rv.df <- merge(rv.df, rv.df2, all.x=TRUE, by=c("year_année","month_mois"))
+#m.rv.df$source <- "RV-4T"
+#m.rv.df[is.na(m.rv.df$number.otoliths.aged_nombre.otolithes.agées),"number.otoliths.aged_nombre.otolithes.agées"] <- 0
+out.df$number.otoliths.aged_nombre.otolithes.agées <- 0
+vars <- c("source", "latin.name_nom.latin", "english.name_nom.anglais", "french.name_nom.français", "year_année","month_mois","number.vertebrae_nombre.vertèbres","number.otoliths.aged_nombre.otolithes.agées")
+o1 <- order(out.df$source, out.df$year_année, out.df$month_mois)
+
+out.fn <- "./data/NAFO-4T-Chondrichthyan-ages.csv"
+write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE, fileEncoding = "UTF8")
+
+```
+
