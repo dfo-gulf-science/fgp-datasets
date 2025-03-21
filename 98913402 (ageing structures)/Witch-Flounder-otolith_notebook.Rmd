@@ -429,7 +429,7 @@ all.out.df$month_mois <- as.numeric(all.out.df$month_mois)
 o1 <- order(all.out.df$source, all.out.df$year_année, all.out.df$month_mois)
 
 
-out.fn <- "./NAFO-4RST-Witch-Flounder-ages.csv"
+out.fn <- "./data/NAFO-4RST-Witch-Flounder-ages.csv"
 write.csv(all.out.df[o1,vars], file=out.fn, row.names = FALSE, fileEncoding = "UTF8")
 ```
 

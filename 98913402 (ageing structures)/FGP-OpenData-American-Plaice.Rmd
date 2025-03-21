@@ -107,7 +107,7 @@ data.dic$description_fr <- c("Source de otolithes, peut soit provenir du relevé
 
 data.dic$description_en <- c("Source of otoliths, can be either from the Research Vessel (RV) survey or from commercial sampling (Commercial)", "Latin name of the species", "English name of the species", "French name of the species", "Year when otoliths were collected", "Month when otolith were collected", "Number of otoliths in collection")
 
-data.dic.fn <- "data-dictionary.csv"
+data.dic.fn <- "./data/data-dictionary.csv"
 write.csv(data.dic, file=data.dic.fn, row.names = FALSE)
 ```
 
