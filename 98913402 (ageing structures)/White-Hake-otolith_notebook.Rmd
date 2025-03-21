@@ -53,7 +53,7 @@ out.df$french.name_nom.français <- "Merluche blanche"
 vars <- c("source", "latin.name_nom.latin", "english.name_nom.anglais", "french.name_nom.français", "year_année","month_mois","number.otoliths_nombre.otolithes")
 o1 <- order(out.df$source, out.df$year_année, out.df$month_mois)
 
-out.fn <- "./NAFO-4T-White-Hake-otoliths.csv"
+out.fn <- "./data/NAFO-4T-White-Hake-otoliths.csv"
 write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE, fileEncoding = "UTF8")
 
 ## how many were actually aged?

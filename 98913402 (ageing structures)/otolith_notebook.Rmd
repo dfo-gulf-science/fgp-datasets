@@ -56,7 +56,7 @@ data.dic$description_fr <- c("Source des otolithes, peut soit provenir du relev�
 
 data.dic$description_en <- c("Source of otoliths, can be either from the NAFO division 4T Research Vessel (RV-4T) survey, the NAFO divisions 4RS Research Vessel (RV-4RS) survey, the NAFO division 4T sentinel survey (SENT-4T), from commercial sampling (Commercial) or from at-sea observers (Observers)", "Latin name of the species", "English name of the species", "French name of the species", "Year when otoliths were collected", "Month when otolith were collected", "Number of otoliths in collection", "Number of otoliths that were aged")
 
-data.dic.fn <- "data-dictionary.csv"
+data.dic.fn <- "./data/data-dictionary.csv"
 write.csv(data.dic, file=data.dic.fn, row.names = FALSE, fileEncoding = "UTF8")
 
 #################################################################
@@ -70,7 +70,7 @@ data.dic$description_fr <- c("Source des vertèbres, le relevé par navire de re
 
 data.dic$description_en <- c("Source of vertebrae, the Research Vessel (RV) survey", "Latin name of the species", "English name of the species", "French name of the species", "Year when vertebrae were collected", "Month when vertebrae were collected", "Number of vertebrae in collection")
 
-data.dic.fn <- "data-dictionary-skates.csv"
+data.dic.fn <- "./data/data-dictionary-skates.csv"
 write.csv(data.dic, file=data.dic.fn, row.names = FALSE, fileEncoding = "UTF8")
 
 ```
