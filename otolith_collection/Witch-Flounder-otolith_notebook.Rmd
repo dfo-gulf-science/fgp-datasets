@@ -5,8 +5,6 @@ date: '`r paste0("Last modified timestap: ", format(Sys.time(), "%Y-%m-%d %H:%M:
 output: html_notebook
 ---
 
-TO DO 2023
-
 ```{r loaddata}
 library(gulf)
 ```
@@ -172,9 +170,9 @@ qu.p.df <- qu.p.df[witch.idx,]
 ## carbio, for sex, length and weight
 qu.b.fn <- file.path(fp, fn3) # file.exists(qu.p.fn)
 qu.b.t <- readLines(qu.b.fn)
-lines.i <- seq(1,length(qu.b.t)-1,2) ## every second line seems empty after reading it in
+##lines.i <- seq(1,length(qu.b.t)-1,2) ## every second line seems empty after reading it in
 
-qu.b.df <- process.que.file.fct(qu.b.t[lines.i], "bio")
+qu.b.df <- process.que.file.fct(qu.b.t, "bio")
 # table(nchar(qu.b.df$date6), exclude=FALSE)
 ## wrangle the year out of that stupid date6
 qu.b.df$year.last2 <- ifelse(nchar(qu.b.df$date6)==5, substring(qu.b.df$date6,4,5), substring(qu.b.df$date6,5,6))
@@ -253,7 +251,7 @@ qu.p.df <- qu.p.df[witch.idx,]
 ## carbio, for sex, length and weight
 qu.b.fn <- file.path(fp, fn3) # file.exists(qu.p.fn)
 qu.b.t <- readLines(qu.b.fn)
-qu.b.df <- process.que.file.fct(qu.b.t[lines.i], "bio")
+qu.b.df <- process.que.file.fct(qu.b.t, "bio")
 
 # table(nchar(qu.b.df$date6), exclude=FALSE)
 ## wrangle the year out of that stupid date6
@@ -293,11 +291,89 @@ tel.agg$english.name_nom.anglais <- "Witch Flounder"
 tel.agg$french.name_nom.français <- "Plie grise"
 
 ## Cabot
+qu.fp.cab <- file.path("//dcqcimlna01a/BD_Peches","/Releves_Poissons_de_Fond_et_Crevette/Extractions_Oracle/RelevésRecherche/Cabot/Version_Courante")
+    fp <- qu.fp.cab
+    fn1 <- "Ca_set.dat"
+    fn2 <- "Ca_prélèvements.dat"
+    fn3 <- "Ca_carbio.dat"
+
+## sets
+qu.s.fn <- file.path(fp, fn1) # file.exists(qu.s.fn)
+qu.s.t <- readLines(qu.s.fn)
+qu.s.df <- process.que.file.fct(qu.s.t, "sets")
+qu.s.df$year.last2 <- substring(qu.s.df$date6, 1,2)
+qu.s.df$year <- paste0("20", qu.s.df$year.last2)
+qu.s.df$month <- substring(qu.s.df$date6, 3,4)
+qu.s.df$day <- substring(qu.s.df$date6, 5,6)
+qu.s.df$date <- paste(qu.s.df$year,qu.s.df$month,qu.s.df$day,sep="-")
+
+qu.s.df$vessel.code3 <- "CAB"
+  
+## samples
+qu.p.fn <- file.path(fp, fn2) # file.exists(qu.p.fn)
+qu.p.t <- readLines(qu.p.fn)
+qu.p.df <- process.que.file.fct(qu.p.t, "prelevement")
+# table(nchar(qu.p.df$date6), exclude=FALSE)
+## wrangle the year out of that stupid date6
+qu.p.df$year.last2 <- ifelse(nchar(qu.p.df$date6)==5, substring(qu.p.df$date6,4,5), substring(qu.p.df$date6,5,6))
+qu.p.df$year <- paste0("20", qu.p.df$year.last2)
+# table(qu.p.df$year)
+qu.p.df$month <- ifelse(nchar(qu.p.df$date6)==5, substring(qu.p.df$date6,2,3), substring(qu.p.df$date6,3,4))
+qu.p.df$day <- ifelse(nchar(qu.p.df$date6)==5, substring(qu.p.df$date6,1,1), substring(qu.p.df$date6,1,2))
+qu.p.df$date <- paste(qu.p.df$year,qu.p.df$month,sprintf("%02d",as.numeric(qu.p.df$day)),sep="-")
+
+table(qu.p.df$year.last2, exclude=FALSE)
+table(qu.p.df$year, exclude=FALSE)
+
+witch.idx <- which(qu.p.df$Esp==890)
+qu.p.df <- qu.p.df[witch.idx,]
+
+## carbio, for sex, length and weight
+qu.b.fn <- file.path(fp, fn3) # file.exists(qu.p.fn)
+qu.b.t <- readLines(qu.b.fn)
+qu.b.df <- process.que.file.fct(qu.b.t, "bio")
+
+# table(nchar(qu.b.df$date6), exclude=FALSE)
+## wrangle the year out of that stupid date6
+qu.b.df$year.last2 <- ifelse(nchar(qu.b.df$date6)==5, substring(qu.b.df$date6,4,5), substring(qu.b.df$date6,5,6))
+
+qu.b.df$year <- paste0(ifelse(as.numeric(qu.b.df$year.last2)<90, "20","19"), qu.b.df$year.last2)
+
+qu.b.df$month <- ifelse(nchar(qu.b.df$date6)==5, substring(qu.b.df$date6,2,3), substring(qu.b.df$date6,3,4))
+qu.b.df$day <- ifelse(nchar(qu.b.df$date6)==5, substring(qu.b.df$date6,1,1), substring(qu.b.df$date6,1,2))
+qu.b.df$date <- paste(qu.b.df$year,qu.b.df$month,sprintf("%02d",as.numeric(qu.b.df$day)),sep="-")
+
+witch.idx <- which(qu.b.df$Esp==890)
+qu.b.df <- qu.b.df[witch.idx,]
+
+## merge samples and sets and carbio
+m.df <- 
+  merge(
+  merge(qu.p.df, qu.b.df, by=c("nbpc","no.rel","trait","date","Specimen")),
+  qu.s.df, by=c("nbpc","no.rel","trait","date"))
+
+dim(qu.p.df)
+dim(qu.b.df)
+dim(m.df)
+
+vars <- c("year","month","Specimen")
+setdiff(vars, names(m.df))
+
+cab.df <- m.df[vars]
+head(cab.df)
+
+cab.agg <- aggregate(Specimen~year+month, data=cab.df, length)
+names(cab.agg) <- c("year_année","month_mois","number.otoliths_nombre.otolithes")
+cab.agg$source <- "RV-4RS"
+
+cab.agg$latin.name_nom.latin <- "Glyptocephalus cynoglossus"
+cab.agg$english.name_nom.anglais <- "Witch Flounder"
+cab.agg$french.name_nom.français <- "Plie grise"
 
 
 ## put all the boats together
 vars <- c("source", "latin.name_nom.latin", "english.name_nom.anglais", "french.name_nom.français", "year_année","month_mois","number.otoliths_nombre.otolithes")
-out.4rs <- rbind(ned.agg[vars], tel.agg[vars])
+out.4rs <- rbind(ned.agg[vars], tel.agg[vars], cab.agg[vars])
 
 
 

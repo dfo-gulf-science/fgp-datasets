@@ -15,8 +15,6 @@ Unresolved issues:
 ## Atlantic Cod
 Otoliths from the September RV survey, from other surveys, from sentinel programs, from port sampling of commercial fisheries and from at-sea observers.
 
-
-
 ```{r cod, cache=TRUE}
 ## RV data
 y <- read.card(species=10, card.type="bio") # , env="dev"
