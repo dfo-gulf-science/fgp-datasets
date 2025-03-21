@@ -906,7 +906,7 @@ payload <- rbind(payload, out.df[o1,vars.bilingual])
 Finally, let's write the full and partial dataframe to CSV
 
 
-```{r yellowtail, cache=TRUE}
+```{r final, include=TRUE, cache=TRUE}
 
 out.fn <- "./output/NAFO-4T-ageing-structures-with-ages.csv"
 write.csv(payload, file=out.fn, row.names = FALSE, fileEncoding = "UTF8")
