@@ -229,11 +229,9 @@ out.df$english.name_nom.anglais <- "Atlantic Cod"
 out.df$french.name_nom.français <- "Morue franche"
 out.df$structure.type__type.de.structures <- "otolith"
 
-vars <- c("source", "latin.name_nom.latin", "english.name_nom.anglais", "french.name_nom.français", "year_année","month_mois","total.number_nombre.total","number.aged_nombre.agées")
 o1 <- order(out.df$source, out.df$year_année, out.df$month_mois)
 
-out.fn <- "./data/NAFO-4TVN-Atlantic-Cod-ages.csv"
-write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE, fileEncoding = "UTF8")
+payload <- rbind(payload, out.df[o1,vars.bilingual])
 
 ```
 
@@ -251,12 +249,12 @@ Outstanding issue:
 ## RV data
 y <- read.card(species=c(200:204), card.type="bio") #rv$bio[which(rv$bio$species %in% c(200:204)),]
 rv.df <- aggregate(fish.number~year+month+species, data=y[which(y$age.material %in% c(1,4)),], length)
-names(rv.df) <- c("year_année", "month_mois", "species", "number.vertebrae_nombre.vertèbres")
+names(rv.df) <- c("year_année", "month_mois", "species", "total.number_nombre.total")
 rv.df$source <- "RV-4T"
 rv.df$latin.name_nom.latin <- stringr::str_to_lower(gulf::species.str(rv.df$species, "latin"))
 rv.df$english.name_nom.anglais <- stringr::str_to_title(gulf::species.str(rv.df$species, "english"))
 rv.df$french.name_nom.français <- gulf::species.str(rv.df$species, "french")
-out.df$structure.type__type.de.structures <- "otolith"
+rv.df$structure.type__type.de.structures <- "vertebrae"
 
 firstup <- function(x) {
   x <- tolower(x)
@@ -268,12 +266,6 @@ rv.df$latin.name_nom.latin <- firstup(rv.df$latin.name_nom.latin)
 
 out.df <- rbind(rv.df)
 
-vars <- c("source", "latin.name_nom.latin", "english.name_nom.anglais", "french.name_nom.français", "year_année","month_mois","number.vertebrae_nombre.vertèbres")
-o1 <- order(out.df$source, out.df$year_année, out.df$month_mois)
-
-out.fn <- "./data/NAFO-4T-Chondrichthyan-vertebrae.csv"
-write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE, fileEncoding = "UTF8")
-
 ## how many were actually aged?
 #y <- rv$bio[which(rv$bio$species %in% c(200:204)),]
 #rv.df <- aggregate(fish.number~year+month, data=y[which(y$age.material %in% c(1,4)),], length)
@@ -284,11 +276,9 @@ write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE, fileEncoding = "UTF8"
 #m.rv.df$source <- "RV-4T"
 #m.rv.df[is.na(m.rv.df$number.aged_nombre.agées),"number.aged_nombre.agées"] <- 0
 out.df$number.aged_nombre.agées <- 0
-vars <- c("source", "latin.name_nom.latin", "english.name_nom.anglais", "french.name_nom.français", "year_année","month_mois","number.vertebrae_nombre.vertèbres","number.aged_nombre.agées")
 o1 <- order(out.df$source, out.df$year_année, out.df$month_mois)
+payload <- rbind(payload, out.df[o1,vars.bilingual])
 
-out.fn <- "./data/NAFO-4T-Chondrichthyan-ages.csv"
-write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE, fileEncoding = "UTF8")
 
 ```
 
@@ -368,11 +358,8 @@ out.df$english.name_nom.anglais <- "White Hake"
 out.df$french.name_nom.français <- "Merluche blanche"
 out.df$structure.type__type.de.structures <- "otolith"
 
-vars <- c("source", "latin.name_nom.latin", "english.name_nom.anglais", "french.name_nom.français", "year_année","month_mois","total.number_nombre.total","number.aged_nombre.agées")
 o1 <- order(out.df$source, out.df$year_année, out.df$month_mois)
-
-out.fn <- "./data/NAFO-4T-White-Hake-ages.csv"
-write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE, fileEncoding = "UTF8")
+rbind(payload, out.df[o1,vars.bilingual])
 
 ```
 
@@ -449,13 +436,14 @@ out.df$english.name_nom.anglais <- "Winter Flounder"
 out.df$french.name_nom.français <- "Plie rouge"
 out.df$structure.type__type.de.structures <- "otolith"
 
-vars <- c("source", "latin.name_nom.latin", "english.name_nom.anglais", "french.name_nom.français", "year_année","month_mois","total.number_nombre.total","number.aged_nombre.agées")
 o1 <- order(out.df$source, out.df$year_année, out.df$month_mois)
-
-out.fn <- "./data/NAFO-4T-Winter-Flounder-ages.csv"
-write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE, fileEncoding = "UTF8")
+rbind(payload, out.df[o1,vars.bilingual])
 
 ```
+
+## Witch Flounder
+Otoliths from the September RV survey, from other surveys, from sentinel programs and from port sampling of commercial fisheries and from at-sea observers. Otoliths collected in the Quebec August survey in 4RS.
+
 
 Remaining issues:
 
@@ -465,8 +453,6 @@ Remaining issues:
 \Releves_Poissons_de_Fond_et_Crevette\Extractions_Oracle\RelevésRecherche
 -->
 
-## Witch Flounder
-Otoliths from the September RV survey, from other surveys, from sentinel programs and from port sampling of commercial fisheries and from at-sea observers. Otoliths collected in the Quebec August survey in 4RS.
 
 
 ```{r witch, cache=TRUE}
@@ -869,17 +855,14 @@ out.df$french.name_nom.français <- "Plie grise"
 out.df$structure.type__type.de.structures <- "otolith"
 
 
-vars <- c("source", "latin.name_nom.latin", "english.name_nom.anglais", "french.name_nom.français", "year_année","month_mois","total.number_nombre.total","number.aged_nombre.agées")
-
 all.out.df <- rbind(out.df, out.4rs[vars])
 all.out.df$year_année <- as.numeric(all.out.df$year_année)
 all.out.df$month_mois <- as.numeric(all.out.df$month_mois)
 
 o1 <- order(all.out.df$source, all.out.df$year_année, all.out.df$month_mois)
+rbind(payload, all.out.df[o1,vars.bilingual])
 
 
-out.fn <- "./data/NAFO-4RST-Witch-Flounder-ages.csv"
-write.csv(all.out.df[o1,vars], file=out.fn, row.names = FALSE, fileEncoding = "UTF8")
 ```
 
 
@@ -950,8 +933,9 @@ out.df$structure.type__type.de.structures <- "otolith"
 
 vars <- c("source", "latin.name_nom.latin", "english.name_nom.anglais", "french.name_nom.français", "year_année","month_mois","total.number_nombre.total","number.aged_nombre.agées")
 o1 <- order(out.df$source, out.df$year_année, out.df$month_mois)
+rbind(payload, all.out.df[o1,vars.bilingual])
 
-out.fn <- "./data/NAFO-4T-Yellowtail-Flounder-ages.csv"
+out.fn <- "./data/data_w_ages.csv"
 write.csv(out.df[o1,vars], file=out.fn, row.names = FALSE, fileEncoding = "UTF8")
 
 ```
