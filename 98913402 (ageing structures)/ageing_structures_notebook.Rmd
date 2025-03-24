@@ -56,9 +56,9 @@ data.dic$description_en <- c(
   "Total number in collection",
   "Number that was aged"
 )
-
 data.dic.fn <- "./output/data-dictionary.csv"
-write.csv(data.dic, file = data.dic.fn, row.names = FALSE, fileEncoding = "UTF8")
+# for the time being, we do not actually want the last row to be outputted.
+write.csv(data.dic[0:8,], file = data.dic.fn, row.names = FALSE, fileEncoding = "UTF8")
 
 ```
 
