@@ -1,0 +1,5 @@
+name_nom,Units,Unités,description_en,description_fr
+year,,,Sampling year,Année d'échantillonnage
+val5.0pc,Numbers,Nombres,5th percentile of the estimate,5e percentile de l'estimation
+median,Numbers,Nombres,Median of the estimate,Médiane de l'estimation
+val95.0pc,Numbers,Nombres,95th percentile of the estimate,95e percentile de l'estimation
