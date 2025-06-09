@@ -1,0 +1,13 @@
+name_nom,Units,Unités,description_en,description_fr
+Year,,,Year of the Return estimate,L'année de l'estimation des montaisons
+Zone,,,"Geographical area associated with the estimates (SFA15, SFA16, SFA17, SFA18, Gulf) - Gulf corresponds to the aggregation of all ","Zone géographique associée aux estimations (ZPS15, ZPS16, ZPS17, ZPS18, Golfe) - Golfe correspond à l'agrégation de toutes les zones"
+Size,Numbers,Nombres,Salmon are separated in two size component: Small (<63cm) and Large (>= 63cm),Les saumons sont séparés en deux groupes de taille : Petit (<63cm) et Grand (>= 63cm)
+5%,Numbers,Nombres,5th percentile of the return estimates,5e percentile de l'estimation des montaisons
+50%,Numbers,Nombres,Median of the return estimates,Médiane de l'estimation des montaisons
+95%,Numbers,Nombres,95th percentile of the return estimates,95e percentile de l'estimation des montaisons
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,

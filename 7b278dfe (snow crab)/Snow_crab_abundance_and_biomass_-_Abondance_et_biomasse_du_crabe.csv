@@ -1,4 +1,4 @@
-Year,biomass commercial,biomass commercial_low_conf_int_ (95%),biomass commercial_up_conf_int (95%),abundance commerical,abundance commerical_low_conf_int_ (95%),abundance commerical_up_conf_int_ (95%),abundance mature female,abundance mature female_low_conf_int_ (95%),abundance mature female_up_conf_int_ (95%)
+year__année,biomass commercial__biomasse commerciale,biomass commercial_low_conf_int_ (95%)__biomasse commercial_int_conf_inf_ (95%),biomass commercial_up_conf_int (95%)__biomasse commercial_int_conf_sup_ (95%),abundance commerical__abondance commerical,abundance commerical_low_conf_int_ (95%)__abondance commerical_int_conf_inf_ (95%),abundance commerical_up_conf_int_ (95%)__abondance commerical_int_conf_sup_ (95%),abundance mature female__abondance femelle mature,abundance mature female_low_conf_int_ (95%)__abondance femelle mature_int_conf_inf_ (95%),abundance mature female_up_conf_int_ (95%)__abondance femelle mature_int_conf_sup_ (95%)
 1997,64518,54105,76345,109043382,92101044,128187254,511355023,340595159,739230473
 1998,57813,45856,71931,98194840,78370547,121503817,540081187,374925489,759082359
 1999,56757,47641,67102,103412701,87472389,121405811,811305861,608696096,1060253611
@@ -26,3 +26,4 @@ Year,biomass commercial,biomass commercial_low_conf_int_ (95%),biomass commercia
 2021,80950,70543,92451,148879109,130154973,169524638,582124267,463213629,722296916
 2022,85532,74658,97535,153400535,134326782,174407065,601734143,514875277,698981946
 2023,67703,59174,77109,123091650,108292222,139336294,603600297,500740410,721308827
+2024,51786,45558,58621,93602490,82821470,105387900,507201700,413786630,615365800
