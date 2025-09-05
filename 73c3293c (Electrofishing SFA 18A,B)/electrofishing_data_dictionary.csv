@@ -1,0 +1,131 @@
+﻿Data Dictionary - dictionnaire des données,,,
+,,,
+NAME__NOM,DOCUMENT,DESCRIPTION_EN,DESCRIPTION_FR
+river_name__nom_de_la_rivière,site data__données des sites; specimen data__données sur les échantillons,"Name of the river that the site is located on. Or, if the site is on a tributary,  name of the river that the tributary connects to.","Nom de la rivière sur laquelle le site est situé. Ou, si le site est situé sur un affluent, nom de la rivière dans laquelle l'affluent se déverse."
+site_code__numéro_du_site,site data__données des sites; specimen data__données sur les échantillons,Code used to identify a site. Can be numeric or alphanumeric. ,Code utilisé pour identifier un site. Il peut être numérique ou alphanumérique.
+latitude,site data__données des sites,Most recent documented site coordinate in decimal degrees,Coordonnées documentées les plus récentes du site en degrés décimaux
+longitude,site data__données des sites,Most recent documented site coordinate in decimal degrees,Coordonnées documentées les plus récentes du site en degrés décimaux
+date,site data__données des sites; specimen data__données sur les échantillons,Format YYYY-MM-DD.,Format AAAA-MM-JJ
+site_type__type_de_site,site data__données des sites,"For assessment data, options are:
+Open; single pass Catch Per Unit Effort (CPUE) site
+Closed; multi pass depletion site","Pour les données d'évaluation, les options sont les suivantes :
+Ouvert ; site de capture par unité d'effort (CPUE) à passage unique
+Fermé ; site d'épuisement à passages multiples"
+water_cond__cond_eau,site data__données des sites,Water specific conductivity (µs),Conductivité spécifique de l'eau (µs)
+water_temp_c__temp_eau_c,site data__données des sites,Water temperature (°C),Température de l'eau (°C)
+seine_type__type_de_senne,site data__données des sites,"Seine type options are:
+1 man seine (1m wide X 1m high)
+2 man seine (3m wide x 1m high)","Les options de type de senne sont les suivantes :
+Senne à 1 homme (1m de large x 1m de haut)
+Senne à 2 hommes (3m de large x 1m de haut)"
+electrofisher__électropêcheur,site data__données des sites,"Brand, type, and serial number of electrofishing hardware used","Marque, type et numéro de série du matériel de pêche électrique utilisé"
+electrofisher_pulse_type__type_d'impulsion_du_électropêcheur,site data__données des sites,Type of electrical pulse applied when sampling,Type d'impulsion électrique appliquée lors de l'échantillonnage
+electrofisher_frequency__fréquence_du_électropêcheur,site data__données des sites,Frequency (Hz) of electrical pulse applied when sampling,Fréquence (Hz) de l'impulsion électrique appliquée lors de l'échantillonnage
+duty_cycle__facteur_d'utilisation,site data__données des sites,Duty cycle (%) of electrical pulse applied when sampling,Coefficient d'utilisation (%) de l'impulsion électrique appliquée lors de l'échantillonnage
+electrofisher_voltage__tension_du_électropêcheur,site data__données des sites,Voltage (V) applied when sampling,Tension (V) appliquée lors de l'échantillonnage
+electrofisher_output_low__sortie_faible_du_électropêcheur,site data__données des sites,Lowest current (A) recorded when sampling; current is inversely related to distance between anode and cathode,Courant le plus faible (A) enregistré lors de l'échantillonnage ; le courant est inversement proportionnel à la distance entre l'anode et la cathode.
+electrofisher_output_high__sortie_élevé_du_électropêcheur,site data__données des sites,Highest current (A) recorded when sampling; current is inversely related to distance between anode and cathode,Courant le plus élevé (A) enregistré lors de l'échantillonnage ; le courant est inversement proportionnel à la distance entre l'anode et la cathode.
+bank_length_left__longueur_de_la_rive_à_gauche,site data__données des sites,Left bank length (m); determined by looking downstream,Longueur de la rive gauche (m) ; déterminée en regardant vers l'aval
+bank_length_right__longueur_de_la_rive_à_droite,site data__données des sites,Right bank length (m); determined by looking downstream,Longueur de la rive droite (m) ; déterminée en regardant vers l'aval
+width_lower__largeur_inférieure,site data__données des sites,lower wetted width of site (m); determined by looking downstream,largeur inférieure de la zone mouillée du site (m) ; déterminée en regardant vers l'aval
+width_middle__largeur_moyenne,site data__données des sites,middle wetted width of site (m); determined by looking downstream,largeur moyenne de la zone mouillée du site (m) ; déterminée en regardant vers l'aval
+width_upper__largeur_supérieure,site data__données des sites,upper wetted width of site (m); determined by looking downstream,largeur supérieure de la zone mouillée du site (m) ; déterminée en regardant vers l'aval
+max_overhanging_veg_left__max_vég_en_surplomb_à_gauche,site data__données des sites,Maximum overhang (m) that occurs on left bank; determined by looking downstream,Surplomb maximal (m) sur la rive gauche ; déterminé en regardant vers l'aval
+max_overhanging_veg_right__max_vég_en_surplomb_à_droite,site data__données des sites,Maximum overhang (m) that occurs on right bank; determined by looking downstream,Surplomb maximal (m) sur la rive droite ; déterminé en regardant vers l'aval
+overhanging_veg_left__vég_en_surplomb_à_gauche,site data__données des sites,Percentage of left bank with overhanging vegetation; determined by looking downstream,Pourcentage de la rive gauche avec de la végétation en surplomb ; déterminé en regardant vers l'aval
+overhanging_veg_right__vég_en_surplomb_à_droite,site data__données des sites,Percentage of right bank with overhanging vegetation; determined by looking downstream,Pourcentage de la rive droite avec de la végétation en surplomb ; déterminé en regardant vers l'aval
+depth_1_lower__profondeur_1_inférieure,site data__données des sites,Depths are measured where site widths are taken; depth (cm) at 25% out from the left bank at the lower width,Les profondeurs sont mesurées là où les largeurs de site sont prises ; profondeur (cm) à 25% de la rive gauche à la largeur inférieure.
+depth_2_lower__profondeur_2_inférieure,site data__données des sites,Depths are measured where site widths are taken; depth (cm) at 50% out from the left bank at the lower width,Les profondeurs sont mesurées là où les largeurs de site sont prises ; profondeur (cm) à 50 % de la rive gauche à la largeur inférieure.
+depth_3_lower__profondeur_3_inférieure,site data__données des sites,Depths are measured where site widths are taken; depth (cm) at 75% out from the left bank at the lower width,Les profondeurs sont mesurées là où les largeurs de site sont prises ; profondeur (cm) à 75% de la rive gauche à la largeur inférieure.
+depth_1_middle__profondeur_1_moyenne,site data__données des sites,Depths are measured where site widths are taken; depth (cm) at 25% out from the left bank at the middle width,Les profondeurs sont mesurées là où les largeurs de site sont prises ; profondeur (cm) à 25% de la rive gauche à la largeur moyenne
+depth_2_middle__profondeur_2_moyenne,site data__données des sites,Depths are measured where site widths are taken; depth (cm) at 50% out from the left bank at the middle width,Les profondeurs sont mesurées là où les largeurs de site sont prises ; profondeur (cm) à 50 % de la rive gauche à la largeur moyenne
+depth_3_middle__profondeur_3_moyenne,site data__données des sites,Depths are measured where site widths are taken; depth (cm) at 75% out from the left bank at the middle width,Les profondeurs sont mesurées là où les largeurs de site sont prises ; profondeur (cm) à 75% de la rive gauche à la largeur moyenne
+depth_1_upper__profondeur_1_supérieur,site data__données des sites,Depths are measured where site widths are taken; depth (cm) at 25% out from the left bank at the upper width,Les profondeurs sont mesurées là où les largeurs de site sont prises ; profondeur (cm) à 25% de la rive gauche à la largeur supérieure.
+depth_2_upper__profondeur_2_supérieur,site data__données des sites,Depths are measured where site widths are taken; depth (cm) at 50% out from the left bank at the upper width,Les profondeurs sont mesurées là où les largeurs de site sont prises ; profondeur (cm) à 50% de la rive gauche à la largeur supérieure.
+depth_3_upper__profondeur_3_supérieur,site data__données des sites,Depths are measured where site widths are taken; depth (cm) at 75% out from the left bank at the upper width,Les profondeurs sont mesurées là où les largeurs de site sont prises ; profondeur (cm) à 75% de la rive gauche à la largeur supérieure.
+max_depth__profondeur_max,site data__données des sites,Maximum depth (cm) located at the site,Profondeur maximale (cm) localisée sur le site
+percent_fine__pourcentage_fin,site data__données des sites,Percentage of visible area in the site covered by fine silt or clay,Pourcentage de la surface visible du site couverte de limon fin ou d'argile
+percent_sand__pourcentage_sable,site data__données des sites,Percentage of visible area in the site covered by sand (<2mm),Pourcentage de la surface visible du site couverte de sable (<2mm)
+percent_gravel__pourcentage_gravier,site data__données des sites,Percentage of visible area in the site covered by gravel (2mm to 16mm),Pourcentage de la surface visible du site couverte par des graviers (2 mm à 16 mm)
+percent_pebble__pourcentage_caillou,site data__données des sites,Percentage of visible area in the site covered by pebble (16mm to 60mm),Pourcentage de la surface visible du site couverte par des cailloux (16 mm à 60 mm)
+percent_cobble__pourcentage_pierre,site data__données des sites,Percentage of visible area in the site covered by cobble (60mm to 250mm),Pourcentage de la surface visible du site couverte par des pierres (60 mm à 250 mm)
+percent_rocks__pourcentage_roches,site data__données des sites,Percentage of visible area in the site covered by rocks (250mm to 500mm),Pourcentage de la surface visible du site couverte par des roches (250 mm à 500 mm)
+percent_boulder__pourcentage_rocher,site data__données des sites,Percentage of visible area in the site covered by boulders (>500mm),Pourcentage de la surface visible du site couverte par des rochers (>500mm)
+percent_bedrock__pourcentage_substratum,site data__données des sites,Percentage of visible area in the site covered by bedrock,Pourcentage de la surface visible du site couverte par du substratum
+percent_riffle__pourcentage_radier,site data__données des sites,"Percentage of site that is riffle type; fast current, shallow depth (<23cm), turbulent (usually) broken flow","Pourcentage du site qui est de type radier ; courant rapide, faible profondeur (<23cm), écoulement turbulent (généralement) brisé."
+percent_run__pourcentage_courant,site data__données des sites,"Percentage of site that is run type; fast current, depth >23cm, turbulent and sometimes broken flow","Pourcentage du site qui est de type courant ; courant rapide, profondeur >23cm, turbulent et parfois brisé."
+percent_flat__pourcentage_plat,site data__données des sites,"Percentage of site that is flat type; slow current, depth <46cm, smooth surface","Pourcentage du site qui est de type plat ; courant lent, profondeur <46cm, surface lisse"
+percent_pool__pourcentage_bassin,site data__données des sites,"Percentage of site that is pool type; slow current, depth >46cm, smooth surface","Pourcentage du site qui est de type bassin; courant lent, profondeur >46cm, surface lisse"
+age_thresh_0_1__seuil d'âge_0_1,site data__données des sites,Length (mm) selected to separate salmon fry (age 0+) from 1+ parr,Longueur (mm) choisie pour séparer les alevins de saumon (âge 0+) des tacons 1+.
+age_thresh_1_2__seuil d'âge_1_2,site data__données des sites,Length (mm) selected to separate salmon 1+ parr from 2+ parr,Longueur (mm) choisie pour séparer les tacons de saumon 1+ des tacons 2+.
+age_thresh_2_3__seuil d'âge_2_3,site data__données des sites,Length (mm) selected to separate salmon 2+ parr from 3+ parr,Longueur (mm) choisie pour séparer les tacons de saumon 2+ des tacons 3+.
+species__espèces,specimen data__données sur les échantillons,The species being sampled.,L'espèce faisant l'objet de l'échantillonnage.
+status__statut,specimen data__données sur les échantillons,"Euthanized: Specimen was euthanized for reasons other than research removal. For example, euthanized because it is an invasive species.
+Mortality: Dead fish.
+Mortality, lost: Deceased specimen that is lost before biological details are recorded.
+Mortality, recapture (and sampled): Dead fish previously sampled (indicated by presence of tag, fin clip, etc.)
+Mortality, sampled: Dead fish, biological details recorded.
+Mortality, tagging: Fish died as a result of the tagging process.
+Mortality, research removal: Fish captured alive and kept for research purposes (fish euthanized).
+Released, unsampled: Fish captured and released: no biological details recorded.
+Released, internal acoustic tag: Specimen captured and released; biological details recorded and fish tagged with an internal acoustic tag.
+Released, injured: Fish captured and released: no biological details recorded due to existing injury.
+Released, lost: Fish captured, but escaped before biological details recorded.
+Released, recaptured: Fish recaptured and released: presence of tag/marking.
+Released, recaptured, lost: Fish recaptured: presence of tag/marking, escaped.
+Released, sampled: Fish captured and released: biological details recorded.
+Released, tagged (and sampled): Fish captured and released; biological details were recorded and fish was tagged.
+Scarred, tag lost, released: Fish recaptured and released: presence of scarring indicates the fish was previously tagged/ marked; tag was lost.
+Unknown: 
+","None: 
+Mortalité: Poisson mort.
+Mortalité, perdu: Spécimen décédé qui est perdu avant que les détails biologiques ne soient enregistrés.
+Mortalité, recapture (et échantillonné): Poisson mort échantillonné précédemment (indiqué par la présence d'une étiquette, d'une entaille sur la nageoire, etc.).
+Mortalité, échantillonné: Poisson mort, détails biologiques enregistrés.
+Mortalité, marqué: Poisson mort à la suite du processus de marquage.
+Mortalité, prélèvement à des fins de recherche: Poisson capturé vivant et conservé à des fins de recherche (poisson euthanasié).
+Remis à l'eau, non échantillonné: Poisson capturé et remis à l'eau: aucun détail biologique enregistré.
+Remis à l'eau, étiquette acoustique interne: Le spécimen a été capturé et relâché ; les détails biologiques ont été enregistrés et le poisson a été marqué avec une balise acoustique interne.
+Remis à l'eau, blessé: Poisson capturé et remis à l'eau: aucun détail biologique enregistré en raison d'une blessure existante.
+Remis à l'eau, perdu: Poisson capturé, mais qui a réussi à s'échapper avant que les données biologiques ne soient enregistrées.
+Remis à l'eau, recapturé: Poisson recapturé et relâché : présence d'une étiquette/marquage.
+Remis à l'eau, recapturé, perdu: Poisson recapturé ; présence d'une étiquette/marquage, s'est échappé.
+Remis à l'eau, échantillonné: Poisson capturé et remis à l'eau: détails biologiques enregistrés.
+Remis à l'eau, marqué (et échantillonné): Poisson capturé et remis à l'eau: détails biologiques enregistrés et le poisson a été marqué.
+Cicatrice, étiquette perdue, remis à l'eau: Poisson recapturé et relâché : la présence de cicatrices indique que le poisson a été marqué/étiqueté précédemment ; l'étiquette a été perdue.
+Inconnu: 
+"
+life_stage__stade_de_vie,specimen data__données sur les échantillons,"Life stage is identified for Atlantic salmon. Salmon juveniles are identified IN THE FIELD as either Fry or Parr, based on fork length. Note, smart_river_age is assigned after the data are collected and scales have been aged. It is possible for smart_river_age and life_stage to conflict. When they do, smart_river_age is deemed more reliable as it takes into account more information than just length.","Le stade de vie est identifié pour le saumon atlantique. Les juvéniles de saumon sont identifiés SUR LE TERRAIN comme alevins ou tacons, sur la base de la longueur de la fourche. Remarque : smart_river_age est attribué après que les données ont été collectées et que les écailles ont été âgées. Il est possible que smart_river_age et life_stage soient en conflit. Dans ce cas, smart_river_age est considéré comme plus fiable car il prend en compte plus d'informations que la seule longueur."
+adipose_condition__état_de_nageoire_adipeuse,specimen data__données sur les échantillons,Adipose condition is only identified for Atlantic salmon parr. Adipose condition is indicated as either Present or Absent. This is used as an indicator to identify a parr as wild (Present) or hatchery (Absent).,L'état de la nageoire adipeuse n'est identifié que pour les tacons de saumon atlantique. L'état de la nageoire adipeuse est indiqué comme présent ou absent. Il est utilisé comme indicateur pour identifier un tacon comme sauvage (présent) ou d'écloserie (absent).
+total_length__longueur_totale,specimen data__données sur les échantillons,Measured in millimeters (mm),Mesuré en millimètres (mm)
+fork_length__longueur à la fourche,specimen data__données sur les échantillons,Measured in millimeters (mm),Mesuré en millimètres (mm)
+weight__poids,specimen data__données sur les échantillons,Measured in grams (g),Mesuré en grammes (g)
+reproductive_status__stade_de_la_reproduction,specimen data__données sur les échantillons,Reproductive status is only identified for Atlantic salmon parr. Reproductive status is indicated as either Precocious or Not Precocious. Precocious parr are considered sexually mature.,Le stade de la reproduction n'est identifié que pour les tacons de saumon atlantique. Le statut reproductif est indiqué comme précoce ou non précoce. Les tacons précoces sont considérés comme sexuellement matures.
+sex__sexe,specimen data__données sur les échantillons,"Information pertaining to the gender of a specimen. Options include:
+Male.
+Female.
+Unknown: indicates determining sex was attempted, but could not be determined.
+Not checked: indicates that determining sex was not attempted. 
+Blank: often means not checked, especially when listed with species other than Atlantic salmon.","Informations relatives au sexe d'un spécimen. Les options sont les suivantes :
+Mâle.
+Femelle.
+Inconnu : indique que l'on a tenté de déterminer le sexe, mais que cela n'a pas été possible.
+Non coché : indique que la détermination du sexe n'a pas été tentée. 
+Blanc : signifie souvent que la case n'a pas été cochée, en particulier lorsqu'il s'agit d'espèces autres que le saumon atlantique."
+scale_id_number__numéro_id_écaille,specimen data__données sur les échantillons,"Scale ID number, when combined with date, provides a unique identifier for scales collected from a specific individual. Scales are later aged.","Le numéro d'identification des écailles, associé à la date, fournit un indice unique pour les écailles prélevées sur un individu spécifique. Les écailles sont ensuite âgées."
+ager_id__id_de_l'analyste,specimen data__données sur les échantillons,Unique ID used to differentiate people who age scales.,Identifiant unique utilisé pour différencier les personnes qui agent les écailles.
+SMART_river_age_âge_en_rivière ,specimen data__données sur les échantillons,River age refers to the current number of years a juvenile salmon has spent in the river at time of sampling. The SMART portion of this category refers to how the age was determined. Please see category Smart_River_Age_Type for further details.,"L'âge en rivière correspond au nombre d'années qu'un saumon juvénile a passé dans la rivière au moment de l'échantillonnage. La partie SMART de cette catégorie fait référence à la manière dont l'âge a été déterminé. Pour plus de détails, voir la catégorie SMART_type_âge_en_rivière."
+SMART_river_age_type__type_âge_en_rivière ,specimen data__données sur les échantillons,"If a smart_river_age has been assigned, the smart_river_age_type indicates how that age was determined. Options are:
+Scale: interpretation of a fish scale collected from the individual has informed age.
+Length-frequency, auto: the individual has been automatically assigned an age based on age-at-length thresholds applied to the dataset.
+Length-frequency, manual: the individual has been manually assigned an age based on criteria other than the age-at-length threshold.","Si un SMART_âge_en_rivière a été attribué, le SMART_type_âge_en_rivière indique comment cet âge a été déterminé. Les options sont les suivantes :
+Écaille : l'interprétation d'une écaille de poisson prélevée sur l'individu a permis de déterminer l'âge.
+Fréquence de longueur, auto : un âge a été automatiquement attribué à l'individu sur la base des seuils d'âge à la longueur appliqués au jeu de données.
+Fréquence de longueur, manuel : l'âge de l'individu a été attribué manuellement sur la base de critères autres que le seuil d'âge en fonction de la longueur."
+notes__notes,specimen data__données sur les échantillons,Often contains comments and observations made by the individual who aged the scale . These notes can be important for understanding why a specimen was assigned the age it received.,Il contient souvent des commentaires et des observations faits par la personne qui a procédé à l'évaluation des écailles. Ces notes peuvent être importantes pour comprendre pourquoi un spécimen s'est vu attribuer l'âge qu'il a reçu.
+sweep_number__numéro_de_balayage,specimen data__données sur les échantillons,"Sweep number is used to identify what samples came from what sweep. Catch per unit effort (CPUE) sweeps are always indicated as 0.5. If a sweep has a whole number above 0.5, it is considered a depletion sweep. Depletion sweeps only appear at sites that were done as closed. For more information about CPUE sweeps and closed sites, please refer to the electrofishing protocol.","Le numéro de balayage est utilisé pour identifier quels échantillons proviennent de quel balayage. Les balayages de capture par unité d'effort (BCUE) sont toujours indiqués comme 0,5. Si un balayage a un nombre entier supérieur à 0,5, il est considéré comme un balayage d'épuisement. Les balayages d'épuisement n'apparaissent que sur les sites qui ont été fermés. Pour plus d'informations sur les balayages BCUE et les sites fermés, veuillez vous référer au protocole de pêche électrique."
+sweep_time__temps_de_balayage,specimen data__données sur les échantillons,Sweep time indicates how many seconds were used to complete the sweep.,La durée du balayage indique le nombre de secondes utilisées pour effectuer le balayage.
+full_wetted_area__surface_mouillée_totale,specimen data__données sur les échantillons,Full wetted area indicates the total wetted area that was covered during the sweep.,La surface mouillée totale indique la surface mouillée totale qui a été couverte pendant le balayage.
+sample_id__numéro_d'identification_de_l'échantillon,site data__données des sites; specimen data__données sur les échantillons,The unique sample number from which,Le numéro d'échantillon unique associé à l'enregistrement
+ITIS TSN,wms,The unique identifier for the Integrated Taxonomic Information System (ITIS),L'identifiant unique du système intégré d'information taxonomique (SITI)
+CGNDB,wms,reference number in the Canadian Geographical Names Database (CGNDB),numéro de référence dans la Base de données toponymiques du Canada (BDTC)

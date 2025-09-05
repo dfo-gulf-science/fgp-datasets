@@ -1,0 +1,32 @@
+﻿NAME__NOM,DOCUMENT,DESCRIPTION_EN,DESCRIPTION_FR
+Sample.ID,Logbook data,Unique numeric code assigned to sampling events.,Code numérique unique attribué aux événements d'échantillonnage.
+River,Logbook data,Name of the river on which the salmon pool is located.,Nom de la rivière sur laquelle se trouve la mare à saumons.
+Year,Logbook data,Format YYYY.,Format AAAA.
+Month,Logbook data,Format MM.,Format MM.
+Day,Logbook data,Format DD.,Format JJ.
+Angler.ID,Logbook data,Alphanumeric code representing angler names.,Code alphanumérique représentant les noms des pêcheurs.
+Rod.days,Logbook data,Numeric value indicating effort in terms of days. A value of zero occurs when effort for that catch has already been accounted for.,Valeur numérique indiquant l'effort en termes de jours. Une valeur de zéro apparaît lorsque l'effort pour cette capture a déjà été pris en compte.
+Pools.visited,Logbook data,"Name(s) of pool(s) visited while fishing. If blank, no pool information was provided.","Nom(s) du ou des bassins visités pendant la pêche. Si ce champ est vide, aucune information sur les bassins n'a été fournie."
+Is.dummy.date,Logbook data,"A variable created to retain information from logbooks that were completed incorrectly as summaries rather than daily entries. When dummy date is YES, this indicates that we do not know exact dates for when angling occurred.","Variable créée pour conserver les informations provenant des carnets de bord qui ont été remplis de manière incorrecte sous forme de résumés plutôt que d'entrées quotidiennes. Lorsque la date fictive est OUI, cela indique que nous ne connaissons pas les dates exactes auxquelles la pêche à la ligne a eu lieu."
+Specimen.ID,Logbook data,Unique numeric code assigned to salmon angled.,Code numérique unique attribué au saumon pêché à la ligne
+Species,Logbook data,The species angled. ,Les espèces pêchées.
+Life.stage,Logbook data,Life stage of species. NA means the information was not provided.,Stade de vie des espèces. NA signifie que l'information n'a pas été fournie.
+Code,Logbook data,"Mortality (M)
+Mortality, recapture (MR)
+Not applicable (NA)
+Released unsampled (R)
+Released lost (RL)
+Released recapture (RR)
+Unknown (unk)","Mortalité (M)
+Mortalité, recapture (MR)
+Sans objet (NA)
+Relâché sans échantillonnage (R)
+Relâché perdu (RL)
+Relâché recapturé (RR)
+Inconnu (unk)"
+Adipose.condition,Logbook data,"Absent (hatchery) - indicates hatchery released fish that had been adipose clipped
+Present - indicates a wild fish
+NA - not applicable","Absent (écloserie) - indique un poisson issu d'une écloserie dont la nageoire adipeuse a été coupée.
+Présent - indique un poisson sauvage.
+NA - sans objet."
+Tag.number,Logbook data,Numeric or alphanumeric code located on a carlin tag attached to the fish angled. ,Code numérique ou alphanumérique situé sur une étiquette Carlin attachée au poisson pêché. 
