@@ -24,9 +24,9 @@ Relâché sans échantillonnage (R)
 Relâché perdu (RL)
 Relâché recapturé (RR)
 Inconnu (unk)"
-Adipose.condition,Logbook data,"Absent (hatchery) - indicates hatchery released fish that had been adipose clipped
+Adipose.condition,Logbook data,"Absent - indicates hatchery released fish that had been adipose clipped prior to release
 Present - indicates a wild fish
-NA - not applicable","Absent (écloserie) - indique un poisson issu d'une écloserie dont la nageoire adipeuse a été coupée.
+NA - indicates that no information was provided by the angler regarding the condition (present or absent) of the adipose fin","Absent - indique un poisson issu d'une écloserie dont la nageoire adipeuse a été coupée avant sa remise à l'eau.
 Présent - indique un poisson sauvage.
-NA - sans objet."
-Tag.number,Logbook data,Numeric or alphanumeric code located on a carlin tag attached to the fish angled. ,Code numérique ou alphanumérique situé sur une étiquette Carlin attachée au poisson pêché. 
+NA - indique qu'aucune information n'a été fournie par le pêcheur concernant l'état (présent ou absent) de la nageoire adipeuse."
+Tag.number,Logbook data,"NA indicates that either (1) a tag was not present, or (2) a tag number was not recorded. However, the presence of a numeric or alphanumeric code indicates that the fish angled did have a tag (likely a Carlin tag, but it is possible that other tags exist) present.","NA indique soit (1) qu'aucune étiquette n'était présente, soit (2) qu'aucun numéro d'étiquette n'a été enregistré. Cependant, la présence d'un code numérique ou alphanumérique indique que le poisson pêché était muni d'une étiquette (probablement une étiquette Carlin, mais il est possible que d'autres étiquettes existent)."
