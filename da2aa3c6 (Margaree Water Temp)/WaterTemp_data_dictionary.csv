@@ -1,6 +1,6 @@
 ﻿NAME__NOM,DESCRIPTION_EN,DESCRIPTION_FR
 Station,Common name of the location where the water temperature logger was installed,Nom commun du lieu où l'enregistreur de température de l'eau a été installé
-Date & Time / Date et Heure,Date and time formatted as MM/DD/YYYY hh:mm:ss,Date et heure au format MM/JJ/AAAA hh:mm:ss
-Water Temperature (°C) / Température de l'eau (°C),Water temperature in Celcius °C,Température de l'eau en degrés Celsius °C
+Date_Time__Date_Heure,Date and time formatted as MM/DD/YYYY hh:mm:ss,Date et heure au format MM/JJ/AAAA hh:mm:ss
+Water_Temperature__Température_d'eau,Water temperature in Celcius °C,Température de l'eau en degrés Celsius °C
 Latitude ,Location latitude in decimal degrees,Latitude du lieu en degrés décimaux
 Longitude,Location longitude in decimal degrees,Longitude du lieu en degrés décimaux
