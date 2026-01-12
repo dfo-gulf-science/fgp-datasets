@@ -1,0 +1,22 @@
+﻿Data Dictionary - dictionnaire des données,,
+,,
+name__nom,description_en,description_fr
+Sample_ID__Numéro_échantillon,The sample ID provided for the sample in the year it was taken. The IDs are sequential based on processing time,L'identifiant fourni pour l'échantillon l'année où il a été prélevé. Les identifiants sont attribués de manière séquentielle en fonction du moment du traitement.
+Year__Année,Year in which the fish was sampled,Année où le poisson a été prélevé
+Month__Mois,Month the fish was captured,Mois où le poisson a été capturé
+Day__Jour,Day of the month fish was captured,Jour du mois où le poisson a été capturé
+Port_landed__Port_de_débarquement,Name of the port/wharf where fish were landed,Nom du port/quai où le poisson a été débarqué
+Port_code,Code of the port landed,Code du port de débarquement
+Port_latitude,Latitude (decimal degrees) of the port landed,Latitude (degrés décimaux) du port de débarquement
+Port_longitude,Longitude (decimal degrees) of the port landed,Longitude (degrés décimaux) du port de débarquement
+Fishing_area__Zone_de_pêche,Northwest Atlantic Fisheries Organization (NAFO) subdivision where nets were fished,Sous-division de l'Organisation des pêches de l'Atlantique Nord-Ouest (OPANO) où les filets ont été pêché
+Mesh_size_mm__Maillage_mm,Size of the mesh (mm) in which the fish was captured,Taille du maillage (mm) dans lequel les poissons ont été capturés
+X.Y cm,"Specimen length frequencies in 0.5 centimeter bin intervals, where X.Y is the specific bin interval for a given column (e.g., 21.0 cm)","Fréquences de longueur des spécimens par intervalles de 0,5 centimètre, où X.Y est l'intervalle spécifique pour une colonne donnée (par exemple, 21,0 cm)"
+Fish_number__Numéro_du_poisson,Number of fish within the samples,Nombre de poissons dans les échantillons
+Length_mm__Longueur_mm,Length of the fish from snout to tip of pinched tail measured in mm,"Longueur du poisson, du museau à l'extrémité de la queue pincée, mesurée en mm"
+Sex_en,Sex of fish (English),Sexe du poisson (anglais)
+Sexe_fr,Sex of fish (French),Sexe du poisson (français)
+Maturity_en,Maturity of fish (English),Maturité du poisson (anglais)
+Maturité_fr,Maturity of fish (French),Maturité du poisson (français)
+Gonad_weight_g__Poids_du_gonade_g,Weight of the gonad of the fish in grams,Poids des gonades du poisson en grammes
+Annulus_count__Nombre_d_anneaux,"Count of otolith annuli prior to conversion to final age. A value of –99 indicates the otolith could not be read (e.g., missing, unreadable, crystallized, broken, or lacking a tip).","Nombre d’annuli de l’otolithe avant la conversion en âge final. Une valeur de –99 indique que l’otolithe n’a pas pu être lu (p. ex. absent, illisible, cristallisé, brisé ou sans pointe)."
