@@ -88,7 +88,7 @@ z <- merge(y,x, all.x = TRUE, by = "unique.id",
 ##  CSV
 ## write catch cards to file
 fn2 <- "sGSL-Northumberland-Survey-FGP.csv"
-fp  <-paste0(projectBase,"/stock_assessment_surveys/6d61f7b4 (ns_survey)/")
+fp  <-paste0(projectBase,"/stock_assessment_surveys/6d61f7b4 (ns_survey)/data resources/")
 
 csv.fn2 <- file.path(fp,fn2)
 
@@ -111,10 +111,11 @@ if(length(which(index)) > 0){
 zz=  z[ooz,fvars2]
 
 #proper headers for FGP
-names(zz) =  c("cruise_number__numero_de_croisiere","year__annee","month__mois","day_jour","start_hour__heure_de_depart",
-               "start_minute__minute_de_depart","latitude","longitude","gear__equipement","species__espece",
-               "french_name__nom_francais","english_name__nom_anglais","latin_name__nom_latin",
-               "weight_caught__poids_pris","number_caught__quantite_attrape")
+ 
+names(zz) =  c("cruise_number__numéro_de_criosière","year__année","month__mois","day__jour","start_hour__heure_de_départ",
+               "start_minute__minute_de_départ","latitude","longitude","gear__équipement","species__espèce",
+               "french_name__nom_français","english_name__nom_anglais","latin_name__nom_latin",
+               "weight_caught__poids_pris","number_caught__quantité__attrapé")
 
 con<-file(csv.fn2,encoding="ISO-8859-1")
 write.csv(zz, file=con, row.names=FALSE)
