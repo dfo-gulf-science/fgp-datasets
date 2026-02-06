@@ -2,7 +2,7 @@ name__nom,description_en,description_fr
 year__année,Sampling year,Année d'échantillonnage
 site_name__nom_du_site,Name of site,Nom du site
 site_latitude__latitude_du_site,Latitude of site in decimal degrees,Latitude du site en degrés décimaux
-site_latitude__latitude_du_site,Longitude of site in decimal degrees,Longitude du site en degrés décimaux
+site_longitude__longitude_du_site,Longitude of site in decimal degrees,Longitude du site en degrés décimaux
 start_date__date_de_départ,First day of any sampling at site that year,Premier jour d'échantillonnage au site pour cette année
 end_date__date_de_fin,Last day of any sampling at site that year,Dernier jour d'échantillonnage au site pour cette année
 n_transects__no_de_transects,Total number of transects completed at site for that year,Nombre total de transects réalisés au site pour cette année
