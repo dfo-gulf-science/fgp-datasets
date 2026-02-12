@@ -1,5 +1,5 @@
 name_nom,description_en,description_fr
 year__année,Sampling year,Année d'échantillonnage
-val5.0pc,5th percentile of the estimate,5e percentile de l'estimation
-median__médiane,Median of the estimate,Médiane de l'estimation
-val95.0pc,95th percentile of the estimate,95e percentile de l'estimation
+val5.0pc,5th percentile of the estimate of fish,5e percentile de l'estimation du nombre de poissons
+median__médiane,Median of the estimate of fish,Médiane de l'estimation du nombre de poissons
+val95.0pc,95th percentile of the estimate of fish,95e percentile de l'estimation du nombre de poissons
