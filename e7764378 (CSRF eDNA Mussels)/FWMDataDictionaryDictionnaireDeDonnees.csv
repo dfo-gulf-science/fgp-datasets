@@ -1,0 +1,58 @@
+﻿name_nom,description_en,description_fr
+Year,Sampling year,Année d'échantillonnage
+SampleID,Unique sample identifier (alphanumeric; may include “:” or “-”),Identifiant unique de l’échantillon (alphanumérique; peut inclure « : » ou « - »)
+SampleType,"Type of sample:
+Sample - A ""sample"" is water collected from a waterbody. 
+Field blank - A ""field blank"" is tap water, transported and filtered with the samples. ","Type d'échantillon:
+Échantillon – Un «échantillon» est de l’eau prélevée dans un plan d’eau.
+Blanc de terrain – Un «blanc de terrain» est de l’eau du robinet, transportée et filtrée avec les échantillons."
+EventID,"Unique sampling event identifier (alphanumeric; may include "":"" or ""-"")",Identifiant unique de l’évènement d’échantillonnage (alphanumérique; peut inclure « : » ou « - »)
+SamplingLocation ,"Waterbody where the sample was collected (e.g., river, stream, lake, or other freshwater system). Used to identify the named waterbody associated with the sampling site.","Plan d’eau où l’échantillon a été prélevé (p. ex. rivière, ruisseau, lac ou autre système d’eau douce). Utilisé pour indiquer le plan d’eau associé au site d’échantillonnage."
+SamplingSite,"Name or description of the sampling site.
+May include a locally used site name, descriptive text, or other identifier provided by field staff.
+For 2017–2018, this field serves as the primary site identifier (no standardized SiteCode existed yet).
+SamplingSite may contain text descriptions rather than codes.","Nom ou description du site d’échantillonnage.
+Peut inclure un nom de site utilisé localement, un texte descriptif ou un autre identifiant fourni par le personnel de terrain.
+Pour 2017–2018, ce champ sert d’identifiant principal du site (aucun code normalisé n’existait encore).
+SamplingSite peut contenir des descriptions textuelles plutôt que des codes."
+SiteCode,"Standardized site code (2020–2024 only).
+Introduced for the preparation of the 2020–2024 publication and used as map labels.
+N/A entries indicate that a SiteCode was not applicable, particularly for records prior to 2020.","Code de site normalisé (2020–2024 seulement).
+Introduit pour la préparation de la publication 2020–2024 et utilisé comme étiquette sur les cartes.
+Les entrées «N/A» indiquent qu’un code de site n’était pas applicable, notamment pour les enregistrements antérieurs à 2020."
+EventDate,Sampling date (YYYY-MM-DD),Date d'échantillonnage (AAAA-MM-JJ)
+RecordedBy,Sampling organization (see codes below).,Organisation ayant effectué l’échantillonnage (voir les codes ci‑dessous).
+DecimalLatitude,Latitude in decimal degree,Latitude en degré décimal
+DecimalLongitude,Longitude in decimal degree,Longitude en degré décimal
+VolumeFiltered (mL),Volume in milliliter (mL),Volume en millilitre (mL)
+FilterType,Type of filter,Type de filtre
+OccurrenceStatus,"Detection status (see value definitions below). Each species has its own OccurrenceStatus and associated Ct and concentration fields, indicated by the species name at the beginning of each column header.","Statut de détection (voir les définitions de valeurs ci‑dessous). Chaque espèce possède son propre champ OccurrenceStatus ainsi que ses champs Ct et concentration associés, identifiés par le nom de l’espèce au début de chaque en‑tête de colonne."
+Ct_1,Ct (Cycle threshold) value of qPCR technical replicate 1,Valeur Ct (Cycle seuil) du réplicat technique 1 du PCR en temps réel 
+Ct_2,Ct (Cycle threshold) value of qPCR technical replicate 2,Valeur Ct (Cycle seuil) du réplicat technique 2 du PCR en temps réel 
+Ct_3,Ct (Cycle threshold) value of qPCR technical replicate 3,Valeur Ct (Cycle seuil) du réplicat technique 3 du PCR en temps réel 
+Concentration_1 (pg/L),DNA concentration in picogram per liter for qPCR technical replicate 1,Concentration d'ADN en picogramme par litre du réplicat technique 1 du PCR en temps réel 
+Concentration_2 (pg/L),DNA concentration in picogram per liter for qPCR technical replicate 2,Concentration d'ADN en picogramme par litre du réplicat technique 2 du PCR en temps réel 
+Concentration_3 (pg/L),DNA concentration in picogram per liter for qPCR technical replicate 2,Concentration d'ADN en picogramme par litre du réplicat technique 3 du PCR en temps réel 
+,,
+,,
+# Value Definitions for occurenceStatus / Définitions des valeurs pour occurrenceStatus,,
+value__valeur,description_en,description_fr
+Not Detected / Non détecté,DNA is not amplified in any technical replicate,L'ADN n'est amplifié dans aucun réplicat technique
+Inconclusive / Non concluant,DNA is amplified in some of the technical replicates,L'ADN est amplifié dans certaines des réplicats techniques
+Detected / Détecté,DNA is amplified in all technical replicates,L'ADN est amplifié dans toutes les réplicats techniques
+,,
+,,
+# Value Definitions for recordedBy / Définitions des valeurs pour recordedBy,,
+code,organization_en,organisation_fr
+ARM,Anqotum Resource Management,Anqotum Resource Management
+ASF,Atlantic Salmon Federation ,Fédération du saumon atlantique
+GKWA,Greater Kouchibouguac Watershed Association ,L'Association des bassins versants du Grand Kouchibouguac
+MNCC,Maliseet Nation Conservation Council ,Maliseet Nation Conservation Council 
+MREAC,Miramichi River Environmental Assessment Committee ,Miramichi River Environmental Assessment Committee 
+NBISC,New Brunswick Invasive Species Council,Conseil des Espéces Envahissantes du Nouveau-Brunswick
+OBVFSJ,l’Organisme de Bassin Versant du Fleuve Saint-Jean ,l’Organisme de Bassin Versant du Fleuve Saint-Jean 
+SAA,Southeastern Anglers Association,L’Association des pêcheurs récréatifs du sud-est
+SARM,Société d'aménagement de la Rivière Madawaska,Société d'aménagement de la Rivière Madawaska
+SBWA,Shediac Bay Watershed Association,L’Association du bassin versant de la baie de Shediac
+TWA,Tabusintac Watershed Association,Tabusintac Watershed Association
+DFO Gulf,"Department of Fisheries and Oceans, Gulf Region","Ministère des Pêches et des Océans, région du Golfe"
