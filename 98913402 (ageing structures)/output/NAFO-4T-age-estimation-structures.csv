@@ -1,4 +1,4 @@
-﻿"source","latin.name_nom.latin","english.name_nom.anglais","french.name_nom.français","year_année","month_mois","english.structure.type_type.de.structures.anglais","french.structure.type_type.de.structures.français","total.number_nombre.total"
+"source","latin.name_nom.latin","english.name_nom.anglais","french.name_nom.français","year_année","month_mois","english.structure.type_type.de.structures.anglais","french.structure.type_type.de.structures.français","total.number_nombre.total"
 "Commercial","Hippoglossoides platessoides","American Plaice","Plie canadienne",1953,6,"otoliths","otolithes",40
 "Commercial","Hippoglossoides platessoides","American Plaice","Plie canadienne",1953,12,"otoliths","otolithes",20
 "Commercial","Hippoglossoides platessoides","American Plaice","Plie canadienne",1961,6,"otoliths","otolithes",50
@@ -326,6 +326,8 @@
 "Observers","Hippoglossoides platessoides","American Plaice","Plie canadienne",2019,7,"otoliths","otolithes",37
 "Observers","Hippoglossoides platessoides","American Plaice","Plie canadienne",2019,8,"otoliths","otolithes",3
 "Observers","Hippoglossoides platessoides","American Plaice","Plie canadienne",2020,8,"otoliths","otolithes",9
+"Observers","Hippoglossoides platessoides","American Plaice","Plie canadienne",2023,6,"otoliths","otolithes",11
+"Observers","Hippoglossoides platessoides","American Plaice","Plie canadienne",2024,10,"otoliths","otolithes",4
 "RV-4T","Hippoglossoides platessoides","American Plaice","Plie canadienne",1970,9,"otoliths","otolithes",711
 "RV-4T","Hippoglossoides platessoides","American Plaice","Plie canadienne",1971,9,"otoliths","otolithes",1121
 "RV-4T","Hippoglossoides platessoides","American Plaice","Plie canadienne",1972,9,"otoliths","otolithes",1429
@@ -393,6 +395,8 @@
 "RV-4T","Hippoglossoides platessoides","American Plaice","Plie canadienne",2023,10,"otoliths","otolithes",247
 "RV-4T","Hippoglossoides platessoides","American Plaice","Plie canadienne",2024,8,"otoliths","otolithes",535
 "RV-4T","Hippoglossoides platessoides","American Plaice","Plie canadienne",2024,9,"otoliths","otolithes",2981
+"RV-4T","Hippoglossoides platessoides","American Plaice","Plie canadienne",2025,8,"otoliths","otolithes",819
+"RV-4T","Hippoglossoides platessoides","American Plaice","Plie canadienne",2025,9,"otoliths","otolithes",2362
 "Commercial","Gadus morhua","Atlantic Cod","Morue franche",1948,3,"otoliths","otolithes",72
 "Commercial","Gadus morhua","Atlantic Cod","Morue franche",1948,5,"otoliths","otolithes",140
 "Commercial","Gadus morhua","Atlantic Cod","Morue franche",1948,7,"otoliths","otolithes",164
@@ -908,6 +912,19 @@
 "Commercial","Gadus morhua","Atlantic Cod","Morue franche",2022,9,"otoliths","otolithes",23
 "Commercial","Gadus morhua","Atlantic Cod","Morue franche",2023,6,"otoliths","otolithes",73
 "Commercial","Gadus morhua","Atlantic Cod","Morue franche",2023,8,"otoliths","otolithes",15
+"Observers","Gadus morhua","Atlantic Cod","Morue franche",1994,13,"otoliths","otolithes",434
+"Observers","Gadus morhua","Atlantic Cod","Morue franche",1995,13,"otoliths","otolithes",267
+"Observers","Gadus morhua","Atlantic Cod","Morue franche",1998,13,"otoliths","otolithes",375
+"Observers","Gadus morhua","Atlantic Cod","Morue franche",1999,13,"otoliths","otolithes",781
+"Observers","Gadus morhua","Atlantic Cod","Morue franche",2000,13,"otoliths","otolithes",61
+"Observers","Gadus morhua","Atlantic Cod","Morue franche",2001,13,"otoliths","otolithes",141
+"Observers","Gadus morhua","Atlantic Cod","Morue franche",2006,13,"otoliths","otolithes",179
+"Observers","Gadus morhua","Atlantic Cod","Morue franche",2007,13,"otoliths","otolithes",118
+"Observers","Gadus morhua","Atlantic Cod","Morue franche",2008,13,"otoliths","otolithes",299
+"Observers","Gadus morhua","Atlantic Cod","Morue franche",2010,13,"otoliths","otolithes",246
+"Observers","Gadus morhua","Atlantic Cod","Morue franche",2011,13,"otoliths","otolithes",232
+"Observers","Gadus morhua","Atlantic Cod","Morue franche",2012,13,"otoliths","otolithes",243
+"Observers","Gadus morhua","Atlantic Cod","Morue franche",2013,13,"otoliths","otolithes",279
 "Observers","Gadus morhua","Atlantic Cod","Morue franche",2014,5,"otoliths","otolithes",2
 "Observers","Gadus morhua","Atlantic Cod","Morue franche",2014,6,"otoliths","otolithes",1
 "Observers","Gadus morhua","Atlantic Cod","Morue franche",2014,7,"otoliths","otolithes",55
@@ -938,6 +955,11 @@
 "Observers","Gadus morhua","Atlantic Cod","Morue franche",2022,7,"otoliths","otolithes",35
 "Observers","Gadus morhua","Atlantic Cod","Morue franche",2022,9,"otoliths","otolithes",4
 "Observers","Gadus morhua","Atlantic Cod","Morue franche",2022,10,"otoliths","otolithes",12
+"Observers","Gadus morhua","Atlantic Cod","Morue franche",2023,4,"otoliths","otolithes",5
+"Observers","Gadus morhua","Atlantic Cod","Morue franche",2024,6,"otoliths","otolithes",1
+"Observers","Gadus morhua","Atlantic Cod","Morue franche",2024,7,"otoliths","otolithes",1
+"Observers","Gadus morhua","Atlantic Cod","Morue franche",2024,9,"otoliths","otolithes",11
+"Observers","Gadus morhua","Atlantic Cod","Morue franche",2025,9,"otoliths","otolithes",1
 "RV-4T","Gadus morhua","Atlantic Cod","Morue franche",1970,9,"otoliths","otolithes",1975
 "RV-4T","Gadus morhua","Atlantic Cod","Morue franche",1971,9,"otoliths","otolithes",1782
 "RV-4T","Gadus morhua","Atlantic Cod","Morue franche",1972,9,"otoliths","otolithes",1760
@@ -1006,6 +1028,8 @@
 "RV-4T","Gadus morhua","Atlantic Cod","Morue franche",2023,10,"otoliths","otolithes",1
 "RV-4T","Gadus morhua","Atlantic Cod","Morue franche",2024,8,"otoliths","otolithes",203
 "RV-4T","Gadus morhua","Atlantic Cod","Morue franche",2024,9,"otoliths","otolithes",601
+"RV-4T","Gadus morhua","Atlantic Cod","Morue franche",2025,8,"otoliths","otolithes",347
+"RV-4T","Gadus morhua","Atlantic Cod","Morue franche",2025,9,"otoliths","otolithes",842
 "SENT-4T","Gadus morhua","Atlantic Cod","Morue franche",2005,8,"otoliths","otolithes",1149
 "SENT-4T","Gadus morhua","Atlantic Cod","Morue franche",2006,8,"otoliths","otolithes",1038
 "SENT-4T","Gadus morhua","Atlantic Cod","Morue franche",2007,8,"otoliths","otolithes",922
@@ -1285,6 +1309,8 @@
 "RV-4T","Urophycis tenuis","White Hake","Merluche blanche",2023,10,"otoliths","otolithes",29
 "RV-4T","Urophycis tenuis","White Hake","Merluche blanche",2024,8,"otoliths","otolithes",230
 "RV-4T","Urophycis tenuis","White Hake","Merluche blanche",2024,9,"otoliths","otolithes",151
+"RV-4T","Urophycis tenuis","White Hake","Merluche blanche",2025,8,"otoliths","otolithes",88
+"RV-4T","Urophycis tenuis","White Hake","Merluche blanche",2025,9,"otoliths","otolithes",168
 "Commercial","Pseudopleuronectes americanus","Winter Flounder","Plie rouge",1990,5,"otoliths","otolithes",56
 "Commercial","Pseudopleuronectes americanus","Winter Flounder","Plie rouge",1990,7,"otoliths","otolithes",13
 "Commercial","Pseudopleuronectes americanus","Winter Flounder","Plie rouge",1990,8,"otoliths","otolithes",26
@@ -1328,6 +1354,8 @@
 "Commercial","Pseudopleuronectes americanus","Winter Flounder","Plie rouge",2020,6,"otoliths","otolithes",16
 "Commercial","Pseudopleuronectes americanus","Winter Flounder","Plie rouge",2021,5,"otoliths","otolithes",74
 "Commercial","Pseudopleuronectes americanus","Winter Flounder","Plie rouge",2021,6,"otoliths","otolithes",15
+"Commercial","Pseudopleuronectes americanus","Winter Flounder","Plie rouge",2022,5,"otoliths","otolithes",47
+"Commercial","Pseudopleuronectes americanus","Winter Flounder","Plie rouge",2022,6,"otoliths","otolithes",73
 "Observers","Pseudopleuronectes americanus","Winter Flounder","Plie rouge",2014,5,"otoliths","otolithes",159
 "Observers","Pseudopleuronectes americanus","Winter Flounder","Plie rouge",2014,6,"otoliths","otolithes",7
 "Observers","Pseudopleuronectes americanus","Winter Flounder","Plie rouge",2014,10,"otoliths","otolithes",4
@@ -1345,6 +1373,10 @@
 "Observers","Pseudopleuronectes americanus","Winter Flounder","Plie rouge",2018,7,"otoliths","otolithes",52
 "Observers","Pseudopleuronectes americanus","Winter Flounder","Plie rouge",2019,5,"otoliths","otolithes",103
 "Observers","Pseudopleuronectes americanus","Winter Flounder","Plie rouge",2019,7,"otoliths","otolithes",12
+"Observers","Pseudopleuronectes americanus","Winter Flounder","Plie rouge",2021,4,"otoliths","otolithes",18
+"Observers","Pseudopleuronectes americanus","Winter Flounder","Plie rouge",2021,5,"otoliths","otolithes",57
+"Observers","Pseudopleuronectes americanus","Winter Flounder","Plie rouge",2021,6,"otoliths","otolithes",33
+"Observers","Pseudopleuronectes americanus","Winter Flounder","Plie rouge",2022,5,"otoliths","otolithes",16
 "RV-4T","Pseudopleuronectes americanus","Winter Flounder","Plie rouge",1970,9,"otoliths","otolithes",93
 "RV-4T","Pseudopleuronectes americanus","Winter Flounder","Plie rouge",1971,9,"otoliths","otolithes",271
 "RV-4T","Pseudopleuronectes americanus","Winter Flounder","Plie rouge",1972,9,"otoliths","otolithes",134
@@ -1399,8 +1431,8 @@
 "RV-4T","Pseudopleuronectes americanus","Winter Flounder","Plie rouge",2015,9,"otoliths","otolithes",774
 "RV-4T","Pseudopleuronectes americanus","Winter Flounder","Plie rouge",2016,9,"otoliths","otolithes",633
 "RV-4T","Pseudopleuronectes americanus","Winter Flounder","Plie rouge",2017,9,"otoliths","otolithes",503
-"RV-4T","Pseudopleuronectes americanus","Winter Flounder","Plie rouge",2018,9,"otoliths","otolithes",387
-"RV-4T","Pseudopleuronectes americanus","Winter Flounder","Plie rouge",2019,9,"otoliths","otolithes",638
+"RV-4T","Pseudopleuronectes americanus","Winter Flounder","Plie rouge",2018,9,"otoliths","otolithes",388
+"RV-4T","Pseudopleuronectes americanus","Winter Flounder","Plie rouge",2019,9,"otoliths","otolithes",640
 "RV-4T","Pseudopleuronectes americanus","Winter Flounder","Plie rouge",2020,9,"otoliths","otolithes",230
 "RV-4T","Pseudopleuronectes americanus","Winter Flounder","Plie rouge",2020,10,"otoliths","otolithes",176
 "RV-4T","Pseudopleuronectes americanus","Winter Flounder","Plie rouge",2021,8,"otoliths","otolithes",18
@@ -1410,8 +1442,12 @@
 "RV-4T","Pseudopleuronectes americanus","Winter Flounder","Plie rouge",2023,10,"otoliths","otolithes",207
 "RV-4T","Pseudopleuronectes americanus","Winter Flounder","Plie rouge",2024,8,"otoliths","otolithes",212
 "RV-4T","Pseudopleuronectes americanus","Winter Flounder","Plie rouge",2024,9,"otoliths","otolithes",611
+"RV-4T","Pseudopleuronectes americanus","Winter Flounder","Plie rouge",2025,8,"otoliths","otolithes",126
+"RV-4T","Pseudopleuronectes americanus","Winter Flounder","Plie rouge",2025,9,"otoliths","otolithes",895
 "Commercial","Limanda ferruginea","Yellowtail Flounder","Limande à queue jaune",1975,8,"otoliths","otolithes",40
 "Commercial","Limanda ferruginea","Yellowtail Flounder","Limande à queue jaune",1982,7,"otoliths","otolithes",11
+"Commercial","Limanda ferruginea","Yellowtail Flounder","Limande à queue jaune",1996,5,"otoliths","otolithes",22
+"Commercial","Limanda ferruginea","Yellowtail Flounder","Limande à queue jaune",1997,5,"otoliths","otolithes",27
 "Commercial","Limanda ferruginea","Yellowtail Flounder","Limande à queue jaune",2018,5,"otoliths","otolithes",11
 "Commercial","Limanda ferruginea","Yellowtail Flounder","Limande à queue jaune",2018,6,"otoliths","otolithes",27
 "Commercial","Limanda ferruginea","Yellowtail Flounder","Limande à queue jaune",2018,7,"otoliths","otolithes",8
@@ -1475,6 +1511,8 @@
 "RV-4T","Limanda ferruginea","Yellowtail Flounder","Limande à queue jaune",2023,10,"otoliths","otolithes",26
 "RV-4T","Limanda ferruginea","Yellowtail Flounder","Limande à queue jaune",2024,8,"otoliths","otolithes",189
 "RV-4T","Limanda ferruginea","Yellowtail Flounder","Limande à queue jaune",2024,9,"otoliths","otolithes",715
+"RV-4T","Limanda ferruginea","Yellowtail Flounder","Limande à queue jaune",2025,8,"otoliths","otolithes",157
+"RV-4T","Limanda ferruginea","Yellowtail Flounder","Limande à queue jaune",2025,9,"otoliths","otolithes",790
 "Commercial","Glyptocephalus cynoglossus","Witch Flounder","Plie grise",1952,6,"otoliths","otolithes",18
 "Commercial","Glyptocephalus cynoglossus","Witch Flounder","Plie grise",1953,5,"otoliths","otolithes",16
 "Commercial","Glyptocephalus cynoglossus","Witch Flounder","Plie grise",1953,11,"otoliths","otolithes",18
@@ -1604,6 +1642,7 @@
 "Commercial","Glyptocephalus cynoglossus","Witch Flounder","Plie grise",2023,7,"otoliths","otolithes",52
 "Commercial","Glyptocephalus cynoglossus","Witch Flounder","Plie grise",2023,8,"otoliths","otolithes",25
 "Commercial","Glyptocephalus cynoglossus","Witch Flounder","Plie grise",2023,9,"otoliths","otolithes",24
+"Commercial","Glyptocephalus cynoglossus","Witch Flounder","Plie grise",2024,8,"otoliths","otolithes",114
 "Observers","Glyptocephalus cynoglossus","Witch Flounder","Plie grise",2000,5,"otoliths","otolithes",364
 "Observers","Glyptocephalus cynoglossus","Witch Flounder","Plie grise",2000,6,"otoliths","otolithes",16
 "Observers","Glyptocephalus cynoglossus","Witch Flounder","Plie grise",2000,7,"otoliths","otolithes",1
@@ -1694,6 +1733,8 @@
 "RV-4RS","Glyptocephalus cynoglossus","Witch Flounder","Plie grise",2022,9,"otoliths","otolithes",510
 "RV-4RS","Glyptocephalus cynoglossus","Witch Flounder","Plie grise",2024,8,"otoliths","otolithes",658
 "RV-4RS","Glyptocephalus cynoglossus","Witch Flounder","Plie grise",2024,9,"otoliths","otolithes",25
+"RV-4RS","Glyptocephalus cynoglossus","Witch Flounder","Plie grise",2025,8,"otoliths","otolithes",528
+"RV-4RS","Glyptocephalus cynoglossus","Witch Flounder","Plie grise",2025,9,"otoliths","otolithes",97
 "RV-4T","Glyptocephalus cynoglossus","Witch Flounder","Plie grise",1970,9,"otoliths","otolithes",93
 "RV-4T","Glyptocephalus cynoglossus","Witch Flounder","Plie grise",1971,9,"otoliths","otolithes",199
 "RV-4T","Glyptocephalus cynoglossus","Witch Flounder","Plie grise",1972,9,"otoliths","otolithes",67
@@ -1756,6 +1797,477 @@
 "RV-4T","Glyptocephalus cynoglossus","Witch Flounder","Plie grise",2023,9,"otoliths","otolithes",156
 "RV-4T","Glyptocephalus cynoglossus","Witch Flounder","Plie grise",2024,8,"otoliths","otolithes",26
 "RV-4T","Glyptocephalus cynoglossus","Witch Flounder","Plie grise",2024,9,"otoliths","otolithes",174
+"RV-4T","Glyptocephalus cynoglossus","Witch Flounder","Plie grise",2025,8,"otoliths","otolithes",53
+"RV-4T","Glyptocephalus cynoglossus","Witch Flounder","Plie grise",2025,9,"otoliths","otolithes",90
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1974,5,"otoliths","otolithes",1948
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1974,6,"otoliths","otolithes",139
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1974,7,"otoliths","otolithes",100
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1974,8,"otoliths","otolithes",1291
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1974,9,"otoliths","otolithes",825
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1974,10,"otoliths","otolithes",299
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1974,11,"otoliths","otolithes",150
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1975,5,"otoliths","otolithes",4242
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1975,6,"otoliths","otolithes",699
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1975,7,"otoliths","otolithes",196
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1975,8,"otoliths","otolithes",772
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1975,9,"otoliths","otolithes",139
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1975,10,"otoliths","otolithes",427
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1975,11,"otoliths","otolithes",153
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1976,5,"otoliths","otolithes",2954
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1976,6,"otoliths","otolithes",192
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1976,7,"otoliths","otolithes",98
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1976,8,"otoliths","otolithes",433
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1976,9,"otoliths","otolithes",206
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1976,10,"otoliths","otolithes",449
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1976,11,"otoliths","otolithes",579
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1977,4,"otoliths","otolithes",47
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1977,5,"otoliths","otolithes",1426
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1977,6,"otoliths","otolithes",582
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1977,7,"otoliths","otolithes",4
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1977,8,"otoliths","otolithes",269
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1977,9,"otoliths","otolithes",100
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1977,10,"otoliths","otolithes",1169
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1977,11,"otoliths","otolithes",1180
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1978,4,"otoliths","otolithes",199
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1978,5,"otoliths","otolithes",5555
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1978,6,"otoliths","otolithes",188
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1978,7,"otoliths","otolithes",94
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1978,8,"otoliths","otolithes",594
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1978,9,"otoliths","otolithes",1130
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1978,10,"otoliths","otolithes",1190
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1978,11,"otoliths","otolithes",300
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1979,4,"otoliths","otolithes",2321
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1979,5,"otoliths","otolithes",5478
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1979,6,"otoliths","otolithes",99
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1979,7,"otoliths","otolithes",289
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1979,8,"otoliths","otolithes",371
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1979,9,"otoliths","otolithes",1433
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1979,10,"otoliths","otolithes",1556
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1979,11,"otoliths","otolithes",1714
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1979,12,"otoliths","otolithes",849
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1980,1,"otoliths","otolithes",343
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1980,4,"otoliths","otolithes",2885
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1980,5,"otoliths","otolithes",4682
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1980,6,"otoliths","otolithes",99
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1980,7,"otoliths","otolithes",186
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1980,9,"otoliths","otolithes",197
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1980,10,"otoliths","otolithes",1953
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1980,11,"otoliths","otolithes",811
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1980,12,"otoliths","otolithes",1073
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1981,1,"otoliths","otolithes",294
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1981,4,"otoliths","otolithes",2409
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1981,5,"otoliths","otolithes",2058
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1981,6,"otoliths","otolithes",233
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1981,7,"otoliths","otolithes",686
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1981,8,"otoliths","otolithes",1405
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1981,9,"otoliths","otolithes",998
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1981,10,"otoliths","otolithes",759
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1981,11,"otoliths","otolithes",121
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1982,4,"otoliths","otolithes",1764
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1982,5,"otoliths","otolithes",3476
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1982,7,"otoliths","otolithes",272
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1982,8,"otoliths","otolithes",1379
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1982,9,"otoliths","otolithes",587
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1982,10,"otoliths","otolithes",798
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1982,11,"otoliths","otolithes",256
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1982,12,"otoliths","otolithes",258
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1983,4,"otoliths","otolithes",94
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1983,5,"otoliths","otolithes",702
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1983,7,"otoliths","otolithes",700
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1983,8,"otoliths","otolithes",1391
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1983,9,"otoliths","otolithes",350
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1983,10,"otoliths","otolithes",846
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1983,11,"otoliths","otolithes",332
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1983,12,"otoliths","otolithes",39
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1984,1,"otoliths","otolithes",107
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1984,4,"otoliths","otolithes",33
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1984,5,"otoliths","otolithes",237
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1984,6,"otoliths","otolithes",36
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1984,7,"otoliths","otolithes",188
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1984,8,"otoliths","otolithes",798
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1984,9,"otoliths","otolithes",563
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1984,10,"otoliths","otolithes",1448
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1984,11,"otoliths","otolithes",283
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1984,12,"otoliths","otolithes",49
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1985,5,"otoliths","otolithes",338
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1985,6,"otoliths","otolithes",77
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1985,7,"otoliths","otolithes",29
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1985,8,"otoliths","otolithes",130
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1985,9,"otoliths","otolithes",601
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1985,10,"otoliths","otolithes",404
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1985,11,"otoliths","otolithes",58
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1986,4,"otoliths","otolithes",41
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1986,5,"otoliths","otolithes",453
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1986,6,"otoliths","otolithes",139
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1986,7,"otoliths","otolithes",80
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1986,8,"otoliths","otolithes",615
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1986,9,"otoliths","otolithes",634
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1986,10,"otoliths","otolithes",643
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1986,11,"otoliths","otolithes",29
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1987,5,"otoliths","otolithes",644
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1987,6,"otoliths","otolithes",124
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1987,7,"otoliths","otolithes",103
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1987,8,"otoliths","otolithes",908
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1987,9,"otoliths","otolithes",1900
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1987,10,"otoliths","otolithes",453
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1987,11,"otoliths","otolithes",79
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1988,4,"otoliths","otolithes",181
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1988,5,"otoliths","otolithes",1000
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1988,6,"otoliths","otolithes",177
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1988,7,"otoliths","otolithes",432
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1988,8,"otoliths","otolithes",282
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1988,9,"otoliths","otolithes",978
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1988,10,"otoliths","otolithes",319
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1988,11,"otoliths","otolithes",131
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1989,4,"otoliths","otolithes",128
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1989,5,"otoliths","otolithes",1818
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1989,6,"otoliths","otolithes",83
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1989,7,"otoliths","otolithes",202
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1989,8,"otoliths","otolithes",584
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1989,9,"otoliths","otolithes",1139
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1989,10,"otoliths","otolithes",454
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1989,11,"otoliths","otolithes",352
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1990,4,"otoliths","otolithes",64
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1990,5,"otoliths","otolithes",882
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1990,6,"otoliths","otolithes",248
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1990,7,"otoliths","otolithes",79
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1990,8,"otoliths","otolithes",3146
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1990,9,"otoliths","otolithes",2494
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1990,10,"otoliths","otolithes",378
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1991,2,"otoliths","otolithes",202
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1991,4,"otoliths","otolithes",182
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1991,5,"otoliths","otolithes",1462
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1991,6,"otoliths","otolithes",63
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1991,8,"otoliths","otolithes",1590
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1991,9,"otoliths","otolithes",3010
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1991,10,"otoliths","otolithes",329
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1991,11,"otoliths","otolithes",227
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1992,1,"otoliths","otolithes",9
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1992,4,"otoliths","otolithes",37
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1992,5,"otoliths","otolithes",984
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1992,6,"otoliths","otolithes",599
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1992,7,"otoliths","otolithes",2
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1992,8,"otoliths","otolithes",1024
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1992,9,"otoliths","otolithes",1477
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1992,10,"otoliths","otolithes",716
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1992,11,"otoliths","otolithes",360
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1993,1,"otoliths","otolithes",67
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1993,2,"otoliths","otolithes",63
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1993,4,"otoliths","otolithes",69
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1993,5,"otoliths","otolithes",1432
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1993,6,"otoliths","otolithes",336
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1993,7,"otoliths","otolithes",101
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1993,8,"otoliths","otolithes",131
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1993,9,"otoliths","otolithes",1664
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1993,10,"otoliths","otolithes",359
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1993,11,"otoliths","otolithes",873
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1994,4,"otoliths","otolithes",246
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1994,5,"otoliths","otolithes",2090
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1994,6,"otoliths","otolithes",1143
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1994,7,"otoliths","otolithes",163
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1994,8,"otoliths","otolithes",234
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1994,9,"otoliths","otolithes",1261
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1994,10,"otoliths","otolithes",928
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1994,11,"otoliths","otolithes",419
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1995,4,"otoliths","otolithes",99
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1995,5,"otoliths","otolithes",951
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1995,6,"otoliths","otolithes",529
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1995,7,"otoliths","otolithes",105
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1995,8,"otoliths","otolithes",1209
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1995,9,"otoliths","otolithes",1879
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1995,10,"otoliths","otolithes",941
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1995,11,"otoliths","otolithes",470
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1996,1,"otoliths","otolithes",729
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1996,4,"otoliths","otolithes",302
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1996,5,"otoliths","otolithes",943
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1996,6,"otoliths","otolithes",389
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1996,7,"otoliths","otolithes",226
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1996,8,"otoliths","otolithes",1180
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1996,9,"otoliths","otolithes",1394
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1996,10,"otoliths","otolithes",1508
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1996,11,"otoliths","otolithes",692
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1996,12,"otoliths","otolithes",289
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1997,1,"otoliths","otolithes",616
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1997,4,"otoliths","otolithes",77
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1997,5,"otoliths","otolithes",887
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1997,6,"otoliths","otolithes",502
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1997,7,"otoliths","otolithes",199
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1997,8,"otoliths","otolithes",523
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1997,9,"otoliths","otolithes",4520
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1997,10,"otoliths","otolithes",1064
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1997,11,"otoliths","otolithes",910
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1998,4,"otoliths","otolithes",198
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1998,5,"otoliths","otolithes",1455
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1998,6,"otoliths","otolithes",1067
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1998,7,"otoliths","otolithes",52
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1998,8,"otoliths","otolithes",404
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1998,9,"otoliths","otolithes",6333
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1998,10,"otoliths","otolithes",711
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1998,11,"otoliths","otolithes",35
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1999,4,"otoliths","otolithes",903
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1999,5,"otoliths","otolithes",1612
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1999,6,"otoliths","otolithes",728
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1999,8,"otoliths","otolithes",630
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1999,9,"otoliths","otolithes",3572
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1999,10,"otoliths","otolithes",348
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",1999,11,"otoliths","otolithes",42
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2000,4,"otoliths","otolithes",979
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2000,5,"otoliths","otolithes",1312
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2000,6,"otoliths","otolithes",513
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2000,7,"otoliths","otolithes",158
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2000,8,"otoliths","otolithes",828
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2000,9,"otoliths","otolithes",2952
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2000,10,"otoliths","otolithes",1292
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2001,4,"otoliths","otolithes",521
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2001,5,"otoliths","otolithes",2358
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2001,6,"otoliths","otolithes",206
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2001,7,"otoliths","otolithes",62
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2001,8,"otoliths","otolithes",953
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2001,9,"otoliths","otolithes",2131
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2001,10,"otoliths","otolithes",2312
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2001,11,"otoliths","otolithes",700
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2002,4,"otoliths","otolithes",1112
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2002,5,"otoliths","otolithes",1303
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2002,6,"otoliths","otolithes",704
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2002,8,"otoliths","otolithes",702
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2002,9,"otoliths","otolithes",2607
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2002,10,"otoliths","otolithes",1113
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2002,11,"otoliths","otolithes",91
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2003,4,"otoliths","otolithes",737
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2003,5,"otoliths","otolithes",878
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2003,6,"otoliths","otolithes",478
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2003,7,"otoliths","otolithes",90
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2003,8,"otoliths","otolithes",808
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2003,9,"otoliths","otolithes",4675
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2003,10,"otoliths","otolithes",1367
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2003,11,"otoliths","otolithes",409
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2004,4,"otoliths","otolithes",340
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2004,5,"otoliths","otolithes",1242
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2004,6,"otoliths","otolithes",368
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2004,8,"otoliths","otolithes",402
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2004,9,"otoliths","otolithes",4329
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2004,10,"otoliths","otolithes",1499
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2004,11,"otoliths","otolithes",1236
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2005,4,"otoliths","otolithes",185
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2005,5,"otoliths","otolithes",594
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2005,6,"otoliths","otolithes",121
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2005,7,"otoliths","otolithes",111
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2005,8,"otoliths","otolithes",1133
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2005,9,"otoliths","otolithes",3489
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2005,10,"otoliths","otolithes",1460
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2005,11,"otoliths","otolithes",239
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2006,4,"otoliths","otolithes",65
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2006,5,"otoliths","otolithes",341
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2006,6,"otoliths","otolithes",304
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2006,7,"otoliths","otolithes",31
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2006,8,"otoliths","otolithes",876
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2006,9,"otoliths","otolithes",3166
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2006,10,"otoliths","otolithes",1201
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2006,11,"otoliths","otolithes",94
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2007,4,"otoliths","otolithes",237
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2007,5,"otoliths","otolithes",598
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2007,6,"otoliths","otolithes",292
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2007,7,"otoliths","otolithes",22
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2007,8,"otoliths","otolithes",825
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2007,9,"otoliths","otolithes",2109
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2007,10,"otoliths","otolithes",974
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2007,11,"otoliths","otolithes",499
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2008,4,"otoliths","otolithes",97
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2008,5,"otoliths","otolithes",633
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2008,6,"otoliths","otolithes",235
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2008,7,"otoliths","otolithes",61
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2008,8,"otoliths","otolithes",961
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2008,9,"otoliths","otolithes",2649
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2008,10,"otoliths","otolithes",936
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2008,11,"otoliths","otolithes",153
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2008,12,"otoliths","otolithes",134
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2009,4,"otoliths","otolithes",235
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2009,5,"otoliths","otolithes",158
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2009,6,"otoliths","otolithes",96
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2009,8,"otoliths","otolithes",987
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2009,9,"otoliths","otolithes",2726
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2009,10,"otoliths","otolithes",935
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2009,11,"otoliths","otolithes",36
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2010,4,"otoliths","otolithes",479
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2010,5,"otoliths","otolithes",619
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2010,6,"otoliths","otolithes",166
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2010,7,"otoliths","otolithes",57
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2010,8,"otoliths","otolithes",793
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2010,9,"otoliths","otolithes",2069
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2010,10,"otoliths","otolithes",431
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2010,11,"otoliths","otolithes",298
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2010,12,"otoliths","otolithes",181
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2011,4,"otoliths","otolithes",44
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2011,5,"otoliths","otolithes",264
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2011,6,"otoliths","otolithes",350
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2011,7,"otoliths","otolithes",29
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2011,8,"otoliths","otolithes",514
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2011,9,"otoliths","otolithes",2794
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2011,10,"otoliths","otolithes",199
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2011,11,"otoliths","otolithes",165
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2011,12,"otoliths","otolithes",163
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2012,4,"otoliths","otolithes",127
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2012,5,"otoliths","otolithes",324
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2012,6,"otoliths","otolithes",313
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2012,8,"otoliths","otolithes",433
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2012,9,"otoliths","otolithes",2520
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2012,10,"otoliths","otolithes",92
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2012,11,"otoliths","otolithes",42
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2012,12,"otoliths","otolithes",37
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2013,4,"otoliths","otolithes",291
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2013,5,"otoliths","otolithes",340
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2013,6,"otoliths","otolithes",260
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2013,8,"otoliths","otolithes",551
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2013,9,"otoliths","otolithes",1680
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2013,10,"otoliths","otolithes",348
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2013,11,"otoliths","otolithes",483
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2014,4,"otoliths","otolithes",164
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2014,5,"otoliths","otolithes",171
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2014,6,"otoliths","otolithes",253
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2014,8,"otoliths","otolithes",563
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2014,9,"otoliths","otolithes",981
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2014,10,"otoliths","otolithes",779
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2014,11,"otoliths","otolithes",262
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2015,4,"otoliths","otolithes",54
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2015,5,"otoliths","otolithes",264
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2015,6,"otoliths","otolithes",97
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2015,7,"otoliths","otolithes",24
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2015,8,"otoliths","otolithes",357
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2015,9,"otoliths","otolithes",1484
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2015,10,"otoliths","otolithes",506
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2015,11,"otoliths","otolithes",129
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2016,4,"otoliths","otolithes",461
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2016,5,"otoliths","otolithes",71
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2016,6,"otoliths","otolithes",81
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2016,7,"otoliths","otolithes",68
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2016,8,"otoliths","otolithes",883
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2016,9,"otoliths","otolithes",1421
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2016,10,"otoliths","otolithes",413
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2016,11,"otoliths","otolithes",272
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2017,4,"otoliths","otolithes",379
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2017,5,"otoliths","otolithes",308
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2017,6,"otoliths","otolithes",63
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2017,7,"otoliths","otolithes",76
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2017,8,"otoliths","otolithes",602
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2017,9,"otoliths","otolithes",697
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2017,10,"otoliths","otolithes",718
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2017,11,"otoliths","otolithes",319
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2018,4,"otoliths","otolithes",259
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2018,5,"otoliths","otolithes",324
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2018,6,"otoliths","otolithes",211
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2018,7,"otoliths","otolithes",102
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2018,8,"otoliths","otolithes",546
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2018,9,"otoliths","otolithes",1441
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2018,10,"otoliths","otolithes",201
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2018,11,"otoliths","otolithes",123
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2019,4,"otoliths","otolithes",454
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2019,5,"otoliths","otolithes",187
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2019,6,"otoliths","otolithes",131
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2019,7,"otoliths","otolithes",77
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2019,8,"otoliths","otolithes",525
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2019,9,"otoliths","otolithes",1537
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2019,10,"otoliths","otolithes",427
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2019,11,"otoliths","otolithes",33
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2020,4,"otoliths","otolithes",74
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2020,5,"otoliths","otolithes",245
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2020,6,"otoliths","otolithes",31
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2020,7,"otoliths","otolithes",48
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2020,8,"otoliths","otolithes",134
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2020,9,"otoliths","otolithes",1555
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2020,10,"otoliths","otolithes",267
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2020,11,"otoliths","otolithes",46
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2021,4,"otoliths","otolithes",677
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2021,5,"otoliths","otolithes",47
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2021,8,"otoliths","otolithes",85
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2021,9,"otoliths","otolithes",1787
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2021,10,"otoliths","otolithes",198
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2022,2,"otoliths","otolithes",277
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2022,4,"otoliths","otolithes",388
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2022,5,"otoliths","otolithes",203
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2022,8,"otoliths","otolithes",224
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2022,9,"otoliths","otolithes",1403
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2022,10,"otoliths","otolithes",367
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2023,4,"otoliths","otolithes",849
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2023,5,"otoliths","otolithes",365
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2023,8,"otoliths","otolithes",181
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2023,9,"otoliths","otolithes",1512
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2023,10,"otoliths","otolithes",771
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2024,2,"otoliths","otolithes",156
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2024,3,"otoliths","otolithes",76
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2024,4,"otoliths","otolithes",1254
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2024,5,"otoliths","otolithes",266
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2024,7,"otoliths","otolithes",63
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2024,8,"otoliths","otolithes",136
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2024,9,"otoliths","otolithes",1843
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2024,10,"otoliths","otolithes",340
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2024,11,"otoliths","otolithes",152
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2025,3,"otoliths","otolithes",20
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2025,4,"otoliths","otolithes",1351
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2025,5,"otoliths","otolithes",371
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2025,8,"otoliths","otolithes",303
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2025,9,"otoliths","otolithes",2141
+"Other","Clupea harengus","Atlantic Herring","Hareng atlantique",2025,10,"otoliths","otolithes",410
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",1988,9,"otoliths","otolithes",100
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",1988,11,"otoliths","otolithes",479
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",1988,12,"otoliths","otolithes",1033
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",1989,9,"otoliths","otolithes",1556
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",1989,11,"otoliths","otolithes",103
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",1989,12,"otoliths","otolithes",501
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",1990,7,"otoliths","otolithes",511
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",1990,9,"otoliths","otolithes",181
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",1990,10,"otoliths","otolithes",68
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",1990,11,"otoliths","otolithes",1751
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",1990,12,"otoliths","otolithes",177
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",1991,4,"otoliths","otolithes",158
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",1991,9,"otoliths","otolithes",229
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",1991,10,"otoliths","otolithes",895
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",1991,12,"otoliths","otolithes",658
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",1992,9,"otoliths","otolithes",314
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",1992,10,"otoliths","otolithes",929
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",1992,12,"otoliths","otolithes",404
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",1993,9,"otoliths","otolithes",862
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",1993,10,"otoliths","otolithes",538
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",1993,12,"otoliths","otolithes",1121
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",1994,1,"otoliths","otolithes",509
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",1994,9,"otoliths","otolithes",562
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",1994,12,"otoliths","otolithes",1292
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",1995,1,"otoliths","otolithes",424
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",1995,9,"otoliths","otolithes",973
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",1995,12,"otoliths","otolithes",1158
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",1996,9,"otoliths","otolithes",571
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",2000,9,"otoliths","otolithes",602
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",2001,6,"otoliths","otolithes",293
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",2004,9,"otoliths","otolithes",650
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",2005,9,"otoliths","otolithes",651
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",2006,9,"otoliths","otolithes",450
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",2007,9,"otoliths","otolithes",579
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",2008,8,"otoliths","otolithes",326
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",2008,9,"otoliths","otolithes",311
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",2009,9,"otoliths","otolithes",442
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",2010,9,"otoliths","otolithes",626
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",2011,9,"otoliths","otolithes",418
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",2011,10,"otoliths","otolithes",18
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",2012,9,"otoliths","otolithes",598
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",2013,9,"otoliths","otolithes",543
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",2014,9,"otoliths","otolithes",578
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",2015,9,"otoliths","otolithes",600
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",2016,9,"otoliths","otolithes",467
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",2017,9,"otoliths","otolithes",314
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",2018,9,"otoliths","otolithes",553
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",2019,9,"otoliths","otolithes",532
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",2020,9,"otoliths","otolithes",108
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",2020,10,"otoliths","otolithes",77
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",2021,8,"otoliths","otolithes",32
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",2021,9,"otoliths","otolithes",1532
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",2022,9,"otoliths","otolithes",767
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",2023,9,"otoliths","otolithes",557
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",2023,10,"otoliths","otolithes",254
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",2024,6,"otoliths","otolithes",12
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",2024,7,"otoliths","otolithes",163
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",2024,8,"otoliths","otolithes",38
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",2024,9,"otoliths","otolithes",322
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",2025,8,"otoliths","otolithes",148
+"Scientific surveys","Clupea harengus","Atlantic Herring","Hareng atlantique",2025,9,"otoliths","otolithes",182
 "RV-4T","Leucoraja ocellata","Winter Skate","Raie tachetée",2004,9,"vertebrae","vertèbre",2
 "RV-4T","Amblyraja radiata","Thorny Skate","Raie épineuse",2005,9,"vertebrae","vertèbre",323
 "RV-4T","Malacoraja senta","Smooth Skate","Raie lisse",2005,9,"vertebrae","vertèbre",82
