@@ -1,6 +1,19 @@
 ﻿name_nom,description_en,description_fr
-year__année,year,année
-stock,ss = spring spawners; fs = fall spawners; total = total,ss = reproducteurs de printemps; fs = reproducteurs d'automne; total = total
+year__année,year in which the Atlantic herring landings were recorded,année au cours de laquelle les débarquements de hareng de l’Atlantique ont été enregistrés
+stock,"Spawning stock category for the given year. 
+Values:
+- Spring spawners
+- Fall spawners
+- Total: Sum of spring and fall spawners for the given year and column.
+
+Rows where stock = Total are derived values and should not be summed with spring or fall spawner rows when analyzing the data.","Catégorie du stock reproducteur pour l’année donnée.
+Valeurs :
+– Reproducteurs de printemps
+– Reproducteurs d’automne
+– Total: Somme des reproducteurs de printemps et d’automne pour l’année et la colonne données.
+
+Les lignes où stock = Total sont des valeurs dérivées et ne doivent pas être additionnées aux lignes des reproducteurs de printemps ou d’automne lors de l’analyse des données.
+"
 4t_fixed_spring,landings (in metric tons) from the spring season caught with fixed gear in NAFO Zone 4T,débarquements (en tonnes métriques) de printemps pris avec engins fixes dans la zone 4T de l'OPANO
 4t_mobile_spring,landings (in metric tons) from the spring season caught with mobile gear in NAFO Zone 4T,débarquements (en tonnes métriques) de printemps pris avec engins mobiles dans la zone 4T de l'OPANO
 4t_fixed_fall,landings (in metric tons) from the fall season caught with fixed gear in NAFO Zone 4T,débarquements (en tonnes métriques) d'automne pris avec engins fixes dans la zone 4T de l'OPANO

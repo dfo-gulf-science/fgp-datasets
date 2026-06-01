@@ -1,5 +1,5 @@
 name__nom,description_en,description_fr
-site,site name,nom du site
+site,"Name of the sampling site, typically the city or town. The site name includes a province abbreviation. Note that provincial abbreviations appear with periods (e.g., N.B. = New Brunswick, N.S. = Nova Scotia, P.E.I = Prince-Edward-Island).","Nom du site d’échantillonnage, généralement le nom de la ville ou de la localité. Le nom du site comprend une abréviation de la province. À noter que les abréviations provinciales contiennent des points (p. ex., N.B. = Nouveau?Brunswick, N.S. = Nouvelle?Écosse, P.E.I. = Île?du?Prince?Édouard)."
 site_depth__profondeur_site,site depth in meters,profondeur du site en mètre
 log_position__position_sonde,"log position in water, B = bottom, S = surface, M = between B and S ","position de la sonde dans l'eau, B = fond, S = surface, M = entre B et S"
 log_depth__profondeur_sonde,log depth in meters,profondeur de la sonde en mètre
@@ -8,4 +8,4 @@ longitude,longitude of site in decimal degrees,longitude du site en degrés décim
 year__année,year the temperature was recorded,année de l'enregistrement de la température
 month__mois,month the temperature was recorded,mois de l'enregistrement de la température
 day__jour,day the temperature was recorded,jour de l'enregistrement de la température
-daily_average_temperature__temperature_moyenne_journalière,daily average temperature in Celsius,température moyenne journalière en Celsius
+daily_average_temperature__température_moyenne_journalière,daily average temperature in Celsius,température moyenne journalière en Celsius
