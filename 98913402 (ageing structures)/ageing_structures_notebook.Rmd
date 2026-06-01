@@ -149,7 +149,7 @@ payload <- out.df[o1, vars.bilingual]
 Otoliths from the September RV survey, from sentinel programs, from port sampling of commercial fisheries and from at-sea observers.
 
 Unresolved issues:
-- observers data coming from read.card(sampling="obs") has erroneous dates for years 1994 to 2013
+- observers data coming from read.card(sampling="obs") has erroneous dates for years 1994 to 2013 -> manually adding the year and setting month as "0" for now
 
 ```{r cod, cache=TRUE, include=FALSE}
 ## RV data
@@ -194,7 +194,7 @@ for(yy in c(1994:2013)){
   t.y.o <- read.card(sampling = "obs", year = yy, card = "age", species = 10)
   if(!is.null(t.y.o)){
     t.y.o$year<-yy
-    t.y.o$month<-13 ##  a hack since there is no month available in the data files
+    t.y.o$month<-0 ##  a hack since there is no month available in the data files
     y.o.1 <- rbind(y.o.1,t.y.o)
   }
 }
@@ -987,7 +987,7 @@ Finally, let's write the full and partial data frames to CSV
 
 
 ```{r final, include=TRUE, cache=TRUE}
-## replace month 13 with "unknown"
+## replace month 0 with "unknown"
 # idx <- which(payload$month_mois==13)
 # payload[idx,"month_mois"] <- "unknown - inconnu"
 
@@ -1103,7 +1103,10 @@ pr.args <- paste(
 collapse=','
       )
 
+my.df$ri <- 1:nrow(my.df)
+
 knitr::kable(my.df, row.names = FALSE) |> 
-  collapse_rows(columns = 1, valign = "top")
+  column_spec(4, extra_css = "display: none;") |> 
+  collapse_rows(columns = 1, valign = "top") 
 
 ```
