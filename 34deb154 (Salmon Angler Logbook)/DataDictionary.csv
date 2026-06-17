@@ -1,0 +1,35 @@
+NAME,DOCUMENT,DESCRIPTION_EN,DESCRIPTION_FR
+Sample.ID__ID.échantillon,Sample data; Specimen data,Indicates the unique ID associated with the sample data. A sampling event is a single day that an angler fished. It includes all pools visited on that day. Sample ID also appears in the sample data. It serves as the connection between the specimen information and the sample information.,Indique l’identifiant unique associé aux données de l’échantillon. Un événement d’échantillonnage correspond à une seule journée durant laquelle un pêcheur à la ligne a pêché. Il comprend toutes les bassins visitées ce jour-là. L’ID de l’échantillon apparaît également dans les données de l’échantillon. Il sert de lien entre les renseignements sur le spécimen et ceux sur l’échantillon.
+Site__Site,Sample data; Specimen data,Indicates the site the data came from. ,Indique le site d’où proviennent les données.
+River__Rivière,Sample data,Indicates the river the data came from.,Indique la rivière d’où proviennent les données.
+Year__Année,Sample data; Specimen data,Format YYYY.,Format AAAA.
+Month__Mois,Sample data; Specimen data,Format MM.,Format MM.
+Day__Jour,Sample data; Specimen data,Format DD.,Format JJ.
+Rod.days__Jours.canne,Sample data,"Rod days are a measurement of effort. When rod days is greater than one, it indicates that the data provided in the logbook could not be assigned to specific dates. Thus, all data had to be entered as a single sample event and the number of rod days indicates the total number of days fished for the catch associated with that sample event.","Les jours de canne sont une mesure de l’effort. Lorsque le nombre de jours-cannes est supérieur à un, cela indique que les données fournies dans le journal de bord n’ont pas pu être attribuées à des dates précises. Ainsi, toutes les données devaient être saisies comme un seul événement d’échantillonnage et le nombre de jours de pêche à la canne indique le nombre total de jours de pêche pour les prises associées à cet événement d’échantillonnage."
+Pools.visited__Bassins_visités,Sample data,A list of pools that were angled during the sampling event.,Une liste des bassins qui ont été pêchés à la ligne pendant l’échantillonnage.
+Is.dummy.date__Une.date.fictive,Sample data,"When Yes, this indicates that the date associated with the data entry is ambiguous. The main reason for using a dummy date is for logbooks that provided summaries of their angling season, rather than specific daily entries. The catch and effort data are still useful, they just cannot be associated with a precise date. All dummy dates are associated with regular, in-season fishing.","La réponse « Oui » signifie que la date associée à la saisie des données est ambiguë. La principale raison d’utiliser une date fictive est que les journaux de bord fournissaient des résumés de la saison de pêche à la ligne, plutôt que des entrées quotidiennes précises. Les données sur les prises et l’effort sont toujours utiles, mais elles ne peuvent pas être associées à une date précise. Toutes les dates fictives sont associées à la pêche régulière en cours de saison."
+Angler.ID__ID.pêcheur,Sample data,A unique code representing the name of the angler who provided the data.,Code unique représentant le nom du pêcheur qui a fourni les données.
+Specimen.ID__ID.spécimen,Specimen data,Indicates the unique ID associated with the individual specimen. All specimen entered into our database are assigned a unique specimen ID.,Indique l’identifiant unique associé au spécimen individuel. Un numéro d’identification unique est attribué à tous les échantillons saisis dans notre base de données.
+Species__Espèces,Specimen data,"Indicates the species. For logbook data,  only data on Atlantic Salmon were collected, so entries are all the same.","Indique l’espèce. Pour les données des journaux de bord, seules les données sur le saumon de l’Atlantique ont été recueillies, de sorte que les entrées sont toutes les mêmes."
+Life.stage__Stade.vie,Specimen data,"Life stage indicates if the individual was a grilse (single sea winter) or a salmon (multisea winter). If the logbook did not provide information on life stage, the individual was entered as an adult (number of seawinters unknown).","Le stade biologique indique si l’individu était un grilse (un hiver en mer) ou un saumon (plusieurs hiver en mer). Si le journal de bord ne fournissait pas de renseignements sur le stade biologique, l’individu était inscrit comme adulte (nombre d’hivers en mer inconnu)."
+Code__Code,Specimen data,"Code indicates the following information:
+R - Released (after being landed)
+RR - Released (after being landed), recapture (as indicated by the presence of a tag)
+RL - Released, lost (hooked, but not landed)
+M - Mortality (something happened resulting in a mortality)
+MR - Mortality, recapture (mortality and a tag was present)
+unk - Unknown (no information was provided indicating what happened during the angling event)","Le code indique les renseignements suivants :
+R – Libéré (après le débarquement)
+RR – Relâché (après le débarquement), recapture (comme indiqué par la présence d’une étiquette)
+RL – Relâché, perdu (accroché, mais non débarqué)
+M – Mortalité (quelque chose s’est produit entraînant une mortalité)
+MR – Mortalité, recapture (mortalité et présence d’une étiquette)
+unk – Inconnu (aucune information n’a été fournie indiquant ce qui s’est passé pendant la pêche à la ligne)"
+Adipose.condition__Condition.adipeuse,Specimen data,"Adipose condition allows for inference of the origin of the salmon:
+Present - wild
+Absent - hatchery
+if blank, it indicates no information was provided","L’état adipeux permet de déduire l’origine du saumon :
+Présent – sauvage
+Absent – écloserie
+si ce champ est vide, cela indique qu’aucune information n’a été fournie."
+Tag.number__Numéro.d'étiquette,Specimen data,Indicates the tag number present on a tagged Atlantic salmon,Indique le numéro d’étiquette présent sur un saumon de l’Atlantique étiqueté.
